@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Min nya hemsida</title>
-  </head>
-  <body>
-    <h1>Välkommen!</h1>
-    <p>Detta är min nya hemsida, publicerad via GitHub Pages.</p>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAPPILAPPI™</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f7f7f7;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #2f9e44; /* grön */
+      margin-bottom: 0.5rem;
+      letter-spacing: 2px;
+    }
+
+    h1::after {
+      content: "™";
+      font-size: 1.5rem;
+      vertical-align: super;
+      margin-left: 5px;
+    }
+
+    p {
+      font-size: 1.3rem;
+      color: #555;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>PAPPILAPPI</h1>
+  <p>bra killar ska ha bra grejer</p>
+</body>
 </html>
