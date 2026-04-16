@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — DroneKoll</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.6; }
+    h1 { color: #1565C0; }
+    .hint { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+    ul.languages { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 6px 12px; }
+    ul.languages li { padding: 0; }
+    ul.languages a { display: block; padding: 10px 12px; border: 1px solid #e0e0e0; border-radius: 6px; text-decoration: none; color: #1565C0; }
+    ul.languages a:hover { background: #f5faff; border-color: #1565C0; }
+    .native { color: #222; }
+    .english { color: #888; font-size: 0.85em; margin-left: 4px; }
+    footer { margin-top: 3em; color: #888; font-size: 0.85em; }
+  </style>
+  <script>
+    (function () {
+      // Map of supported languages -> file
+      var langMap = {
+        'sv': 'privacy.html',
+        'en': 'privacy-en.html',
+        'de': 'privacy-de.html',
+        'fr': 'privacy-fr.html',
+        'es': 'privacy-es.html',
+        'it': 'privacy-it.html',
+        'pt': 'privacy-pt.html',
+        'nl': 'privacy-nl.html',
+        'da': 'privacy-da.html',
+        'fi': 'privacy-fi.html',
+        'pl': 'privacy-pl.html',
+        'cs': 'privacy-cs.html',
+        'sk': 'privacy-sk.html',
+        'hu': 'privacy-hu.html',
+        'ro': 'privacy-ro.html',
+        'hr': 'privacy-hr.html',
+        'el': 'privacy-el.html'
+      };
+
+      // Allow forcing the selector via ?select or #select
+      try {
+        if (/[?#]select\b/.test(location.search + location.hash)) return;
+      } catch (e) {}
+
+      var langs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || navigator.userLanguage || 'en'];
+      for (var i = 0; i < langs.length; i++) {
+        var code = (langs[i] || '').toLowerCase().split('-')[0];
+        if (langMap[code]) {
+          location.replace(langMap[code]);
+          return;
+        }
+      }
+      // Fallback: do nothing, show the selector.
+    })();
+  </script>
+</head>
+<body>
+  <h1>Privacy Policy — DroneKoll</h1>
+  <p class="hint">Select your language / Välj språk / Wählen Sie Ihre Sprache / Choisissez votre langue</p>
+  <ul class="languages">
+    <li><a href="privacy.html" hreflang="sv"><span class="native">Svenska</span><span class="english">Swedish</span></a></li>
+    <li><a href="privacy-en.html" hreflang="en"><span class="native">English</span></a></li>
+    <li><a href="privacy-de.html" hreflang="de"><span class="native">Deutsch</span><span class="english">German</span></a></li>
+    <li><a href="privacy-fr.html" hreflang="fr"><span class="native">Français</span><span class="english">French</span></a></li>
+    <li><a href="privacy-es.html" hreflang="es"><span class="native">Español</span><span class="english">Spanish</span></a></li>
+    <li><a href="privacy-it.html" hreflang="it"><span class="native">Italiano</span><span class="english">Italian</span></a></li>
+    <li><a href="privacy-pt.html" hreflang="pt"><span class="native">Português</span><span class="english">Portuguese</span></a></li>
+    <li><a href="privacy-nl.html" hreflang="nl"><span class="native">Nederlands</span><span class="english">Dutch</span></a></li>
+    <li><a href="privacy-da.html" hreflang="da"><span class="native">Dansk</span><span class="english">Danish</span></a></li>
+    <li><a href="privacy-fi.html" hreflang="fi"><span class="native">Suomi</span><span class="english">Finnish</span></a></li>
+    <li><a href="privacy-pl.html" hreflang="pl"><span class="native">Polski</span><span class="english">Polish</span></a></li>
+    <li><a href="privacy-cs.html" hreflang="cs"><span class="native">Čeština</span><span class="english">Czech</span></a></li>
+    <li><a href="privacy-sk.html" hreflang="sk"><span class="native">Slovenčina</span><span class="english">Slovak</span></a></li>
+    <li><a href="privacy-hu.html" hreflang="hu"><span class="native">Magyar</span><span class="english">Hungarian</span></a></li>
+    <li><a href="privacy-ro.html" hreflang="ro"><span class="native">Română</span><span class="english">Romanian</span></a></li>
+    <li><a href="privacy-hr.html" hreflang="hr"><span class="native">Hrvatski</span><span class="english">Croatian</span></a></li>
+    <li><a href="privacy-el.html" hreflang="el"><span class="native">Ελληνικά</span><span class="english">Greek</span></a></li>
+  </ul>
+
+  <footer>&copy; Kristoffer Nordgren. DroneKoll is a private project.</footer>
+</body>
+</html>
