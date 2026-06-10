@@ -1,124 +1,109 @@
 {
-  "generated": "2026-06-10T07:34:37.972570+00:00",
+  "generated": "2026-06-10T07:48:14.704900+00:00",
   "summary": {
-    "fail": 0,
-    "warn": 9,
-    "ok": 111,
-    "total_checks": 129,
+    "fail": 1,
+    "warn": 6,
+    "ok": 94,
+    "total_checks": 113,
     "countries_total": 11,
-    "countries_ok": 7
+    "countries_ok": 9
   },
   "countries": [
     {
       "iso": "CH",
       "name": "Switzerland",
       "flag": "🇨🇭",
-      "status": "warn",
+      "status": "ok",
       "checks": [
         {
           "name": "Primär (geoadmin)",
           "status": "ok",
           "detail": "200 OK, 2631776B",
-          "last_modified": null,
-          "url": "https://api3.geo.admin.ch/rest/services/api/MapServer"
+          "last_modified": null
         },
         {
           "name": "Feed: luftfahrthindernis",
           "status": "ok",
-          "detail": "19 min sen, 8699 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson?v=20260605c"
+          "detail": "2 min sen, 8699 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: ch-ctr",
           "status": "ok",
-          "detail": "19 min sen, 47 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/ch-ctr.geojson"
+          "detail": "2 min sen, 47 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: ch-tma",
           "status": "ok",
-          "detail": "19 min sen, 151 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/ch-tma.geojson"
+          "detail": "2 min sen, 151 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: ch-cta",
           "status": "ok",
-          "detail": "19 min sen, 63 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/ch-cta.geojson"
+          "detail": "2 min sen, 63 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: ch-uas-aktivitaetszonen",
           "status": "ok",
-          "detail": "19 min sen, 210 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson"
+          "detail": "2 min sen, 210 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: ch-jagdbanngebiete",
           "status": "ok",
-          "detail": "19 min sen, 2223 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson"
+          "detail": "2 min sen, 2223 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: ch-vogelreservate",
           "status": "ok",
-          "detail": "19 min sen, 567 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/airspace/ch-vogelreservate.geojson"
+          "detail": "2 min sen, 567 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: ch-sicherheitszonenplan",
           "status": "ok",
-          "detail": "19 min sen, 513 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson"
+          "detail": "2 min sen, 513 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "19 min sen, 497 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson"
+          "detail": "2 min sen, 497 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 64d sedan — dags för audit",
-          "last_modified": null,
-          "url": null
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
+          "last_modified": null
         },
         {
           "name": "Länk: FOCA/BAZL — Drohnenvorschriften",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.bazl.admin.ch/drohnen"
+          "last_modified": null
         },
         {
           "name": "Länk: FOCA — Als Betreiber registrieren",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.bazl.admin.ch/drohnen"
+          "last_modified": null
         },
         {
           "name": "Länk: Swiss Dronemap — Luftraumkarte",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.swiss-dronemap.ch"
+          "last_modified": null
         },
         {
           "name": "Länk: FOCA — Regelübersicht",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.bazl.admin.ch/drohnen"
+          "last_modified": null
         }
       ]
     },
@@ -131,44 +116,38 @@
         {
           "name": "Feed: ienw-ed269",
           "status": "ok",
-          "detail": "19 min sen, 1072 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/nl-ed269.geojson?cb=20260603e"
+          "detail": "2 min sen, 1072 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: pdok-natura",
           "status": "ok",
-          "detail": "19 min sen, 1889 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/nl-pdok-natura.geojson?cb=20260603d"
+          "detail": "2 min sen, 1889 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
           "detail": "regler verifierade 37d sedan",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Länk: ILT — Droneregels",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen"
+          "last_modified": null
         },
         {
           "name": "Länk: RDW — Registreren als exploitant",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.rdw.nl/drone"
+          "last_modified": null
         },
         {
           "name": "Länk: ILT — Overzicht van de regels",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/regels-voor-drones"
+          "last_modified": null
         }
       ]
     },
@@ -182,43 +161,37 @@
           "name": "Primär (geojson-static)",
           "status": "ok",
           "detail": "85 zoner",
-          "last_modified": null,
-          "url": "https://gist.githubusercontent.com/KodKust/c52cf5d3ef3370a7d4c26d9c2b616506/raw/iaa_simplified.geojson"
+          "last_modified": null
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
           "detail": "regler verifierade 37d sedan",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Länk: IAA — Drone regulations",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.iaa.ie/general-aviation/drones"
+          "last_modified": null
         },
         {
           "name": "Länk: IAA — Register as operator",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.iaa.ie/general-aviation/drones/drone-register"
+          "last_modified": null
         },
         {
           "name": "Länk: IAA — Geographical zones map",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.iaa.ie/general-aviation/drones/faqs/geographical-zones"
+          "last_modified": null
         },
         {
           "name": "Länk: SafeDrone — Airspace map",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://safedrone.ie/airspace-map/"
+          "last_modified": null
         }
       ]
     },
@@ -231,51 +204,44 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "19 min sen, 2118 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b"
+          "detail": "2 min sen, 2118 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "19 min sen, 708 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a"
+          "detail": "2 min sen, 708 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
           "detail": "regler verifierade 37d sedan",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Länk: Trafikstyrelsen — Droneregler",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.droneregler.dk/"
+          "last_modified": null
         },
         {
           "name": "Länk: Trafikstyrelsen — Registrér som operatør",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.droneregler.dk/"
+          "last_modified": null
         },
         {
           "name": "Länk: Droneregler.dk — Kort og regler",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.droneregler.dk"
+          "last_modified": null
         },
         {
           "name": "Länk: Naviair — Luftruminformation",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.naviair.dk"
+          "last_modified": null
         }
       ]
     },
@@ -288,37 +254,32 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "19 min sen, 47656 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/de.geojson"
+          "detail": "2 min sen, 47656 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
           "detail": "regler verifierade 37d sedan",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Länk: dipul – Offizielle Drohnenkarte",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://maptool-dipul.dfs.de"
+          "last_modified": null
         },
         {
           "name": "Länk: LBA – Registrierung & Fernpilotenzeugnis",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.lba.de/DE/Drohnen/Drohnen_node.html"
+          "last_modified": null
         },
         {
           "name": "Länk: Droniq – Drohnenflug-App",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://droniq.de/droniq-app/"
+          "last_modified": null
         }
       ]
     },
@@ -332,50 +293,43 @@
           "name": "Primär (arcgis)",
           "status": "ok",
           "detail": "200 OK, ?B",
-          "last_modified": null,
-          "url": "https://servais.enaire.es/insignia/rest/services/NSF_SRV/SRV_UAS_ZG_V0/MapServer"
+          "last_modified": null
         },
         {
           "name": "Feed: es-parques",
           "status": "ok",
-          "detail": "20 min sen, 283 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/es-parques.geojson?cb=20260604a"
+          "detail": "2 min sen, 283 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 64d sedan — dags för audit",
-          "last_modified": null,
-          "url": null
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
+          "last_modified": null
         },
         {
           "name": "Länk: AESA — Normativa de drones",
-          "status": "ok",
-          "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones"
+          "status": "warn",
+          "detail": "URLError: timed out (flaky — verifiera i browser)",
+          "last_modified": null
         },
         {
           "name": "Länk: AESA — Registro como operador",
-          "status": "ok",
-          "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/operaciones-con-uas-en-categoria-abierta"
+          "status": "warn",
+          "detail": "URLError: timed out (flaky — verifiera i browser)",
+          "last_modified": null
         },
         {
           "name": "Länk: ENAIRE — Mapa del espacio aéreo para drones",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://drones.enaire.es"
+          "last_modified": null
         },
         {
           "name": "Länk: AESA — Examen de piloto en línea",
-          "status": "ok",
-          "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones"
+          "status": "warn",
+          "detail": "URLError: timed out (flaky — verifiera i browser)",
+          "last_modified": null
         }
       ]
     },
@@ -388,58 +342,50 @@
         {
           "name": "Feed: fr-drones",
           "status": "ok",
-          "detail": "20 min sen, 16135 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/airspace/fr-drones.geojson?cb=20260609a"
+          "detail": "3 min sen, 16135 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: zicad",
           "status": "ok",
-          "detail": "20 min sen, 276 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/fr-zicad.geojson"
+          "detail": "3 min sen, 276 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: fr-parcs",
           "status": "ok",
-          "detail": "20 min sen, 723 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/fr-parcs.geojson?cb=20260604b"
+          "detail": "3 min sen, 723 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
           "detail": "regler verifierade 28d sedan",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Länk: DGAC — Réglementation des drones",
           "status": "warn",
           "detail": "HTTP 403 (trolig bot-block — verifiera i browser)",
-          "last_modified": null,
-          "url": "https://www.ecologie.gouv.fr/politiques-publiques/modeles-reduits-drones-loisir"
+          "last_modified": null
         },
         {
           "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://alphatango.aviation-civile.gouv.fr"
+          "last_modified": null
         },
         {
           "name": "Länk: Géoportail — Carte des restrictions drones",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir"
+          "last_modified": null
         },
         {
           "name": "Länk: DGAC — 10 règles pour les télépilotes",
           "status": "warn",
           "detail": "HTTP 403 (trolig bot-block — verifiera i browser)",
-          "last_modified": null,
-          "url": "https://www.ecologie.gouv.fr/politiques-publiques/modeles-reduits-drones-loisir"
+          "last_modified": null
         }
       ]
     },
@@ -452,58 +398,50 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "20 min sen, 637 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a"
+          "detail": "3 min sen, 637 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "20 min sen, 6919 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260604a"
+          "detail": "3 min sen, 6919 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: fi-efr-static",
           "status": "ok",
-          "detail": "20 min sen, 105 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/fi-efr-static.geojson?cb=20260605a"
+          "detail": "3 min sen, 105 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
           "detail": "regler verifierade 5d sedan",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Länk: Traficom – Drone-säännöt",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://droneinfo.fi/en/droneinfo-front-page"
+          "last_modified": null
         },
         {
           "name": "Länk: Traficom – Rekisteröidy käyttäjäksi",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://droneinfo.fi/en/registering-drone-operator"
+          "last_modified": null
         },
         {
           "name": "Länk: Droneinfo.fi – Ilmatilakartta",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.droneinfo.fi"
+          "last_modified": null
         },
         {
           "name": "Länk: Traficom – Koulutus ja kokeet",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://droneinfo.fi/en/droneinfo-front-page"
+          "last_modified": null
         }
       ]
     },
@@ -511,49 +449,43 @@
       "iso": "SE",
       "name": "Sverige",
       "flag": "🇸🇪",
-      "status": "warn",
+      "status": "ok",
       "checks": [
         {
           "name": "Primär (wfs)",
           "status": "ok",
           "detail": "GetCapabilities OK (120174B)",
-          "last_modified": null,
-          "url": "https://daim.lfv.se/geoserver/wfs"
+          "last_modified": null
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 69d sedan — dags för audit",
-          "last_modified": null,
-          "url": null
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
+          "last_modified": null
         },
         {
           "name": "Länk: Transportstyrelsen — Drönarregler",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/"
+          "last_modified": null
         },
         {
           "name": "Länk: LFV Drönarkartan — luftrum",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://dronechart.lfv.se"
+          "last_modified": null
         },
         {
           "name": "Länk: Operatörsregistrering (krävs ≥250g eller kamera)",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://dronarsidan.transportstyrelsen.se/"
+          "last_modified": null
         },
         {
-          "name": "Länk: Onlineutbildning A1/A3 (gratis, krav från 16 år)",
+          "name": "Länk: Drönarkort A1/A3 — teoriprov online (krävs ≥250 g, från 15 år)",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/dronarkort-och-utbildning/"
+          "last_modified": null
         }
       ]
     },
@@ -566,51 +498,44 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "20 min sen, 17009 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/no.geojson?v=10"
+          "detail": "3 min sen, 17009 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: no-nve-infra",
           "status": "ok",
-          "detail": "20 min sen, 123 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/no-nve-infra.geojson?cb=20260604a"
+          "detail": "3 min sen, 123 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
           "detail": "regler verifierade 4d sedan",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Länk: Avinor – Fly drone i Norge",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.avinor.no/en/practical-info/drone/"
+          "last_modified": null
         },
         {
           "name": "Länk: Avinor Dronekart",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://experience.arcgis.com/experience/95695705756d477d8a166150a6b7b831/page/Dronekart/"
+          "last_modified": null
         },
         {
           "name": "Länk: Ninox Drone – tillatelse nær flyplass",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://operatorportal.ninoxdrone.no/"
+          "last_modified": null
         },
         {
           "name": "Länk: Flydrone.no – registrering og sertifikat",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://flydrone.no"
+          "last_modified": null
         }
       ]
     },
@@ -623,121 +548,104 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "20 min sen, 11245 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/airspace/us.geojson"
+          "detail": "3 min sen, 11245 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "20 min sen, 580 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/tfrs/us.geojson"
+          "detail": "3 min sen, 580 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: nps",
           "status": "ok",
-          "detail": "20 min sen, 1907 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/us-nps.geojson"
+          "detail": "3 min sen, 1907 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: classes",
           "status": "ok",
-          "detail": "20 min sen, 2250 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/us-classes.geojson"
+          "detail": "3 min sen, 2250 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: sua",
           "status": "ok",
-          "detail": "20 min sen, 1688 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/us-sua.geojson"
+          "detail": "3 min sen, 1688 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: heliports",
           "status": "ok",
-          "detail": "20 min sen, 1593 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/airspace/us-heliports.geojson"
+          "detail": "3 min sen, 1593 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: dc-sfra",
           "status": "ok",
-          "detail": "20 min sen, 3 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/airspace/us-dc-sfra.geojson"
+          "detail": "3 min sen, 3 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: nsufr",
           "status": "ok",
-          "detail": "20 min sen, 8 kB",
-          "last_modified": "2026-06-10T07:14:28+00:00",
-          "url": "https://pappilappi.com/airspace/us-nsufr.geojson"
+          "detail": "3 min sen, 8 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: wildlife-refuges",
           "status": "ok",
-          "detail": "20 min sen, 14306 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/us-wildlife-refuges.geojson"
+          "detail": "3 min sen, 14306 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: fria",
           "status": "ok",
-          "detail": "20 min sen, 2443 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/us-fria.geojson"
+          "detail": "3 min sen, 2443 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Feed: rec-sites",
           "status": "ok",
-          "detail": "20 min sen, 2309 kB",
-          "last_modified": "2026-06-10T07:14:27+00:00",
-          "url": "https://pappilappi.com/airspace/us-rec-sites.geojson"
+          "detail": "3 min sen, 2309 kB",
+          "last_modified": "2026-06-10T07:45:04+00:00"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
           "detail": "regler verifierade 37d sedan",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Länk: FAA — Drone regulations",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.faa.gov/uas"
+          "last_modified": null
         },
         {
           "name": "Länk: FAA DroneZone — Registration",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://faadronezone-access.faa.gov/"
+          "last_modified": null
         },
         {
           "name": "Länk: B4UFLY — Airspace check",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.faa.gov/uas/getting_started/b4ufly"
+          "last_modified": null
         },
         {
           "name": "Länk: LAANC — Authorize via Aloft (free)",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://air.aloft.ai/"
+          "last_modified": null
         },
         {
           "name": "Länk: TRUST — Recreational safety test",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": "https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates"
+          "last_modified": null
         }
       ]
     }
@@ -750,50 +658,43 @@
           "name": "Aerodromes Gist (se.json)",
           "status": "ok",
           "detail": "203 fält",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Country info Gist (se.json)",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "AIP-SUP Gist (se.json)",
           "status": "ok",
           "detail": "5d sen, 75 SUPs",
-          "last_modified": "2026-06-04T10:14:17.876333+00:00",
-          "url": null
+          "last_modified": "2026-06-04T10:14:17.876333+00:00"
         },
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "LFV airspace WFS",
           "status": "ok",
           "detail": "GetCapabilities OK (120174B)",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "LFV DroneChart uas_zones",
           "status": "ok",
           "detail": "200 OK, 380352B",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "AIRAC-cykel",
           "status": "warn",
           "detail": "AIRAC 3-2026+0 — skifte om 1d (eAIP/SUP-data kan ändras, kolla efter skiftet)",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         }
       ]
     },
@@ -804,50 +705,43 @@
           "name": "FR IGN Géoportail WFS (fr-drones-pipeline)",
           "status": "ok",
           "detail": "200 OK, ?B",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "NL PDOK Natura 2000 WFS (nl-natura-pipeline)",
           "status": "ok",
           "detail": "200 OK, 15434B",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "NO Avinor Dronerestriksjonsomraader",
           "status": "ok",
           "detail": "200 OK, 15683B",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "NO Avinor RPAS_CTR_TIZ",
           "status": "ok",
           "detail": "200 OK, 12707B",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "NO Miljødirektoratet",
           "status": "ok",
           "detail": "200 OK, 2291B",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "NO Geonorge Forsvaret",
           "status": "ok",
           "detail": "GetCapabilities OK (29314B)",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "NO Geonorge Sjøforsvar",
           "status": "ok",
           "detail": "GetCapabilities OK (29726B)",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         }
       ]
     },
@@ -858,166 +752,47 @@
           "name": "Countries.json Gist",
           "status": "ok",
           "detail": "55 länder",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Drones.json Gist",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Airspace rules Gist",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Classifier strings Gist",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Tour strings Gist (funktionsrundturen)",
           "status": "ok",
           "detail": "200 OK",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         },
         {
           "name": "Regulations baseline",
           "status": "info",
           "detail": "lokal baseline ej initierad (regulations-watch-Actionen har egen)",
-          "last_modified": null,
-          "url": null
+          "last_modified": null
         }
       ]
     }
   ],
   "github_actions_24h": [
     {
-      "name": "Airspace data source health check",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "App Store reviews digest",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "App Store sales digest",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Apple Ads keyword monitor",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Apple Ads spend digest",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Data health (all sources)",
-      "status": "warn",
-      "detail": "1/4 FAIL",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Fetch & publish AIP Supplements",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Fetch & publish CH airspace (BAZL/BAFU/VBS via geo.admin.ch)",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Fetch & publish US TFRs (FAA WFS)",
-      "status": "ok",
-      "detail": "8/8 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Fetch NOTAMs (FIR-based)",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Flutter CI",
-      "status": "ok",
-      "detail": "7/7 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Flutter tests (flygdagbok smoke)",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Publish countries.json to Gist",
-      "status": "ok",
-      "detail": "3/3 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Snapshot LVNL Airspace (NL)",
-      "status": "ok",
-      "detail": "4/4 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "fetch-dk-airspace",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "fetch-fi-airspace",
-      "status": "warn",
-      "detail": "1/2 FAIL",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "fetch-fi-efr",
-      "status": "warn",
-      "detail": "1/2 FAIL",
-      "last_modified": null,
-      "url": null
+      "name": "GitHub Actions (24h)",
+      "status": "fail",
+      "detail": "gh CLI fel: CalledProcessError",
+      "last_modified": null
     }
   ]
 }
