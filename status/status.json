@@ -1,0 +1,900 @@
+{
+  "generated": "2026-06-10T06:46:48.711531+00:00",
+  "summary": {
+    "fail": 3,
+    "warn": 8,
+    "ok": 111,
+    "total_checks": 130,
+    "countries_total": 11,
+    "countries_ok": 6
+  },
+  "countries": [
+    {
+      "iso": "CH",
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "status": "warn",
+      "checks": [
+        {
+          "name": "Primär (geoadmin)",
+          "status": "ok",
+          "detail": "200 OK, 2631776B",
+          "last_modified": null
+        },
+        {
+          "name": "Feed: luftfahrthindernis",
+          "status": "ok",
+          "detail": "3 min sen, 8699 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: ch-ctr",
+          "status": "ok",
+          "detail": "3 min sen, 47 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: ch-tma",
+          "status": "ok",
+          "detail": "3 min sen, 151 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: ch-cta",
+          "status": "ok",
+          "detail": "3 min sen, 63 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: ch-uas-aktivitaetszonen",
+          "status": "ok",
+          "detail": "3 min sen, 210 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: ch-jagdbanngebiete",
+          "status": "ok",
+          "detail": "3 min sen, 2223 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: ch-vogelreservate",
+          "status": "ok",
+          "detail": "3 min sen, 567 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: ch-sicherheitszonenplan",
+          "status": "ok",
+          "detail": "3 min sen, 513 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: ch-schiessanzeigen",
+          "status": "ok",
+          "detail": "3 min sen, 497 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "warn",
+          "detail": "regler verifierade 64d sedan — dags för audit",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: FOCA/BAZL — Drohnenvorschriften",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: FOCA — Als Betreiber registrieren",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Swiss Dronemap — Luftraumkarte",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: FOCA — Regelübersicht",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "status": "ok",
+      "checks": [
+        {
+          "name": "Feed: ienw-ed269",
+          "status": "ok",
+          "detail": "3 min sen, 1072 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: pdok-natura",
+          "status": "ok",
+          "detail": "3 min sen, 1889 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 37d sedan",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: ILT — Droneregels",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: RDW — Registreren als exploitant",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: ILT — Overzicht van de regels",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "IE",
+      "name": "Ireland",
+      "flag": "🇮🇪",
+      "status": "fail",
+      "checks": [
+        {
+          "name": "Primär (geojson-static)",
+          "status": "ok",
+          "detail": "85 zoner",
+          "last_modified": null
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 37d sedan",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: IAA — Drone regulations",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: IAA — Register as operator",
+          "status": "fail",
+          "detail": "HTTP 404 — död länk",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: IAA — Geographical zones map",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: SafeDrone — Airspace map",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "DK",
+      "name": "Denmark",
+      "flag": "🇩🇰",
+      "status": "ok",
+      "checks": [
+        {
+          "name": "Feed: dk-primary",
+          "status": "ok",
+          "detail": "3 min sen, 2118 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: dk-natur",
+          "status": "ok",
+          "detail": "3 min sen, 708 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 37d sedan",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Trafikstyrelsen — Droneregler",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Trafikstyrelsen — Registrér som operatør",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Droneregler.dk — Kort og regler",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Naviair — Luftruminformation",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "DE",
+      "name": "Deutschland",
+      "flag": "🇩🇪",
+      "status": "ok",
+      "checks": [
+        {
+          "name": "Primär (geojson-static)",
+          "status": "ok",
+          "detail": "3 min sen, 47656 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 37d sedan",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: dipul – Offizielle Drohnenkarte",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: LBA – Registrierung & Fernpilotenzeugnis",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Droniq – Drohnenflug-App",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "ES",
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "status": "warn",
+      "checks": [
+        {
+          "name": "Primär (arcgis)",
+          "status": "ok",
+          "detail": "200 OK, ?B",
+          "last_modified": null
+        },
+        {
+          "name": "Feed: es-parques",
+          "status": "ok",
+          "detail": "3 min sen, 283 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "warn",
+          "detail": "regler verifierade 64d sedan — dags för audit",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: AESA — Normativa de drones",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: AESA — Registro como operador",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: ENAIRE — Mapa del espacio aéreo para drones",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: AESA — Examen de piloto en línea",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
+      "status": "warn",
+      "checks": [
+        {
+          "name": "Feed: fr-drones",
+          "status": "ok",
+          "detail": "3 min sen, 16135 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: zicad",
+          "status": "ok",
+          "detail": "3 min sen, 276 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: fr-parcs",
+          "status": "ok",
+          "detail": "3 min sen, 723 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 28d sedan",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: DGAC — Réglementation des drones",
+          "status": "warn",
+          "detail": "HTTP 403 (trolig bot-block — verifiera i browser)",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Géoportail — Carte des restrictions drones",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: DGAC — 10 règles pour les télépilotes",
+          "status": "warn",
+          "detail": "HTTP 403 (trolig bot-block — verifiera i browser)",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "status": "ok",
+      "checks": [
+        {
+          "name": "Feed: fi-primary",
+          "status": "ok",
+          "detail": "4 min sen, 637 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: fi-natur",
+          "status": "ok",
+          "detail": "4 min sen, 6919 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: fi-efr-static",
+          "status": "ok",
+          "detail": "4 min sen, 105 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 5d sedan",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Traficom – Drone-säännöt",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Traficom – Rekisteröidy käyttäjäksi",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Droneinfo.fi – Ilmatilakartta",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Traficom – Koulutus ja kokeet",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "SE",
+      "name": "Sverige",
+      "flag": "🇸🇪",
+      "status": "warn",
+      "checks": [
+        {
+          "name": "Primär (wfs)",
+          "status": "ok",
+          "detail": "GetCapabilities OK (120174B)",
+          "last_modified": null
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "warn",
+          "detail": "regler verifierade 69d sedan — dags för audit",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Transportstyrelsen — Drönarregler",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: LFV Drönarkartan — luftrum",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Operatörsregistrering (krävs ≥250g eller kamera)",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Onlineutbildning A1/A3 (gratis, krav från 16 år)",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "NO",
+      "name": "Norge",
+      "flag": "🇳🇴",
+      "status": "ok",
+      "checks": [
+        {
+          "name": "Primär (geojson-static)",
+          "status": "ok",
+          "detail": "4 min sen, 17009 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: no-nve-infra",
+          "status": "ok",
+          "detail": "4 min sen, 123 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 4d sedan",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Avinor – Fly drone i Norge",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Avinor Dronekart",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Ninox Drone – tillatelse nær flyplass",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: Flydrone.no – registrering og sertifikat",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "iso": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "status": "ok",
+      "checks": [
+        {
+          "name": "Primär (geojson-static)",
+          "status": "ok",
+          "detail": "4 min sen, 11245 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: tfrs",
+          "status": "ok",
+          "detail": "4 min sen, 580 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: nps",
+          "status": "ok",
+          "detail": "4 min sen, 1907 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: classes",
+          "status": "ok",
+          "detail": "4 min sen, 2250 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: sua",
+          "status": "ok",
+          "detail": "4 min sen, 1688 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: heliports",
+          "status": "ok",
+          "detail": "4 min sen, 1593 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: dc-sfra",
+          "status": "ok",
+          "detail": "4 min sen, 3 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: nsufr",
+          "status": "ok",
+          "detail": "4 min sen, 8 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: wildlife-refuges",
+          "status": "ok",
+          "detail": "4 min sen, 14306 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: fria",
+          "status": "ok",
+          "detail": "4 min sen, 2443 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Feed: rec-sites",
+          "status": "ok",
+          "detail": "4 min sen, 2309 kB",
+          "last_modified": "2026-06-10T06:42:43+00:00"
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 37d sedan",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: FAA — Drone regulations",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: FAA DroneZone — Registration",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: B4UFLY — Airspace check",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: LAANC — Authorize via Aloft (free)",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: TRUST — Recreational safety test",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "LFV (Sverige)",
+      "checks": [
+        {
+          "name": "Aerodromes Gist (se.json)",
+          "status": "ok",
+          "detail": "203 fält",
+          "last_modified": null
+        },
+        {
+          "name": "Country info Gist (se.json)",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "AIP-SUP Gist (se.json) — NYTT",
+          "status": "warn",
+          "detail": "5d sen, 75 SUPs (stale > 3d)",
+          "last_modified": "2026-06-04T10:14:17.876333+00:00"
+        },
+        {
+          "name": "NOTAMs Gist (FIR-based)",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "LFV airspace WFS",
+          "status": "ok",
+          "detail": "GetCapabilities OK (120174B)",
+          "last_modified": null
+        },
+        {
+          "name": "LFV DroneChart uas_zones",
+          "status": "ok",
+          "detail": "200 OK, 380352B",
+          "last_modified": null
+        },
+        {
+          "name": "AIRAC-cykel",
+          "status": "warn",
+          "detail": "AIRAC 3-2026+0 — bara 1d kvar (uppdatera hårdkoding!)",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "title": "Uppströms pipeline-källor",
+      "checks": [
+        {
+          "name": "FR IGN Géoportail WFS (fr-drones-pipeline)",
+          "status": "ok",
+          "detail": "200 OK, ?B",
+          "last_modified": null
+        },
+        {
+          "name": "NL PDOK Natura 2000 WFS (nl-natura-pipeline)",
+          "status": "ok",
+          "detail": "200 OK, 15434B",
+          "last_modified": null
+        },
+        {
+          "name": "NO Avinor Dronerestriksjonsomraader",
+          "status": "ok",
+          "detail": "200 OK, 15683B",
+          "last_modified": null
+        },
+        {
+          "name": "NO Avinor RPAS_CTR_TIZ",
+          "status": "ok",
+          "detail": "200 OK, 12707B",
+          "last_modified": null
+        },
+        {
+          "name": "NO Miljødirektoratet",
+          "status": "ok",
+          "detail": "200 OK, 2291B",
+          "last_modified": null
+        },
+        {
+          "name": "NO Geonorge Forsvaret",
+          "status": "ok",
+          "detail": "GetCapabilities OK (29314B)",
+          "last_modified": null
+        },
+        {
+          "name": "NO Geonorge Sjøforsvar",
+          "status": "ok",
+          "detail": "GetCapabilities OK (29726B)",
+          "last_modified": null
+        }
+      ]
+    },
+    {
+      "title": "Reglering & datapuls",
+      "checks": [
+        {
+          "name": "Countries.json Gist",
+          "status": "ok",
+          "detail": "55 länder",
+          "last_modified": null
+        },
+        {
+          "name": "Drones.json Gist",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Airspace rules Gist",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Classifier strings Gist",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Tour strings Gist (funktionsrundturen)",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Regulations baseline",
+          "status": "warn",
+          "detail": "saknas (kör check_regulations.py --update)",
+          "last_modified": null
+        }
+      ]
+    }
+  ],
+  "github_actions_24h": [
+    {
+      "name": "Airspace data source health check",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "App Store reviews digest",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "App Store sales digest",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Apple Ads keyword monitor",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Apple Ads spend digest",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Data health (all sources)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Fetch & publish AIP Supplements",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Fetch & publish CH airspace (BAZL/BAFU/VBS via geo.admin.ch)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Fetch & publish US TFRs (FAA WFS)",
+      "status": "ok",
+      "detail": "9/9 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Fetch IenW ED-269 (NL airspace)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Fetch NOTAMs (FIR-based)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Flutter CI",
+      "status": "ok",
+      "detail": "2/2 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Flutter tests (flygdagbok smoke)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Publish countries.json to Gist",
+      "status": "ok",
+      "detail": "2/2 OK",
+      "last_modified": null
+    },
+    {
+      "name": "Snapshot LVNL Airspace (NL)",
+      "status": "ok",
+      "detail": "4/4 OK",
+      "last_modified": null
+    },
+    {
+      "name": "fetch-dk-airspace",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null
+    },
+    {
+      "name": "fetch-fi-airspace",
+      "status": "fail",
+      "detail": "1/1 FAIL",
+      "last_modified": null
+    },
+    {
+      "name": "fetch-fi-efr",
+      "status": "fail",
+      "detail": "1/1 FAIL",
+      "last_modified": null
+    }
+  ]
+}
