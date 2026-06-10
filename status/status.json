@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-10T07:48:14.704900+00:00",
+  "generated": "2026-06-10T07:58:30.237186+00:00",
   "summary": {
-    "fail": 1,
-    "warn": 6,
-    "ok": 94,
+    "fail": 2,
+    "warn": 9,
+    "ok": 90,
     "total_checks": 113,
     "countries_total": 11,
-    "countries_ok": 9
+    "countries_ok": 8
   },
   "countries": [
     {
@@ -24,56 +24,56 @@
         {
           "name": "Feed: luftfahrthindernis",
           "status": "ok",
-          "detail": "2 min sen, 8699 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 8699 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: ch-ctr",
           "status": "ok",
-          "detail": "2 min sen, 47 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 47 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: ch-tma",
           "status": "ok",
-          "detail": "2 min sen, 151 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 151 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: ch-cta",
           "status": "ok",
-          "detail": "2 min sen, 63 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 63 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: ch-uas-aktivitaetszonen",
           "status": "ok",
-          "detail": "2 min sen, 210 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 210 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: ch-jagdbanngebiete",
           "status": "ok",
-          "detail": "2 min sen, 2223 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 2223 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: ch-vogelreservate",
           "status": "ok",
-          "detail": "2 min sen, 567 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 567 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: ch-sicherheitszonenplan",
           "status": "ok",
-          "detail": "2 min sen, 513 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 513 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "2 min sen, 497 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 497 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Regler (lastVerified)",
@@ -116,14 +116,14 @@
         {
           "name": "Feed: ienw-ed269",
           "status": "ok",
-          "detail": "2 min sen, 1072 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 1072 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: pdok-natura",
           "status": "ok",
-          "detail": "2 min sen, 1889 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 1889 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Regler (lastVerified)",
@@ -204,14 +204,14 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "2 min sen, 2118 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 2118 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "2 min sen, 708 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 708 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Regler (lastVerified)",
@@ -254,8 +254,8 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "2 min sen, 47656 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 47656 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Regler (lastVerified)",
@@ -287,19 +287,19 @@
       "iso": "ES",
       "name": "Spain",
       "flag": "🇪🇸",
-      "status": "warn",
+      "status": "fail",
       "checks": [
         {
           "name": "Primär (arcgis)",
-          "status": "ok",
-          "detail": "200 OK, ?B",
+          "status": "fail",
+          "detail": "HTTP 403",
           "last_modified": null
         },
         {
           "name": "Feed: es-parques",
           "status": "ok",
-          "detail": "2 min sen, 283 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 283 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Regler (lastVerified)",
@@ -309,26 +309,26 @@
         },
         {
           "name": "Länk: AESA — Normativa de drones",
-          "status": "warn",
-          "detail": "URLError: timed out (flaky — verifiera i browser)",
-          "last_modified": null
-        },
-        {
-          "name": "Länk: AESA — Registro como operador",
-          "status": "warn",
-          "detail": "URLError: timed out (flaky — verifiera i browser)",
-          "last_modified": null
-        },
-        {
-          "name": "Länk: ENAIRE — Mapa del espacio aéreo para drones",
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null
         },
         {
-          "name": "Länk: AESA — Examen de piloto en línea",
+          "name": "Länk: AESA — Registro como operador",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: ENAIRE — Mapa del espacio aéreo para drones",
           "status": "warn",
-          "detail": "URLError: timed out (flaky — verifiera i browser)",
+          "detail": "HTTP 403 (trolig bot-block — verifiera i browser)",
+          "last_modified": null
+        },
+        {
+          "name": "Länk: AESA — Examen de piloto en línea",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null
         }
       ]
@@ -342,20 +342,20 @@
         {
           "name": "Feed: fr-drones",
           "status": "ok",
-          "detail": "3 min sen, 16135 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 16135 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: zicad",
           "status": "ok",
-          "detail": "3 min sen, 276 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 276 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: fr-parcs",
           "status": "ok",
-          "detail": "3 min sen, 723 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "7 min sen, 723 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Regler (lastVerified)",
@@ -365,26 +365,26 @@
         },
         {
           "name": "Länk: DGAC — Réglementation des drones",
-          "status": "warn",
-          "detail": "HTTP 403 (trolig bot-block — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null
         },
         {
           "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "HTTP 403 (trolig bot-block — verifiera i browser)",
           "last_modified": null
         },
         {
           "name": "Länk: Géoportail — Carte des restrictions drones",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "HTTP 403 (trolig bot-block — verifiera i browser)",
           "last_modified": null
         },
         {
-          "name": "Länk: DGAC — 10 règles pour les télépilotes",
+          "name": "Länk: Règles de pilotage de drone — Service-Public.fr",
           "status": "warn",
-          "detail": "HTTP 403 (trolig bot-block — verifiera i browser)",
+          "detail": "URLError: timed out (flaky — verifiera i browser)",
           "last_modified": null
         }
       ]
@@ -393,25 +393,25 @@
       "iso": "FI",
       "name": "Finland",
       "flag": "🇫🇮",
-      "status": "ok",
+      "status": "warn",
       "checks": [
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "3 min sen, 637 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 637 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "3 min sen, 6919 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 6919 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: fi-efr-static",
           "status": "ok",
-          "detail": "3 min sen, 105 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 105 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Regler (lastVerified)",
@@ -421,26 +421,26 @@
         },
         {
           "name": "Länk: Traficom – Drone-säännöt",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "URLError: [Errno 101] Network is unreachable (flaky — verifiera i browser)",
           "last_modified": null
         },
         {
           "name": "Länk: Traficom – Rekisteröidy käyttäjäksi",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "URLError: [Errno 101] Network is unreachable (flaky — verifiera i browser)",
           "last_modified": null
         },
         {
           "name": "Länk: Droneinfo.fi – Ilmatilakartta",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "URLError: [Errno 101] Network is unreachable (flaky — verifiera i browser)",
           "last_modified": null
         },
         {
           "name": "Länk: Traficom – Koulutus ja kokeet",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "URLError: [Errno 101] Network is unreachable (flaky — verifiera i browser)",
           "last_modified": null
         }
       ]
@@ -498,14 +498,14 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "3 min sen, 17009 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 17009 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: no-nve-infra",
           "status": "ok",
-          "detail": "3 min sen, 123 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 123 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Regler (lastVerified)",
@@ -548,68 +548,68 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "3 min sen, 11245 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 11245 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "3 min sen, 580 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 580 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: nps",
           "status": "ok",
-          "detail": "3 min sen, 1907 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 1907 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: classes",
           "status": "ok",
-          "detail": "3 min sen, 2250 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 2250 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: sua",
           "status": "ok",
-          "detail": "3 min sen, 1688 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 1688 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: heliports",
           "status": "ok",
-          "detail": "3 min sen, 1593 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 1593 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: dc-sfra",
           "status": "ok",
-          "detail": "3 min sen, 3 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 3 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: nsufr",
           "status": "ok",
-          "detail": "3 min sen, 8 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 8 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: wildlife-refuges",
           "status": "ok",
-          "detail": "3 min sen, 14306 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 14306 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: fria",
           "status": "ok",
-          "detail": "3 min sen, 2443 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 2443 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Feed: rec-sites",
           "status": "ok",
-          "detail": "3 min sen, 2309 kB",
-          "last_modified": "2026-06-10T07:45:04+00:00"
+          "detail": "8 min sen, 2309 kB",
+          "last_modified": "2026-06-10T07:50:08+00:00"
         },
         {
           "name": "Regler (lastVerified)",
