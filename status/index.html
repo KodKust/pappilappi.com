@@ -83,7 +83,7 @@
 <div id="app"><p id="err">Hämtar status.json…</p></div>
 <footer>
   Uppdateras 4×/dygn av <a href="https://github.com/KodKust/dronarkartan/actions/workflows/data-health.yml">data-health</a>
-  · fel öppnar issue + mejl
+  · fel öppnar issue + mejl · AI-granskning söndagar (Fable 5)
 </footer>
 <script>
 const ICON = { ok: "✅", warn: "⚠️", fail: "❌", info: "ℹ️", paused: "⏸" };
@@ -154,6 +154,13 @@ fetch("./status.json?t=" + Math.floor(Date.now() / 300000))
       <span><b>${bannerTxt[0]}</b><small>${esc(bannerTxt[1])} · ${s.total_checks} checks</small></span>
     </div>`;
 
+    if (d.incident && d.incident.summary && s.fail > 0) {
+      html += `<div class="banner fail">
+        <span class="big">🤖</span>
+        <span><b>AI-sammanfattning (Fable 5)</b><small>${esc(d.incident.summary)}</small></span>
+      </div>`;
+    }
+
     const actions = d.github_actions_24h || [];
     const actOk = actions.filter(a => a.status === "ok").length;
     html += `<div class="agg">
@@ -173,6 +180,21 @@ fetch("./status.json?t=" + Math.floor(Date.now() / 300000))
     (d.sections || []).forEach(sec => {
       html += card(esc(sec.title), agg(sec.checks), sec.checks, true);
     });
+
+    const drift = Array.isArray(d.schema_drift) ? d.schema_drift : [];
+    if (drift.length) {
+      html += "<h2>Schemaförändringar (senaste)</h2>";
+      // Råa värden — checksHtml esc:ar name/detail själv (ingen dubbel-escape).
+      // Historiska events är info: larmet gick som warn i Schemavakt-sektionen
+      // den körning driften upptäcktes.
+      const rows = drift.map(ev => ({
+        status: "info",
+        name: `${ev.iso || "?"} · ${ev.label || ""}`,
+        detail: `${String(ev.detected || "").slice(0, 10)} — ${ev.diagnosis || (ev.changes || []).join("; ")}`,
+        url: ev.url,
+      }));
+      html += card("Schemavakt-historik", "ok", rows, true);
+    }
 
     if (actions.length) {
       html += "<h2>GitHub Actions (24 h)</h2>";
