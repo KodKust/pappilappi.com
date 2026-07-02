@@ -83,7 +83,7 @@
 <div id="app"><p id="err">Hämtar status.json…</p></div>
 <footer>
   Uppdateras 4×/dygn av <a href="https://github.com/KodKust/dronarkartan/actions/workflows/data-health.yml">data-health</a>
-  · fel öppnar issue + mejl · AI-granskning söndagar (Fable 5)
+  · fel öppnar issue + mejl · AI-granskning månadsvis
 </footer>
 <script>
 const ICON = { ok: "✅", warn: "⚠️", fail: "❌", info: "ℹ️", paused: "⏸" };
@@ -128,9 +128,15 @@ function agg(results) {
   return "ok";
 }
 
-fetch("./status.json?t=" + Math.floor(Date.now() / 300000))
-  .then(r => r.json())
-  .then(d => {
+const _cb = Math.floor(Date.now() / 300000);
+Promise.all([
+  fetch("./status.json?t=" + _cb).then(r => r.json()),
+  // AI-granskningen persisteras separat (deep-körning skriver den) → syns hela
+  // månaden oberoende av att status.json skrivs om 4×/dygn. 404 före första
+  // deep-körningen är ofarligt.
+  fetch("./ai_review.json?t=" + _cb).then(r => r.ok ? r.json() : null).catch(() => null),
+])
+  .then(([d, ai]) => {
     const s = d.summary || {};
     const gen = new Date(d.generated);
     document.getElementById("gen").textContent = "";
@@ -157,7 +163,7 @@ fetch("./status.json?t=" + Math.floor(Date.now() / 300000))
     if (d.incident && d.incident.summary && s.fail > 0) {
       html += `<div class="banner fail">
         <span class="big">🤖</span>
-        <span><b>AI-sammanfattning (Fable 5)</b><small>${esc(d.incident.summary)}</small></span>
+        <span><b>AI-sammanfattning${d.incident.model ? " (" + esc(d.incident.model) + ")" : ""}</b><small>${esc(d.incident.summary)}</small></span>
       </div>`;
     }
 
@@ -177,9 +183,23 @@ fetch("./status.json?t=" + Math.floor(Date.now() / 300000))
       .forEach(c => { html += card(`${c.flag} ${esc(c.name)}`, c.status, c.checks, true); });
 
     html += "<h2>System &amp; Gistar</h2>";
-    (d.sections || []).forEach(sec => {
-      html += card(esc(sec.title), agg(sec.checks), sec.checks, true);
-    });
+    // "AI-granskning" + "Schemavakt" hoppas över här — de finns bara i den
+    // färska deep-status.json:en och skulle blinka bort efter ~6 h. AI-granskningen
+    // renderas i stället från den persisterade ai_review.json (nedan), och
+    // schemadriften från schema_drift-historiken.
+    (d.sections || [])
+      .filter(sec => sec.title !== "AI-granskning" && !sec.title.startsWith("Schemavakt"))
+      .forEach(sec => {
+        html += card(esc(sec.title), agg(sec.checks), sec.checks, true);
+      });
+
+    if (ai && Array.isArray(ai.checks) && ai.checks.length) {
+      const when = ai.generated ? new Date(ai.generated) : null;
+      const whenTxt = when ? " · senast " + when.toLocaleDateString("sv-SE") : "";
+      const modelTxt = ai.model ? " · " + esc(ai.model) : "";
+      html += `<h2>AI-granskning${whenTxt}${modelTxt}</h2>`;
+      html += card("Källinnehåll (AI)", agg(ai.checks), ai.checks, true);
+    }
 
     const drift = Array.isArray(d.schema_drift) ? d.schema_drift : [];
     if (drift.length) {
