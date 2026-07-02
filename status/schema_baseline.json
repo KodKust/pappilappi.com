@@ -1,0 +1,1731 @@
+{
+  "version": 1,
+  "generated": "2026-07-02T04:59:52.687175+00:00",
+  "feeds": {
+    "https://pappilappi.com/airspace/lu-zones.geojson": {
+      "iso": "LU",
+      "label": "lu-zones",
+      "fingerprint": {
+        "feature_count": 48,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "ed269_restriction",
+          "identifier",
+          "message",
+          "name",
+          "uom",
+          "upperLimit"
+        ],
+        "sample": {
+          "_zoneType": "str:P",
+          "authority": "str:Direction de l'Aviation Civile",
+          "dataSource": "str:dac-lu",
+          "ed269_restriction": "str:PROHIBITED",
+          "identifier": "str:SPECI12",
+          "message": "str:Please consult https://g-o.lu/uas to che",
+          "name": "str:EL-UAS-S12",
+          "uom": "str:M",
+          "upperLimit": "int:120"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/si-zones.geojson": {
+      "iso": "SI",
+      "label": "si-zones",
+      "fingerprint": {
+        "feature_count": 71,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "identifier",
+          "message",
+          "name",
+          "sourceLayer"
+        ],
+        "sample": {
+          "_zoneType": "str:P",
+          "authority": "str:CAA Slovenia",
+          "dataSource": "str:caa-si",
+          "identifier": "str:JEK_PROHIBITED/1",
+          "message": "str:Preverite pogoje cone.",
+          "name": "str:Prepovedana cona - Nuklearna elektrarna ",
+          "sourceLayer": "str:JEK_PROHIBITED"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson": {
+      "iso": "CH",
+      "label": "luftfahrthindernis",
+      "fingerprint": {
+        "feature_count": 14336,
+        "geometry_types": [
+          "LineString",
+          "Point"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "airport",
+          "dataSource",
+          "effectiveDate",
+          "group",
+          "lighting",
+          "marking",
+          "maxHeightAGL",
+          "modified",
+          "name",
+          "obstacleType",
+          "registrationnumber",
+          "small",
+          "sourceLayer",
+          "topElevationAMSL",
+          "uuid"
+        ],
+        "sample": {
+          "_zoneType": "str:OBSTACLE_CH",
+          "airport": "str:LSZQ",
+          "dataSource": "str:geo.admin.ch",
+          "effectiveDate": "str:2011-01-01",
+          "group": "str:NO",
+          "lighting": "str:NONE",
+          "marking": "str:NONE",
+          "maxHeightAGL": "str:53",
+          "modified": "str:NO",
+          "name": "str:Brücke (53 m)",
+          "obstacleType": "str:BRIDGE",
+          "registrationnumber": "str:222JU30021",
+          "small": "str:NO",
+          "sourceLayer": "str:ch.bazl.luftfahrthindernis",
+          "topElevationAMSL": "str:502.8",
+          "uuid": "str:58c727c7-d1e8-4c2d-b510-41cf8774d291"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ch-ctr.geojson": {
+      "iso": "CH",
+      "label": "ch-ctr",
+      "fingerprint": {
+        "feature_count": 18,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "bgdi_created",
+          "dataSource",
+          "designator",
+          "label",
+          "loli_type",
+          "loli_value",
+          "name",
+          "sourceLayer",
+          "type",
+          "upli_type",
+          "upli_value"
+        ],
+        "sample": {
+          "_zoneType": "str:CTR_CH",
+          "bgdi_created": "str:2026-03-09T09:49:13.407871",
+          "dataSource": "str:geo.admin.ch",
+          "designator": "str:LSMP",
+          "label": "str:CTR PAYERNE",
+          "loli_type": "str:AGL",
+          "loli_value": "int:0",
+          "name": "str:CTR PAYERNE",
+          "sourceLayer": "str:ch.bazl.luftraeume-kontrollzonen",
+          "type": "str:CTR",
+          "upli_type": "str:FL",
+          "upli_value": "int:100"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ch-tma.geojson": {
+      "iso": "CH",
+      "label": "ch-tma",
+      "fingerprint": {
+        "feature_count": 90,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "bgdi_created",
+          "dataSource",
+          "designator",
+          "label",
+          "loli_type",
+          "loli_value",
+          "name",
+          "sourceLayer",
+          "type",
+          "upli_type",
+          "upli_value"
+        ],
+        "sample": {
+          "_zoneType": "str:TMA_CH",
+          "bgdi_created": "str:2026-03-09T10:56:45.522767",
+          "dataSource": "str:geo.admin.ch",
+          "designator": "str:LIMM-3",
+          "label": "str:TMA MILANO SECTOR 3",
+          "loli_type": "str:FL",
+          "loli_value": "int:105",
+          "name": "str:TMA MILANO SECTOR 3",
+          "sourceLayer": "str:ch.bazl.luftraeume-nahkontrollbezirke",
+          "type": "str:TMA",
+          "upli_type": "str:FL",
+          "upli_value": "int:195"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ch-cta.geojson": {
+      "iso": "CH",
+      "label": "ch-cta",
+      "fingerprint": {
+        "feature_count": 2,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "bgdi_created",
+          "dataSource",
+          "designator",
+          "label",
+          "loli_type",
+          "loli_value",
+          "name",
+          "sourceLayer",
+          "type",
+          "upli_type",
+          "upli_value"
+        ],
+        "sample": {
+          "_zoneType": "str:CTA_CH",
+          "bgdi_created": "str:2026-03-09T08:53:49.892813",
+          "dataSource": "str:geo.admin.ch",
+          "designator": "str:LSAG",
+          "label": "str:CTA GENEVA",
+          "loli_type": "str:AGL",
+          "loli_value": "int:2000",
+          "name": "str:CTA GENEVA",
+          "sourceLayer": "str:ch.bazl.luftraeume-kontrollbezirke",
+          "type": "str:CTA",
+          "upli_type": "str:FL",
+          "upli_value": "int:245"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson": {
+      "iso": "CH",
+      "label": "ch-uas-aktivitaetszonen",
+      "fingerprint": {
+        "feature_count": 73,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "coordination",
+          "dataSource",
+          "description",
+          "enddatetime",
+          "existingdetectionsystems",
+          "heightaboveground",
+          "label",
+          "lowerlimit",
+          "routelocation_de",
+          "routelocation_en",
+          "routelocation_fr",
+          "routelocation_it",
+          "sourceLayer",
+          "startdatetime",
+          "upperlimit",
+          "validity"
+        ],
+        "sample": {
+          "_zoneType": "str:UAS_AKT_CH",
+          "coordination": "str:+41 77 268 47 00",
+          "dataSource": "str:geo.admin.ch",
+          "description": "str:UNMANNED ACFT ACT WILL TAKE PLACE AT LSM",
+          "enddatetime": "str:2026-10-01T22:00:00",
+          "existingdetectionsystems": "str:Coordination with ATC",
+          "heightaboveground": "str:250m / 820ft",
+          "label": "str:Dübendorf LSMD",
+          "lowerlimit": "str:GND",
+          "routelocation_de": "str:Dübendorf LSMD",
+          "routelocation_en": "str:Dübendorf LSMD",
+          "routelocation_fr": "str:Dübendorf LSMD",
+          "routelocation_it": "str:Dübendorf LSMD",
+          "sourceLayer": "str:ch.bazl.uas-aktivitaetszonen",
+          "startdatetime": "str:2026-04-21T22:00:00",
+          "upperlimit": "str:775m / 2542ft",
+          "validity": "str:LSMD ATC ON, Mo-Fr"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson": {
+      "iso": "CH",
+      "label": "ch-jagdbanngebiete",
+      "fingerprint": {
+        "feature_count": 114,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "dataSource",
+          "flaeche_ha",
+          "gebietsname",
+          "label",
+          "objektnummer",
+          "refobjblatt",
+          "sourceLayer",
+          "typ_de",
+          "typ_en",
+          "typ_fr",
+          "typ_it"
+        ],
+        "sample": {
+          "_zoneType": "str:JAGDBANN_CH",
+          "dataSource": "str:geo.admin.ch",
+          "flaeche_ha": "float:2011.7",
+          "gebietsname": "str:Augstmatthorn",
+          "label": "str:Augstmatthorn",
+          "objektnummer": "str:1",
+          "refobjblatt": "str:https://api3.geo.admin.ch/featureattachm",
+          "sourceLayer": "str:ch.bafu.bundesinventare-jagdbanngebiete",
+          "typ_de": "str:Gebiet mit partiellen Schutzbestimmungen",
+          "typ_en": "str:Area with partial protection regulations",
+          "typ_fr": "str:Zones soumises à des dispositions de pro",
+          "typ_it": "str:Zone a protezione parziale"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ch-vogelreservate.geojson": {
+      "iso": "CH",
+      "label": "ch-vogelreservate",
+      "fingerprint": {
+        "feature_count": 106,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "dataSource",
+          "label",
+          "name",
+          "obj_gisflaeche",
+          "objnummer",
+          "refobjblatt",
+          "schutzebene_de",
+          "schutzebene_fr",
+          "schutzebene_it",
+          "schutzkategorie_de",
+          "schutzkategorie_fr",
+          "schutzkategorie_it",
+          "shape_area",
+          "sourceLayer",
+          "teilgebiet"
+        ],
+        "sample": {
+          "_zoneType": "str:VOGELRES_CH",
+          "dataSource": "str:geo.admin.ch",
+          "label": "str:Ermatinger Becken (TG)",
+          "name": "str:Ermatinger Becken (TG)",
+          "obj_gisflaeche": "float:440.9",
+          "objnummer": "int:1",
+          "refobjblatt": "str:https://api3.geo.admin.ch/featureattachm",
+          "schutzebene_de": "str:International",
+          "schutzebene_fr": "str:International",
+          "schutzebene_it": "str:Internazionale",
+          "schutzkategorie_de": "str:Wildschadenperimeter",
+          "schutzkategorie_fr": "str:Périmètre des dégats dus au gibier",
+          "schutzkategorie_it": "str:Perimetro dei canni causati dalla selvag",
+          "shape_area": "float:1220138.66425246",
+          "sourceLayer": "str:ch.bafu.bundesinventare-vogelreservate",
+          "teilgebiet": "str:V"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson": {
+      "iso": "CH",
+      "label": "ch-sicherheitszonenplan",
+      "fingerprint": {
+        "feature_count": 51,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "approval_date",
+          "canton",
+          "dataSource",
+          "doc_description",
+          "doc_id",
+          "label",
+          "latest_modification",
+          "legalstatus_de",
+          "legalstatus_fr",
+          "legalstatus_it",
+          "legalstatus_tid",
+          "municipality",
+          "originator",
+          "sourceLayer",
+          "status_id",
+          "title",
+          "type_id",
+          "valid_from",
+          "valid_until",
+          "weblink",
+          "zone",
+          "zone_description",
+          "zone_name",
+          "zone_valid_from",
+          "zonetype_de",
+          "zonetype_fr",
+          "zonetype_it",
+          "zonetype_tid"
+        ],
+        "sample": {
+          "_zoneType": "str:SICHERHEIT_CH",
+          "approval_date": "str:2009-07-01T00:00:00.000",
+          "canton": "str:VS",
+          "dataSource": "str:geo.admin.ch",
+          "doc_description": "str:",
+          "doc_id": "str:ch20bn9n00016994##ch20bn9n00016995",
+          "label": "str:ch20bn9n00016944",
+          "latest_modification": "str:2009-01-20",
+          "legalstatus_de": "str:in Kraft",
+          "legalstatus_fr": "str:en vigueur",
+          "legalstatus_it": "str:in vigore",
+          "legalstatus_tid": "str:108-S-01",
+          "municipality": "str:Sion",
+          "originator": "str:Aéroport de Sion",
+          "sourceLayer": "str:ch.bazl.sicherheitszonenplan",
+          "status_id": "str:108-S-01",
+          "title": "str:Projet de FATO (zone sud-est) \"Aeroport ",
+          "type_id": "str:108-T-02",
+          "valid_from": "NoneType:None",
+          "valid_until": "NoneType:None",
+          "weblink": "str:https://api3.geo.admin.ch/featureattachm",
+          "zone": "str:ch20bn9n00016921",
+          "zone_description": "NoneType:None",
+          "zone_name": "str:Sion",
+          "zone_valid_from": "str:2009-07-01T00:00:00.000",
+          "zonetype_de": "str:An- / Abflugfläche",
+          "zonetype_fr": "str:Surface d'approche / surface de montée a",
+          "zonetype_it": "str:Surface d'approche / surface de montée a",
+          "zonetype_tid": "str:108-T-02"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson": {
+      "iso": "CH",
+      "label": "ch-schiessanzeigen",
+      "fingerprint": {
+        "feature_count": 285,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "belplan_id",
+          "dataSource",
+          "location",
+          "name",
+          "phone",
+          "shootingPeriods",
+          "sourceLayer",
+          "url"
+        ],
+        "sample": {
+          "_zoneType": "str:SCHIESS_CH",
+          "belplan_id": "str:1104.020",
+          "dataSource": "str:geo.admin.ch",
+          "location": "str:Geissalp (Ziel-Stellungrm/NGST)",
+          "name": "str:Geissalp",
+          "phone": "str:+41 58 467 19 90",
+          "shootingPeriods": "list:['2026-07-06 0800-1800']",
+          "sourceLayer": "str:ch.vbs.schiessanzeigen",
+          "url": "str:https://www.armee.ch/schiessanzeigen/110"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/sk-zones.geojson": {
+      "iso": "SK",
+      "label": "sk-zones",
+      "fingerprint": {
+        "feature_count": 100,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "folder",
+          "identifier",
+          "message",
+          "name"
+        ],
+        "sample": {
+          "_zoneType": "str:CTR",
+          "authority": "str:Dopravný úrad SR",
+          "dataSource": "str:nsat-sk",
+          "folder": "str:Aktuálne/Stále/CTR",
+          "identifier": "str:RUAS001-LZIBAD-D",
+          "message": "str:Civilná prevádzka UAS je povolená len v ",
+          "name": "str:Letisko Bratislava - M. R. Štefánik"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/nl-ed269.geojson": {
+      "iso": "NL",
+      "label": "ienw-ed269",
+      "fingerprint": {
+        "feature_count": 743,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "authority_email",
+          "authority_phone",
+          "country",
+          "ed269_applicability",
+          "ed269_message",
+          "ed269_reason",
+          "ed269_restriction",
+          "identifier",
+          "lowerLimit",
+          "lowerRef",
+          "name",
+          "uom",
+          "upperLimit",
+          "upperRef"
+        ],
+        "sample": {
+          "_zoneType": "str:LFA_NL",
+          "authority": "str:Regeling zonering onbemande luchtvaartui",
+          "authority_email": "str:droneloket@minienw.nl",
+          "authority_phone": "str:",
+          "country": "str:NLD",
+          "ed269_applicability": "list:[{'permanent': 'YES'}]",
+          "ed269_message": "str:OPEN A1/2 toegestaan tot max 30m hoogte ",
+          "ed269_reason": "str:AIR_TRAFFIC",
+          "ed269_restriction": "str:CONDITIONAL",
+          "identifier": "str:2.a",
+          "lowerLimit": "str:0",
+          "lowerRef": "str:AGL",
+          "name": "str:Laagvliegroute 10 laagvlieggebied voor b",
+          "uom": "str:M",
+          "upperLimit": "str:120",
+          "upperRef": "str:AGL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/nl-pdok-natura.geojson": {
+      "iso": "NL",
+      "label": "pdok-natura",
+      "fingerprint": {
+        "feature_count": 209,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "beschermin",
+          "kadaster",
+          "naamN2K",
+          "name",
+          "nr",
+          "sitecodeH",
+          "sitecodeV",
+          "staatscour",
+          "status",
+          "vhnNew"
+        ],
+        "sample": {
+          "_zoneType": "str:NATURE_NL",
+          "authority": "str:RVO / Rijksoverheid",
+          "beschermin": "str:HR",
+          "kadaster": "str:OZ4 57913/192",
+          "naamN2K": "str:Coepelduynen",
+          "name": "str:Coepelduynen",
+          "nr": "int:96",
+          "sitecodeH": "str:NL1000030",
+          "sitecodeV": "str: ",
+          "staatscour": "str:2009/19769",
+          "status": "str:Natura 2000-besluit 2010",
+          "vhnNew": "int:2"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://gist.githubusercontent.com/KodKust/c52cf5d3ef3370a7d4c26d9c2b616506/raw/iaa_simplified.geojson": {
+      "iso": "IE",
+      "label": "primär",
+      "fingerprint": {
+        "feature_count": 85,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "country",
+          "identifier",
+          "limitedApplicability",
+          "lower",
+          "lowerReference",
+          "message",
+          "name",
+          "otherReasonInfo",
+          "reason",
+          "regulationExemption",
+          "restrictionConditions",
+          "type",
+          "uom",
+          "upper",
+          "upperReference",
+          "variant",
+          "zoneAuthority"
+        ],
+        "sample": {
+          "country": "str:IRL",
+          "identifier": "str:T2",
+          "limitedApplicability": "list:[{'startDateTime': '2026-02-19T00:00:00Z",
+          "lower": "float:0.0",
+          "lowerReference": "str:AGL",
+          "message": "str:Access may be requested through the zone",
+          "name": "str:Temporary BVLOS Cork Area 1",
+          "otherReasonInfo": "NoneType:None",
+          "reason": "str:SAFETY",
+          "regulationExemption": "NoneType:None",
+          "restrictionConditions": "NoneType:None",
+          "type": "str:REQ_AUTHORIZATION",
+          "uom": "str:ft",
+          "upper": "float:400.0",
+          "upperReference": "str:AMSL",
+          "variant": "str:COMMON",
+          "zoneAuthority": "list:[{'purpose': 'AUTHORIZATION', 'name': 'A"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/pt-zones.geojson": {
+      "iso": "PT",
+      "label": "pt-zones",
+      "fingerprint": {
+        "feature_count": 329,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "ed269_restriction",
+          "identifier",
+          "message",
+          "name",
+          "uom",
+          "upperLimit"
+        ],
+        "sample": {
+          "_zoneType": "str:P",
+          "authority": "str:ANAC - Autoridade Nacional da Aviação Ci",
+          "dataSource": "str:anac-pt",
+          "ed269_restriction": "str:PROHIBITED",
+          "identifier": "str:1001UA",
+          "message": "str:PT-Categoria aberta: todos os voos proib",
+          "name": "str:Heliporto hospitalar de Abrantes",
+          "uom": "str:M",
+          "upperLimit": "int:120"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/is-zones.geojson": {
+      "iso": "IS",
+      "label": "is-zones",
+      "fingerprint": {
+        "feature_count": 271,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "identifier",
+          "message",
+          "name"
+        ],
+        "sample": {
+          "_zoneType": "str:RSTA",
+          "authority": "str:Lögreglan á höfuðborgarsvæðinu",
+          "dataSource": "str:samgongustofa-is",
+          "identifier": "str:NFZ-1",
+          "message": "str:Dróna­bann — leyfi þarf frá Lögreglan á ",
+          "name": "str:NFZ-1"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ee-zones.geojson": {
+      "iso": "EE",
+      "label": "ee-zones",
+      "fingerprint": {
+        "feature_count": 217,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "ed269_restriction",
+          "identifier",
+          "lowerLimit",
+          "message",
+          "name",
+          "upperLimit"
+        ],
+        "sample": {
+          "_zoneType": "str:CTR",
+          "authority": "str:EANS",
+          "dataSource": "str:eans-ee",
+          "ed269_restriction": "str:REQ_AUTHORISATION",
+          "identifier": "str:EEGZ24S",
+          "lowerLimit": "int:51",
+          "message": "str:Operations higher than 50 metres (165 fe",
+          "name": "str:EEGZ24",
+          "upperLimit": "int:120"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/at-zones.geojson": {
+      "iso": "AT",
+      "label": "at-zones",
+      "fingerprint": {
+        "feature_count": 238,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "ed269_restriction",
+          "identifier",
+          "message",
+          "name",
+          "uom",
+          "upperLimit"
+        ],
+        "sample": {
+          "_zoneType": "str:CTR",
+          "authority": "str:Austro Control GmbH - Drone Competence C",
+          "dataSource": "str:austrocontrol-at",
+          "ed269_restriction": "str:REQ_AUTHORISATION",
+          "identifier": "str:acg_1",
+          "message": "str:Flugplatz Ottenschlag (LOAA): Bescheidpf",
+          "name": "str:LOAA",
+          "uom": "str:M",
+          "upperLimit": "int:99999"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/dk-primary.geojson": {
+      "iso": "DK",
+      "label": "dk-primary",
+      "fingerprint": {
+        "feature_count": 843,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "Aktiv",
+          "AnsoegningsLink",
+          "Buffer_Zone",
+          "Bufferzone",
+          "CenterPoint_Latitude",
+          "CenterPoint_Longitude",
+          "Elevation_fod",
+          "Elevation_meter",
+          "Enhed",
+          "Farve",
+          "ICAO",
+          "InfoLink",
+          "InfoTekst",
+          "Installationer",
+          "Lovkrav",
+          "MaxFlyveHoejde",
+          "NOTAMS_url",
+          "OBJECTID",
+          "Paragraf",
+          "Shape__Area",
+          "Shape__Length",
+          "Type",
+          "Version",
+          "_zoneType",
+          "bufferZoneM",
+          "datoTidSLUT",
+          "datoTidSTART",
+          "deaktiveretDato",
+          "kontaktMail",
+          "lowerLimit",
+          "lowerRef",
+          "name",
+          "title",
+          "typeId",
+          "undtagelsesText",
+          "uom",
+          "upperLimit",
+          "upperRef",
+          "zoneKategori"
+        ],
+        "sample": {
+          "Aktiv": "str:JA",
+          "AnsoegningsLink": "str:https://virk.dk/myndigheder/stat/TS/selv",
+          "Buffer_Zone": "str:1",
+          "Bufferzone": "int:1",
+          "CenterPoint_Latitude": "float:57.047032750539756",
+          "CenterPoint_Longitude": "float:9.859075808385724",
+          "Elevation_fod": "int:6",
+          "Elevation_meter": "float:1.8",
+          "Enhed": "str:1",
+          "Farve": "str:1",
+          "ICAO": "str:EKAL",
+          "InfoLink": "str:https://www.droneregler.dk/dronezoner/an",
+          "InfoTekst": "NoneType:None",
+          "Installationer": "NoneType:None",
+          "Lovkrav": "int:1",
+          "NOTAMS_url": "str:https://briefing.naviair.dk/app/map?lat=",
+          "OBJECTID": "int:587",
+          "Paragraf": "int:10",
+          "Shape__Area": "float:3127592.6298828125",
+          "Shape__Length": "float:6275.0260444575715",
+          "Type": "str:3",
+          "Version": "int:2025",
+          "_zoneType": "str:ROD_FLYG_DK",
+          "bufferZoneM": "int:1",
+          "datoTidSLUT": "NoneType:None",
+          "datoTidSTART": "NoneType:None",
+          "deaktiveretDato": "NoneType:None",
+          "kontaktMail": "NoneType:None",
+          "lowerLimit": "str:0",
+          "lowerRef": "str:AGL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/dk-natur.geojson": {
+      "iso": "DK",
+      "label": "dk-natur",
+      "fingerprint": {
+        "feature_count": 140,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "Aktiv",
+          "Fnr",
+          "Fuglebeskyttelsesområder_og_Hab",
+          "InPoly_FID",
+          "MaxSimpTol",
+          "MinSimpTol",
+          "OBJECTID",
+          "Restriktionsperiode_",
+          "Shape__Area",
+          "Shape__Length",
+          "SimPgnFlag",
+          "Temanavn",
+          "URL",
+          "_zoneType",
+          "authority",
+          "conditions",
+          "identifier",
+          "name",
+          "sourceUrl",
+          "theme",
+          "Årsag__"
+        ],
+        "sample": {
+          "Aktiv": "str:JA",
+          "Fnr": "str:F29",
+          "Fuglebeskyttelsesområder_og_Hab": "str:Flyndersø og Skalle Sø",
+          "InPoly_FID": "int:1",
+          "MaxSimpTol": "int:50",
+          "MinSimpTol": "int:50",
+          "OBJECTID": "int:1",
+          "Restriktionsperiode_": "str:1. februar – 31. oktober",
+          "Shape__Area": "float:8345701.2763671875",
+          "Shape__Length": "float:35734.52742976416",
+          "SimPgnFlag": "int:0",
+          "Temanavn": "str:NATURA 2000 - Fuglebeskyttelse",
+          "URL": "str:https://mst.dk/erhverv/rig-natur/naturin",
+          "_zoneType": "str:GRON_NATUR",
+          "authority": "str:Miljøstyrelsen",
+          "conditions": "str:Restriktionsperiode: 1. februar – 31. ok",
+          "identifier": "str:F29",
+          "name": "str:Flyndersø og Skalle Sø",
+          "sourceUrl": "str:https://mst.dk/erhverv/rig-natur/naturin",
+          "theme": "str:NATURA 2000 - Fuglebeskyttelse",
+          "Årsag__": "str:Ynglende rovfugle + andre ynglefugle + t"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/ro-zones.geojson": {
+      "iso": "RO",
+      "label": "ro-zones",
+      "fingerprint": {
+        "feature_count": 1272,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "identifier",
+          "lowerLimit",
+          "message",
+          "name",
+          "upperLimit"
+        ],
+        "sample": {
+          "_zoneType": "str:RSTA",
+          "authority": "str:ROMATSA",
+          "dataSource": "str:romatsa-ro",
+          "identifier": "str:RZ 1001",
+          "lowerLimit": "str:GND",
+          "message": "str:Restricționat GND–120M AGL. Contact: ROM",
+          "name": "str:RZ 1001",
+          "upperLimit": "str:120M AGL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/es-parques.geojson": {
+      "iso": "ES",
+      "label": "es-parques",
+      "fingerprint": {
+        "feature_count": 27,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "Ampliación",
+          "Declaración",
+          "Fecha Declaración",
+          "Informe Socioeconómico 1991-2013",
+          "Informe Socioeconómico 2014-2016",
+          "Informe Socioeconómico 2017-2019",
+          "Informe Socioeconómico 2020-2022",
+          "Nombre",
+          "Nombre Parque",
+          "Nombre de la ZPP",
+          "Reclasificación",
+          "Recononimientos internacionales",
+          "Superficie oficial (ha)",
+          "Superficie oficial ZPP (ha)",
+          "Tipo Centro",
+          "Web",
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "declaration_date",
+          "legal_reference",
+          "name",
+          "protection_level"
+        ],
+        "sample": {
+          "Ampliación": "NoneType:None",
+          "Declaración": "str:Ley 1/2007, de 2 de marzo",
+          "Fecha Declaración": "str:02/03/2007",
+          "Informe Socioeconómico 1991-2013": "str:https://www.miteco.gob.es/content/dam/mi",
+          "Informe Socioeconómico 2014-2016": "str:https://www.miteco.gob.es/content/dam/mi",
+          "Informe Socioeconómico 2017-2019": "str:https://www.miteco.gob.es/content/dam/mi",
+          "Informe Socioeconómico 2020-2022": "str:https://www.miteco.gob.es/content/dam/mi",
+          "Nombre": "str:Parque Nacional de Monfragüe",
+          "Reclasificación": "NoneType:None",
+          "Recononimientos internacionales": "str:Destino Turístico Starlight.",
+          "Superficie oficial (ha)": "str:18.396,00",
+          "Tipo Centro": "str:Parque Nacional",
+          "Web": "str:https://www.miteco.gob.es/es/red-parques",
+          "_zoneType": "str:PARQUE_NACIONAL_ES",
+          "authority": "str:OAPN — Organismo Autónomo Parques Nacion",
+          "dataSource": "str:oapn",
+          "declaration_date": "str:02/03/2007",
+          "legal_reference": "str:Ley 1/2007, de 2 de marzo",
+          "name": "str:Parque Nacional de Monfragüe (parque)",
+          "protection_level": "str:parque"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/fr-drones.geojson": {
+      "iso": "FR",
+      "label": "fr-drones",
+      "fingerprint": {
+        "feature_count": 448,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "dataSource",
+          "maxAltitudeM"
+        ],
+        "sample": {
+          "_zoneType": "str:FR_FORBIDDEN",
+          "authority": "str:DGAC / IGN Géoportail",
+          "dataSource": "str:ign-geopf",
+          "maxAltitudeM": "int:0"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/fr-zicad.geojson": {
+      "iso": "FR",
+      "label": "zicad",
+      "fingerprint": {
+        "feature_count": 511,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "area",
+          "authority",
+          "commune",
+          "dataSource",
+          "dateEffet",
+          "ministere",
+          "name"
+        ],
+        "sample": {
+          "_zoneType": "str:ZICAD_FR",
+          "area": "str:018-006",
+          "authority": "str:DGAC / IGN (arrêté ZICAD)",
+          "commune": "str:SAINT-DOULCHARD",
+          "dataSource": "str:ign-geopf",
+          "dateEffet": "str:26-06-2024",
+          "ministere": "str:MINISTERE DE L'ECONOMIE ET DES FINANCES",
+          "name": "str:URG (usine) — SAINT-DOULCHARD"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/fr-parcs.geojson": {
+      "iso": "FR",
+      "label": "fr-parcs",
+      "fingerprint": {
+        "feature_count": 34,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "ACTE_DEB",
+          "ACTE_FIN",
+          "DATE_CREA",
+          "GEST_SITE",
+          "ID_LOCAL",
+          "ID_MNHN",
+          "ID_PN",
+          "MODIF_ADM",
+          "MODIF_GEO",
+          "NOM_SITE",
+          "PRECISION",
+          "SRC_ANNEE",
+          "SRC_GEOM",
+          "SURF_OFF",
+          "URL_FICHE",
+          "_zoneType",
+          "arr_pref",
+          "authority",
+          "charte",
+          "code_r_enp",
+          "dataSource",
+          "date_creation",
+          "decret",
+          "fid",
+          "gest_site",
+          "id_local",
+          "modif",
+          "modif_adm",
+          "modif_geo",
+          "name",
+          "nom_site",
+          "precision",
+          "protection_level",
+          "src_annee",
+          "src_geom",
+          "surf_ha"
+        ],
+        "sample": {
+          "_zoneType": "str:PARC_NATIONAL_FR",
+          "arr_pref": "str:-",
+          "authority": "str:Parcs nationaux de France / INPN",
+          "charte": "str:Décret n° 2012-1541 du 28 décembre 2012",
+          "code_r_enp": "str:CTPN",
+          "dataSource": "str:inpn",
+          "date_creation": "str:1979-08-18",
+          "decret": "str:Décret n°79-696 du 18 août 1979 créant l",
+          "fid": "int:7",
+          "gest_site": "str:Parc national du Mercantour",
+          "id_local": "str:CT_PNM",
+          "modif": "str:Décret n° 2009-486 du 29 avril 2009",
+          "modif_adm": "str:2019-01-01",
+          "modif_geo": "str:2026-01-12",
+          "name": "str:Parc national du Mercantour CT (coeur te",
+          "nom_site": "str:Parc national du Mercantour CT (coeur te",
+          "precision": "str:NE",
+          "protection_level": "str:cœur",
+          "src_annee": "str:2012",
+          "src_geom": "str:Coeur : BD TOPO ou Scan 25",
+          "surf_ha": "float:67900.7"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/fi-primary.geojson": {
+      "iso": "FI",
+      "label": "fi-primary",
+      "fingerprint": {
+        "feature_count": 720,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "authority_url",
+          "country",
+          "ed269_applicability",
+          "ed269_reason",
+          "ed269_restriction",
+          "identifier",
+          "lowerLimit",
+          "lowerRef",
+          "name",
+          "uom",
+          "upperLimit",
+          "upperRef"
+        ],
+        "sample": {
+          "_zoneType": "str:CTR_FI",
+          "authority": "str:Traficom",
+          "authority_url": "str:https://www.droneinfo.fi/fi/uas-ilmatila",
+          "country": "str:FIN",
+          "ed269_applicability": "list:[{'permanent': 'YES', 'startDateTime': '",
+          "ed269_reason": "str:AIR_TRAFFIC",
+          "ed269_restriction": "str:REQ_AUTHORISATION",
+          "identifier": "str:EFAAUAS",
+          "lowerLimit": "str:0",
+          "lowerRef": "str:AGL",
+          "name": "str:UAS-ilmatilavyöhyke Aavahelukka",
+          "uom": "str:M",
+          "upperLimit": "NoneType:None",
+          "upperRef": "str:AGL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/fi-natur.geojson": {
+      "iso": "FI",
+      "label": "fi-natur",
+      "fingerprint": {
+        "feature_count": 2099,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "aluetyyppi",
+          "authority",
+          "authority_url",
+          "country",
+          "decisionDate",
+          "hectares",
+          "identifier",
+          "lowerLimit",
+          "lowerRef",
+          "name",
+          "nameSwedish",
+          "seasonEnd",
+          "seasonStart",
+          "sourceType",
+          "uom",
+          "upperLimit",
+          "upperRef"
+        ],
+        "sample": {
+          "_zoneType": "str:GRON_NATUR_FI",
+          "aluetyyppi": "str:SAC",
+          "authority": "str:Syke",
+          "authority_url": "str:https://www.syke.fi/",
+          "country": "str:FIN",
+          "decisionDate": "str:2015-03-27T00:00:00Z",
+          "hectares": "str:282",
+          "identifier": "str:FI0100001",
+          "lowerLimit": "str:0",
+          "lowerRef": "str:AGL",
+          "name": "str:Bölsviken-Stormossen",
+          "nameSwedish": "str:Bölsviken-Stormossen",
+          "seasonEnd": "str:08-31",
+          "seasonStart": "str:03-15",
+          "sourceType": "str:SAC",
+          "uom": "str:M",
+          "upperLimit": "str:120",
+          "upperRef": "str:AGL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/fi-efr-static.geojson": {
+      "iso": "FI",
+      "label": "fi-efr-static",
+      "fingerprint": {
+        "feature_count": 129,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "authority",
+          "authority_url",
+          "country",
+          "identifier",
+          "lowerLimit",
+          "lowerRef",
+          "name",
+          "source",
+          "uom",
+          "upperLimit",
+          "upperRef"
+        ],
+        "sample": {
+          "_zoneType": "str:EFP_FI",
+          "authority": "str:AIS Finland (Fintraffic ANS)",
+          "authority_url": "str:https://www.ais.fi/",
+          "country": "str:FIN",
+          "identifier": "str:EFP10",
+          "lowerLimit": "str:0",
+          "lowerRef": "str:AGL",
+          "name": "str:LOVIISA",
+          "source": "str:EF-ENR 5.1",
+          "uom": "str:M",
+          "upperLimit": "str:999",
+          "upperRef": "str:FL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/no-nve-infra.geojson": {
+      "iso": "NO",
+      "label": "no-nve-infra",
+      "fingerprint": {
+        "feature_count": 36,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "ESRI_OID",
+          "Effekt_MW",
+          "Forventet_produksjon_GWh",
+          "GDB_ARCHIVE_OID",
+          "GDB_FROM_DATE",
+          "GDB_TO_DATE",
+          "GlobalID",
+          "Kategori",
+          "Lokalisering",
+          "OBJECTID",
+          "SaksKategoriId",
+          "SaksTittel",
+          "Tiltakshaver",
+          "anleggsNr",
+          "brukersattKonsesjonStatus",
+          "brukersattKonsesjonStatusDato",
+          "datafangstdato",
+          "malemetode",
+          "noyaktighet",
+          "objektType",
+          "saksid",
+          "sakslenke",
+          "stadiumTekst"
+        ],
+        "sample": {
+          "ESRI_OID": "int:1",
+          "Effekt_MW": "float:159.1",
+          "Forventet_produksjon_GWh": "float:540.94",
+          "GDB_ARCHIVE_OID": "int:23",
+          "GDB_FROM_DATE": "int:1552563080000",
+          "GDB_TO_DATE": "int:253402300799000",
+          "GlobalID": "str:2516a76fb66be15083d2894d14c6210c",
+          "Kategori": "str:Konsesjon gitt",
+          "Lokalisering": "str:1114",
+          "OBJECTID": "int:23",
+          "SaksKategoriId": "int:2",
+          "SaksTittel": "str:Bjerkreim vindkraftverk ",
+          "Tiltakshaver": "str:BJERKREIM VIND AS",
+          "anleggsNr": "int:9726",
+          "brukersattKonsesjonStatus": "int:9",
+          "brukersattKonsesjonStatusDato": "int:1481846400000",
+          "datafangstdato": "int:1473897600000",
+          "malemetode": "int:82",
+          "noyaktighet": "int:1500",
+          "objektType": "str:Vindkraftpark",
+          "saksid": "int:32",
+          "sakslenke": "str:https://www.nve.no/konsesjon/konsesjonss",
+          "stadiumTekst": "str:Annet vedtak"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us.geojson": {
+      "iso": "US",
+      "label": "primär",
+      "fingerprint": {
+        "feature_count": 7152,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "lowerLimit",
+          "name",
+          "remark",
+          "siteUrl",
+          "type",
+          "upperLimit"
+        ],
+        "sample": {
+          "authority": "str:FAA Air Traffic Organization",
+          "conditions": "str:LAANC authorization required for flights",
+          "dataSource": "str:FAA UASFM (dissolved)",
+          "identifier": "str:FAA-UASFM-DISSOLVED:UASFM_NOFLY:0",
+          "licenseId": "str:Public domain (US Gov work)",
+          "lowerLimit": "str:GND",
+          "name": "str:No-fly zone (LAANC required)",
+          "remark": "str:Tap a marker on this zone to see airport",
+          "siteUrl": "str:https://www.faa.gov/uas/commercial_opera",
+          "type": "str:UASFM_NOFLY",
+          "upperLimit": "str:0 ft (no-fly without LAANC)"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us-nps.geojson": {
+      "iso": "US",
+      "label": "nps",
+      "fingerprint": {
+        "feature_count": 418,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "lowerLimit",
+          "name",
+          "remark",
+          "siteUrl",
+          "type",
+          "upperLimit"
+        ],
+        "sample": {
+          "authority": "str:National Park Service",
+          "conditions": "str:Violations may result in citations, fine",
+          "dataSource": "str:NPS Park Boundaries",
+          "identifier": "str:NPS:AMME",
+          "licenseId": "str:Public domain (US Gov work)",
+          "lowerLimit": "str:GND",
+          "name": "str:American Memorial Park (Park) — MP",
+          "remark": "str:Drone flying prohibited under 36 CFR §2.",
+          "siteUrl": "str:https://www.nps.gov/aboutus/news/release",
+          "type": "str:NPS_PARK",
+          "upperLimit": "str:UNL (entire airspace)"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us-classes.geojson": {
+      "iso": "US",
+      "label": "classes",
+      "fingerprint": {
+        "feature_count": 1796,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "lowerLimit",
+          "name",
+          "remark",
+          "siteUrl",
+          "type",
+          "upperLimit"
+        ],
+        "sample": {
+          "authority": "str:FAA Air Traffic Organization",
+          "conditions": "str:See UASFM grid for drone-specific altitu",
+          "dataSource": "str:FAA Class_Airspace",
+          "identifier": "str:FAA-CLASS_B:KBOS",
+          "licenseId": "str:Public domain (US Gov work)",
+          "lowerLimit": "str:GND",
+          "name": "str:BOSTON CLASS B",
+          "remark": "str:Class B controlled airspace. Drone opera",
+          "siteUrl": "str:https://www.faa.gov/air_traffic/publicat",
+          "type": "str:CLASS_B",
+          "upperLimit": "str:7,000 ft MSL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us-sua.geojson": {
+      "iso": "US",
+      "label": "sua",
+      "fingerprint": {
+        "feature_count": 1494,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "lowerLimit",
+          "name",
+          "remark",
+          "siteUrl",
+          "type",
+          "upperLimit"
+        ],
+        "sample": {
+          "authority": "str:FAA Air Traffic Organization",
+          "conditions": "str:Prohibited Area — flight prohibited at a",
+          "dataSource": "str:FAA Special_Use_Airspace",
+          "identifier": "str:FAA-SUA_PROHIBITED:P-204",
+          "licenseId": "str:Public domain (US Gov work)",
+          "lowerLimit": "str:GND",
+          "name": "str:P-204 (MN)",
+          "remark": "str:P-204 · SUPERIOR ROADLESS AREA, SUPERIOR",
+          "siteUrl": "str:https://www.faa.gov/air_traffic/publicat",
+          "type": "str:SUA_PROHIBITED",
+          "upperLimit": "str:4,000 ft MSL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us-heliports.geojson": {
+      "iso": "US",
+      "label": "heliports",
+      "fingerprint": {
+        "feature_count": 1647,
+        "geometry_types": [
+          "Point"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "name",
+          "remark",
+          "siteUrl",
+          "type"
+        ],
+        "sample": {
+          "authority": "str:FAA Air Traffic Organization",
+          "conditions": "str:FAA does NOT mandate a specific buffer d",
+          "dataSource": "str:FAA US_Airport (HP)",
+          "identifier": "str:FAA-HELIPORT:AK38",
+          "licenseId": "str:Public domain (US Gov work)",
+          "name": "str:Providence Hospital (ANCHORAGE, AK)",
+          "remark": "str:Hospital helipad · FAA ID: AK38 · Privat",
+          "siteUrl": "str:https://www.faa.gov/airports/airport_saf",
+          "type": "str:HELIPORT_HOSPITAL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us-dc-sfra.geojson": {
+      "iso": "US",
+      "label": "dc-sfra",
+      "fingerprint": {
+        "feature_count": 1,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "lowerLimit",
+          "name",
+          "remark",
+          "siteUrl",
+          "type",
+          "upperLimit"
+        ],
+        "sample": {
+          "authority": "str:FAA / TSA",
+          "conditions": "str:Drone flight is effectively PROHIBITED t",
+          "dataSource": "str:FAA DC SFRA (14 CFR 93 Subpart V, geomet",
+          "identifier": "str:FAA-SFRA_DC:washington-dc-sfra",
+          "licenseId": "str:Public domain (US Gov work)",
+          "lowerLimit": "str:GND",
+          "name": "str:Washington DC Special Flight Rules Area ",
+          "remark": "str:14 CFR 93 Subpart V — 30 NM radius from ",
+          "siteUrl": "str:https://www.faa.gov/uas/resources/commun",
+          "type": "str:SFRA_DC",
+          "upperLimit": "str:18,000 ft MSL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us-nsufr.geojson": {
+      "iso": "US",
+      "label": "nsufr",
+      "fingerprint": {
+        "feature_count": 5,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "lowerLimit",
+          "name",
+          "remark",
+          "siteUrl",
+          "type",
+          "upperLimit"
+        ],
+        "sample": {
+          "authority": "str:USA",
+          "conditions": "str:National Security UAS Flight Restriction",
+          "dataSource": "str:FAA Part_Time_National_Security_UAS_Flig",
+          "identifier": "str:FAA-NSUFR_US:Military Ocean Terminal Con",
+          "licenseId": "str:Public domain (US Gov work)",
+          "lowerLimit": "str:Surface",
+          "name": "str:Military Ocean Terminal Concord (CA)",
+          "remark": "str:Military Ocean Terminal Concord · Milita",
+          "siteUrl": "str:https://www.faa.gov/uas/getting_started/",
+          "type": "str:NSUFR_US",
+          "upperLimit": "str:400' AGL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us-wildlife-refuges.geojson": {
+      "iso": "US",
+      "label": "wildlife-refuges",
+      "fingerprint": {
+        "feature_count": 1094,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "lowerLimit",
+          "name",
+          "remark",
+          "siteUrl",
+          "type"
+        ],
+        "sample": {
+          "authority": "str:U.S. Fish & Wildlife Service (USFWS)",
+          "conditions": "str:U.S. Fish & Wildlife Service National Wi",
+          "dataSource": "str:USFWS National Wildlife Refuge System Bo",
+          "identifier": "str:USFWS-USFWS_REFUGE:YUKON DELTA NATIONAL ",
+          "licenseId": "str:Public domain (US Gov work)",
+          "lowerLimit": "str:GND",
+          "name": "str:YUKON DELTA NATIONAL WILDLIFE REFUGE",
+          "remark": "str:YUKON DELTA NATIONAL WILDLIFE REFUGE",
+          "siteUrl": "str:https://www.fws.gov/program/national-wil",
+          "type": "str:USFWS_REFUGE"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us-fria.geojson": {
+      "iso": "US",
+      "label": "fria",
+      "fingerprint": {
+        "feature_count": 2671,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "lowerLimit",
+          "name",
+          "remark",
+          "siteUrl",
+          "type",
+          "upperLimit"
+        ],
+        "sample": {
+          "authority": "str:FAA (FRIA program)",
+          "conditions": "str:FAA-Recognized Identification Area (FRIA",
+          "dataSource": "str:FAA FAA_Recognized_Identification_Areas",
+          "identifier": "str:FAA-FRIA_US:2023-CBO-00190-FRIA",
+          "licenseId": "str:Public domain (US Gov work)",
+          "lowerLimit": "str:GND",
+          "name": "str:South Carroll Aeromodelers #1588 - 4th S",
+          "remark": "str:South Carroll Aeromodelers #1588 - 4th S",
+          "siteUrl": "str:https://www.faa.gov/uas/getting_started/",
+          "type": "str:FRIA_US",
+          "upperLimit": "str:400 ft AGL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    },
+    "https://pappilappi.com/airspace/us-rec-sites.geojson": {
+      "iso": "US",
+      "label": "rec-sites",
+      "fingerprint": {
+        "feature_count": 2172,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "authority",
+          "conditions",
+          "dataSource",
+          "identifier",
+          "licenseId",
+          "lowerLimit",
+          "name",
+          "remark",
+          "siteUrl",
+          "type",
+          "upperLimit"
+        ],
+        "sample": {
+          "authority": "str:FAA (Recreational Fixed Sites / CBO)",
+          "conditions": "str:FAA-approved recreational flying fixed s",
+          "dataSource": "str:FAA Recreational_Flyer_Fixed_Sites",
+          "identifier": "str:FAA-REC_FIXED_SITE_US:Arizona Model Pilo",
+          "licenseId": "str:Public domain (US Gov work)",
+          "lowerLimit": "str:GND",
+          "name": "str:Arizona Model Pilots Society Amps 2",
+          "remark": "str:Arizona Model Pilots Society Amps 2 · Gl",
+          "siteUrl": "str:https://www.faa.gov/uas/recreational_fly",
+          "type": "str:REC_FIXED_SITE_US",
+          "upperLimit": "str:200 ft AGL"
+        }
+      },
+      "first_seen": "2026-07-02T04:59:52.687175+00:00",
+      "updated": "2026-07-02T04:59:52.687175+00:00"
+    }
+  },
+  "history": []
+}
