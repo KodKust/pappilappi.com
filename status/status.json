@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-04T18:35:49.049382+00:00",
+  "generated": "2026-07-05T01:24:16.283242+00:00",
   "summary": {
     "fail": 0,
-    "warn": 3,
-    "ok": 151,
-    "total_checks": 183,
+    "warn": 11,
+    "ok": 257,
+    "total_checks": 300,
     "countries_total": 19,
     "countries_ok": 18
   },
@@ -18,14 +18,14 @@
         {
           "name": "Feed: lu-zones",
           "status": "ok",
-          "detail": "2h sen, 54 kB",
-          "last_modified": "2026-07-04T15:47:43+00:00",
+          "detail": "1h sen, 54 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 23d sedan",
+          "detail": "regler verifierade 24d sedan",
           "last_modified": null,
           "url": null
         },
@@ -68,21 +68,21 @@
         {
           "name": "Feed: si-zones",
           "status": "ok",
-          "detail": "2h sen, 65 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 65 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/si-zones.geojson?cb=20260611a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 23d sedan",
+          "detail": "regler verifierade 24d sedan",
           "last_modified": null,
           "url": null
         },
         {
           "name": "Länk: CAA Slovenia — Predpisi o dronih",
           "status": "ok",
-          "detail": "202 OK",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.caa.si/brezpilotni-zrakoplovi.html"
         },
@@ -96,7 +96,7 @@
         {
           "name": "Länk: CAA Slovenia — Karta zračnega prostora",
           "status": "ok",
-          "detail": "202 OK",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.caa.si/geografske-omejitve-za-uas.html"
         },
@@ -125,70 +125,70 @@
         {
           "name": "Feed: luftfahrthindernis",
           "status": "ok",
-          "detail": "2h sen, 8699 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 8699 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson?v=20260605c"
         },
         {
           "name": "Feed: ch-ctr",
           "status": "ok",
-          "detail": "2h sen, 47 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 47 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/ch-ctr.geojson"
         },
         {
           "name": "Feed: ch-tma",
           "status": "ok",
-          "detail": "2h sen, 151 kB",
-          "last_modified": "2026-07-04T15:47:43+00:00",
+          "detail": "1h sen, 151 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/ch-tma.geojson"
         },
         {
           "name": "Feed: ch-cta",
           "status": "ok",
-          "detail": "2h sen, 63 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 63 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/ch-cta.geojson"
         },
         {
           "name": "Feed: ch-uas-aktivitaetszonen",
           "status": "ok",
-          "detail": "2h sen, 210 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 210 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson"
         },
         {
           "name": "Feed: ch-jagdbanngebiete",
           "status": "ok",
-          "detail": "2h sen, 2223 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 2223 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson"
         },
         {
           "name": "Feed: ch-vogelreservate",
           "status": "ok",
-          "detail": "2h sen, 567 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 567 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/ch-vogelreservate.geojson"
         },
         {
           "name": "Feed: ch-sicherheitszonenplan",
           "status": "ok",
-          "detail": "2h sen, 513 kB",
-          "last_modified": "2026-07-04T15:47:43+00:00",
+          "detail": "1h sen, 513 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson"
         },
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "2h sen, 489 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 489 kB",
+          "last_modified": "2026-07-04T23:31:36+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 24d sedan",
+          "detail": "regler verifierade 25d sedan",
           "last_modified": null,
           "url": null
         },
@@ -231,14 +231,14 @@
         {
           "name": "Feed: sk-zones",
           "status": "ok",
-          "detail": "2h sen, 291 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 291 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/sk-zones.geojson?cb=20260611a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 23d sedan",
+          "detail": "regler verifierade 24d sedan",
           "last_modified": null,
           "url": null
         },
@@ -281,21 +281,21 @@
         {
           "name": "Feed: ienw-ed269",
           "status": "ok",
-          "detail": "2h sen, 1072 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 1072 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/nl-ed269.geojson?cb=20260603e"
         },
         {
           "name": "Feed: pdok-natura",
           "status": "ok",
-          "detail": "2h sen, 1889 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 1889 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/nl-pdok-natura.geojson?cb=20260603d"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 15d sedan",
+          "detail": "regler verifierade 16d sedan",
           "last_modified": null,
           "url": null
         },
@@ -338,7 +338,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 15d sedan",
+          "detail": "regler verifierade 16d sedan",
           "last_modified": null,
           "url": null
         },
@@ -381,14 +381,14 @@
         {
           "name": "Feed: pt-zones",
           "status": "ok",
-          "detail": "2h sen, 391 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 391 kB",
+          "last_modified": "2026-07-04T23:31:35+00:00",
           "url": "https://pappilappi.com/airspace/pt-zones.geojson?cb=20260611a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 23d sedan",
+          "detail": "regler verifierade 24d sedan",
           "last_modified": null,
           "url": null
         },
@@ -438,14 +438,14 @@
         {
           "name": "Feed: is-zones",
           "status": "ok",
-          "detail": "2h sen, 647 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 647 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/is-zones.geojson?cb=20260611a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 15d sedan",
+          "detail": "regler verifierade 16d sedan",
           "last_modified": null,
           "url": null
         },
@@ -488,14 +488,14 @@
         {
           "name": "Feed: ee-zones",
           "status": "ok",
-          "detail": "2h sen, 1239 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 1239 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 23d sedan",
+          "detail": "regler verifierade 24d sedan",
           "last_modified": null,
           "url": null
         },
@@ -538,14 +538,14 @@
         {
           "name": "Feed: at-zones",
           "status": "ok",
-          "detail": "2h sen, 474 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 474 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/at-zones.geojson?cb=20260611a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 23d sedan",
+          "detail": "regler verifierade 24d sedan",
           "last_modified": null,
           "url": null
         },
@@ -588,21 +588,21 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "2h sen, 2108 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 2108 kB",
+          "last_modified": "2026-07-04T23:31:36+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b"
         },
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "2h sen, 708 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 708 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 15d sedan",
+          "detail": "regler verifierade 16d sedan",
           "last_modified": null,
           "url": null
         },
@@ -645,14 +645,14 @@
         {
           "name": "Feed: ro-zones",
           "status": "ok",
-          "detail": "2h sen, 650 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 650 kB",
+          "last_modified": "2026-07-04T23:31:35+00:00",
           "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260611a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 15d sedan",
+          "detail": "regler verifierade 16d sedan",
           "last_modified": null,
           "url": null
         },
@@ -695,14 +695,14 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "2h sen, 47656 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 47656 kB",
+          "last_modified": "2026-07-04T23:31:36+00:00",
           "url": "https://pappilappi.com/airspace/de.geojson"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 15d sedan",
+          "detail": "regler verifierade 16d sedan",
           "last_modified": null,
           "url": null
         },
@@ -745,28 +745,28 @@
         {
           "name": "Feed: es-parques",
           "status": "ok",
-          "detail": "2h sen, 283 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 283 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/es-parques.geojson?cb=20260604a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 24d sedan",
+          "detail": "regler verifierade 25d sedan",
           "last_modified": null,
           "url": null
         },
         {
           "name": "Länk: AESA — Normativa de drones",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones"
         },
         {
           "name": "Länk: AESA — Registro como operador",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/registro-de-operador-de-drones-uas"
         },
@@ -779,8 +779,8 @@
         },
         {
           "name": "Länk: AESA — Examen de piloto en línea",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones"
         }
@@ -795,35 +795,35 @@
         {
           "name": "Feed: fr-drones",
           "status": "ok",
-          "detail": "2h sen, 15149 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 15149 kB",
+          "last_modified": "2026-07-04T23:31:36+00:00",
           "url": "https://pappilappi.com/airspace/fr-drones.geojson?cb=20260609a"
         },
         {
           "name": "Feed: zicad",
           "status": "ok",
-          "detail": "2h sen, 275 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 275 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/fr-zicad.geojson"
         },
         {
           "name": "Feed: fr-parcs",
           "status": "ok",
-          "detail": "2h sen, 723 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 723 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/fr-parcs.geojson?cb=20260604b"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 52d sedan — dags för audit",
+          "detail": "regler verifierade 53d sedan — dags för audit",
           "last_modified": null,
           "url": null
         },
         {
           "name": "Länk: DGAC — Réglementation des drones",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte"
         },
@@ -859,28 +859,28 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "2h sen, 643 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 643 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a"
         },
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "2h sen, 6919 kB",
-          "last_modified": "2026-07-04T15:47:43+00:00",
+          "detail": "1h sen, 6919 kB",
+          "last_modified": "2026-07-04T23:31:36+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260604a"
         },
         {
           "name": "Feed: fi-efr-static",
           "status": "ok",
-          "detail": "2h sen, 101 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 101 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/fi-efr-static.geojson?cb=20260605a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 29d sedan",
+          "detail": "regler verifierade 30d sedan",
           "last_modified": null,
           "url": null
         },
@@ -930,7 +930,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 24d sedan",
+          "detail": "regler verifierade 25d sedan",
           "last_modified": null,
           "url": null
         },
@@ -973,21 +973,21 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "2h sen, 17857 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 17857 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/no.geojson?v=10"
         },
         {
           "name": "Feed: no-nve-infra",
           "status": "ok",
-          "detail": "2h sen, 571 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 571 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/no-nve-infra.geojson?cb=20260604a"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 28d sedan",
+          "detail": "regler verifierade 29d sedan",
           "last_modified": null,
           "url": null
         },
@@ -1030,84 +1030,84 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "2h sen, 11245 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 11245 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/us.geojson"
         },
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "2h sen, 627 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 619 kB",
+          "last_modified": "2026-07-04T23:31:36+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson"
         },
         {
           "name": "Feed: nps",
           "status": "ok",
-          "detail": "2h sen, 1907 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 1907 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/us-nps.geojson"
         },
         {
           "name": "Feed: classes",
           "status": "ok",
-          "detail": "2h sen, 2250 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 2250 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/us-classes.geojson"
         },
         {
           "name": "Feed: sua",
           "status": "ok",
-          "detail": "2h sen, 1688 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 1688 kB",
+          "last_modified": "2026-07-04T23:31:36+00:00",
           "url": "https://pappilappi.com/airspace/us-sua.geojson"
         },
         {
           "name": "Feed: heliports",
           "status": "ok",
-          "detail": "2h sen, 1593 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 1593 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/us-heliports.geojson"
         },
         {
           "name": "Feed: dc-sfra",
           "status": "ok",
-          "detail": "2h sen, 3 kB",
-          "last_modified": "2026-07-04T15:47:44+00:00",
+          "detail": "1h sen, 3 kB",
+          "last_modified": "2026-07-04T23:31:34+00:00",
           "url": "https://pappilappi.com/airspace/us-dc-sfra.geojson"
         },
         {
           "name": "Feed: nsufr",
           "status": "ok",
-          "detail": "2h sen, 8 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 8 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/us-nsufr.geojson"
         },
         {
           "name": "Feed: wildlife-refuges",
           "status": "ok",
-          "detail": "2h sen, 13327 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 13327 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/us-wildlife-refuges.geojson"
         },
         {
           "name": "Feed: fria",
           "status": "ok",
-          "detail": "2h sen, 2439 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 2439 kB",
+          "last_modified": "2026-07-04T23:31:36+00:00",
           "url": "https://pappilappi.com/airspace/us-fria.geojson"
         },
         {
           "name": "Feed: rec-sites",
           "status": "ok",
-          "detail": "2h sen, 2295 kB",
-          "last_modified": "2026-07-04T15:47:41+00:00",
+          "detail": "1h sen, 2295 kB",
+          "last_modified": "2026-07-04T23:31:37+00:00",
           "url": "https://pappilappi.com/airspace/us-rec-sites.geojson"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 15d sedan",
+          "detail": "regler verifierade 16d sedan",
           "last_modified": null,
           "url": null
         },
@@ -1198,7 +1198,7 @@
         {
           "name": "AIRAC-cykel",
           "status": "warn",
-          "detail": "AIRAC 3-2026+1 — skifte om 5d (eAIP/SUP-data kan ändras, kolla efter skiftet)",
+          "detail": "AIRAC 3-2026+1 — skifte om 4d (eAIP/SUP-data kan ändras, kolla efter skiftet)",
           "last_modified": null,
           "url": null
         }
@@ -1304,6 +1304,861 @@
           "url": null
         }
       ]
+    },
+    {
+      "title": "Deep content-validering",
+      "checks": [
+        {
+          "name": "AIP-SUP innehåll",
+          "status": "ok",
+          "detail": "69 SUPs, schema OK, 19 drönar (28%)",
+          "last_modified": null,
+          "url": null
+        },
+        {
+          "name": "Aerodromes innehåll",
+          "status": "ok",
+          "detail": "203 fält, alla med icao+lat+lon",
+          "last_modified": null,
+          "url": null
+        },
+        {
+          "name": "AIP-SUP scraper",
+          "status": "ok",
+          "detail": "scraper=69, gist=69 (Δ=0)",
+          "last_modified": null,
+          "url": null
+        },
+        {
+          "name": "AIP-SUP datum-sanity",
+          "status": "ok",
+          "detail": "alla 69 validFrom inom rimligt fönster",
+          "last_modified": null,
+          "url": null
+        },
+        {
+          "name": "Regulations-drift (sample)",
+          "status": "ok",
+          "detail": "3 länder — inga hash-ändringar",
+          "last_modified": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "title": "Schemavakt (GeoJSON-struktur)",
+      "checks": [
+        {
+          "name": "🇱🇺 LU · lu-zones",
+          "status": "ok",
+          "detail": "48 features, 9 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a"
+        },
+        {
+          "name": "🇸🇮 SI · si-zones",
+          "status": "ok",
+          "detail": "70 features, 7 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/si-zones.geojson?cb=20260611a"
+        },
+        {
+          "name": "🇨🇭 CH · luftfahrthindernis",
+          "status": "ok",
+          "detail": "14336 features, 16 fält, LineString, Point — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson?v=20260605c"
+        },
+        {
+          "name": "🇨🇭 CH · ch-ctr",
+          "status": "ok",
+          "detail": "18 features, 12 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ch-ctr.geojson"
+        },
+        {
+          "name": "🇨🇭 CH · ch-tma",
+          "status": "ok",
+          "detail": "90 features, 12 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ch-tma.geojson"
+        },
+        {
+          "name": "🇨🇭 CH · ch-cta",
+          "status": "ok",
+          "detail": "2 features, 12 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ch-cta.geojson"
+        },
+        {
+          "name": "🇨🇭 CH · ch-uas-aktivitaetszonen",
+          "status": "ok",
+          "detail": "73 features, 17 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson"
+        },
+        {
+          "name": "🇨🇭 CH · ch-jagdbanngebiete",
+          "status": "ok",
+          "detail": "114 features, 12 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson"
+        },
+        {
+          "name": "🇨🇭 CH · ch-vogelreservate",
+          "status": "ok",
+          "detail": "106 features, 16 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ch-vogelreservate.geojson"
+        },
+        {
+          "name": "🇨🇭 CH · ch-sicherheitszonenplan",
+          "status": "ok",
+          "detail": "51 features, 29 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson"
+        },
+        {
+          "name": "🇨🇭 CH · ch-schiessanzeigen",
+          "status": "ok",
+          "detail": "285 features, 9 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson"
+        },
+        {
+          "name": "🇸🇰 SK · sk-zones",
+          "status": "ok",
+          "detail": "100 features, 7 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/sk-zones.geojson?cb=20260611a"
+        },
+        {
+          "name": "🇳🇱 NL · ienw-ed269",
+          "status": "ok",
+          "detail": "743 features, 16 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/nl-ed269.geojson?cb=20260603e"
+        },
+        {
+          "name": "🇳🇱 NL · pdok-natura",
+          "status": "ok",
+          "detail": "209 features, 12 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/nl-pdok-natura.geojson?cb=20260603d"
+        },
+        {
+          "name": "🇮🇪 IE · primär",
+          "status": "ok",
+          "detail": "85 features, 17 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://gist.githubusercontent.com/KodKust/c52cf5d3ef3370a7d4c26d9c2b616506/raw/iaa_simplified.geojson"
+        },
+        {
+          "name": "🇵🇹 PT · pt-zones",
+          "status": "ok",
+          "detail": "329 features, 9 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/pt-zones.geojson?cb=20260611a"
+        },
+        {
+          "name": "🇮🇸 IS · is-zones",
+          "status": "ok",
+          "detail": "271 features, 6 fält, MultiPolygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/is-zones.geojson?cb=20260611a"
+        },
+        {
+          "name": "🇪🇪 EE · ee-zones",
+          "status": "ok",
+          "detail": "217 features, 9 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a"
+        },
+        {
+          "name": "🇦🇹 AT · at-zones",
+          "status": "ok",
+          "detail": "238 features, 9 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/at-zones.geojson?cb=20260611a"
+        },
+        {
+          "name": "🇩🇰 DK · dk-primary",
+          "status": "ok",
+          "detail": "843 features, 39 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b"
+        },
+        {
+          "name": "🇩🇰 DK · dk-natur",
+          "status": "ok",
+          "detail": "140 features, 21 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a"
+        },
+        {
+          "name": "🇷🇴 RO · ro-zones",
+          "status": "ok",
+          "detail": "1272 features, 8 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260611a"
+        },
+        {
+          "name": "🇩🇪 DE · primär",
+          "status": "info",
+          "detail": "hoppar — 47 MB > 15 MB-gräns",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/de.geojson"
+        },
+        {
+          "name": "🇪🇸 ES · es-parques",
+          "status": "ok",
+          "detail": "27 features, 23 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/es-parques.geojson?cb=20260604a"
+        },
+        {
+          "name": "🇫🇷 FR · fr-drones",
+          "status": "ok",
+          "detail": "448 features, 4 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/fr-drones.geojson?cb=20260609a"
+        },
+        {
+          "name": "🇫🇷 FR · zicad",
+          "status": "ok",
+          "detail": "511 features, 8 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/fr-zicad.geojson"
+        },
+        {
+          "name": "🇫🇷 FR · fr-parcs",
+          "status": "ok",
+          "detail": "34 features, 36 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/fr-parcs.geojson?cb=20260604b"
+        },
+        {
+          "name": "🇫🇮 FI · fi-primary",
+          "status": "ok",
+          "detail": "720 features, 14 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a"
+        },
+        {
+          "name": "🇫🇮 FI · fi-natur",
+          "status": "ok",
+          "detail": "2099 features, 18 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260604a"
+        },
+        {
+          "name": "🇫🇮 FI · fi-efr-static",
+          "status": "ok",
+          "detail": "123 features, 12 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/fi-efr-static.geojson?cb=20260605a"
+        },
+        {
+          "name": "🇳🇴 NO · primär",
+          "status": "info",
+          "detail": "hoppar — 17 MB > 15 MB-gräns",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/no.geojson?v=10"
+        },
+        {
+          "name": "🇳🇴 NO · no-nve-infra",
+          "status": "ok",
+          "detail": "36 features, 23 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/no-nve-infra.geojson?cb=20260604a"
+        },
+        {
+          "name": "🇺🇸 US · primär",
+          "status": "ok",
+          "detail": "7152 features, 11 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us.geojson"
+        },
+        {
+          "name": "🇺🇸 US · nps",
+          "status": "ok",
+          "detail": "418 features, 11 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us-nps.geojson"
+        },
+        {
+          "name": "🇺🇸 US · classes",
+          "status": "ok",
+          "detail": "1796 features, 11 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us-classes.geojson"
+        },
+        {
+          "name": "🇺🇸 US · sua",
+          "status": "ok",
+          "detail": "1494 features, 11 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us-sua.geojson"
+        },
+        {
+          "name": "🇺🇸 US · heliports",
+          "status": "ok",
+          "detail": "1647 features, 9 fält, Point — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us-heliports.geojson"
+        },
+        {
+          "name": "🇺🇸 US · dc-sfra",
+          "status": "ok",
+          "detail": "1 features, 11 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us-dc-sfra.geojson"
+        },
+        {
+          "name": "🇺🇸 US · nsufr",
+          "status": "ok",
+          "detail": "5 features, 11 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us-nsufr.geojson"
+        },
+        {
+          "name": "🇺🇸 US · wildlife-refuges",
+          "status": "ok",
+          "detail": "1094 features, 10 fält, MultiPolygon, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us-wildlife-refuges.geojson"
+        },
+        {
+          "name": "🇺🇸 US · fria",
+          "status": "ok",
+          "detail": "2671 features, 11 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us-fria.geojson"
+        },
+        {
+          "name": "🇺🇸 US · rec-sites",
+          "status": "ok",
+          "detail": "2172 features, 11 fält, Polygon — oförändrat schema",
+          "last_modified": null,
+          "url": "https://pappilappi.com/airspace/us-rec-sites.geojson"
+        }
+      ]
+    },
+    {
+      "title": "AI-granskning",
+      "checks": [
+        {
+          "name": "🇱🇺 LU · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Luxemburgs civilflygsmyndighet med drönarinnehåll: registrering, UAS-zoner, U-Space, uppdaterad 31.10.2025",
+          "last_modified": null,
+          "url": "https://dac.gouvernement.lu/en/drones.html"
+        },
+        {
+          "name": "🇱🇺 LU · DAC — Réglementation des drones",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller drönarregler från Direction de l'aviation civile, med UAS-zoner, registrering och kontakt-adresser.",
+          "last_modified": null,
+          "url": "https://dac.gouvernement.lu/fr/drones.html"
+        },
+        {
+          "name": "🇱🇺 LU · Geoportail.lu — Carte des drones",
+          "status": "warn",
+          "detail": "AI: misstänkt — Startsidan för Geoportail listar många kartor men ingen dröntkarta/UAS nämns; förväntad 'Carte des drones' saknas i texten",
+          "last_modified": null,
+          "url": "https://www.geoportail.lu"
+        },
+        {
+          "name": "🇸🇮 SI · datakälla",
+          "status": "info",
+          "detail": "kunde inte hämtas (HTTP 403 Forbidden) — ingen AI-bedömning",
+          "last_modified": null,
+          "url": "https://www.caa.si/geografske-omejitve-za-uas.html"
+        },
+        {
+          "name": "🇸🇮 SI · CAA Slovenia — Predpisi o dronih",
+          "status": "info",
+          "detail": "kunde inte hämtas (HTTP 403 Forbidden) — ingen AI-bedömning",
+          "last_modified": null,
+          "url": "https://www.caa.si/brezpilotni-zrakoplovi.html"
+        },
+        {
+          "name": "🇸🇮 SI · CAA Slovenia — Registracija operaterja",
+          "status": "ok",
+          "detail": "AI: ok — Slovensk UAS-portal för operatörsregistrering och pilotutbildning, matchar förväntat innehåll",
+          "last_modified": null,
+          "url": "https://uas.caa.si"
+        },
+        {
+          "name": "🇨🇭 CH · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — BAZL:s drönarsida med flygregler, registrering, U-Space och geografiska begränsningar – förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://www.bazl.admin.ch/drohnen"
+        },
+        {
+          "name": "🇨🇭 CH · FOCA — Als Betreiber registrieren",
+          "status": "ok",
+          "detail": "AI: ok — Fullständig BAZL-sida om registrering av drönaroperatörer med dLIS, UAS-nummer och EASA-regler.",
+          "last_modified": null,
+          "url": "https://www.bazl.admin.ch/de/registrierung-drohnenbetreiber"
+        },
+        {
+          "name": "🇨🇭 CH · Swiss Dronemap — Luftraumkarte",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller drönarkarta, flygrestriktioner, NFZ, DABS och EASA-regler enligt förväntat",
+          "last_modified": null,
+          "url": "https://www.swiss-dronemap.ch"
+        },
+        {
+          "name": "🇨🇭 CH · FOCA — Regelübersicht",
+          "status": "ok",
+          "detail": "AI: ok — Fullständig BAZL-sida med drönarflygregler (A1/A2/A3, VLOS, kategorier) på tyska.",
+          "last_modified": null,
+          "url": "https://www.bazl.admin.ch/de/flugregeln-drohnen"
+        },
+        {
+          "name": "🇸🇰 SK · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller drönarrelaterade rubriker (unmanned aviation, UAS operations, remote pilot) från officiell slovakisk luftfartsmyndighet",
+          "last_modified": null,
+          "url": "https://letectvo.nsat.sk/en/unmanned-aviation/news/"
+        },
+        {
+          "name": "🇸🇰 SK · Dopravný úrad — Predpisy pre drony",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller UAS-sektion: registrácia prevádzkovateľov, kategórie, skúšky pilotov na diaľku — förväntad dronregler-sida",
+          "last_modified": null,
+          "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/"
+        },
+        {
+          "name": "🇸🇰 SK · Dopravný úrad — Registrácia prevádzkovateľa",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller UAS-registrering och drönarsektion (bezpilotné letectvo, registrácia prevádzkovateľov uas) från slovakiska Dopravný úrad",
+          "last_modified": null,
+          "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/"
+        },
+        {
+          "name": "🇸🇰 SK · LPS — Mapa vzdušného priestoru",
+          "status": "ok",
+          "detail": "AI: ok — Slovakisk luftrumskarta (LPS) med AIP-notiser, TMA Bratislava och VFR-manual — förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://gis.lps.sk"
+        },
+        {
+          "name": "🇸🇰 SK · Dopravný úrad — Prehľad pravidiel",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller UAS/bezpilotné letectvo-navigation med podmienky vykonania letu, förväntad myndighetssida",
+          "last_modified": null,
+          "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/"
+        },
+        {
+          "name": "🇳🇱 NL · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Officiell nederländsk sida med drönarregler, kategorier, registrering och luftrumsinfo.",
+          "last_modified": null,
+          "url": "https://www.rijksoverheid.nl/onderwerpen/drone"
+        },
+        {
+          "name": "🇳🇱 NL · ILT — Droneregels",
+          "status": "ok",
+          "detail": "AI: ok — Fullständig ILT-sida med droneregler, riskkategorier och vergunningar på nederländska",
+          "last_modified": null,
+          "url": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen"
+        },
+        {
+          "name": "🇳🇱 NL · RDW — Registreren als exploitant",
+          "status": "ok",
+          "detail": "AI: ok — Sidan visar RDW:s droneinnehåll med exploitantnummer-registrering och vliegbewijs, precis som förväntat.",
+          "last_modified": null,
+          "url": "https://www.rdw.nl/drone"
+        },
+        {
+          "name": "🇳🇱 NL · ILT — Overzicht van de regels",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller drönarregler och riskkategorier från ILT, precis som förväntat",
+          "last_modified": null,
+          "url": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/regels-voor-drones"
+        },
+        {
+          "name": "🇮🇪 IE · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — IAA:s drönarsida med registrering, geozoner, UAS-notiser och luftrumsblanketter – förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://www.iaa.ie/general-aviation/drones"
+        },
+        {
+          "name": "🇮🇪 IE · IAA — Register as operator",
+          "status": "ok",
+          "detail": "AI: ok — Fullständig IAA-sida om drönaroperatörsregistrering med steg-för-steg-guide och MySRS, matchar förväntat innehåll",
+          "last_modified": null,
+          "url": "https://www.iaa.ie/general-aviation/drones/drone-register"
+        },
+        {
+          "name": "🇮🇪 IE · IAA — Geographical zones map",
+          "status": "ok",
+          "detail": "AI: ok — IAA-sida om UAS Geographic Zones med drönar-FAQ och navigering, matchar förväntat innehåll",
+          "last_modified": null,
+          "url": "https://www.iaa.ie/general-aviation/drones/faqs/geographical-zones"
+        },
+        {
+          "name": "🇮🇪 IE · SafeDrone — Airspace map",
+          "status": "warn",
+          "detail": "AI: trolig rot — Sidan är en indonesisk gambling/slots-sajt (PENIDABET), inte SafeDrones flygkarta – domänen kapad.",
+          "last_modified": null,
+          "url": "https://safedrone.ie/airspace-map/"
+        },
+        {
+          "name": "🇵🇹 PT · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — ANAC-sidan visar dronregler och EU-förordningar (2019/947, 2019/945) för obemannade luftfartyg, som förväntat",
+          "last_modified": null,
+          "url": "https://www.anac.pt/vPT/Generico/drones/legislacao_regulamentacao_uas/Paginas/LegislacaoeRegulamentacaoEspecifica.aspx"
+        },
+        {
+          "name": "🇵🇹 PT · ANAC — Registar como operador",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller ANAC:s fullständiga information om registrering av UAS-operatörer, drönarregler och länk till uas.anac.pt",
+          "last_modified": null,
+          "url": "https://www.anac.pt/vPT/Generico/drones/registo_uas/Paginas/OperadoresdeUAS.aspx"
+        },
+        {
+          "name": "🇵🇹 PT · NAV Portugal — Informação do espaço aéreo",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller NAV Portugals luftfarts- och luftrumsinformation (RIV, TMA, Point Merge System), matchar förväntad källa",
+          "last_modified": null,
+          "url": "https://www.nav.pt"
+        },
+        {
+          "name": "🇵🇹 PT · ANAC — Resumo das regras para drones",
+          "status": "ok",
+          "detail": "AI: ok — Detaljerad text om ANAC:s regler för drönare i kategori öppen (A1/A2/A3), 120m, VLOS, EU 2019/947 – matchar förväntat innehåll",
+          "last_modified": null,
+          "url": "https://www.anac.pt/vPT/Generico/drones/categoria_aberta/Paginas/CategoriaAberta.aspx"
+        },
+        {
+          "name": "🇵🇹 PT · AAN — Autorização para filmagens aéreas",
+          "status": "info",
+          "detail": "kunde inte hämtas (URLError: timed out) — ingen AI-bedömning",
+          "last_modified": null,
+          "url": "https://www.aan.pt/subPagina-AAN-001.005-levantamentos-a-reos"
+        },
+        {
+          "name": "🇮🇸 IS · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller drönarregler, drönarkarta och regelverk från isländska transportmyndigheten",
+          "last_modified": null,
+          "url": "https://island.is/en/o/transport-authority/drones"
+        },
+        {
+          "name": "🇮🇸 IS · FlyDrone.is – Loftrýmiskort",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller drönarregistrering hos isländska transportmyndigheten, EASA-referens och kontaktuppgifter – korrekt drönarresurs.",
+          "last_modified": null,
+          "url": "https://flydrone.is"
+        },
+        {
+          "name": "🇮🇸 IS · island.is – Skráning dróna",
+          "status": "warn",
+          "detail": "AI: misstänkt — Generisk island.is-portal utan omnämnande av drönare/UAS-registrering; visar bara allmänna tjänstekategorier.",
+          "last_modified": null,
+          "url": "https://island.is"
+        },
+        {
+          "name": "🇪🇪 EE · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Estlands transportmyndighets officiella drönarsida med regler, operatörsregistrering och fjärrpilotcertifikat.",
+          "last_modified": null,
+          "url": "https://transpordiamet.ee/en/drones"
+        },
+        {
+          "name": "🇪🇪 EE · Transpordiamet – Registreeru käitajana",
+          "status": "ok",
+          "detail": "AI: ok — Sidan visar drönaroperatörsregistrering enligt EU 2019/947 hos Transpordiamet, matchar förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://transpordiamet.ee/en/aviation-and-aviation-safety/flying-drones-estonia/operator-registration"
+        },
+        {
+          "name": "🇪🇪 EE · Estonian Drone Map (UTM)",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller EANS drönarkarta (UTM) med UAS-zoner och flygregistrering för Estland.",
+          "last_modified": null,
+          "url": "https://utm.eans.ee"
+        },
+        {
+          "name": "🇪🇪 EE · Transpordiamet – Reeglite ülevaade",
+          "status": "ok",
+          "detail": "AI: ok — Sidan visar Transpordiamets drönarregler för open category (A1/A2/A3), EU 2019/947 – förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://transpordiamet.ee/en/open-category-flights"
+        },
+        {
+          "name": "🇦🇹 AT · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Austro Control Dronespace-portal med drönarregler, geo-zoner och JSON-filer – korrekt österrikisk drönardatakälla.",
+          "last_modified": null,
+          "url": "https://www.dronespace.at/"
+        },
+        {
+          "name": "🇦🇹 AT · Austro Control — Als Betreiber registrieren",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller detaljerad information om Betreiber-registrering hos Austro Control, precis som förväntat",
+          "last_modified": null,
+          "url": "https://www.dronespace.at/registrierung/allgemeine_informationen"
+        },
+        {
+          "name": "🇦🇹 AT · Dronespace.at — Luftraumkarte",
+          "status": "ok",
+          "detail": "AI: ok — Austro Control Dronespace-portalen med drönarregler, registrering, geo-zoner och aktuella nyheter 2025/2026 — förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://www.dronespace.at"
+        },
+        {
+          "name": "🇦🇹 AT · Austro Control — Schulung und Prüfungen",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller Drohnenführerschein-info och FAQ från Austro Control, exakt förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://www.dronespace.at/drohnenfuehrerschein"
+        },
+        {
+          "name": "🇩🇰 DK · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Officiellt danskt droneregler-innehåll med dronezoner, regler och Trafikstyrelsen-kontakt",
+          "last_modified": null,
+          "url": "https://www.droneregler.dk/"
+        },
+        {
+          "name": "🇩🇰 DK · Droneregler.dk — Kort og regler",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller dronezoner, droneregler, certifikat och Trafikstyrelsen-kontakt — förväntat danskt droneinnehåll.",
+          "last_modified": null,
+          "url": "https://www.droneregler.dk"
+        },
+        {
+          "name": "🇩🇰 DK · Naviair — Luftruminformation",
+          "status": "ok",
+          "detail": "AI: ok — Naviairs officiella sida med flyveledelse, luftrum, droner och aktuella nyheter 2026 — förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://www.naviair.dk"
+        },
+        {
+          "name": "🇷🇴 RO · datakälla",
+          "status": "warn",
+          "detail": "AI: misstänkt — Sidan visar en CAPTCHA-/botskyddssida med support-ID, inget drönar- eller luftrumsinnehåll.",
+          "last_modified": null,
+          "url": "https://www.caa.ro/page/uas"
+        },
+        {
+          "name": "🇷🇴 RO · ROMATSA — Harta spațiului aerian",
+          "status": "warn",
+          "detail": "AI: trolig rot — CAPTCHA/antispam-sida med support-ID, inget luftrums- eller flyginnehåll",
+          "last_modified": null,
+          "url": "https://www.romatsa.ro"
+        },
+        {
+          "name": "🇩🇪 DE · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — DFS geodatasida med luftrumsdata (WMS/WFS), drönarflyg och INSPIRE — matchar förväntad datakälla",
+          "last_modified": null,
+          "url": "https://www.dfs.de/homepage/de/services/geo-daten/"
+        },
+        {
+          "name": "🇩🇪 DE · dipul – Offizielle Drohnenkarte",
+          "status": "ok",
+          "detail": "AI: ok — Visar dipul MapTool med kartlager, zoomnivå och drönarkarta-relaterat innehåll enligt förväntat",
+          "last_modified": null,
+          "url": "https://maptool-dipul.dfs.de"
+        },
+        {
+          "name": "🇩🇪 DE · LBA – Registrierung & Fernpilotenzeugnis",
+          "status": "ok",
+          "detail": "AI: ok — LBA-drönarsida med registrering, fernpiloten-zertifikat, betreiberregistrierung och betriebsgenehmigungen – förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://www.lba.de/DE/Drohnen/Drohnen_node.html"
+        },
+        {
+          "name": "🇩🇪 DE · Droniq – Drohnenflug-App",
+          "status": "ok",
+          "detail": "AI: ok — Fullständigt innehåll om drönar-appen (nu TraX, vidareutveckling av Droniq Maps) med geozoner, luftrum och priser.",
+          "last_modified": null,
+          "url": "https://droniq.de/droniq-app/"
+        },
+        {
+          "name": "🇪🇸 ES · datakälla",
+          "status": "info",
+          "detail": "geo-blockad i CI — AI-bedöms ej",
+          "last_modified": null,
+          "url": "https://drones.enaire.es"
+        },
+        {
+          "name": "🇪🇸 ES · AESA — Normativa de drones",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller full AESA-navigering och detaljerat UAS/drönar-innehåll: registrering, normativa, zonas geográficas, formación.",
+          "last_modified": null,
+          "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones"
+        },
+        {
+          "name": "🇪🇸 ES · AESA — Registro como operador",
+          "status": "ok",
+          "detail": "AI: ok — Fullständig AESA-text om registro de operador de UAS/drones, matchar förväntat innehåll",
+          "last_modified": null,
+          "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/registro-de-operador-de-drones-uas"
+        },
+        {
+          "name": "🇫🇷 FR · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Officiell drönarkarta över UAS-restriktioner från SIA/IGN, uppdaterad juli 2025, med relevant luftrumsdata.",
+          "last_modified": null,
+          "url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir"
+        },
+        {
+          "name": "🇫🇷 FR · DGAC — Réglementation des drones",
+          "status": "ok",
+          "detail": "AI: ok — Fullständig DGAC-text om drönarregler i öppen kategori (UAS, A1/A2/A3, BAPD), matchar förväntat innehåll",
+          "last_modified": null,
+          "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte"
+        },
+        {
+          "name": "🇫🇷 FR · AlphaTango — S'enregistrer comme exploitant",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller AlphaTango-portalen för télépilotés med DGAC-referenser och UAS-länkar, som förväntat",
+          "last_modified": null,
+          "url": "https://alphatango.aviation-civile.gouv.fr"
+        },
+        {
+          "name": "🇫🇷 FR · Règles de pilotage de drone — Service-Public.fr",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller drönarregler för öppen kategori och CE-klasser, matchar förväntat innehåll trots cookiebanner",
+          "last_modified": null,
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34630"
+        },
+        {
+          "name": "🇫🇮 FI · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Traficoms sida om miehittämätön ilmailu med drönarregler, luftrum och UAS-zoner – förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://droneinfo.fi/en/droneinfo-front-page"
+        },
+        {
+          "name": "🇫🇮 FI · Traficom – Rekisteröidy käyttäjäksi",
+          "status": "ok",
+          "detail": "AI: ok — Traficoms droneinfo-sida med utförligt innehåll om miehittämätön ilmailu, registrering och kategorier.",
+          "last_modified": null,
+          "url": "https://droneinfo.fi/en/registering-drone-operator"
+        },
+        {
+          "name": "🇫🇮 FI · Droneinfo.fi – Ilmatilakartta",
+          "status": "ok",
+          "detail": "AI: ok — Traficoms sida om miehittämätön ilmailu med drönarregler, ilmatila och UAS-innehåll – förväntad resurs.",
+          "last_modified": null,
+          "url": "https://www.droneinfo.fi"
+        },
+        {
+          "name": "🇸🇪 SE · datakälla",
+          "status": "warn",
+          "detail": "AI: nästan tom sida även efter JS-rendering (17 tecken) — trolig rot",
+          "last_modified": null,
+          "url": "https://daim.lfv.se"
+        },
+        {
+          "name": "🇸🇪 SE · Transportstyrelsen — Drönarregler",
+          "status": "ok",
+          "detail": "AI: ok — Fullständig drönarregelsida från Transportstyrelsen med drönarkort, avgifter, SORA och EU-regler.",
+          "last_modified": null,
+          "url": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/"
+        },
+        {
+          "name": "🇸🇪 SE · LFV Drönarkartan — luftrum",
+          "status": "warn",
+          "detail": "AI: nästan tom sida även efter JS-rendering (12 tecken) — trolig rot",
+          "last_modified": null,
+          "url": "https://dronechart.lfv.se"
+        },
+        {
+          "name": "🇸🇪 SE · Operatörsregistrering (krävs ≥250g eller kamera)",
+          "status": "ok",
+          "detail": "AI: ok — Drönarsidan med registrera operatör, drönarkort och e-tjänster – förväntat innehåll finns.",
+          "last_modified": null,
+          "url": "https://dronarsidan.transportstyrelsen.se/"
+        },
+        {
+          "name": "🇸🇪 SE · Drönarkort A1/A3 — teoriprov online (krävs ≥250 g, från 15 år)",
+          "status": "ok",
+          "detail": "AI: ok — Transportstyrelsens drönarsida med A1/A3-teoriprov online, 15-årsgräns och behörighetsbevis — matchar förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/dronarkort-och-utbildning/"
+        },
+        {
+          "name": "🇳🇴 NO · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — Luftfartstilsynets dronesida med droneregler, registrering och forskrifter; cookievägg finns men riktigt innehåll dominerar.",
+          "last_modified": null,
+          "url": "https://www.luftfartstilsynet.no/droner/"
+        },
+        {
+          "name": "🇳🇴 NO · Avinor – Fly drone i Norge",
+          "status": "ok",
+          "detail": "AI: ok — Innehåller drönarregler, dronekart och info om flygning nära Avinors flygplatser.",
+          "last_modified": null,
+          "url": "https://www.avinor.no/en/practical-info/drone/"
+        },
+        {
+          "name": "🇳🇴 NO · Avinor Dronekart",
+          "status": "warn",
+          "detail": "AI: misstänkt — Sidan visar bara en ArcGIS-inloggningsruta, inget dronekartsinnehåll",
+          "last_modified": null,
+          "url": "https://experience.arcgis.com/experience/95695705756d477d8a166150a6b7b831/page/Dronekart/"
+        },
+        {
+          "name": "🇳🇴 NO · Ninox Drone – tillatelse nær flyplass",
+          "status": "info",
+          "detail": "kunde inte hämtas (URLError: [Errno -2] Name or service not known) — ingen AI-bedömning",
+          "last_modified": null,
+          "url": "https://operatorportal.ninoxdrone.no/"
+        },
+        {
+          "name": "🇳🇴 NO · Flydrone.no – registrering og sertifikat",
+          "status": "ok",
+          "detail": "AI: ok — Norges offisielle droneregister med registrering, dronelapp og regelverk – matchar förväntat innehåll",
+          "last_modified": null,
+          "url": "https://flydrone.no"
+        },
+        {
+          "name": "🇺🇸 US · datakälla",
+          "status": "ok",
+          "detail": "AI: ok — FAA:s drönarsida med regler, registrering, remote ID och luftrumsverktyg — förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://www.faa.gov/uas"
+        },
+        {
+          "name": "🇺🇸 US · FAA DroneZone — Registration",
+          "status": "ok",
+          "detail": "AI: ok — FAADroneZone med registrering, konto-login och Part 107-waivers — förväntat FAA-droninnehåll",
+          "last_modified": null,
+          "url": "https://faadronezone-access.faa.gov/"
+        },
+        {
+          "name": "🇺🇸 US · B4UFLY — Airspace check",
+          "status": "ok",
+          "detail": "AI: ok — FAA:s officiella UAS-sida om B4UFLY-appen med dronrelaterat innehåll och navigering intakt",
+          "last_modified": null,
+          "url": "https://www.faa.gov/uas/getting_started/b4ufly"
+        },
+        {
+          "name": "🇺🇸 US · LAANC — Authorize via Aloft (free)",
+          "status": "ok",
+          "detail": "AI: ok — Inloggningssida för Aloft Air Control som nämner LAANC-auktoriseringar och airspace, förväntat innehåll.",
+          "last_modified": null,
+          "url": "https://air.aloft.ai/"
+        },
+        {
+          "name": "🇺🇸 US · TRUST — Recreational safety test",
+          "status": "ok",
+          "detail": "AI: ok — FAA-sida om TRUST recreational safety test med relevant drönar-/UAS-innehåll och navigering.",
+          "last_modified": null,
+          "url": "https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates"
+        }
+      ]
     }
   ],
   "github_actions_24h": [
@@ -1371,13 +2226,6 @@
       "url": null
     },
     {
-      "name": "Fetch & publish CH airspace (BAZL/BAFU/VBS via geo.admin.ch)",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
       "name": "Fetch & publish FI aerodromes data",
       "status": "ok",
       "detail": "1/1 OK",
@@ -1394,7 +2242,7 @@
     {
       "name": "Fetch & publish US TFRs (FAA WFS)",
       "status": "ok",
-      "detail": "11/11 OK",
+      "detail": "14/14 OK",
       "last_modified": null,
       "url": null
     },
@@ -1406,14 +2254,21 @@
       "url": null
     },
     {
-      "name": "Fetch IenW ED-269 (NL airspace)",
+      "name": "Fetch NOTAMs (FIR-based)",
       "status": "ok",
       "detail": "1/1 OK",
       "last_modified": null,
       "url": null
     },
     {
-      "name": "Fetch NOTAMs (FIR-based)",
+      "name": "Flutter CI",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null
+    },
+    {
+      "name": "Publish countries.json to Gist",
       "status": "ok",
       "detail": "1/1 OK",
       "last_modified": null,
@@ -1428,27 +2283,6 @@
     },
     {
       "name": "dipul-wfs-watch",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "fetch-dk-airspace",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "fetch-fi-airspace",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "fetch-fi-efr",
       "status": "ok",
       "detail": "1/1 OK",
       "last_modified": null,
