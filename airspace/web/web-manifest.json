@@ -1,0 +1,430 @@
+{
+ "generated": "2026-07-09T09:42:23+00:00",
+ "feeds": {
+  "at-zones.geojson": {
+   "gzBytes": 81672,
+   "featureCount": 239,
+   "zoneTypes": [
+    "ATZ",
+    "CTR",
+    "P",
+    "RSTA"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:41:29+00:00"
+  },
+  "ch-cta.geojson": {
+   "gzBytes": 19711,
+   "featureCount": 2,
+   "zoneTypes": [
+    "CTA_CH"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:41:30+00:00"
+  },
+  "ch-ctr.geojson": {
+   "gzBytes": 11644,
+   "featureCount": 18,
+   "zoneTypes": [
+    "CTR_CH"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:41:31+00:00"
+  },
+  "ch-jagdbanngebiete.geojson": {
+   "gzBytes": 62706,
+   "featureCount": 114,
+   "zoneTypes": [
+    "JAGDBANN_CH"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:32+00:00"
+  },
+  "ch-luftfahrthindernis.geojson": {
+   "gzBytes": 433112,
+   "featureCount": 14336,
+   "zoneTypes": [
+    "OBSTACLE_CH"
+   ],
+   "class": "lines",
+   "generated": "2026-07-09T09:41:34+00:00"
+  },
+  "ch-schiessanzeigen.geojson": {
+   "gzBytes": 14521,
+   "featureCount": 285,
+   "zoneTypes": [
+    "SCHIESS_CH"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:35+00:00"
+  },
+  "ch-sicherheitszonenplan.geojson": {
+   "gzBytes": 7392,
+   "featureCount": 51,
+   "zoneTypes": [
+    "SICHERHEIT_CH"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:36+00:00"
+  },
+  "ch-tma.geojson": {
+   "gzBytes": 24826,
+   "featureCount": 90,
+   "zoneTypes": [
+    "TMA_CH"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:41:37+00:00"
+  },
+  "ch-uas-aktivitaetszonen.geojson": {
+   "gzBytes": 8504,
+   "featureCount": 73,
+   "zoneTypes": [
+    "UAS_AKT_CH"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:37+00:00"
+  },
+  "ch-vogelreservate.geojson": {
+   "gzBytes": 16130,
+   "featureCount": 106,
+   "zoneTypes": [
+    "VOGELRES_CH"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:38+00:00"
+  },
+  "dk-natur.geojson": {
+   "gzBytes": 18766,
+   "featureCount": 140,
+   "zoneTypes": [
+    "GRON_NATUR"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:39+00:00"
+  },
+  "dk-primary.geojson": {
+   "gzBytes": 112514,
+   "featureCount": 843,
+   "zoneTypes": [
+    "INFRA_DK",
+    "ORANGE_OPMERK_DK",
+    "ROD_FLYG_DK"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:41+00:00"
+  },
+  "ee-zones.geojson": {
+   "gzBytes": 5546,
+   "featureCount": 223,
+   "zoneTypes": [
+    "CTR",
+    "DNGA",
+    "P",
+    "RSTA"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:41:42+00:00"
+  },
+  "es-parques.geojson": {
+   "gzBytes": 10657,
+   "featureCount": 27,
+   "zoneTypes": [
+    "PARQUE_NACIONAL_ES"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:43+00:00"
+  },
+  "fi-efr-static.geojson": {
+   "gzBytes": 8546,
+   "featureCount": 123,
+   "zoneTypes": [
+    "EFD_FI",
+    "EFP_FI",
+    "EFR_FI"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:41:43+00:00"
+  },
+  "fi-natur.geojson": {
+   "gzBytes": 213151,
+   "featureCount": 2099,
+   "zoneTypes": [
+    "GRON_NATUR_FI"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:45+00:00"
+  },
+  "fi-primary.geojson": {
+   "gzBytes": 26239,
+   "featureCount": 720,
+   "zoneTypes": [
+    "CTR_FI",
+    "HEMS_FI",
+    "INFO_FI",
+    "INFRA_FI",
+    "LENNOKKI_FI",
+    "MIL_FI",
+    "P_FI",
+    "RESTRICTED_FI"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:46+00:00"
+  },
+  "fr-drones.geojson": {
+   "gzBytes": 4087432,
+   "featureCount": 448,
+   "zoneTypes": [
+    "FR_FORBIDDEN",
+    "FR_MAX100",
+    "FR_MAX30",
+    "FR_MAX50",
+    "FR_MAX60"
+   ],
+   "class": "grid",
+   "generated": "2026-07-09T09:41:54+00:00"
+  },
+  "fr-parcs.geojson": {
+   "gzBytes": 35506,
+   "featureCount": 34,
+   "zoneTypes": [
+    "PARC_NATIONAL_FR"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:55+00:00"
+  },
+  "fr-zicad.geojson": {
+   "gzBytes": 23085,
+   "featureCount": 511,
+   "zoneTypes": [
+    "ZICAD_FR"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:56+00:00"
+  },
+  "is-zones.geojson": {
+   "gzBytes": 105059,
+   "featureCount": 271,
+   "zoneTypes": [
+    "RSTA"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:41:57+00:00"
+  },
+  "lu-zones.geojson": {
+   "gzBytes": 7467,
+   "featureCount": 47,
+   "zoneTypes": [
+    "ATZ",
+    "CTR",
+    "P",
+    "RSTA"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:41:57+00:00"
+  },
+  "nl-ed269.geojson": {
+   "gzBytes": 40166,
+   "featureCount": 743,
+   "zoneTypes": [
+    "CTR_NL",
+    "HEMS_NL",
+    "INFRA_NL",
+    "LFA_NL",
+    "MIL_NL",
+    "P_NL",
+    "RESTRICTED_NL"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:41:58+00:00"
+  },
+  "nl-pdok-natura.geojson": {
+   "gzBytes": 42600,
+   "featureCount": 209,
+   "zoneTypes": [
+    "NATURE_NL"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:00+00:00"
+  },
+  "nl-pdok.geojson": {
+   "gzBytes": 58055,
+   "featureCount": 0,
+   "zoneTypes": [],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:01+00:00"
+  },
+  "no-nve-infra.geojson": {
+   "gzBytes": 10810,
+   "featureCount": 0,
+   "zoneTypes": [],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:02+00:00"
+  },
+  "no.geojson": {
+   "gzBytes": 227600,
+   "featureCount": 8015,
+   "zoneTypes": [
+    "NO_CTR_TIZ",
+    "NO_MARINE_RESTRICTED",
+    "NO_MILITARY_RANGE",
+    "NO_NATURE_FERDSEL",
+    "NO_NATURE_FORSVAR",
+    "NO_NATURE_LANDING",
+    "NO_NATURE_LOWFLY",
+    "NO_NFZ_AERODROME",
+    "NO_PRISON",
+    "NO_RESTRICTED_AREA",
+    "NO_RESTRICTED_DORMANT",
+    "NO_RESTRICTED_R102"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:05+00:00"
+  },
+  "pt-zones.geojson": {
+   "gzBytes": 67564,
+   "featureCount": 329,
+   "zoneTypes": [
+    "ATZ",
+    "CTR",
+    "P",
+    "RSTA"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:42:05+00:00"
+  },
+  "ro-zones.geojson": {
+   "gzBytes": 52627,
+   "featureCount": 1272,
+   "zoneTypes": [
+    "RSTA"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:42:07+00:00"
+  },
+  "si-zones.geojson": {
+   "gzBytes": 78537,
+   "featureCount": 70,
+   "zoneTypes": [
+    "ATZ",
+    "CTR",
+    "DNGA",
+    "P",
+    "RSTA"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:42:07+00:00"
+  },
+  "sk-zones.geojson": {
+   "gzBytes": 49695,
+   "featureCount": 100,
+   "zoneTypes": [
+    "CTR",
+    "P",
+    "RSTA"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:42:08+00:00"
+  },
+  "us-classes.geojson": {
+   "gzBytes": 169596,
+   "featureCount": 1796,
+   "zoneTypes": [
+    "CLASS_B",
+    "CLASS_C",
+    "CLASS_D",
+    "CLASS_E2"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:10+00:00"
+  },
+  "us-dc-sfra.geojson": {
+   "gzBytes": 898,
+   "featureCount": 1,
+   "zoneTypes": [
+    "SFRA_DC"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:42:11+00:00"
+  },
+  "us-fria.geojson": {
+   "gzBytes": 149888,
+   "featureCount": 2671,
+   "zoneTypes": [
+    "FRIA_US"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:12+00:00"
+  },
+  "us-heliports.geojson": {
+   "gzBytes": 54262,
+   "featureCount": 1647,
+   "zoneTypes": [
+    "HELIPORT_HOSPITAL",
+    "HELIPORT_PUBLIC"
+   ],
+   "class": "small",
+   "generated": "2026-07-09T09:42:13+00:00"
+  },
+  "us-nps.geojson": {
+   "gzBytes": 80346,
+   "featureCount": 418,
+   "zoneTypes": [
+    "NPS_PARK"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:14+00:00"
+  },
+  "us-nsufr.geojson": {
+   "gzBytes": 509,
+   "featureCount": 5,
+   "zoneTypes": [
+    "NSUFR_US"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:15+00:00"
+  },
+  "us-rec-sites.geojson": {
+   "gzBytes": 117421,
+   "featureCount": 2172,
+   "zoneTypes": [
+    "REC_FIXED_SITE_US"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:16+00:00"
+  },
+  "us-sua.geojson": {
+   "gzBytes": 79872,
+   "featureCount": 1494,
+   "zoneTypes": [
+    "SUA_MOA",
+    "SUA_PROHIBITED",
+    "SUA_RESTRICTED",
+    "SUA_WARNING"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:17+00:00"
+  },
+  "us-wildlife-refuges.geojson": {
+   "gzBytes": 384792,
+   "featureCount": 1094,
+   "zoneTypes": [
+    "USFWS_REFUGE"
+   ],
+   "class": "polygons",
+   "generated": "2026-07-09T09:42:20+00:00"
+  },
+  "us.geojson": {
+   "gzBytes": 876694,
+   "featureCount": 7134,
+   "zoneTypes": [
+    "UASFM_HIGH",
+    "UASFM_LOW",
+    "UASFM_MID",
+    "UASFM_NOFLY"
+   ],
+   "class": "grid",
+   "generated": "2026-07-09T09:42:23+00:00"
+  }
+ }
+}
