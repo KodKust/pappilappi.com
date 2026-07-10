@@ -13,6 +13,7 @@
     --warn-bg: #fdf1dc; --warn-fg: #7a5210; --warn-dot: #f0a020;
     --fail-bg: #fdeaea; --fail-fg: #8e2424; --fail-dot: #e53935;
     --info-fg: #3a6ea5;
+    --ios: #3a6ea5; --android: #3ea36b; --sel: #e0952a;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -22,6 +23,7 @@
       --warn-bg: #3a2e12; --warn-fg: #f0c468; --warn-dot: #f0a020;
       --fail-bg: #3b1d1d; --fail-fg: #ef9a9a; --fail-dot: #ef5350;
       --info-fg: #8ab4f8;
+      --ios: #8ab4f8; --android: #7fd6a2; --sel: #f0c468;
     }
   }
   * { box-sizing: border-box; margin: 0; }
@@ -73,6 +75,55 @@
   footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 24px; }
   footer a { color: var(--info-fg); text-decoration: none; }
   #err { text-align: center; color: var(--muted); padding: 40px 0; }
+
+  /* ==== DroneKoll-trafik-panel (analytics.json) ==== */
+  .traffic .tabs { display: flex; gap: 6px; margin-bottom: 12px; }
+  .traffic .tab { flex: 1; font: inherit; font-size: 13px; font-weight: 500; padding: 6px 0; border: 0.5px solid var(--border); background: transparent; color: var(--muted); border-radius: 9px; cursor: pointer; }
+  .traffic .tab.active { background: var(--info-fg); color: #fff; border-color: var(--info-fg); }
+  .tstats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 6px; }
+  .tstats > div { text-align: center; }
+  .tstats b { font-size: 21px; display: block; line-height: 1.15; }
+  .tstats span { font-size: 11px; color: var(--muted); }
+  .tsub { font-size: 11.5px; color: var(--muted); margin: 14px 2px 6px; font-weight: 600; text-transform: uppercase; letter-spacing: .03em; display: flex; justify-content: space-between; }
+  .tsub .hint { font-weight: 400; text-transform: none; letter-spacing: 0; opacity: .8; }
+  .chart { display: flex; align-items: flex-end; gap: 2px; height: 52px; }
+  .chart .col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; cursor: pointer; padding-top: 6px; }
+  .chart .col .bar { width: 100%; border-radius: 2px 2px 0 0; min-height: 1px; transition: opacity .12s; }
+  .chart.visitors .bar { background: var(--info-fg); }
+  .chart.clicks .seg-ios { background: var(--ios); }
+  .chart.clicks .seg-android { background: var(--android); border-radius: 0; }
+  .chart.has-sel .col:not(.sel) .bar { opacity: .4; }
+  .chart .col.sel .bar { outline: 2px solid var(--sel); outline-offset: 1px; border-radius: 2px; }
+  .xaxis { display: flex; justify-content: space-between; font-size: 10.5px; color: var(--muted); margin-top: 4px; }
+  .legend { display: flex; gap: 14px; font-size: 11.5px; color: var(--muted); margin: 8px 2px 0; }
+  .legend i { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 4px; position: relative; top: 1px; }
+  .daydetail { margin-top: 12px; border: 1px solid var(--sel); border-radius: 12px; padding: 11px 13px; background: var(--card); }
+  .daydetail .dd-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 9px; }
+  .daydetail .dd-h { font-weight: 600; font-size: 14.5px; }
+  .daydetail .dd-close { font-size: 12px; color: var(--muted); cursor: pointer; border: 0.5px solid var(--border); border-radius: 8px; padding: 2px 9px; background: transparent; }
+  .dd-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+  .dd-stats > div { text-align: center; }
+  .dd-stats b { font-size: 18px; display: block; line-height: 1.1; }
+  .dd-stats b.ios { color: var(--ios); } .dd-stats b.and { color: var(--android); }
+  .dd-stats span { font-size: 11px; color: var(--muted); }
+  .dd-conv { font-size: 12px; color: var(--muted); margin: -4px 0 10px; }
+  .dd-clab { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; margin-bottom: 5px; }
+  .ctable { margin-top: 4px; }
+  .chead-row, .crow { display: grid; grid-template-columns: 18px minmax(56px,1fr) 30px 1fr 42px 42px; gap: 7px; align-items: center; font-size: 13px; }
+  .chead-row { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 0.5px solid var(--border); }
+  .chead-row .r { text-align: right; }
+  .crow { padding: 3px 0; }
+  .crow .cflag { font-size: 15px; }
+  .crow .cname { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .crow .cvis { text-align: right; font-variant-numeric: tabular-nums; }
+  .cbar { background: var(--border); border-radius: 4px; height: 6px; overflow: hidden; }
+  .cbar i { display: block; height: 100%; background: var(--info-fg); border-radius: 4px; }
+  .cios, .cand { text-align: right; font-variant-numeric: tabular-nums; font-size: 12.5px; }
+  .cios { color: var(--ios); } .cand { color: var(--android); }
+  .ddrow { display: grid; grid-template-columns: 18px 1fr 40px; gap: 8px; align-items: center; font-size: 13px; padding: 2px 0; }
+  .ddrow .cvis { text-align: right; font-variant-numeric: tabular-nums; }
+  .tgen { font-size: 11.5px; color: var(--muted); margin-top: 12px; }
+  .tnote { font-size: 12px; color: var(--warn-fg); margin-top: 9px; }
 </style>
 </head>
 <body>
@@ -81,6 +132,10 @@
   <span class="gen" id="gen">laddar…</span>
 </header>
 <div id="app"><p id="err">Hämtar status.json…</p></div>
+<div id="traffic-wrap" hidden>
+  <h2>DroneKoll-trafik</h2>
+  <div id="traffic" class="card traffic"></div>
+</div>
 <footer>
   Uppdateras 4×/dygn av <a href="https://github.com/KodKust/dronarkartan/actions/workflows/data-health.yml">data-health</a>
   · fel öppnar issue + mejl · AI-granskning månadsvis
@@ -229,6 +284,119 @@ Promise.all([
   });
 
 setTimeout(() => location.reload(), 10 * 60 * 1000);
+</script>
+
+<!-- DroneKoll-trafik: fristående panel, hämtar ./analytics.json (skrivs dagligen av
+     dronarkartan-workflow fetch-dronekoll-analytics.yml). Isolerad IIFE → krockar inte
+     med status.json-scriptet. Döljer sig tyst om analytics.json saknas (404). -->
+<script>
+(function () {
+  var MONTHS = ["jan","feb","mar","apr","maj","jun","jul","aug","sep","okt","nov","dec"];
+  var WDAYS = ["söndag","måndag","tisdag","onsdag","torsdag","fredag","lördag"];
+  function flag(c){ return (!c||c.length!==2) ? "🏳️" : String.fromCodePoint.apply(String,[].map.call(c.toUpperCase(),function(x){return 0x1F1E6+x.charCodeAt(0)-65;})); }
+  function esc(s){ return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];}); }
+  function fmt(n){ return Number(n||0).toLocaleString("sv-SE"); }
+  function dlabel(iso){ var d=new Date(iso+"T00:00:00Z"); return d.getUTCDate()+" "+MONTHS[d.getUTCMonth()]; }
+  function dlong(iso){ var d=new Date(iso+"T00:00:00Z"); var w=WDAYS[d.getUTCDay()]; return w.charAt(0).toUpperCase()+w.slice(1)+" "+d.getUTCDate()+" "+MONTHS[d.getUTCMonth()]; }
+
+  var DATA=null, cur="7d", selDay=null;
+  var wrap=document.getElementById("traffic-wrap");
+  var el=document.getElementById("traffic");
+  if(!wrap||!el) return;
+
+  function bars(daily, kind){
+    var max=1, i, d, out="";
+    if(kind==="visitors"){
+      for(i=0;i<daily.length;i++) max=Math.max(max,daily[i].visitors);
+      for(i=0;i<daily.length;i++){ d=daily[i];
+        out+='<div class="col '+(d.day===selDay?"sel":"")+'" data-day="'+d.day+'" title="'+esc(dlabel(d.day))+': '+fmt(d.visitors)+' besökare">'+
+             '<div class="bar" style="height:'+Math.round(d.visitors/max*100)+'%"></div></div>';
+      }
+      return out;
+    }
+    for(i=0;i<daily.length;i++) max=Math.max(max,(daily[i].ios||0)+(daily[i].android||0));
+    for(i=0;i<daily.length;i++){ d=daily[i];
+      out+='<div class="col '+(d.day===selDay?"sel":"")+'" data-day="'+d.day+'" title="'+esc(dlabel(d.day))+': iOS '+(d.ios||0)+' · Android '+(d.android||0)+'">'+
+           '<div class="bar seg-android" style="height:'+Math.round((d.android||0)/max*100)+'%"></div>'+
+           '<div class="bar seg-ios" style="height:'+Math.round((d.ios||0)/max*100)+'%"></div></div>';
+    }
+    return out;
+  }
+
+  function dayDetail(d){
+    if(!d) return "";
+    var conv = d.visitors ? Math.round(((d.ios||0)+(d.android||0))/d.visitors*100) : 0;
+    var cc = d.countries || [], block="";
+    if(cc.length){
+      var rows="";
+      for(var i=0;i<cc.length;i++){ var c=cc[i];
+        rows+='<div class="ddrow"><span class="cflag">'+flag(c.code)+'</span><span class="cname">'+esc(c.name)+'</span><span class="cvis">'+fmt(c.count)+'</span></div>';
+      }
+      block='<div class="dd-clab">Toppländer denna dag</div>'+rows;
+    }
+    return '<div class="daydetail">'+
+      '<div class="dd-top"><span class="dd-h">'+esc(dlong(d.day))+'</span><button class="dd-close" data-close="1">✕ stäng</button></div>'+
+      '<div class="dd-stats">'+
+        '<div><b>'+fmt(d.visitors)+'</b><span>besökare</span></div>'+
+        '<div><b class="ios">'+fmt(d.ios)+'</b><span>iOS-klick</span></div>'+
+        '<div><b class="and">'+fmt(d.android)+'</b><span>Android-klick</span></div>'+
+      '</div>'+
+      '<div class="dd-conv">'+conv+'% av besökarna klickade till en butik den dagen</div>'+
+      block+
+    '</div>';
+  }
+
+  function render(){
+    if(!DATA||!DATA.windows){ wrap.hidden=true; return; }
+    var w=DATA.windows[cur]; if(!w){ wrap.hidden=true; return; }
+    var gen=DATA.generated?new Date(DATA.generated):null;
+    var daily=w.daily||[], i;
+    var sel=null; for(i=0;i<daily.length;i++) if(daily[i].day===selDay) sel=daily[i];
+    var hasSel=sel?"has-sel":"";
+
+    var tabs=["7d","30d"].map(function(k){ return '<button class="tab '+(k===cur?"active":"")+'" data-w="'+k+'">'+(k==="7d"?"7 dygn":"30 dygn")+'</button>'; }).join("");
+
+    var cs=w.countries||[], maxC=1; for(i=0;i<cs.length;i++) maxC=Math.max(maxC,cs[i].count);
+    var crows=""; for(i=0;i<cs.length;i++){ var c=cs[i];
+      crows+='<div class="crow"><span class="cflag">'+flag(c.code)+'</span><span class="cname">'+esc(c.name)+'</span>'+
+             '<span class="cvis">'+fmt(c.count)+'</span>'+
+             '<span class="cbar"><i style="width:'+Math.round(c.count/maxC*100)+'%"></i></span>'+
+             '<span class="cios">'+fmt(c.ios)+'</span><span class="cand">'+fmt(c.android)+'</span></div>';
+    }
+
+    var clicks=w.clicks||{ios:0,android:0};
+    var zero = (w.visitors===0) && (clicks.ios===0) && (clicks.android===0);
+
+    el.innerHTML =
+      '<div class="tabs">'+tabs+'</div>'+
+      '<div class="tstats">'+
+        '<div><b>'+fmt(w.visitors)+'</b><span>besökare</span></div>'+
+        '<div><b>'+fmt(clicks.ios)+'</b><span>iOS-klick</span></div>'+
+        '<div><b>'+fmt(clicks.android)+'</b><span>Android-klick</span></div>'+
+      '</div>'+
+      '<div class="tsub"><span>Besökare per dag</span><span class="hint">tryck för detaljer</span></div>'+
+      '<div class="chart visitors '+hasSel+'">'+bars(daily,"visitors")+'</div>'+
+      '<div class="xaxis"><span>'+(daily.length?esc(dlabel(daily[0].day)):"")+'</span><span>'+(daily.length?esc(dlabel(daily[daily.length-1].day)):"")+'</span></div>'+
+      '<div class="tsub"><span>Butiksklick per dag</span></div>'+
+      '<div class="chart clicks '+hasSel+'">'+bars(daily,"clicks")+'</div>'+
+      '<div class="legend"><span><i style="background:var(--ios)"></i>iOS</span><span><i style="background:var(--android)"></i>Android</span></div>'+
+      dayDetail(sel)+
+      '<div class="tsub"><span>Toppländer &amp; butiksklick (hela perioden)</span></div>'+
+      '<div class="ctable"><div class="chead-row"><span></span><span>Land</span><span class="r">Bes.</span><span></span><span class="r">iOS</span><span class="r">Andr.</span></div>'+crows+'</div>'+
+      (zero?'<div class="tnote">Sajten samlar ingen trafik än — siffrorna tänds när dronekoll.com är live.</div>':'')+
+      '<div class="tgen">Fönster '+esc(w.start)+' – '+esc(w.end)+(gen?' · uppdaterad '+gen.toLocaleString("sv-SE",{dateStyle:"short",timeStyle:"short"}):'')+'</div>';
+
+    var t=el.querySelectorAll(".tab"); for(i=0;i<t.length;i++) t[i].addEventListener("click",function(){ cur=this.getAttribute("data-w"); selDay=null; render(); });
+    var cols=el.querySelectorAll(".col"); for(i=0;i<cols.length;i++) cols[i].addEventListener("click",function(){ var day=this.getAttribute("data-day"); selDay=(selDay===day)?null:day; render(); });
+    var cl=el.querySelector("[data-close]"); if(cl) cl.addEventListener("click",function(){ selDay=null; render(); });
+  }
+
+  var cb=Math.floor(Date.now()/300000);
+  fetch("./analytics.json?t="+cb).then(function(r){ return r.ok?r.json():null; }).then(function(d){
+    if(!d||!d.windows){ wrap.hidden=true; return; }
+    DATA=d; wrap.hidden=false; render();
+  }).catch(function(){ wrap.hidden=true; });
+})();
 </script>
 </body>
 </html>
