@@ -1,25 +1,33 @@
 {
-  "generated": "2026-07-11T08:23:18+00:00",
+  "generated": "2026-07-12T13:49:36+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
-      "start": "2026-07-04",
-      "end": "2026-07-11",
-      "visitors": 0,
+      "start": "2026-07-05",
+      "end": "2026-07-12",
+      "visitors": 15,
       "events_total": 0,
       "clicks": {
         "ios": 0,
         "android": 0
       },
-      "countries": [],
-      "daily": [
+      "countries": [
         {
-          "day": "2026-07-04",
-          "visitors": 0,
+          "code": "SE",
+          "name": "Sweden",
+          "count": 16,
           "ios": 0,
-          "android": 0,
-          "countries": []
+          "android": 0
         },
+        {
+          "code": "US",
+          "name": "United States",
+          "count": 2,
+          "ios": 0,
+          "android": 0
+        }
+      ],
+      "daily": [
         {
           "day": "2026-07-05",
           "visitors": 0,
@@ -64,6 +72,19 @@
         },
         {
           "day": "2026-07-11",
+          "visitors": 15,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "day": "2026-07-12",
           "visitors": 0,
           "ios": 0,
           "android": 0,
@@ -72,23 +93,31 @@
       ]
     },
     "30d": {
-      "start": "2026-06-11",
-      "end": "2026-07-11",
-      "visitors": 0,
+      "start": "2026-06-12",
+      "end": "2026-07-12",
+      "visitors": 15,
       "events_total": 0,
       "clicks": {
         "ios": 0,
         "android": 0
       },
-      "countries": [],
-      "daily": [
+      "countries": [
         {
-          "day": "2026-06-11",
-          "visitors": 0,
+          "code": "SE",
+          "name": "Sweden",
+          "count": 16,
           "ios": 0,
-          "android": 0,
-          "countries": []
+          "android": 0
         },
+        {
+          "code": "US",
+          "name": "United States",
+          "count": 2,
+          "ios": 0,
+          "android": 0
+        }
+      ],
+      "daily": [
         {
           "day": "2026-06-12",
           "visitors": 0,
@@ -294,6 +323,19 @@
         },
         {
           "day": "2026-07-11",
+          "visitors": 15,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "day": "2026-07-12",
           "visitors": 0,
           "ios": 0,
           "android": 0,
