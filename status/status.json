@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-14T12:51:05.778298+00:00",
+  "generated": "2026-07-14T18:44:31.890872+00:00",
   "summary": {
-    "fail": 0,
+    "fail": 1,
     "warn": 1,
-    "ok": 151,
-    "total_checks": 179,
+    "ok": 153,
+    "total_checks": 185,
     "countries_total": 19,
     "countries_ok": 18
   },
@@ -18,8 +18,8 @@
         {
           "name": "Feed: lu-zones",
           "status": "ok",
-          "detail": "47 min sen, 53 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 53 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a"
         },
         {
@@ -68,8 +68,8 @@
         {
           "name": "Feed: si-zones",
           "status": "ok",
-          "detail": "47 min sen, 385 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 385 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/si-zones.geojson?cb=20260611a"
         },
         {
@@ -82,7 +82,7 @@
         {
           "name": "Länk: CAA Slovenia — Predpisi o dronih",
           "status": "ok",
-          "detail": "200 OK",
+          "detail": "202 OK",
           "last_modified": null,
           "url": "https://www.caa.si/brezpilotni-zrakoplovi.html"
         },
@@ -96,7 +96,7 @@
         {
           "name": "Länk: CAA Slovenia — Karta zračnega prostora",
           "status": "ok",
-          "detail": "200 OK",
+          "detail": "202 OK",
           "last_modified": null,
           "url": "https://www.caa.si/geografske-omejitve-za-uas.html"
         },
@@ -125,64 +125,64 @@
         {
           "name": "Feed: luftfahrthindernis",
           "status": "ok",
-          "detail": "48 min sen, 8699 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "44 min sen, 8699 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson?v=20260605c"
         },
         {
           "name": "Feed: ch-ctr",
           "status": "ok",
-          "detail": "48 min sen, 47 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 47 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/ch-ctr.geojson"
         },
         {
           "name": "Feed: ch-tma",
           "status": "ok",
-          "detail": "48 min sen, 151 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "44 min sen, 151 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/ch-tma.geojson"
         },
         {
           "name": "Feed: ch-cta",
           "status": "ok",
-          "detail": "48 min sen, 63 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 63 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/ch-cta.geojson"
         },
         {
           "name": "Feed: ch-uas-aktivitaetszonen",
           "status": "ok",
-          "detail": "48 min sen, 210 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 210 kB",
+          "last_modified": "2026-07-14T17:58:45+00:00",
           "url": "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson"
         },
         {
           "name": "Feed: ch-jagdbanngebiete",
           "status": "ok",
-          "detail": "48 min sen, 2223 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "44 min sen, 2223 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson"
         },
         {
           "name": "Feed: ch-vogelreservate",
           "status": "ok",
-          "detail": "48 min sen, 567 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 567 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/ch-vogelreservate.geojson"
         },
         {
           "name": "Feed: ch-sicherheitszonenplan",
           "status": "ok",
-          "detail": "48 min sen, 513 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 513 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson"
         },
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "48 min sen, 492 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 492 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson"
         },
         {
@@ -231,8 +231,8 @@
         {
           "name": "Feed: sk-zones",
           "status": "ok",
-          "detail": "48 min sen, 291 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "44 min sen, 291 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/sk-zones.geojson?cb=20260611a"
         },
         {
@@ -281,15 +281,15 @@
         {
           "name": "Feed: ienw-ed269",
           "status": "ok",
-          "detail": "48 min sen, 1072 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 1072 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/nl-ed269.geojson?cb=20260603e"
         },
         {
           "name": "Feed: pdok-natura",
           "status": "ok",
-          "detail": "48 min sen, 1889 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "44 min sen, 1889 kB",
+          "last_modified": "2026-07-14T17:58:45+00:00",
           "url": "https://pappilappi.com/airspace/nl-pdok-natura.geojson?cb=20260603d"
         },
         {
@@ -381,8 +381,8 @@
         {
           "name": "Feed: pt-zones",
           "status": "ok",
-          "detail": "48 min sen, 391 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 391 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/pt-zones.geojson?cb=20260611a"
         },
         {
@@ -438,8 +438,8 @@
         {
           "name": "Feed: is-zones",
           "status": "ok",
-          "detail": "48 min sen, 647 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 647 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/is-zones.geojson?cb=20260611a"
         },
         {
@@ -488,8 +488,8 @@
         {
           "name": "Feed: ee-zones",
           "status": "ok",
-          "detail": "48 min sen, 1245 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 1245 kB",
+          "last_modified": "2026-07-14T17:58:45+00:00",
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a"
         },
         {
@@ -538,8 +538,8 @@
         {
           "name": "Feed: at-zones",
           "status": "ok",
-          "detail": "48 min sen, 476 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 476 kB",
+          "last_modified": "2026-07-14T17:58:45+00:00",
           "url": "https://pappilappi.com/airspace/at-zones.geojson?cb=20260611a"
         },
         {
@@ -588,15 +588,15 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "48 min sen, 2108 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "44 min sen, 2108 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b"
         },
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "48 min sen, 708 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 708 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a"
         },
         {
@@ -645,8 +645,8 @@
         {
           "name": "Feed: ro-zones",
           "status": "ok",
-          "detail": "48 min sen, 650 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "44 min sen, 650 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260611a"
         },
         {
@@ -695,8 +695,8 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "48 min sen, 47656 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "44 min sen, 47656 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/de.geojson"
         },
         {
@@ -745,8 +745,8 @@
         {
           "name": "Feed: es-parques",
           "status": "ok",
-          "detail": "48 min sen, 283 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "44 min sen, 283 kB",
+          "last_modified": "2026-07-14T17:58:45+00:00",
           "url": "https://pappilappi.com/airspace/es-parques.geojson?cb=20260604a"
         },
         {
@@ -758,15 +758,15 @@
         },
         {
           "name": "Länk: AESA — Normativa de drones",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "info",
+          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones"
         },
         {
           "name": "Länk: AESA — Registro como operador",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "info",
+          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/registro-de-operador-de-drones-uas"
         },
@@ -779,8 +779,8 @@
         },
         {
           "name": "Länk: AESA — Examen de piloto en línea",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "info",
+          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones"
         }
@@ -795,22 +795,22 @@
         {
           "name": "Feed: fr-drones",
           "status": "ok",
-          "detail": "48 min sen, 15406 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 15406 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/fr-drones.geojson?cb=20260609a"
         },
         {
           "name": "Feed: zicad",
           "status": "ok",
-          "detail": "48 min sen, 275 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "45 min sen, 275 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/fr-zicad.geojson"
         },
         {
           "name": "Feed: fr-parcs",
           "status": "ok",
-          "detail": "48 min sen, 723 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 723 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/fr-parcs.geojson?cb=20260604b"
         },
         {
@@ -859,22 +859,22 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "48 min sen, 645 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 645 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a"
         },
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "48 min sen, 6919 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 6919 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260604a"
         },
         {
           "name": "Feed: fi-efr-static",
           "status": "ok",
-          "detail": "48 min sen, 101 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 101 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/fi-efr-static.geojson?cb=20260605a"
         },
         {
@@ -973,15 +973,15 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "48 min sen, 17857 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 17857 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/no.geojson?v=10"
         },
         {
           "name": "Feed: no-nve-infra",
           "status": "ok",
-          "detail": "48 min sen, 571 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 571 kB",
+          "last_modified": "2026-07-14T17:58:45+00:00",
           "url": "https://pappilappi.com/airspace/no-nve-infra.geojson?cb=20260604a"
         },
         {
@@ -1030,78 +1030,78 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "48 min sen, 11266 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "45 min sen, 11266 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/us.geojson"
         },
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "48 min sen, 475 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "45 min sen, 484 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson"
         },
         {
           "name": "Feed: nps",
           "status": "ok",
-          "detail": "48 min sen, 1907 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 1907 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/us-nps.geojson"
         },
         {
           "name": "Feed: classes",
           "status": "ok",
-          "detail": "48 min sen, 2253 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 2253 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/us-classes.geojson"
         },
         {
           "name": "Feed: sua",
           "status": "ok",
-          "detail": "48 min sen, 1688 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 1688 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/us-sua.geojson"
         },
         {
           "name": "Feed: heliports",
           "status": "ok",
-          "detail": "48 min sen, 1593 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "45 min sen, 1593 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/us-heliports.geojson"
         },
         {
           "name": "Feed: dc-sfra",
           "status": "ok",
-          "detail": "48 min sen, 3 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "45 min sen, 3 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/us-dc-sfra.geojson"
         },
         {
           "name": "Feed: nsufr",
           "status": "ok",
-          "detail": "48 min sen, 8 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 8 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/us-nsufr.geojson"
         },
         {
           "name": "Feed: wildlife-refuges",
           "status": "ok",
-          "detail": "48 min sen, 13327 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 13327 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/us-wildlife-refuges.geojson"
         },
         {
           "name": "Feed: fria",
           "status": "ok",
-          "detail": "48 min sen, 2439 kB",
-          "last_modified": "2026-07-14T12:02:16+00:00",
+          "detail": "45 min sen, 2439 kB",
+          "last_modified": "2026-07-14T17:58:45+00:00",
           "url": "https://pappilappi.com/airspace/us-fria.geojson"
         },
         {
           "name": "Feed: rec-sites",
           "status": "ok",
-          "detail": "48 min sen, 2295 kB",
-          "last_modified": "2026-07-14T12:02:15+00:00",
+          "detail": "45 min sen, 2295 kB",
+          "last_modified": "2026-07-14T17:58:44+00:00",
           "url": "https://pappilappi.com/airspace/us-rec-sites.geojson"
         },
         {
@@ -1209,6 +1209,20 @@
       "checks": [
         {
           "name": "FR IGN Géoportail WFS (fr-drones-pipeline)",
+          "status": "fail",
+          "detail": "HTTP 400",
+          "last_modified": null,
+          "url": null
+        },
+        {
+          "name": "DE DFS dipul WFS (de-spegel + live-bbox)",
+          "status": "ok",
+          "detail": "200 OK, ?B",
+          "last_modified": null,
+          "url": null
+        },
+        {
+          "name": "DE BfN Schutzgebiete WFS (de-natur-pipeline)",
           "status": "ok",
           "detail": "200 OK, ?B",
           "last_modified": null,
@@ -1334,9 +1348,44 @@
       "url": null
     },
     {
+      "name": "Airspace data source health check",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null
+    },
+    {
       "name": "Allett-klippare bevakning",
       "status": "ok",
-      "detail": "2/2 OK",
+      "detail": "3/3 OK",
+      "last_modified": null,
+      "url": null
+    },
+    {
+      "name": "App Store reviews digest",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null
+    },
+    {
+      "name": "App Store sales digest",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null
+    },
+    {
+      "name": "Apple Ads keyword monitor",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null
+    },
+    {
+      "name": "Apple Ads spend digest",
+      "status": "ok",
+      "detail": "1/1 OK",
       "last_modified": null,
       "url": null
     },
@@ -1364,12 +1413,12 @@
     {
       "name": "Fetch & publish US TFRs (FAA WFS)",
       "status": "ok",
-      "detail": "10/10 OK",
+      "detail": "8/8 OK",
       "last_modified": null,
       "url": null
     },
     {
-      "name": "Fetch IenW ED-269 (NL airspace)",
+      "name": "Fetch NOTAMs (FIR-based)",
       "status": "ok",
       "detail": "1/1 OK",
       "last_modified": null,
@@ -1378,19 +1427,12 @@
     {
       "name": "Flutter CI",
       "status": "ok",
-      "detail": "10/10 OK",
+      "detail": "9/9 OK",
       "last_modified": null,
       "url": null
     },
     {
       "name": "Flutter tests (flygdagbok smoke)",
-      "status": "ok",
-      "detail": "3/3 OK",
-      "last_modified": null,
-      "url": null
-    },
-    {
-      "name": "Publish countries.json to Gist",
       "status": "ok",
       "detail": "1/1 OK",
       "last_modified": null,
@@ -1438,5 +1480,10 @@
       "last_modified": null,
       "url": null
     }
-  ]
+  ],
+  "incident": {
+    "summary": "Idag har en enda check av 185 fallerat, tillsammans med en varning. Det handlar om uppströmskällan FR IGN Géoportail WFS (fr-drones-pipeline) som returnerar HTTP 400, alltså enbart den franska källan är påverkad. En 400-status tyder på att själva förfrågan avvisas som felaktig snarare än på ett nät- eller nedtidsproblem, vilket ofta beror på en ändrad WFS-parameter, versionshantering eller ett felaktigt query-format mot Géoportail. Eftersom detta är en isolerad avvikelse finns ingen gemensam orsak som kopplar den till andra flöden. Som första åtgärd föreslår jag att du kör WFS-anropet manuellt och granskar den exakta URL:en och parametrarna (t.ex. typeName, version och bbox) mot IGN:s aktuella capabilities-dokument för att se vad servern klagar på.",
+    "model": "claude-opus-4-8",
+    "generated": "2026-07-14T18:44:31.891092+00:00"
+  }
 }
