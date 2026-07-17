@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-16T08:56:59+00:00",
+  "generated": "2026-07-17T08:38:13+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
-      "start": "2026-07-09",
-      "end": "2026-07-16",
-      "visitors": 55,
+      "start": "2026-07-10",
+      "end": "2026-07-17",
+      "visitors": 64,
       "events_total": 1,
       "clicks": {
         "ios": 1,
@@ -15,14 +15,28 @@
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 34,
+          "count": 35,
           "ios": 1,
           "android": 0
         },
         {
           "code": "US",
           "name": "United States",
-          "count": 21,
+          "count": 24,
+          "ios": 0,
+          "android": 0
+        },
+        {
+          "code": "CA",
+          "name": "Canada",
+          "count": 2,
+          "ios": 0,
+          "android": 0
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "count": 2,
           "ios": 0,
           "android": 0
         },
@@ -32,30 +46,9 @@
           "count": 2,
           "ios": 0,
           "android": 0
-        },
-        {
-          "code": "CA",
-          "name": "Canada",
-          "count": 1,
-          "ios": 0,
-          "android": 0
-        },
-        {
-          "code": "FR",
-          "name": "France",
-          "count": 1,
-          "ios": 0,
-          "android": 0
         }
       ],
       "daily": [
-        {
-          "day": "2026-07-09",
-          "visitors": 0,
-          "ios": 0,
-          "android": 0,
-          "countries": []
-        },
         {
           "day": "2026-07-10",
           "visitors": 0,
@@ -165,6 +158,29 @@
         },
         {
           "day": "2026-07-16",
+          "visitors": 9,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 4
+            },
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 3
+            },
+            {
+              "code": "CA",
+              "name": "Canada",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "day": "2026-07-17",
           "visitors": 0,
           "ios": 0,
           "android": 0,
@@ -173,9 +189,9 @@
       ]
     },
     "30d": {
-      "start": "2026-06-16",
-      "end": "2026-07-16",
-      "visitors": 55,
+      "start": "2026-06-17",
+      "end": "2026-07-17",
+      "visitors": 64,
       "events_total": 1,
       "clicks": {
         "ios": 1,
@@ -185,14 +201,28 @@
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 34,
+          "count": 35,
           "ios": 1,
           "android": 0
         },
         {
           "code": "US",
           "name": "United States",
-          "count": 21,
+          "count": 24,
+          "ios": 0,
+          "android": 0
+        },
+        {
+          "code": "CA",
+          "name": "Canada",
+          "count": 2,
+          "ios": 0,
+          "android": 0
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "count": 2,
           "ios": 0,
           "android": 0
         },
@@ -202,30 +232,9 @@
           "count": 2,
           "ios": 0,
           "android": 0
-        },
-        {
-          "code": "CA",
-          "name": "Canada",
-          "count": 1,
-          "ios": 0,
-          "android": 0
-        },
-        {
-          "code": "FR",
-          "name": "France",
-          "count": 1,
-          "ios": 0,
-          "android": 0
         }
       ],
       "daily": [
-        {
-          "day": "2026-06-16",
-          "visitors": 0,
-          "ios": 0,
-          "android": 0,
-          "countries": []
-        },
         {
           "day": "2026-06-17",
           "visitors": 0,
@@ -496,6 +505,29 @@
         },
         {
           "day": "2026-07-16",
+          "visitors": 9,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 4
+            },
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 3
+            },
+            {
+              "code": "CA",
+              "name": "Canada",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "day": "2026-07-17",
           "visitors": 0,
           "ios": 0,
           "android": 0,
