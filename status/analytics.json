@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-24T09:05:42+00:00",
+  "generated": "2026-07-25T08:33:30+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
-      "start": "2026-07-17",
-      "end": "2026-07-24",
-      "visitors": 935,
-      "events_total": 18,
+      "start": "2026-07-18",
+      "end": "2026-07-25",
+      "visitors": 968,
+      "events_total": 22,
       "clicks": {
-        "ios": 18,
+        "ios": 22,
         "android": 0
       },
       "countries": [
@@ -22,59 +22,36 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 151,
+          "count": 138,
+          "ios": 4,
+          "android": 0
+        },
+        {
+          "code": "SE",
+          "name": "Sweden",
+          "count": 60,
           "ios": 4,
           "android": 0
         },
         {
           "code": "IT",
           "name": "Italy",
-          "count": 60,
+          "count": 56,
           "ios": 3,
           "android": 0
         },
         {
           "code": "FR",
           "name": "France",
-          "count": 54,
+          "count": 52,
           "ios": 1,
-          "android": 0
-        },
-        {
-          "code": "DE",
-          "name": "Germany",
-          "count": 49,
-          "ios": 5,
           "android": 0
         }
       ],
       "daily": [
         {
-          "day": "2026-07-17",
-          "visitors": 31,
-          "ios": 0,
-          "android": 0,
-          "countries": [
-            {
-              "code": "US",
-              "name": "United States",
-              "count": 19
-            },
-            {
-              "code": "IT",
-              "name": "Italy",
-              "count": 5
-            },
-            {
-              "code": "DE",
-              "name": "Germany",
-              "count": 3
-            }
-          ]
-        },
-        {
           "day": "2026-07-18",
-          "visitors": 82,
+          "visitors": 76,
           "ios": 1,
           "android": 0,
           "countries": [
@@ -212,23 +189,46 @@
         },
         {
           "day": "2026-07-24",
-          "visitors": 1,
-          "ios": 0,
+          "visitors": 62,
+          "ios": 2,
           "android": 0,
           "countries": [
             {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 24
+            },
+            {
+              "code": "NL",
+              "name": "Netherlands",
+              "count": 17
+            },
+            {
               "code": "US",
               "name": "United States",
-              "count": 5
+              "count": 10
+            }
+          ]
+        },
+        {
+          "day": "2026-07-25",
+          "visitors": 9,
+          "ios": 2,
+          "android": 0,
+          "countries": [
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 2
+            },
+            {
+              "code": "AT",
+              "name": "Austria",
+              "count": 1
             },
             {
               "code": "DE",
               "name": "Germany",
-              "count": 1
-            },
-            {
-              "code": "PL",
-              "name": "Poland",
               "count": 1
             }
           ]
@@ -236,12 +236,12 @@
       ]
     },
     "30d": {
-      "start": "2026-06-24",
-      "end": "2026-07-24",
-      "visitors": 999,
-      "events_total": 19,
+      "start": "2026-06-25",
+      "end": "2026-07-25",
+      "visitors": 1069,
+      "events_total": 23,
       "clicks": {
-        "ios": 19,
+        "ios": 23,
         "android": 0
       },
       "countries": [
@@ -255,40 +255,33 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 174,
+          "count": 180,
           "ios": 4,
           "android": 0
         },
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 71,
-          "ios": 2,
+          "count": 97,
+          "ios": 5,
           "android": 0
         },
         {
           "code": "IT",
           "name": "Italy",
-          "count": 60,
+          "count": 61,
           "ios": 3,
           "android": 0
         },
         {
           "code": "FR",
           "name": "France",
-          "count": 55,
+          "count": 56,
           "ios": 1,
           "android": 0
         }
       ],
       "daily": [
-        {
-          "day": "2026-06-24",
-          "visitors": 0,
-          "ios": 0,
-          "android": 0,
-          "countries": []
-        },
         {
           "day": "2026-06-25",
           "visitors": 0,
@@ -687,23 +680,46 @@
         },
         {
           "day": "2026-07-24",
-          "visitors": 1,
-          "ios": 0,
+          "visitors": 62,
+          "ios": 2,
           "android": 0,
           "countries": [
             {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 24
+            },
+            {
+              "code": "NL",
+              "name": "Netherlands",
+              "count": 17
+            },
+            {
               "code": "US",
               "name": "United States",
-              "count": 5
+              "count": 10
+            }
+          ]
+        },
+        {
+          "day": "2026-07-25",
+          "visitors": 9,
+          "ios": 2,
+          "android": 0,
+          "countries": [
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 2
+            },
+            {
+              "code": "AT",
+              "name": "Austria",
+              "count": 1
             },
             {
               "code": "DE",
               "name": "Germany",
-              "count": 1
-            },
-            {
-              "code": "PL",
-              "name": "Poland",
               "count": 1
             }
           ]
