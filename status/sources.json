@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T07:34:52.935025+00:00",
+  "generated": "2026-07-25T18:29:04.273717+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -7,91 +7,104 @@
       "status": "info",
       "detail": "risk 212 · 82d sedan · ingen AI-tillsyn · nationellt regelverk · 4 av 5 källor obevakade",
       "last_modified": null,
-      "url": "https://www.casa.gov.au/drones"
+      "url": "https://www.casa.gov.au/drones",
+      "kind": "other"
     },
     {
       "name": "🇦🇪 AE — Förenade Arabemiraten",
       "status": "info",
       "detail": "risk 200 · 110d sedan · ingen AI-tillsyn · nationellt regelverk",
       "last_modified": null,
-      "url": "https://www.gcaa.gov.ae/en/pages/UASRegistration.aspx/"
+      "url": "https://www.gcaa.gov.ae/en/pages/UASRegistration.aspx/",
+      "kind": "other"
     },
     {
       "name": "🇿🇦 ZA — Sydafrika",
       "status": "info",
       "detail": "risk 200 · 110d sedan · ingen AI-tillsyn · nationellt regelverk",
       "last_modified": null,
-      "url": "https://www.caa.co.za/industry-information/uas/"
+      "url": "https://www.caa.co.za/industry-information/uas/",
+      "kind": "other"
     },
     {
       "name": "🇲🇽 MX — Mexiko",
       "status": "info",
       "detail": "risk 183 · 83d sedan · ingen AI-tillsyn · nationellt regelverk · 1 av 3 källor obevakade",
       "last_modified": null,
-      "url": "https://www.gob.mx/afac/acciones-y-programas/rpas-drones"
+      "url": "https://www.gob.mx/afac/acciones-y-programas/rpas-drones",
+      "kind": "other"
     },
     {
       "name": "🇧🇷 BR — Brasilien",
       "status": "info",
       "detail": "risk 182 · 82d sedan · ingen AI-tillsyn · nationellt regelverk · 1 av 4 källor obevakade",
       "last_modified": null,
-      "url": "https://www.gov.br/anac/pt-br/assuntos/drones"
+      "url": "https://www.gov.br/anac/pt-br/assuntos/drones",
+      "kind": "other"
     },
     {
       "name": "🇨🇴 CO — Colombia",
       "status": "info",
       "detail": "risk 182 · 82d sedan · ingen AI-tillsyn · nationellt regelverk · 1 av 4 källor obevakade",
       "last_modified": null,
-      "url": "https://www.aerocivil.gov.co/autoridad_aeronautica/publicaciones/3781/aviacion-no-tripulada-uasdrones/"
+      "url": "https://www.aerocivil.gov.co/autoridad_aeronautica/publicaciones/3781/aviacion-no-tripulada-uasdrones/",
+      "kind": "other"
     },
     {
       "name": "🇸🇬 SG — Singapore",
       "status": "info",
       "detail": "risk 182 · 82d sedan · ingen AI-tillsyn · nationellt regelverk · 1 av 3 källor obevakade",
       "last_modified": null,
-      "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft"
+      "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft",
+      "kind": "other"
     },
     {
       "name": "🇬🇷 GR — Grekland",
       "status": "info",
       "detail": "risk 179 · 109d sedan · ingen AI-tillsyn · 1 av 2 källor obevakade",
       "last_modified": null,
-      "url": "https://hcaa.gov.gr/en/where-you-are-allowed-fly-uas-greece"
+      "url": "https://hcaa.gov.gr/en/where-you-are-allowed-fly-uas-greece",
+      "kind": "other"
     },
     {
       "name": "🇱🇮 LI — Liechtenstein",
       "status": "info",
       "detail": "risk 179 · 109d sedan · ingen AI-tillsyn · 1 av 3 källor obevakade",
       "last_modified": null,
-      "url": "https://www.bazl.admin.ch/drohnen"
+      "url": "https://www.bazl.admin.ch/drohnen",
+      "kind": "other"
     },
     {
       "name": "🇲🇹 MT — Malta",
       "status": "info",
       "detail": "risk 179 · 109d sedan · ingen AI-tillsyn · 1 av 2 källor obevakade",
       "last_modified": null,
-      "url": "https://www.transport.gov.mt/aviation/civil-aviation-directorate/drones"
+      "url": "https://www.transport.gov.mt/aviation/civil-aviation-directorate/drones",
+      "kind": "other"
     },
     {
       "name": "🇹🇷 TR — Turkiet",
       "status": "info",
       "detail": "risk 173 · 83d sedan · ingen AI-tillsyn · nationellt regelverk",
       "last_modified": null,
-      "url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha"
+      "url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha",
+      "kind": "other"
     },
     {
       "name": "🇦🇷 AR — Argentina",
       "status": "info",
       "detail": "risk 172 · 82d sedan · ingen AI-tillsyn · nationellt regelverk",
       "last_modified": null,
-      "url": "https://www.argentina.gob.ar/anac/rpa-rpas"
+      "url": "https://www.argentina.gob.ar/anac/rpa-rpas",
+      "kind": "other"
     },
     {
       "name": "+ 13 länder till med risk 172",
       "status": "info",
       "detail": "likvärdiga med sista raden — välj fritt bland dem: CA, CL, CR, DO, EC, GB, HK, IN, NZ, PA, PE, PH…",
       "last_modified": null,
-      "url": null
+      "url": null,
+      "kind": "other"
     }
   ],
   "coverage": [
@@ -100,28 +113,32 @@
       "status": "warn",
       "detail": "19 av 55 länder granskas — 36 blinda (gaten kräver luftrumsoverlay)",
       "last_modified": null,
-      "url": null
+      "url": null,
+      "kind": "other"
     },
     {
       "name": "Regelhash-bevakning",
       "status": "warn",
       "detail": "53 av 55 länder, 162 URL:er bevakade — 21 källor utanför; NOLL bevakning: CY, UA",
       "last_modified": null,
-      "url": null
+      "url": null,
+      "kind": "other"
     },
     {
       "name": "Ålder på regelverifiering",
       "status": "info",
       "detail": "median 82d · äldst 110d (AE, ZA) · 10 länder >90d",
       "last_modified": null,
-      "url": null
+      "url": null,
+      "kind": "other"
     },
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
       "detail": "62 av 501 länkar trasiga i 22 länder",
       "last_modified": null,
-      "url": null
+      "url": null,
+      "kind": "other"
     }
   ],
   "links": [
@@ -130,112 +147,128 @@
       "status": "warn",
       "detail": "7 av 9 länkar trasiga (403, error)",
       "last_modified": null,
-      "url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones"
+      "url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
+      "kind": "other"
     },
     {
       "name": "🇦🇺 AU — Australien",
       "status": "warn",
       "detail": "6 av 10 länkar trasiga (error)",
       "last_modified": null,
-      "url": "https://www.casa.gov.au/knowyourdrone/drone-rules"
+      "url": "https://www.casa.gov.au/knowyourdrone/drone-rules",
+      "kind": "other"
     },
     {
       "name": "🇱🇹 LT — Litauen",
       "status": "warn",
       "detail": "6 av 9 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://tka.lt/en/katalogas/bendra-informacija-2/"
+      "url": "https://tka.lt/en/katalogas/bendra-informacija-2/",
+      "kind": "other"
     },
     {
       "name": "🇲🇹 MT — Malta",
       "status": "warn",
       "detail": "5 av 9 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://www.transport.gov.mt/aviation/civil-aviation-directorate/drones"
+      "url": "https://www.transport.gov.mt/aviation/civil-aviation-directorate/drones",
+      "kind": "other"
     },
     {
       "name": "🇸🇮 SI — Slovenien",
       "status": "warn",
       "detail": "5 av 9 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://www.caa.si/brezpilotni-zrakoplovi.html"
+      "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
+      "kind": "other"
     },
     {
       "name": "🇵🇱 PL — Polen",
       "status": "warn",
       "detail": "4 av 9 länkar trasiga (error)",
       "last_modified": null,
-      "url": "https://dronemap.pansa.pl"
+      "url": "https://dronemap.pansa.pl",
+      "kind": "other"
     },
     {
       "name": "🇺🇦 UA — Ukraina",
       "status": "warn",
       "detail": "4 av 5 länkar trasiga (403, 404)",
       "last_modified": null,
-      "url": "https://avia.gov.ua"
+      "url": "https://avia.gov.ua",
+      "kind": "other"
     },
     {
       "name": "🇬🇷 GR — Grekland",
       "status": "warn",
       "detail": "3 av 9 länkar trasiga (403, timeout)",
       "last_modified": null,
-      "url": "https://dagr.hasp.gov.gr"
+      "url": "https://dagr.hasp.gov.gr",
+      "kind": "other"
     },
     {
       "name": "🇹🇷 TR — Turkiet",
       "status": "warn",
       "detail": "3 av 10 länkar trasiga (error)",
       "last_modified": null,
-      "url": "https://iha.shgm.gov.tr/"
+      "url": "https://iha.shgm.gov.tr/",
+      "kind": "other"
     },
     {
       "name": "🇦🇷 AR — Argentina",
       "status": "warn",
       "detail": "2 av 10 länkar trasiga (error)",
       "last_modified": null,
-      "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto"
+      "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
+      "kind": "other"
     },
     {
       "name": "🇨🇴 CO — Colombia",
       "status": "warn",
       "detail": "2 av 10 länkar trasiga (403, error)",
       "last_modified": null,
-      "url": "http://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-de-aeronaves-pilotadas-a-distancia-rpas-drones/documents/forms/allitems.aspx"
+      "url": "http://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-de-aeronaves-pilotadas-a-distancia-rpas-drones/documents/forms/allitems.aspx",
+      "kind": "other"
     },
     {
       "name": "🇲🇽 MX — Mexiko",
       "status": "warn",
       "detail": "2 av 10 länkar trasiga (error)",
       "last_modified": null,
-      "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5575021"
+      "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5575021",
+      "kind": "other"
     },
     {
       "name": "🇵🇪 PE — Peru",
       "status": "warn",
       "detail": "2 av 10 länkar trasiga (403, error)",
       "last_modified": null,
-      "url": "mailto:rpas-dgac@mtc.gob.pe"
+      "url": "mailto:rpas-dgac@mtc.gob.pe",
+      "kind": "other"
     },
     {
       "name": "🇸🇬 SG — Singapore",
       "status": "warn",
       "detail": "2 av 9 länkar trasiga (404)",
       "last_modified": null,
-      "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft/ua-regulatory-requirements"
+      "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft/ua-regulatory-requirements",
+      "kind": "other"
     },
     {
       "name": "🇿🇦 ZA — Sydafrika",
       "status": "warn",
       "detail": "2 av 5 länkar trasiga (error)",
       "last_modified": null,
-      "url": "https://www.caa.co.za/industry-information/uas/"
+      "url": "https://www.caa.co.za/industry-information/uas/",
+      "kind": "other"
     },
     {
       "name": "+ 7 länder till med trasiga länkar",
       "status": "info",
       "detail": "7 länkar: BR, CR, DO, LI, NO, NZ, PA",
       "last_modified": null,
-      "url": null
+      "url": null,
+      "kind": "other"
     }
   ]
 }
