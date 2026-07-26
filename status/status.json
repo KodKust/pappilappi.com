@@ -1,19 +1,597 @@
 {
-  "generated": "2026-07-26T18:34:51.971512+00:00",
+  "generated": "2026-07-26T21:59:02.804762+00:00",
   "summary": {
     "fail": 0,
-    "warn": 7,
-    "ok": 188,
-    "total_checks": 217,
-    "countries_total": 19,
-    "countries_ok": 13
+    "warn": 12,
+    "ok": 192,
+    "total_checks": 290,
+    "countries_total": 55,
+    "countries_ok": 48
   },
   "countries": [
+    {
+      "iso": "BR",
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "SBAZ",
+        "SBBS",
+        "SBCW",
+        "SBRE",
+        "SBAO"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "TR",
+      "name": "Türkiye",
+      "flag": "🇹🇷",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "LTAA",
+        "LTBB"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 84d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "LI",
+      "name": "Liechtenstein",
+      "flag": "🇱🇮",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 110d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "MT",
+      "name": "Malta",
+      "flag": "🇲🇹",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "LMMM"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 110d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "MMFR",
+        "MMFO",
+        "MMMX",
+        "MMTY"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 84d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "AR",
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "SAEF",
+        "SARR",
+        "SAVF"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "CL",
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "CO",
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "PE",
+      "name": "Perú",
+      "flag": "🇵🇪",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "UY",
+      "name": "Uruguay",
+      "flag": "🇺🇾",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "CR",
+      "name": "Costa Rica",
+      "flag": "🇨🇷",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "EC",
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "PA",
+      "name": "Panamá",
+      "flag": "🇵🇦",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "DO",
+      "name": "República Dominicana",
+      "flag": "🇩🇴",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "HK",
+      "name": "Hong Kong",
+      "flag": "🇭🇰",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
     {
       "iso": "LU",
       "name": "Luxembourg",
       "flag": "🇱🇺",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "EBBU"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Luxemburgs drönarzoner",
+            "label": "lu-zones"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: lu-zones",
@@ -21,7 +599,10 @@
           "detail": "hämtad 7d sen, 53 kB",
           "last_modified": "2026-07-19T08:55:03+00:00",
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Luxemburgs drönarzoner",
+          "explain": "Officiella zoner från luftfartsmyndigheten DAC via geoportail.lu. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-27"
         },
         {
           "name": "Regler (lastVerified)",
@@ -29,7 +610,9 @@
           "detail": "regler verifierade 45d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: DAC — Réglementation des drones",
@@ -37,7 +620,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://dac.gouvernement.lu/fr/drones.html",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: DAC — S'enregistrer comme exploitant",
@@ -45,7 +629,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://dac.gouvernement.lu/fr/drones.html",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Geoportail.lu — Carte des drones",
@@ -53,7 +638,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.geoportail.lu",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: DAC — Aperçu des règles",
@@ -61,7 +647,42 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://dac.gouvernement.lu/fr/drones.html",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "CY",
+      "name": "Cyprus",
+      "flag": "🇨🇾",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -70,6 +691,26 @@
       "name": "Slovenia",
       "flag": "🇸🇮",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "LJLA"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Sloveniens drönarzoner",
+            "label": "si-zones"
+          }
+        ],
+        "saknas": [
+          {
+            "namn": "Byte till öppna källor (RABA/ARSO)",
+            "läge": "på väg",
+            "varfor": "CAA-datans licens tillåter inte kommersiell användning. Ersättare byggd på öppna källor är klar och testad på telefon, men inte inkopplad än — tills dess visas den senast hämtade CAA-datan och uppdateringen står medvetet still."
+          }
+        ]
+      },
       "checks": [
         {
           "name": "Feed: si-zones",
@@ -77,7 +718,9 @@
           "detail": "hämtad 3d sen, 385 kB",
           "last_modified": "2026-07-23T10:01:25+00:00",
           "url": "https://pappilappi.com/airspace/si-zones.geojson?cb=20260611a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Sloveniens drönarzoner",
+          "explain": "Zoner från luftfartsmyndigheten CAA. Obs: uppdateringen är pausad i väntan på bytet till öppna källor — se nedan. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen. ⏸ Uppdateringen är medvetet pausad sedan 23 juli 2026, för att CAA-datans licens inte tillåter kommersiell användning. Ett byte till öppna källor är byggt och väntar på inkoppling — tills dess visar appen den senast hämtade kartan."
         },
         {
           "name": "Regler (lastVerified)",
@@ -85,7 +728,9 @@
           "detail": "regler verifierade 45d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: CAA Slovenia — Predpisi o dronih",
@@ -93,7 +738,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: CAA Slovenia — Registracija operaterja",
@@ -101,7 +747,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://uas.caa.si",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: CAA Slovenia — Karta zračnega prostora",
@@ -109,7 +756,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: CAA Slovenia — Brezplačni izpit A1/A3",
@@ -117,7 +765,44 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://uas.caa.si",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "BE",
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "EBBU"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 110d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -126,6 +811,62 @@
       "name": "Switzerland",
       "flag": "🇨🇭",
       "status": "warn",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "LSAS"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Schweiz statliga kartserver (live)",
+            "label": "primär"
+          },
+          {
+            "titel": "Lufthinder",
+            "label": "luftfahrthindernis"
+          },
+          {
+            "titel": "Kontrollzoner (CTR)",
+            "label": "ch-ctr"
+          },
+          {
+            "titel": "Terminalområden (TMA)",
+            "label": "ch-tma"
+          },
+          {
+            "titel": "Kontrollområden (CTA)",
+            "label": "ch-cta"
+          },
+          {
+            "titel": "Drönar-aktivitetszoner",
+            "label": "ch-uas-aktivitaetszonen"
+          },
+          {
+            "titel": "Viltskyddsområden",
+            "label": "ch-jagdbanngebiete"
+          },
+          {
+            "titel": "Fågelreservat",
+            "label": "ch-vogelreservate"
+          },
+          {
+            "titel": "Säkerhetszoner vid flygplatser",
+            "label": "ch-sicherheitszonenplan"
+          },
+          {
+            "titel": "Skjuttider (dagsfärska)",
+            "label": "ch-schiessanzeigen"
+          }
+        ],
+        "saknas": [
+          {
+            "namn": "Militärt luftrum",
+            "läge": "beslut väntar",
+            "varfor": "Datan hämtas redan från geo.admin.ch, men att visa ett nytt lager för användarna är ett beslut som inte är taget än."
+          }
+        ]
+      },
       "checks": [
         {
           "name": "Primär (geoadmin)",
@@ -133,7 +874,9 @@
           "detail": "200 OK, 2641204B",
           "last_modified": null,
           "url": "https://api3.geo.admin.ch/rest/services/api/MapServer",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Schweiz statliga kartserver (live)",
+          "explain": "geo.admin.ch — schweiziska statens kartserver. Appen frågar den direkt för vissa lager, ovanpå de speglade filerna nedan. Appen frågar myndighetens egen server direkt när kartan används — det finns inget mellanled att vänta på."
         },
         {
           "name": "Feed: luftfahrthindernis",
@@ -141,7 +884,10 @@
           "detail": "hämtad 7d sen, 8681 kB",
           "last_modified": "2026-07-19T07:30:09+00:00",
           "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson?v=20260605c",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Lufthinder",
+          "explain": "Master, linbanor, kranar och annat högt som en drönare kan träffa. Från luftfartsmyndigheten BAZL:s hinderregister. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-21"
         },
         {
           "name": "Feed: ch-ctr",
@@ -149,7 +895,10 @@
           "detail": "hämtad 2d sen, 47 kB",
           "last_modified": "2026-07-24T07:32:39+00:00",
           "url": "https://pappilappi.com/airspace/ch-ctr.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Kontrollzoner (CTR)",
+          "explain": "Luften närmast flygplatserna, där flygledningen bestämmer. Här gäller hårda drönarregler. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-26"
         },
         {
           "name": "Feed: ch-tma",
@@ -157,7 +906,10 @@
           "detail": "hämtad 2d sen, 151 kB",
           "last_modified": "2026-07-24T07:32:39+00:00",
           "url": "https://pappilappi.com/airspace/ch-tma.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Terminalområden (TMA)",
+          "explain": "Kontrollerad luft i 'trattar' ovanför och runt flygplatser, där trafikflyg stiger och sjunker. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-26"
         },
         {
           "name": "Feed: ch-cta",
@@ -165,7 +917,10 @@
           "detail": "hämtad 2d sen, 63 kB",
           "last_modified": "2026-07-24T07:32:39+00:00",
           "url": "https://pappilappi.com/airspace/ch-cta.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Kontrollområden (CTA)",
+          "explain": "Större kontrollerade luftrumsblock på högre höjd. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-26"
         },
         {
           "name": "Feed: ch-uas-aktivitaetszonen",
@@ -173,7 +928,10 @@
           "detail": "hämtad 2d sen, 210 kB",
           "last_modified": "2026-07-24T07:32:39+00:00",
           "url": "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Drönar-aktivitetszoner",
+          "explain": "Utpekade områden för drönar- och modellflyg. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-26"
         },
         {
           "name": "Feed: ch-jagdbanngebiete",
@@ -181,7 +939,10 @@
           "detail": "hämtad 2d sen, 2223 kB",
           "last_modified": "2026-07-24T07:32:39+00:00",
           "url": "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Viltskyddsområden",
+          "explain": "Jaktbannområden — skyddade områden för vilt där drönare stör djurlivet. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-26"
         },
         {
           "name": "Feed: ch-vogelreservate",
@@ -189,7 +950,10 @@
           "detail": "hämtad 2d sen, 567 kB",
           "last_modified": "2026-07-24T07:32:39+00:00",
           "url": "https://pappilappi.com/airspace/ch-vogelreservate.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Fågelreservat",
+          "explain": "Skyddade fågelområden med drönarbegränsningar. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-26"
         },
         {
           "name": "Feed: ch-sicherheitszonenplan",
@@ -197,15 +961,21 @@
           "detail": "hämtad 2d sen, 513 kB",
           "last_modified": "2026-07-24T07:32:39+00:00",
           "url": "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Säkerhetszoner vid flygplatser",
+          "explain": "Officiella säkerhetszonplaner runt flygplatser. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-26"
         },
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 10h sen, 492 kB",
+          "detail": "hämtad 14h sen, 492 kB",
           "last_modified": "2026-07-26T07:36:51+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Skjuttider (dagsfärska)",
+          "explain": "Platser och tider där militär och skytteföreningar skjuter — från försvarsdepartementet VBS. Ändras varje dag, därför hämtas den varje dag. Hämtas varje dag (skjuttider ändras dagligen). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-28"
         },
         {
           "name": "Regler (lastVerified)",
@@ -213,7 +983,9 @@
           "detail": "regler verifierade 46d sedan — dags för audit",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: FOCA/BAZL — Drohnenvorschriften",
@@ -221,7 +993,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.bazl.admin.ch/drohnen",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: FOCA — Als Betreiber registrieren",
@@ -229,7 +1002,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.bazl.admin.ch/de/registrierung-drohnenbetreiber",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Swiss Dronemap — Luftraumkarte",
@@ -237,7 +1011,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.swiss-dronemap.ch",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: FOCA — Regelübersicht",
@@ -245,7 +1020,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.bazl.admin.ch/de/flugregeln-drohnen",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
       ]
     },
@@ -254,6 +1030,20 @@
       "name": "Slovakia",
       "flag": "🇸🇰",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "LZBB"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Slovakiens drönarzoner",
+            "label": "sk-zones"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: sk-zones",
@@ -261,7 +1051,10 @@
           "detail": "hämtad 7d sen, 291 kB",
           "last_modified": "2026-07-19T08:55:10+00:00",
           "url": "https://pappilappi.com/airspace/sk-zones.geojson?cb=20260611a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Slovakiens drönarzoner",
+          "explain": "Officiella zoner från transportmyndigheten (Dopravný úrad). Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-27"
         },
         {
           "name": "Regler (lastVerified)",
@@ -269,23 +1062,27 @@
           "detail": "regler verifierade 45d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Dopravný úrad — Predpisy pre drony",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Dopravný úrad — Registrácia prevádzkovateľa",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: LPS — Mapa vzdušného priestoru",
@@ -293,15 +1090,17 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://gis.lps.sk",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Dopravný úrad — Prehľad pravidiel",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
       ]
     },
@@ -310,6 +1109,24 @@
       "name": "Netherlands",
       "flag": "🇳🇱",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "EHAA"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Nederländernas zonlista",
+            "label": "ienw-ed269"
+          },
+          {
+            "titel": "Natura 2000-områden",
+            "label": "pdok-natura"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: ienw-ed269",
@@ -317,7 +1134,10 @@
           "detail": "data oförändrad sedan 21d sen, 1072 kB",
           "last_modified": "2026-07-05T07:30:27+00:00",
           "url": "https://pappilappi.com/airspace/nl-ed269.geojson?cb=20260603e",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Nederländernas zonlista",
+          "explain": "Den officiella zonlistan (ED-269) från infrastruktur- och vattendepartementet IenW: flygplatser, förbud, natur. Hämtas varje vecka (filen rörs bara när innehållet ändrats). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-19"
         },
         {
           "name": "Feed: pdok-natura",
@@ -325,7 +1145,19 @@
           "detail": "data oförändrad sedan 7d sen, 1889 kB",
           "last_modified": "2026-07-19T08:20:42+00:00",
           "url": "https://pappilappi.com/airspace/nl-pdok-natura.geojson?cb=20260603d",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Natura 2000-områden",
+          "explain": "Skyddad natur från statens karttjänst PDOK. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-21"
+        },
+        {
+          "name": "Uppströms: PDOK Natura 2000 WFS",
+          "status": "ok",
+          "detail": "200 OK, 15434B",
+          "last_modified": null,
+          "url": "https://service.pdok.nl/rvo/natura2000/wfs/v1_0?request=GetCapabilities&service=WFS",
+          "kind": "upstream",
+          "explain": "Myndighetens server som vår robot hämtar ifrån (inte det appen läser). Dör den syns det här innan nästa hämtning hinner misslyckas."
         },
         {
           "name": "Regler (lastVerified)",
@@ -333,7 +1165,9 @@
           "detail": "regler verifierade 37d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: ILT — Droneregels",
@@ -341,7 +1175,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: RDW — Registreren als exploitant",
@@ -349,7 +1184,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.rdw.nl/drone",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: ILT — Overzicht van de regels",
@@ -357,7 +1193,186 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/regels-voor-drones",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "LT",
+      "name": "Lithuania",
+      "flag": "🇱🇹",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "EYVL"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "LV",
+      "name": "Latvia",
+      "flag": "🇱🇻",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "EVRR"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "HU",
+      "name": "Hungary",
+      "flag": "🇭🇺",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "LHCC"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 110d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "CZ",
+      "name": "Czech Republic",
+      "flag": "🇨🇿",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "LKAA"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 110d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "AE",
+      "name": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 111d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -366,6 +1381,27 @@
       "name": "Ireland",
       "flag": "🇮🇪",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "EIDW",
+        "EICK"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Irlands zonlista",
+            "label": "primär"
+          }
+        ],
+        "saknas": [
+          {
+            "namn": "Nordirland",
+            "läge": "blockerad",
+            "varfor": "Nordirlands luftrumsdata ägs av brittiska CAA och är licenslåst. Appen visar i stället en ärlig upplysning för användare i området."
+          }
+        ]
+      },
       "checks": [
         {
           "name": "Primär (geojson-static)",
@@ -373,7 +1409,9 @@
           "detail": "85 zoner",
           "last_modified": null,
           "url": "https://gist.githubusercontent.com/KodKust/c52cf5d3ef3370a7d4c26d9c2b616506/raw/iaa_simplified.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Irlands zonlista",
+          "explain": "Luftfartsmyndigheten IAA:s zoner, förenklade och publicerade som liten datafil (gist). Ligger som liten datafil på GitHub (kallas gist) och är live direkt när den uppdateras — appen läser den med några timmars mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -381,7 +1419,9 @@
           "detail": "regler verifierade 37d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: IAA — Drone regulations",
@@ -389,7 +1429,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.iaa.ie/general-aviation/drones",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: IAA — Register as operator",
@@ -397,7 +1438,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.iaa.ie/general-aviation/drones/drone-register",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: IAA — Geographical zones map",
@@ -405,7 +1447,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.iaa.ie/general-aviation/drones/faqs/geographical-zones",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: SafeDrone — Airspace map",
@@ -413,7 +1456,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://geozone.safedrone.ie/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
       ]
     },
@@ -422,6 +1466,20 @@
       "name": "Portugal",
       "flag": "🇵🇹",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "LPPC"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Portugals drönarzoner",
+            "label": "pt-zones"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: pt-zones",
@@ -429,7 +1487,10 @@
           "detail": "hämtad 7d sen, 391 kB",
           "last_modified": "2026-07-19T08:55:06+00:00",
           "url": "https://pappilappi.com/airspace/pt-zones.geojson?cb=20260611a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Portugals drönarzoner",
+          "explain": "Officiella zoner från luftfartsmyndigheten ANAC. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-27"
         },
         {
           "name": "Regler (lastVerified)",
@@ -437,7 +1498,9 @@
           "detail": "regler verifierade 45d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: ANAC — Regulamentação de drones",
@@ -445,7 +1508,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.anac.pt/vPT/Generico/drones/legislacao_regulamentacao_uas/Paginas/LegislacaoeRegulamentacaoEspecifica.aspx",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: ANAC — Registar como operador",
@@ -453,7 +1517,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.anac.pt/vPT/Generico/drones/registo_uas/Paginas/OperadoresdeUAS.aspx",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: NAV Portugal — Informação do espaço aéreo",
@@ -461,7 +1526,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.nav.pt",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: ANAC — Resumo das regras para drones",
@@ -469,7 +1535,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.anac.pt/vPT/Generico/drones/categoria_aberta/Paginas/CategoriaAberta.aspx",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: AAN — Autorização para filmagens aéreas",
@@ -477,7 +1544,44 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.aan.pt/subPagina-AAN-001.005-levantamentos-a-reos",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "BG",
+      "name": "Bulgaria",
+      "flag": "🇧🇬",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "LBSR"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 110d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -486,6 +1590,20 @@
       "name": "Iceland",
       "flag": "🇮🇸",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "BIRD"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Islands drönarzoner",
+            "label": "is-zones"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: is-zones",
@@ -493,7 +1611,10 @@
           "detail": "hämtad 3d sen, 147 kB",
           "last_modified": "2026-07-23T06:08:03+00:00",
           "url": "https://pappilappi.com/airspace/is-zones.geojson?cb=20260611a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Islands drönarzoner",
+          "explain": "Zoner från transportmyndigheten Samgöngustofa via statens kartserver. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-31"
         },
         {
           "name": "Regler (lastVerified)",
@@ -501,7 +1622,9 @@
           "detail": "regler verifierade 37d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Samgöngustofa – Reglur um dróna",
@@ -509,7 +1632,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://island.is/en/o/transport-authority/drones",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Samgöngustofa – Skráðu þig sem rekstraraðila",
@@ -517,7 +1641,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://island.is/en/o/transport-authority/drones",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: FlyDrone.is – Loftrýmiskort",
@@ -525,7 +1650,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://flydrone.is",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: island.is – Skráning dróna",
@@ -533,7 +1659,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://island.is",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
       ]
     },
@@ -542,6 +1669,20 @@
       "name": "Estonia",
       "flag": "🇪🇪",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "EETT"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Estlands drönarzoner",
+            "label": "ee-zones"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: ee-zones",
@@ -549,7 +1690,10 @@
           "detail": "hämtad 3d sen, 202 kB",
           "last_modified": "2026-07-23T10:38:10+00:00",
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Estlands drönarzoner",
+          "explain": "Officiella zoner från flygtrafiktjänsten EANS drönarkarta. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-31"
         },
         {
           "name": "Regler (lastVerified)",
@@ -557,7 +1701,9 @@
           "detail": "regler verifierade 45d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Transpordiamet – Droonireeglid",
@@ -565,7 +1711,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://transpordiamet.ee/en/drones",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Transpordiamet – Registreeru käitajana",
@@ -573,7 +1720,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://transpordiamet.ee/en/aviation-and-aviation-safety/flying-drones-estonia/operator-registration",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Estonian Drone Map (UTM)",
@@ -581,7 +1729,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://utm.eans.ee",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Transpordiamet – Reeglite ülevaade",
@@ -589,7 +1738,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://transpordiamet.ee/en/open-category-flights",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
       ]
     },
@@ -598,6 +1748,20 @@
       "name": "Austria",
       "flag": "🇦🇹",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "LOVV"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Österrikes drönarzoner",
+            "label": "at-zones"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: at-zones",
@@ -605,7 +1769,10 @@
           "detail": "hämtad 7d sen, 276 kB",
           "last_modified": "2026-07-19T08:54:58+00:00",
           "url": "https://pappilappi.com/airspace/at-zones.geojson?cb=20260611a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Österrikes drönarzoner",
+          "explain": "Officiella geozoner från luftfartsmyndigheten Austro Control. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-27"
         },
         {
           "name": "Regler (lastVerified)",
@@ -613,7 +1780,9 @@
           "detail": "regler verifierade 45d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Austro Control — Drohnenvorschriften",
@@ -621,7 +1790,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.dronespace.at/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Austro Control — Als Betreiber registrieren",
@@ -629,7 +1799,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.dronespace.at/registrierung/allgemeine_informationen",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Dronespace.at — Luftraumkarte",
@@ -637,7 +1808,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.dronespace.at",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Austro Control — Schulung und Prüfungen",
@@ -645,7 +1817,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.dronespace.at/drohnenfuehrerschein",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
       ]
     },
@@ -654,22 +1827,46 @@
       "name": "Denmark",
       "flag": "🇩🇰",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "EKDK"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Danmarks dronezoner",
+            "label": "dk-primary"
+          },
+          {
+            "titel": "Naturskyddsområden",
+            "label": "dk-natur"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "hämtad 11h sen, 2108 kB",
+          "detail": "hämtad 14h sen, 2108 kB",
           "last_modified": "2026-07-26T07:12:06+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Danmarks dronezoner",
+          "explain": "Trafikstyrelsens samlade dronezoner: flygplatser, militära områden, fängelser, kungahusets slott m.m. Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-28"
         },
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "hämtad 11h sen, 708 kB",
+          "detail": "hämtad 14h sen, 708 kB",
           "last_modified": "2026-07-26T07:12:06+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Naturskyddsområden",
+          "explain": "Natura 2000- och fågelskyddsområden med drönarbegränsning, ur samma danska myndighetstjänst. Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-28"
         },
         {
           "name": "Regler (lastVerified)",
@@ -677,7 +1874,9 @@
           "detail": "regler verifierade 37d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Trafikstyrelsen — Droneregler",
@@ -685,7 +1884,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.droneregler.dk/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Trafikstyrelsen — Registrér som operatør",
@@ -693,7 +1893,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.droneregler.dk/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Droneregler.dk — Kort og regler",
@@ -701,7 +1902,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.droneregler.dk",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Naviair — Luftruminformation",
@@ -709,7 +1911,44 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.naviair.dk",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "HR",
+      "name": "Croatia",
+      "flag": "🇭🇷",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "LDZO"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 110d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -717,7 +1956,21 @@
       "iso": "RO",
       "name": "Romania",
       "flag": "🇷🇴",
-      "status": "ok",
+      "status": "warn",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "LRBB"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Rumäniens drönarzoner",
+            "label": "ro-zones"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: ro-zones",
@@ -725,7 +1978,10 @@
           "detail": "hämtad 7d sen, 650 kB",
           "last_modified": "2026-07-19T08:20:42+00:00",
           "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260611a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Rumäniens drönarzoner",
+          "explain": "Restriktionszoner från flygtrafiktjänsten ROMATSA. Deras server blockerar molnrobotar — hämtas därför från Kristoffers Mac (hemmadriften). Hämtas varje vecka (körs från Kristoffers Mac — Rumänien blockerar molnservrar). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-26"
         },
         {
           "name": "Regler (lastVerified)",
@@ -733,39 +1989,81 @@
           "detail": "regler verifierade 37d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: AACR — Reglementări privind dronele",
-          "status": "info",
-          "detail": "RemoteDisconnected från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "warn",
+          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://www.caa.ro/page/uas",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: AACR — Înregistrare ca operator",
-          "status": "info",
-          "detail": "RemoteDisconnected från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "warn",
+          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://www.caa.ro/page/uas",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: ROMATSA — Harta spațiului aerian",
-          "status": "info",
-          "detail": "RemoteDisconnected från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "warn",
+          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://www.romatsa.ro",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: AACR — Reguli UAS",
-          "status": "info",
-          "detail": "RemoteDisconnected från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "warn",
+          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://www.caa.ro/page/uas",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "EPWW"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -774,6 +2072,140 @@
       "name": "Deutschland",
       "flag": "🇩🇪",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "EDGG",
+        "EDWW",
+        "EDMM"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Kontrollzoner",
+            "label": "de-kontrollzonen"
+          },
+          {
+            "titel": "Flygbegränsningsområden",
+            "label": "de-flugbeschraenkungsgebiete"
+          },
+          {
+            "titel": "Större flygplatser",
+            "label": "de-flughaefen"
+          },
+          {
+            "titel": "Mindre flygfält",
+            "label": "de-flugplaetze"
+          },
+          {
+            "titel": "Tillfälliga flygförbud (dagsfärska)",
+            "label": "de-temporaere_betriebseinschraenkungen"
+          },
+          {
+            "titel": "Militära anläggningar",
+            "label": "de-militaerische_anlagen"
+          },
+          {
+            "titel": "Naturskyddsområden",
+            "label": "de-natur"
+          },
+          {
+            "titel": "Natura 2000-områden",
+            "label": "de-natur2000"
+          },
+          {
+            "titel": "Vindkraftverk",
+            "label": "de-windkraftanlagen"
+          },
+          {
+            "titel": "Friluftsbad",
+            "label": "de-freibaeder"
+          },
+          {
+            "titel": "Sjukhus",
+            "label": "de-krankenhaeuser"
+          },
+          {
+            "titel": "Polisanläggningar",
+            "label": "de-polizei"
+          },
+          {
+            "titel": "Säkerhetsmyndigheter",
+            "label": "de-sicherheitsbehoerden"
+          },
+          {
+            "titel": "Myndighetsbyggnader",
+            "label": "de-behoerden"
+          },
+          {
+            "titel": "Transformatorstationer",
+            "label": "de-umspannwerke"
+          },
+          {
+            "titel": "Kraftverk",
+            "label": "de-kraftwerke"
+          },
+          {
+            "titel": "Fängelser",
+            "label": "de-justizvollzugsanstalten"
+          },
+          {
+            "titel": "Ambassader och konsulat",
+            "label": "de-diplomatische_vertretungen"
+          },
+          {
+            "titel": "Internationella organisationer",
+            "label": "de-internationale_organisationen"
+          },
+          {
+            "titel": "Skyddsklassade laboratorier",
+            "label": "de-labore"
+          },
+          {
+            "titel": "Farleder till havs",
+            "label": "de-seewasserstrassen"
+          },
+          {
+            "titel": "Slussar och hamnanläggningar",
+            "label": "de-schifffahrtsanlagen"
+          },
+          {
+            "titel": "Bostadstomter (live)",
+            "label": "de-wohngrundstuecke"
+          },
+          {
+            "titel": "Riksvägar (live)",
+            "label": "de-bundesstrassen"
+          },
+          {
+            "titel": "Motorvägar (live)",
+            "label": "de-bundesautobahnen"
+          },
+          {
+            "titel": "Järnvägar (live)",
+            "label": "de-bahnanlagen"
+          },
+          {
+            "titel": "Inre vattenvägar (live)",
+            "label": "de-binnenwasserstrassen"
+          },
+          {
+            "titel": "Kraftledningar (live)",
+            "label": "de-stromleitungen"
+          },
+          {
+            "titel": "Industrianläggningar (live)",
+            "label": "de-industrieanlagen"
+          }
+        ],
+        "saknas": [
+          {
+            "namn": "Flygplatsers öppettider",
+            "läge": "på väg",
+            "varfor": "Flygplats-pinsen i Tyskland saknar tornets öppettider — datan finns men arbetet är uppskjutet."
+          }
+        ]
+      },
       "checks": [
         {
           "name": "Feed: de-kontrollzonen",
@@ -781,7 +2213,10 @@
           "detail": "data oförändrad sedan 12d sen, 161 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/kontrollzonen.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Kontrollzoner",
+          "explain": "Luften närmast flygplatserna. Från statens drönarplattform dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-flugbeschraenkungsgebiete",
@@ -789,7 +2224,10 @@
           "detail": "data oförändrad sedan 12d sen, 305 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/flugbeschraenkungsgebiete.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Flygbegränsningsområden",
+          "explain": "Permanenta förbuds- och begränsningsområden (ED-R). Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-flughaefen",
@@ -797,7 +2235,10 @@
           "detail": "data oförändrad sedan 12d sen, 179 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/flughaefen.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Större flygplatser",
+          "explain": "Trafikflygplatser med skyddsavstånd. Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-flugplaetze",
@@ -805,15 +2246,21 @@
           "detail": "data oförändrad sedan 12d sen, 2437 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/flugplaetze.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Mindre flygfält",
+          "explain": "Småflygfält och segelflygfält. Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-temporaere_betriebseinschraenkungen",
           "status": "ok",
-          "detail": "data oförändrad sedan 10h sen, 67 kB",
+          "detail": "data oförändrad sedan 14h sen, 67 kB",
           "last_modified": "2026-07-26T07:57:58+00:00",
           "url": "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Tillfälliga flygförbud (dagsfärska)",
+          "explain": "Tillfälliga begränsningar — statsbesök, evenemang, insatser. Ändras dagligen, därför hämtas lagret varje dag. Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-09-09"
         },
         {
           "name": "Feed: de-militaerische_anlagen",
@@ -821,7 +2268,10 @@
           "detail": "data oförändrad sedan 12d sen, 6310 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/militaerische_anlagen.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Militära anläggningar",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-natur",
@@ -829,7 +2279,10 @@
           "detail": "data oförändrad sedan 12d sen, 5397 kB",
           "last_modified": "2026-07-14T15:56:54+00:00",
           "url": "https://pappilappi.com/airspace/de/natur.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Naturskyddsområden",
+          "explain": "Från naturvårdsmyndigheten BfN:s karttjänst. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-natur2000",
@@ -837,7 +2290,10 @@
           "detail": "data oförändrad sedan 12d sen, 12340 kB",
           "last_modified": "2026-07-14T15:56:54+00:00",
           "url": "https://pappilappi.com/airspace/de/natur2000.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Natura 2000-områden",
+          "explain": "EU:s skyddade naturområden, från BfN. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-windkraftanlagen",
@@ -845,7 +2301,10 @@
           "detail": "data oförändrad sedan 12d sen, 5094 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/windkraftanlagen.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Vindkraftverk",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-freibaeder",
@@ -853,7 +2312,10 @@
           "detail": "data oförändrad sedan 12d sen, 7995 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/freibaeder.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Friluftsbad",
+          "explain": "Badanläggningar — integritetsskydd i tyska drönarlagen. Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-krankenhaeuser",
@@ -861,7 +2323,10 @@
           "detail": "data oförändrad sedan 12d sen, 5709 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/krankenhaeuser.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Sjukhus",
+          "explain": "Sjukhus med helikopterverksamhet. Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-polizei",
@@ -869,7 +2334,10 @@
           "detail": "data oförändrad sedan 12d sen, 6247 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/polizei.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Polisanläggningar",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-sicherheitsbehoerden",
@@ -877,7 +2345,10 @@
           "detail": "data oförändrad sedan 12d sen, 3333 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/sicherheitsbehoerden.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Säkerhetsmyndigheter",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-behoerden",
@@ -885,7 +2356,10 @@
           "detail": "data oförändrad sedan 12d sen, 3145 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/behoerden.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Myndighetsbyggnader",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-umspannwerke",
@@ -893,7 +2367,10 @@
           "detail": "data oförändrad sedan 12d sen, 856 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/umspannwerke.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Transformatorstationer",
+          "explain": "Elnätets knutpunkter. Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-kraftwerke",
@@ -901,7 +2378,10 @@
           "detail": "data oförändrad sedan 12d sen, 251 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/kraftwerke.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Kraftverk",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-justizvollzugsanstalten",
@@ -909,7 +2389,10 @@
           "detail": "data oförändrad sedan 12d sen, 841 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/justizvollzugsanstalten.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Fängelser",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-diplomatische_vertretungen",
@@ -917,7 +2400,10 @@
           "detail": "data oförändrad sedan 12d sen, 536 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/diplomatische_vertretungen.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Ambassader och konsulat",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-internationale_organisationen",
@@ -925,7 +2411,10 @@
           "detail": "data oförändrad sedan 12d sen, 155 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/internationale_organisationen.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Internationella organisationer",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-labore",
@@ -933,7 +2422,10 @@
           "detail": "data oförändrad sedan 12d sen, 11 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/labore.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Skyddsklassade laboratorier",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-seewasserstrassen",
@@ -941,7 +2433,10 @@
           "detail": "data oförändrad sedan 12d sen, 2989 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/seewasserstrassen.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Farleder till havs",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-schifffahrtsanlagen",
@@ -949,7 +2444,10 @@
           "detail": "data oförändrad sedan 12d sen, 864 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/schifffahrtsanlagen.geojson?cb=20260714a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Slussar och hamnanläggningar",
+          "explain": "Från dipul. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-28"
         },
         {
           "name": "Feed: de-wohngrundstuecke (live-bbox)",
@@ -957,7 +2455,9 @@
           "detail": "1 zoner",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:wohngrundstuecke&outputFormat=application/json&count=1",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Bostadstomter (live)",
+          "explain": "Tyska lagens integritetsskydd över bostadstomter. Datan är för detaljerad att lagra — appen frågar dipuls server direkt om just det område som syns på skärmen. Appen frågar myndighetens server direkt om exakt det område som syns på skärmen — datan är för detaljerad för att lagras i sin helhet."
         },
         {
           "name": "Feed: de-bundesstrassen (live-bbox)",
@@ -965,7 +2465,9 @@
           "detail": "1 zoner",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:bundesstrassen&outputFormat=application/json&count=1",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Riksvägar (live)",
+          "explain": "Frågas direkt från dipuls server. Appen frågar myndighetens server direkt om exakt det område som syns på skärmen — datan är för detaljerad för att lagras i sin helhet."
         },
         {
           "name": "Feed: de-bundesautobahnen (live-bbox)",
@@ -973,7 +2475,9 @@
           "detail": "1 zoner",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:bundesautobahnen&outputFormat=application/json&count=1",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Motorvägar (live)",
+          "explain": "Frågas direkt från dipuls server. Appen frågar myndighetens server direkt om exakt det område som syns på skärmen — datan är för detaljerad för att lagras i sin helhet."
         },
         {
           "name": "Feed: de-bahnanlagen (live-bbox)",
@@ -981,7 +2485,9 @@
           "detail": "1 zoner",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:bahnanlagen&outputFormat=application/json&count=1",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Järnvägar (live)",
+          "explain": "Frågas direkt från dipuls server. Appen frågar myndighetens server direkt om exakt det område som syns på skärmen — datan är för detaljerad för att lagras i sin helhet."
         },
         {
           "name": "Feed: de-binnenwasserstrassen (live-bbox)",
@@ -989,7 +2495,9 @@
           "detail": "1 zoner",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:binnenwasserstrassen&outputFormat=application/json&count=1",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Inre vattenvägar (live)",
+          "explain": "Frågas direkt från dipuls server. Appen frågar myndighetens server direkt om exakt det område som syns på skärmen — datan är för detaljerad för att lagras i sin helhet."
         },
         {
           "name": "Feed: de-stromleitungen (live-bbox)",
@@ -997,7 +2505,9 @@
           "detail": "1 zoner",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:stromleitungen&outputFormat=application/json&count=1",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Kraftledningar (live)",
+          "explain": "Frågas direkt från dipuls server. Appen frågar myndighetens server direkt om exakt det område som syns på skärmen — datan är för detaljerad för att lagras i sin helhet."
         },
         {
           "name": "Feed: de-industrieanlagen (live-bbox)",
@@ -1005,7 +2515,37 @@
           "detail": "1 zoner",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:industrieanlagen&outputFormat=application/json&count=1",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Industrianläggningar (live)",
+          "explain": "Frågas direkt från dipuls server. Appen frågar myndighetens server direkt om exakt det område som syns på skärmen — datan är för detaljerad för att lagras i sin helhet."
+        },
+        {
+          "name": "EU-Aerodromes Gist (de.json)",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null,
+          "url": null,
+          "kind": "gist",
+          "titel": "Tyska flygplatser",
+          "explain": "Flygplatslistan bakom kartans flygplats-pins i Tyskland (inkl. helikopterplattor), från OurAirports."
+        },
+        {
+          "name": "Uppströms: DFS dipul WFS",
+          "status": "ok",
+          "detail": "200 OK, ?B",
+          "last_modified": null,
+          "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:kontrollzonen&outputFormat=application/json&count=1",
+          "kind": "upstream",
+          "explain": "Myndighetens server som vår robot hämtar ifrån (inte det appen läser). Dör den syns det här innan nästa hämtning hinner misslyckas."
+        },
+        {
+          "name": "Uppströms: BfN Schutzgebiete WFS",
+          "status": "ok",
+          "detail": "200 OK, 309B",
+          "last_modified": null,
+          "url": "https://geodienste.bfn.de/ogc/wfs/schutzgebiet?service=WFS&request=GetCapabilities",
+          "kind": "upstream",
+          "explain": "Myndighetens server som vår robot hämtar ifrån (inte det appen läser). Dör den syns det här innan nästa hämtning hinner misslyckas."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1013,7 +2553,9 @@
           "detail": "regler verifierade 37d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: dipul – Offizielle Drohnenkarte",
@@ -1021,7 +2563,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://maptool-dipul.dfs.de",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: LBA – Registrierung & Fernpilotenzeugnis",
@@ -1029,7 +2572,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.lba.de/DE/Drohnen/Drohnen_node.html",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Droniq – Drohnenflug-App",
@@ -1037,7 +2581,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://droniq.de/droniq-app/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
       ]
     },
@@ -1046,6 +2591,26 @@
       "name": "Spain",
       "flag": "🇪🇸",
       "status": "warn",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "LECM",
+        "LECB",
+        "GCCC"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "ENAIRE:s drönarkarta (live)",
+            "label": "primär"
+          },
+          {
+            "titel": "Nationalparker",
+            "label": "es-parques"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Primär (arcgis)",
@@ -1053,7 +2618,9 @@
           "detail": "200 OK, ?B",
           "last_modified": null,
           "url": "https://servais.enaire.es/insignia/rest/services/NSF_SRV/SRV_UAS_ZG_V0/MapServer",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "ENAIRE:s drönarkarta (live)",
+          "explain": "Spanska luftfartsverkets zonserver — appen frågar den direkt när kartan används. Appen frågar myndighetens egen server direkt när kartan används — det finns inget mellanled att vänta på."
         },
         {
           "name": "Feed: es-parques",
@@ -1061,7 +2628,10 @@
           "detail": "hämtad 52d sen, 283 kB",
           "last_modified": "2026-06-04T18:19:59+00:00",
           "url": "https://pappilappi.com/airspace/es-parques.geojson?cb=20260604a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Nationalparker",
+          "explain": "Spaniens nationalparker från parkmyndigheten OAPN. Hämtas varannan månad (parkgränser ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-03"
         },
         {
           "name": "Regler (lastVerified)",
@@ -1069,7 +2639,9 @@
           "detail": "regler verifierade 46d sedan — dags för audit",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: AESA — Normativa de drones",
@@ -1077,7 +2649,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: AESA — Registro como operador",
@@ -1085,7 +2658,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/registro-de-operador-de-drones-uas",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: ENAIRE — Mapa del espacio aéreo para drones",
@@ -1093,7 +2667,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://drones.enaire.es",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: AESA — Examen de piloto en línea",
@@ -1101,7 +2676,46 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "EGTT",
+        "EGPX",
+        "EGAA"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -1110,6 +2724,31 @@
       "name": "France",
       "flag": "🇫🇷",
       "status": "warn",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "LFFF",
+        "LFBB",
+        "LFEE",
+        "LFMM"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Drönarrestriktioner med höjdgränser",
+            "label": "fr-drones"
+          },
+          {
+            "titel": "Fotoförbudszoner (ZICAD)",
+            "label": "zicad"
+          },
+          {
+            "titel": "Nationalparker",
+            "label": "fr-parcs"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: fr-drones",
@@ -1117,7 +2756,10 @@
           "detail": "hämtad 3d sen, 16410 kB",
           "last_modified": "2026-07-23T10:44:16+00:00",
           "url": "https://pappilappi.com/airspace/fr-drones.geojson?cb=20260609a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Drönarrestriktioner med höjdgränser",
+          "explain": "IGN:s officiella drönarkarta: var man inte får flyga alls och var det finns höjdtak (30/50/60/100 m). Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-31"
         },
         {
           "name": "Feed: zicad",
@@ -1125,7 +2767,10 @@
           "detail": "hämtad 3d sen, 276 kB",
           "last_modified": "2026-07-23T10:44:16+00:00",
           "url": "https://pappilappi.com/airspace/fr-zicad.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Fotoförbudszoner (ZICAD)",
+          "explain": "Områden där flygfotografering är förbjuden — militära och andra känsliga anläggningar. Från IGN. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-31"
         },
         {
           "name": "Feed: fr-parcs",
@@ -1133,7 +2778,19 @@
           "detail": "hämtad 46d sen, 723 kB",
           "last_modified": "2026-06-10T05:27:31+00:00",
           "url": "https://pappilappi.com/airspace/fr-parcs.geojson?cb=20260604b",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Nationalparker",
+          "explain": "Frankrikes nationalparker med drönarförbud. Från IGN. Hämtas varannan månad (parkgränser ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-09"
+        },
+        {
+          "name": "Uppströms: IGN Géoportail WFS",
+          "status": "ok",
+          "detail": "200 OK, ?B",
+          "last_modified": null,
+          "url": "https://data.geopf.fr/wfs/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=TRANSPORTS.DRONES.RESTRICTIONS:carte_restriction_drones_lf&outputFormat=application/json&srsName=CRS:84&count=1&BBOX=2.34,48.85,2.36,48.87,CRS:84",
+          "kind": "upstream",
+          "explain": "Myndighetens server som vår robot hämtar ifrån (inte det appen läser). Dör den syns det här innan nästa hämtning hinner misslyckas."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1141,7 +2798,9 @@
           "detail": "regler verifierade 74d sedan — dags för audit",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: DGAC — Réglementation des drones",
@@ -1149,7 +2808,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
@@ -1157,7 +2817,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://alphatango.aviation-civile.gouv.fr",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Géoportail — Carte des restrictions drones",
@@ -1165,7 +2826,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Règles de pilotage de drone — Service-Public.fr",
@@ -1173,7 +2835,45 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34630",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "IT",
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "LIRR",
+        "LIBB"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Italiens zondata (D-Flight) kräver betald årsprenumeration och licensvillkoren är oklara — vi avvaktar besked om pris och villkor innan ett överlägg kan byggas."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -1182,22 +2882,50 @@
       "name": "Finland",
       "flag": "🇫🇮",
       "status": "warn",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "EFIN"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Finlands drönarzoner",
+            "label": "fi-primary"
+          },
+          {
+            "titel": "Naturskyddsområden",
+            "label": "fi-natur"
+          },
+          {
+            "titel": "EFR-zoner (flyghandboken)",
+            "label": "fi-efr-static"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 11h sen, 645 kB",
+          "detail": "hämtad 14h sen, 645 kB",
           "last_modified": "2026-07-26T07:23:12+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Finlands drönarzoner",
+          "explain": "Traficoms officiella zonlista i EU-standardformatet ED-269: flygplatser, förbudsområden, restriktioner. Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-28"
         },
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 11h sen, 6919 kB",
+          "detail": "hämtad 14h sen, 6919 kB",
           "last_modified": "2026-07-26T07:23:12+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260604a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Naturskyddsområden",
+          "explain": "Skyddad natur från Finlands miljöcentral SYKE. Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-28"
         },
         {
           "name": "Feed: fi-efr-static",
@@ -1205,7 +2933,10 @@
           "detail": "hämtad 22d sen, 101 kB",
           "last_modified": "2026-07-04T07:38:43+00:00",
           "url": "https://pappilappi.com/airspace/fi-efr-static.geojson?cb=20260605a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "EFR-zoner (flyghandboken)",
+          "explain": "Begränsningsområden ur Finlands officiella flyghandbok (AIP). Uppdateras i luftfartens 28-dagarscykel, AIRAC. Hämtas varje månad (följer flyghandbokens 28-dagarscykel). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-06"
         },
         {
           "name": "Regler (lastVerified)",
@@ -1213,7 +2944,9 @@
           "detail": "regler verifierade 51d sedan — dags för audit",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Traficom – Drone-säännöt",
@@ -1221,7 +2954,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://droneinfo.fi/en/droneinfo-front-page",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Traficom – Rekisteröidy käyttäjäksi",
@@ -1229,7 +2963,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://droneinfo.fi/en/registering-drone-operator",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Droneinfo.fi – Ilmatilakartta",
@@ -1237,7 +2972,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.droneinfo.fi",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Traficom – Koulutus ja kokeet",
@@ -1245,7 +2981,112 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://droneinfo.fi/en/droneinfo-front-page",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "GR",
+      "name": "Greece",
+      "flag": "🇬🇷",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "LGGG"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 110d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "NZ",
+      "name": "New Zealand",
+      "flag": "🇳🇿",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "PH",
+      "name": "Philippines",
+      "flag": "🇵🇭",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -1254,6 +3095,18 @@
       "name": "Sverige",
       "flag": "🇸🇪",
       "status": "warn",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [],
+      "layers": {
+        "har": [
+          {
+            "titel": "LFV:s kartserver (live)",
+            "label": "primär"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Primär (wfs)",
@@ -1261,7 +3114,49 @@
           "detail": "GetCapabilities OK (120174B)",
           "last_modified": null,
           "url": "https://daim.lfv.se/geoserver/wfs",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "LFV:s kartserver (live)",
+          "explain": "Sveriges zoner direkt från Luftfartsverkets server: kontrollzoner, flygplatszoner, restriktions- och farliga områden, helikopterzoner. Appen frågar servern direkt — svenska användare ser det LFV ser. Appen frågar myndighetens egen server direkt när kartan används — det finns inget mellanled att vänta på."
+        },
+        {
+          "name": "LFV DroneChart uas_zones",
+          "status": "ok",
+          "detail": "200 OK, 466872B",
+          "last_modified": null,
+          "url": "https://dronechart.lfv.se/data/uas_zones_ED318.json",
+          "kind": "feed",
+          "titel": "LFV:s färdiga drönarzonlista",
+          "explain": "LFV:s egen sammanställda drönarkarta (ED-318-format) som appen också läser direkt från LFV:s server. Appen frågar myndighetens egen server direkt när kartan används — det finns inget mellanled att vänta på."
+        },
+        {
+          "name": "Aerodromes Gist (se.json)",
+          "status": "ok",
+          "detail": "203 fält",
+          "last_modified": null,
+          "url": null,
+          "kind": "gist",
+          "titel": "Svenska flygplatser",
+          "explain": "Flygplatslistan bakom kartans flygplats-pins: namn, läge och tornets öppettider, ur LFV:s flyghandbok."
+        },
+        {
+          "name": "Flygplatsinfo Gist (se.json)",
+          "status": "ok",
+          "detail": "200 OK",
+          "last_modified": null,
+          "url": null,
+          "kind": "gist",
+          "titel": "Flygplatsinfo (komplettering)",
+          "explain": "Kompletterande info till flygplats-pinsen, t.ex. torntider — läses av appen som liten datafil (gist)."
+        },
+        {
+          "name": "AIP-SUP Gist (se.json)",
+          "status": "ok",
+          "detail": "10d sen, 73 SUPs",
+          "last_modified": "2026-07-16T08:38:35.039946+00:00",
+          "url": null,
+          "kind": "gist",
+          "titel": "Tillfälliga ändringar (AIP SUP)",
+          "explain": "Tillfälliga ändringar i svenska luftrummet — t.ex. flyguppvisningar och övningar — ur LFV:s officiella supplement. Hämtas dagligen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1269,7 +3164,9 @@
           "detail": "regler verifierade 46d sedan — dags för audit",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Transportstyrelsen — Drönarregler",
@@ -1277,7 +3174,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: LFV Drönarkartan — luftrum",
@@ -1285,7 +3183,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://dronechart.lfv.se",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Operatörsregistrering (krävs ≥250g eller kamera)",
@@ -1293,7 +3192,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://dronarsidan.transportstyrelsen.se/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Drönarkort A1/A3 — teoriprov online (krävs ≥250 g, från 15 år)",
@@ -1301,7 +3201,42 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/dronarkort-och-utbildning/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "ZA",
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 111d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -1310,22 +3245,101 @@
       "name": "Norge",
       "flag": "🇳🇴",
       "status": "warn",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "ENOR"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "Norges samlade zonkarta",
+            "label": "primär"
+          },
+          {
+            "titel": "Kraftverk och dammar",
+            "label": "no-nve-infra"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 23d sen, 17857 kB",
+          "detail": "data oförändrad sedan 24d sen, 17857 kB",
           "last_modified": "2026-07-02T19:14:02+00:00",
           "url": "https://pappilappi.com/airspace/no.geojson?v=10",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Norges samlade zonkarta",
+          "explain": "En hopbakad fil av fyra myndigheters data: Avinors drönarrestriktioner och kontrollzoner, Miljödirektoratets skyddsområden och Försvarets skjutfält. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-16"
         },
         {
           "name": "Feed: no-nve-infra",
           "status": "ok",
-          "detail": "hämtad 23d sen, 571 kB",
+          "detail": "hämtad 24d sen, 571 kB",
           "last_modified": "2026-07-02T19:14:02+00:00",
           "url": "https://pappilappi.com/airspace/no-nve-infra.geojson?cb=20260604a",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Kraftverk och dammar",
+          "explain": "Energianläggningar med flygförbud från NVE (Norges vassdrags- og energidirektorat). Byggs sällan om — därför räcker månadsvis hämtning. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-16"
+        },
+        {
+          "name": "Aerodromes Gist (no.json)",
+          "status": "ok",
+          "detail": "271 fält",
+          "last_modified": null,
+          "url": null,
+          "kind": "gist",
+          "titel": "Norska flygplatser",
+          "explain": "Flygplatslistan bakom kartans flygplats-pins i Norge, från Avinor och OurAirports."
+        },
+        {
+          "name": "Uppströms: Avinor Dronerestriksjonsomraader",
+          "status": "ok",
+          "detail": "200 OK, 16148B",
+          "last_modified": null,
+          "url": "https://services-eu1.arcgis.com/WCiVfG6duh6vR43N/arcgis/rest/services/Dronerestriksjonsomraader_gdb/FeatureServer/0?f=json",
+          "kind": "upstream",
+          "explain": "Myndighetens server som vår robot hämtar ifrån (inte det appen läser). Dör den syns det här innan nästa hämtning hinner misslyckas."
+        },
+        {
+          "name": "Uppströms: Avinor RPAS_CTR_TIZ",
+          "status": "ok",
+          "detail": "200 OK, 12983B",
+          "last_modified": null,
+          "url": "https://services-eu1.arcgis.com/WCiVfG6duh6vR43N/arcgis/rest/services/RPAS_CTR_TIZ/FeatureServer/0?f=json",
+          "kind": "upstream",
+          "explain": "Myndighetens server som vår robot hämtar ifrån (inte det appen läser). Dör den syns det här innan nästa hämtning hinner misslyckas."
+        },
+        {
+          "name": "Uppströms: Miljødirektoratet",
+          "status": "ok",
+          "detail": "200 OK, 2291B",
+          "last_modified": null,
+          "url": "https://kart.miljodirektoratet.no/arcgis/rest/services/vern_restriksjonsomrader/MapServer?f=json",
+          "kind": "upstream",
+          "explain": "Myndighetens server som vår robot hämtar ifrån (inte det appen läser). Dör den syns det här innan nästa hämtning hinner misslyckas."
+        },
+        {
+          "name": "Uppströms: Geonorge Forsvaret skytefelt (GML)",
+          "status": "ok",
+          "detail": "200 OK, 1410959B",
+          "last_modified": null,
+          "url": "https://nedlasting.geonorge.no/geonorge/Forurensning/Skytefelt/GML/Forurensning_0000_Norge_4258_Skytefelt_GML.zip",
+          "kind": "upstream",
+          "explain": "Myndighetens server som vår robot hämtar ifrån (inte det appen läser). Dör den syns det här innan nästa hämtning hinner misslyckas."
+        },
+        {
+          "name": "Uppströms: Geonorge Sjøforsvar skytefelt (GML)",
+          "status": "ok",
+          "detail": "200 OK, 56909B",
+          "last_modified": null,
+          "url": "https://nedlasting.geonorge.no/geonorge/Forurensning/SkyteOvingsfeltSjo/GML/Forurensning_0000_Norge_4258_SkyteOvingsfeltSjo_GML.zip",
+          "kind": "upstream",
+          "explain": "Myndighetens server som vår robot hämtar ifrån (inte det appen läser). Dör den syns det här innan nästa hämtning hinner misslyckas."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1333,7 +3347,9 @@
           "detail": "regler verifierade 50d sedan — dags för audit",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Avinor – Fly drone i Norge",
@@ -1341,7 +3357,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.avinor.no/en/practical-info/drone/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Avinor Dronekart",
@@ -1349,15 +3366,17 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://experience.arcgis.com/experience/95695705756d477d8a166150a6b7b831/page/Dronekart/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Ninox Drone – tillatelse nær flyplass",
-          "status": "info",
-          "detail": "URLError: [Errno -2] Name or service not known från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "warn",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://operatorportal.ninoxdrone.no/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: Flydrone.no – registrering og sertifikat",
@@ -1365,7 +3384,76 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://flydrone.no",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "IN",
+      "name": "India",
+      "flag": "🇮🇳",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "AU",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     },
@@ -1374,22 +3462,103 @@
       "name": "United States",
       "flag": "🇺🇸",
       "status": "ok",
+      "group": "overlay",
+      "has_notam": true,
+      "firs": [
+        "KZAB",
+        "KZAU",
+        "KZBW",
+        "KZDC",
+        "KZDV",
+        "KZFW",
+        "KZHU",
+        "KZID",
+        "KZJX",
+        "KZKC",
+        "KZLA",
+        "KZLC",
+        "KZMA",
+        "KZME",
+        "KZMP",
+        "KZNY",
+        "KZOA",
+        "KZOB",
+        "KZSE",
+        "KZTL",
+        "KZAN",
+        "PHZH"
+      ],
+      "layers": {
+        "har": [
+          {
+            "titel": "FAA:s drönarkarta (UASFM)",
+            "label": "primär"
+          },
+          {
+            "titel": "Tillfälliga flygförbud (TFR)",
+            "label": "tfrs"
+          },
+          {
+            "titel": "Nationalparker",
+            "label": "nps"
+          },
+          {
+            "titel": "Luftrumsklasser",
+            "label": "classes"
+          },
+          {
+            "titel": "Militära övningsområden",
+            "label": "sua"
+          },
+          {
+            "titel": "Helikopterplattor",
+            "label": "heliports"
+          },
+          {
+            "titel": "Washington DC-zonen",
+            "label": "dc-sfra"
+          },
+          {
+            "titel": "Permanenta drönarförbud",
+            "label": "nsufr"
+          },
+          {
+            "titel": "Viltreservat",
+            "label": "wildlife-refuges"
+          },
+          {
+            "titel": "Modellflygområden (FRIA)",
+            "label": "fria"
+          },
+          {
+            "titel": "Registrerade modellflygfält",
+            "label": "rec-sites"
+          }
+        ],
+        "saknas": []
+      },
       "checks": [
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 11h sen, 11235 kB",
+          "detail": "data oförändrad sedan 15h sen, 11235 kB",
           "last_modified": "2026-07-26T06:38:45+00:00",
           "url": "https://pappilappi.com/airspace/us.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "FAA:s drönarkarta (UASFM)",
+          "explain": "USA:s rutnätskarta med högsta tillåtna drönarhöjd runt varje flygplats, från luftfartsmyndigheten FAA. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-04"
         },
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 5 min sen, 454 kB",
-          "last_modified": "2026-07-26T18:29:43+00:00",
+          "detail": "data oförändrad sedan 22 min sen, 452 kB",
+          "last_modified": "2026-07-26T21:36:57+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Tillfälliga flygförbud (TFR)",
+          "explain": "Presidentbesök, skogsbränder, stora evenemang — förbud som kommer och går med kort varsel. Hämtas var 15:e minut (molnroboten), dagligen som backstopp hemma. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-07-27"
         },
         {
           "name": "Feed: nps",
@@ -1397,71 +3566,98 @@
           "detail": "data oförändrad sedan 25d sen, 1907 kB",
           "last_modified": "2026-07-01T06:39:51+00:00",
           "url": "https://pappilappi.com/airspace/us-nps.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Nationalparker",
+          "explain": "Parkgränser från parkmyndigheten NPS — drönarförbud i parkerna. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-15"
         },
         {
           "name": "Feed: classes",
           "status": "ok",
-          "detail": "data oförändrad sedan 11h sen, 2253 kB",
+          "detail": "data oförändrad sedan 14h sen, 2253 kB",
           "last_modified": "2026-07-26T07:33:09+00:00",
           "url": "https://pappilappi.com/airspace/us-classes.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Luftrumsklasser",
+          "explain": "Kontrollerat luftrum klass B/C/D/E från FAA. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-04"
         },
         {
           "name": "Feed: sua",
           "status": "ok",
-          "detail": "data oförändrad sedan 10h sen, 1687 kB",
+          "detail": "data oförändrad sedan 14h sen, 1687 kB",
           "last_modified": "2026-07-26T07:41:09+00:00",
           "url": "https://pappilappi.com/airspace/us-sua.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Militära övningsområden",
+          "explain": "Special Use Airspace — militärens övningsluft, från FAA. Hämtas varje vecka (innehållet ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-09-09"
         },
         {
           "name": "Feed: heliports",
           "status": "ok",
-          "detail": "data oförändrad sedan 10h sen, 1582 kB",
+          "detail": "data oförändrad sedan 14h sen, 1582 kB",
           "last_modified": "2026-07-26T07:41:12+00:00",
           "url": "https://pappilappi.com/airspace/us-heliports.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Helikopterplattor",
+          "explain": "Registrerade helikopterplatser, från FAA. Hämtas varje vecka (innehållet ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-09-09"
         },
         {
           "name": "Feed: dc-sfra",
           "status": "ok",
-          "detail": "data oförändrad sedan 10h sen, 3 kB",
+          "detail": "data oförändrad sedan 14h sen, 3 kB",
           "last_modified": "2026-07-26T07:38:23+00:00",
           "url": "https://pappilappi.com/airspace/us-dc-sfra.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Washington DC-zonen",
+          "explain": "Huvudstadens särskilda säkerhetsluftrum (SFRA). Hämtas varje vecka (innehållet ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-09-09"
         },
         {
           "name": "Feed: nsufr",
           "status": "ok",
-          "detail": "data oförändrad sedan 10h sen, 8 kB",
+          "detail": "data oförändrad sedan 14h sen, 8 kB",
           "last_modified": "2026-07-26T07:38:27+00:00",
           "url": "https://pappilappi.com/airspace/us-nsufr.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Permanenta drönarförbud",
+          "explain": "Fasta förbudsområden över känsliga platser (NSUFR), från FAA. Hämtas varje vecka (innehållet ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-09-09"
         },
         {
           "name": "Feed: wildlife-refuges",
           "status": "ok",
-          "detail": "data oförändrad sedan 10h sen, 13327 kB",
+          "detail": "data oförändrad sedan 14h sen, 13327 kB",
           "last_modified": "2026-07-26T07:40:15+00:00",
           "url": "https://pappilappi.com/airspace/us-wildlife-refuges.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Viltreservat",
+          "explain": "Skyddade viltområden från naturmyndigheten FWS. Hämtas varje vecka (innehållet ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-09-09"
         },
         {
           "name": "Feed: fria",
           "status": "ok",
-          "detail": "data oförändrad sedan 10h sen, 2453 kB",
+          "detail": "data oförändrad sedan 14h sen, 2453 kB",
           "last_modified": "2026-07-26T07:40:26+00:00",
           "url": "https://pappilappi.com/airspace/us-fria.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Modellflygområden (FRIA)",
+          "explain": "Godkända områden där modellflyg får flyga utan fjärr-ID. Hämtas varje vecka (innehållet ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-09-09"
         },
         {
           "name": "Feed: rec-sites",
           "status": "ok",
-          "detail": "data oförändrad sedan 10h sen, 2295 kB",
+          "detail": "data oförändrad sedan 14h sen, 2295 kB",
           "last_modified": "2026-07-26T07:40:39+00:00",
           "url": "https://pappilappi.com/airspace/us-rec-sites.geojson",
-          "kind": "feed"
+          "kind": "feed",
+          "titel": "Registrerade modellflygfält",
+          "explain": "Klubbfält för hobbyflygare, från FAA. Hämtas varje vecka (innehållet ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-09-09"
         },
         {
           "name": "Regler (lastVerified)",
@@ -1469,7 +3665,9 @@
           "detail": "regler verifierade 37d sedan",
           "last_modified": null,
           "url": null,
-          "kind": "rules"
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: FAA — Drone regulations",
@@ -1477,7 +3675,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.faa.gov/uas",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: FAA DroneZone — Registration",
@@ -1485,7 +3684,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://faadronezone-access.faa.gov/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: B4UFLY — Airspace check",
@@ -1493,7 +3693,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.faa.gov/uas/getting_started/b4ufly",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: LAANC — Authorize via Aloft (free)",
@@ -1501,7 +3702,8 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://air.aloft.ai/",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
           "name": "Länk: TRUST — Recreational safety test",
@@ -1509,147 +3711,151 @@
           "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates",
-          "kind": "link"
+          "kind": "link",
+          "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
+        }
+      ]
+    },
+    {
+      "iso": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "status": "ok",
+      "group": "notam",
+      "has_notam": true,
+      "firs": [
+        "CZQM",
+        "CZUL",
+        "CZYZ",
+        "CZWG",
+        "CZEG",
+        "CZVR",
+        "CZQX"
+      ],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 83d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+        }
+      ]
+    },
+    {
+      "iso": "UA",
+      "name": "Ukraine",
+      "flag": "🇺🇦",
+      "status": "ok",
+      "group": "other",
+      "has_notam": false,
+      "firs": [],
+      "layers": {
+        "har": [],
+        "saknas": []
+      },
+      "checks": [
+        {
+          "name": "Täckning i appen",
+          "status": "info",
+          "detail": "Regler och officiella länkar",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "explain": "Ukrainas luftrum är stängt för drönare under krigslagarna — ett zonöverlägg vore missvisande."
+        },
+        {
+          "name": "Regler (lastVerified)",
+          "status": "info",
+          "detail": "regler verifierade 45d sedan",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regler senast faktakollade",
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
         }
       ]
     }
   ],
   "sections": [
     {
-      "title": "LFV (Sverige)",
+      "title": "Gistar — styrfiler appen läser",
       "checks": [
         {
-          "name": "Aerodromes Gist (se.json)",
+          "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "203 fält",
-          "last_modified": null,
+          "detail": "6h sen, 27460 NOTAMs",
+          "last_modified": "2026-07-26T15:10:26.277309+00:00",
           "url": null,
-          "kind": "other"
+          "kind": "gist",
+          "titel": "NOTAM-listan (alla länder)",
+          "explain": "Gemensam fil med alla länders NOTAM — luftfartens korta officiella meddelanden till piloter. Hämtas en gång per dygn; appen läser den med högst en timmes fördröjning."
         },
         {
-          "name": "Country info Gist (se.json)",
+          "name": "Countries.json Gist",
+          "status": "ok",
+          "detail": "56 länder",
+          "last_modified": null,
+          "url": null,
+          "kind": "gist",
+          "titel": "Landlistan (appens styrfil)",
+          "explain": "Appens viktigaste styrfil: alla länder, deras källor, texter och inställningar. Publiceras ALDRIG automatiskt — bara efter Kristoffers OK. Appen läser den med sex timmars mellanlagring."
+        },
+        {
+          "name": "Drones.json Gist",
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
           "url": null,
-          "kind": "other"
+          "kind": "gist",
+          "titel": "Drönarkatalogen",
+          "explain": "Listan över drönarmodeller (vikt, klassmärkning) som appens regelguide använder."
         },
         {
-          "name": "AIP-SUP Gist (se.json)",
+          "name": "Airspace rules Gist",
           "status": "ok",
-          "detail": "10d sen, 73 SUPs",
-          "last_modified": "2026-07-16T08:38:35.039946+00:00",
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "NOTAMs Gist (FIR-based)",
-          "status": "ok",
-          "detail": "3h sen, 27460 NOTAMs",
-          "last_modified": "2026-07-26T15:10:26.277309+00:00",
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "LFV airspace WFS",
-          "status": "ok",
-          "detail": "GetCapabilities OK (120174B)",
+          "detail": "200 OK",
           "last_modified": null,
           "url": null,
-          "kind": "other"
+          "kind": "gist",
+          "titel": "Zonregler i klartext",
+          "explain": "Texterna appen visar när man trycker på en zon — vad som gäller i respektive zontyp."
         },
         {
-          "name": "LFV DroneChart uas_zones",
+          "name": "Classifier strings Gist",
           "status": "ok",
-          "detail": "200 OK, 466872B",
+          "detail": "200 OK",
           "last_modified": null,
           "url": null,
-          "kind": "other"
+          "kind": "gist",
+          "titel": "Zon-ordlistan",
+          "explain": "Ordlistan som översätter myndigheternas zonnamn till appens kategorier och färger."
         },
         {
-          "name": "AIRAC-cykel",
-          "status": "info",
-          "detail": "AIRAC 3-2026+2, 11d kvar av cykeln",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        }
-      ]
-    },
-    {
-      "title": "Uppströms pipeline-källor",
-      "checks": [
-        {
-          "name": "FR IGN Géoportail WFS (fr-drones-pipeline)",
+          "name": "Tour strings Gist (funktionsrundturen)",
           "status": "ok",
-          "detail": "200 OK, ?B",
+          "detail": "200 OK",
           "last_modified": null,
           "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "DE DFS dipul WFS (de-spegel + live-bbox)",
-          "status": "ok",
-          "detail": "200 OK, ?B",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "DE BfN Schutzgebiete WFS (de-natur-pipeline)",
-          "status": "ok",
-          "detail": "200 OK, ?B",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "NL PDOK Natura 2000 WFS (nl-natura-pipeline)",
-          "status": "ok",
-          "detail": "200 OK, 15434B",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "NO Avinor Dronerestriksjonsomraader",
-          "status": "ok",
-          "detail": "200 OK, 16148B",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "NO Avinor RPAS_CTR_TIZ",
-          "status": "ok",
-          "detail": "200 OK, 12983B",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "NO Miljødirektoratet",
-          "status": "ok",
-          "detail": "200 OK, 2291B",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "NO Geonorge Forsvaret skytefelt (GML)",
-          "status": "ok",
-          "detail": "200 OK, 1410959B",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "NO Geonorge Sjøforsvar skytefelt (GML)",
-          "status": "ok",
-          "detail": "200 OK, 56909B",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
+          "kind": "gist",
+          "titel": "Funktionsrundturens texter",
+          "explain": "Texterna i appens guidade rundtur för nya användare."
         }
       ]
     },
@@ -1659,15 +3865,15 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "ok",
-          "detail": "9h sen, 7 kB",
-          "last_modified": "2026-07-26T09:26:49+00:00",
+          "detail": "26 min sen, 7 kB",
+          "last_modified": "2026-07-26T21:31:58+00:00",
           "url": null,
           "kind": "other"
         },
         {
           "name": "/go-bryggan",
           "status": "ok",
-          "detail": "200 OK, 42983B",
+          "detail": "200 OK, 42968B",
           "last_modified": null,
           "url": null,
           "kind": "other"
@@ -1678,52 +3884,14 @@
       "title": "Reglering & datapuls",
       "checks": [
         {
-          "name": "Countries.json Gist",
-          "status": "ok",
-          "detail": "56 länder",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "Drones.json Gist",
-          "status": "ok",
-          "detail": "200 OK",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "Airspace rules Gist",
-          "status": "ok",
-          "detail": "200 OK",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "Classifier strings Gist",
-          "status": "ok",
-          "detail": "200 OK",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
-          "name": "Tour strings Gist (funktionsrundturen)",
-          "status": "ok",
-          "detail": "200 OK",
-          "last_modified": null,
-          "url": null,
-          "kind": "other"
-        },
-        {
           "name": "Regulations baseline",
           "status": "ok",
           "detail": "53 länder / 162 URL:er tracked",
           "last_modified": null,
           "url": "https://pappilappi.com/status/regulations_baseline.json",
-          "kind": "other"
+          "kind": "other",
+          "titel": "Regelbevakningens fingeravtryck",
+          "explain": "Robotens sparade 'fingeravtryck' av 55 länders officiella regelsidor. Ändras en sida på riktigt larmar veckokollen — så vi upptäcker regeländringar utan att läsa allt manuellt."
         },
         {
           "name": "Hemmadrift-manifestet",
@@ -1731,7 +3899,19 @@
           "detail": "airspace/si-zones.geojson: medvetet pausad 2026-07-23 — CAA-licens underkänd kommersiellt; SI-pivot till öppna källor (RABA/ARSO/AIP) pågår, kör INTE fetch_si_zones.py skarpt",
           "last_modified": null,
           "url": null,
-          "kind": "other"
+          "kind": "other",
+          "titel": "Hemmadriftens täckningsvakt",
+          "explain": "Kollar att varje datakälla har ett recept i hemmadriften (reservroboten på Kristoffers Mac). Glöms en ny källa blir raden gul — glömska är omöjlig."
+        },
+        {
+          "name": "AIRAC-cykel",
+          "status": "info",
+          "detail": "AIRAC 3-2026+2, 11d kvar av cykeln",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "titel": "Luftfartens uppdateringskalender (AIRAC)",
+          "explain": "Hela världens luftfart uppdaterar kartor i samma 28-dagarscykel, kallad AIRAC. Raden visar var i cykeln vi är just nu."
         }
       ]
     }
@@ -1836,7 +4016,7 @@
     {
       "name": "Fetch & publish US TFRs (FAA WFS)",
       "status": "ok",
-      "detail": "16/16 OK",
+      "detail": "15/15 OK",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -1884,7 +4064,7 @@
     {
       "name": "Snapshot LVNL Airspace (NL)",
       "status": "ok",
-      "detail": "1/1 OK",
+      "detail": "2/2 OK",
       "last_modified": null,
       "url": null,
       "kind": "other"

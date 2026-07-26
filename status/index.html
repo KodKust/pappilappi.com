@@ -46,13 +46,14 @@
   .agg div { background: var(--card); border: 0.5px solid var(--border); border-radius: 10px; padding: 8px 4px; text-align: center; }
   .agg b { font-size: 16px; display: block; }
   .agg span { font-size: 11px; color: var(--muted); }
-  h2 { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin: 18px 4px 8px; }
+  h2 { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin: 20px 4px 2px; }
+  .groupsub { font-size: 12px; color: var(--muted); margin: 0 4px 8px; }
   .card { background: var(--card); border: 0.5px solid var(--border); border-radius: 14px; padding: 12px 14px; margin-bottom: 8px; }
   .card.warn { border-color: var(--warn-dot); }
   .card.fail { border-color: var(--fail-dot); border-width: 1px; }
   .chead { display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
   .chead .name { font-weight: 600; font-size: 15px; }
-  .pill { font-size: 11px; padding: 2px 10px; border-radius: 10px; font-weight: 500; }
+  .pill { font-size: 11px; padding: 2px 10px; border-radius: 10px; font-weight: 500; white-space: nowrap; }
   .pill.ok { background: var(--ok-bg); color: var(--ok-fg); }
   .pill.warn { background: var(--warn-bg); color: var(--warn-fg); }
   .pill.fail { background: var(--fail-bg); color: var(--fail-fg); }
@@ -63,6 +64,21 @@
   .checks .row { display: flex; gap: 7px; align-items: baseline; }
   .checks a { color: inherit; text-decoration: underline; text-decoration-color: var(--info-fg); text-underline-offset: 2px; }
   .checks a:active { opacity: 0.6; }
+  /* Förklaringsraden under varje mätrad — klartexten som gör sidan läsbar
+     utan förkunskaper. Indragen i linje med radtexten (efter pricken). */
+  .exp { font-size: 11.5px; line-height: 1.5; color: var(--muted); opacity: .92;
+         margin: 0 0 5px 14px; }
+  .exp .tech { opacity: .65; }
+  .subh { font-size: 10.5px; font-weight: 600; text-transform: uppercase;
+          letter-spacing: .04em; color: var(--muted); opacity: .75; margin: 10px 0 3px; }
+  .layers { margin-top: 10px; border-top: 0.5px solid var(--border); padding-top: 9px; }
+  .layers .lh { font-size: 11px; font-weight: 600; text-transform: uppercase;
+                letter-spacing: .03em; color: var(--muted); margin-bottom: 4px; }
+  .chip { display: inline-block; font-size: 11px; background: rgba(58,110,165,.10);
+          color: var(--info-fg); border-radius: 8px; padding: 2px 8px; margin: 2px 3px 0 0; }
+  .miss { font-size: 12px; color: var(--muted); margin-top: 7px; line-height: 1.5; }
+  .miss .badge { font-size: 10px; padding: 1px 7px; border-radius: 8px;
+                 background: var(--warn-bg); color: var(--warn-fg); margin-right: 5px; }
   .stamp { display: flex; align-items: center; justify-content: center; gap: 8px;
            background: var(--card); border: 0.5px solid var(--border); border-radius: 12px;
            padding: 10px 14px; margin-bottom: 12px; font-size: 14px; }
@@ -74,10 +90,28 @@
   .dot.fail { background: var(--fail-dot); } .dot.info { background: var(--info-fg); }
   .dot.paused { background: var(--muted); }
   .row.warn { color: var(--warn-fg); } .row.fail { color: var(--fail-fg); font-weight: 500; }
-  .collapsed .checks { display: none; }
-  footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 24px; }
+  .collapsed .checks, .collapsed .layers { display: none; }
+  footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 24px; line-height: 1.6; }
   footer a { color: var(--info-fg); text-decoration: none; }
   #err { text-align: center; color: var(--muted); padding: 40px 0; }
+
+  /* "Så funkar det"-rutan — sidans egen bruksanvisning på enkel svenska. */
+  details.howto { background: var(--card); border: 0.5px solid var(--border);
+                  border-radius: 14px; padding: 11px 14px; margin-bottom: 12px; }
+  details.howto summary { cursor: pointer; font-weight: 600; font-size: 14px;
+                          list-style: none; display: flex; justify-content: space-between; }
+  details.howto summary::-webkit-details-marker { display: none; }
+  details.howto summary::after { content: "visa"; font-size: 11.5px; font-weight: 400;
+                                 color: var(--info-fg); }
+  details.howto[open] summary::after { content: "dölj"; }
+  details.howto .ht { font-size: 13px; line-height: 1.6; color: var(--text);
+                      margin-top: 9px; }
+  details.howto .ht p { margin: 0 0 9px; }
+  details.howto .ht b { font-weight: 600; }
+  details.howto .ht ol, details.howto .ht ul { margin: 0 0 9px 20px; padding: 0; }
+  details.howto .ht li { margin-bottom: 4px; }
+  details.howto .ht .lbl { display: inline-block; min-width: 0; color: var(--info-fg);
+                           font-weight: 600; }
 
   /* ==== DroneKoll-trafik-panel (analytics.json) ==== */
   .traffic .tabs { display: flex; gap: 6px; margin-bottom: 12px; }
@@ -134,14 +168,70 @@
   <h1>🛬 Drönarkollen · status</h1>
   <span class="gen" id="gen">laddar…</span>
 </header>
+
+<details class="howto">
+  <summary>🧭 Så funkar det här — läs mig först</summary>
+  <div class="ht">
+    <p>Appen visar drönarzoner och regler för 55 länder. All data kommer från
+    ländernas egna myndigheter, och den här sidan visar om varje länk i kedjan
+    mår bra <b>just nu</b>. Sidan är byggd för att kunna läsas utan
+    förkunskaper — varje rad har en förklaring i klartext.</p>
+
+    <p><b>Kedjan, i fyra steg:</b></p>
+    <ol>
+      <li>Myndigheten publicerar sin data (en kartserver eller en fil).</li>
+      <li>En robot hämtar datan på schema — varje dag, vecka eller månad
+          beroende på hur ofta innehållet brukar ändras.</li>
+      <li>Roboten kvalitetskollar och lägger filen på vår webbserver
+          (pappilappi.com). Den är live inom ett par minuter —
+          <b>ingen ny appversion behövs</b>.</li>
+      <li>Appen läser filen när kartan används, med som mest ett dygns
+          mellanlagring i telefonen.</li>
+    </ol>
+
+    <p>Vissa källor tar en genväg: appen frågar myndighetens server
+    <b>direkt</b> (Sverige, Spanien och delar av Schweiz och Tyskland).
+    Då finns inget mellanled alls.</p>
+
+    <p><b>Vad betyder "hämtad för X dagar sedan"?</b> Det är tiden sedan vi
+    senast <b>stämde av mot myndigheten</b> — inte hur gammal kartan är.
+    Filen som hämtades då är exakt den användarna ser, live. Har myndigheten
+    inte ändrat något sedan dess är kartan helt aktuell. Därför hämtas
+    snabbrörligt ofta (skjuttider varje dag) och trögrörligt sällan
+    (nationalparker en gång i månaden). Vissa rader säger i stället
+    "data oförändrad sedan X" — där kör roboten regelbundet men rör bara
+    filen när innehållet faktiskt ändrats.</p>
+
+    <p><b>Två robotar delar på jobbet:</b></p>
+    <ul>
+      <li><span class="lbl">Molnroboten</span> (GitHub Actions) kör
+          hämtningarna på schema, dygnet runt, även när Kristoffers dator
+          är avstängd.</li>
+      <li><span class="lbl">Hemmadriften</span> (Kristoffers Mac) vaknar
+          07:00 och 12:30 varje dag och ser efter om någon fil är äldre än
+          sitt schema — då kör den samma hämtning lokalt. Den är dessutom
+          enda vägen för Rumänien och Spanien, vars servrar blockerar
+          molnrobotar. Landlistan (appens styrfil) publiceras aldrig
+          automatiskt av någon robot.</li>
+      <li><span class="lbl">Besiktningen</span> (den här sidan) körs två
+          gånger per dygn och testar varje källa skarpt. Fel öppnar
+          automatiskt ett ärende och skickar mejl.</li>
+    </ul>
+
+    <p><b>Färgerna:</b> 🟢 allt väl · 🟡 värt att titta på (inget akut) ·
+    🔴 fel som kräver åtgärd · ℹ️ upplysning · ⏸ medvetet pausad.</p>
+  </div>
+</details>
+
 <div id="app"><p id="err">Hämtar status.json…</p></div>
 <div id="traffic-wrap" hidden>
   <h2>DroneKoll-trafik</h2>
   <div id="traffic" class="card traffic"></div>
 </div>
 <footer>
-  Uppdateras 4×/dygn av <a href="https://github.com/KodKust/dronarkartan/actions/workflows/data-health.yml">data-health</a>
-  · fel öppnar issue + mejl · AI-granskning månadsvis
+  Besiktigas 2×/dygn av <a href="https://github.com/KodKust/dronarkartan/actions/workflows/data-health.yml">data-health</a> i molnet
+  · hemmadriften kör 07:00 &amp; 12:30 på Macen<br>
+  fel öppnar ärende + mejl · AI-granskning månadsvis
 </footer>
 <script>
 const ICON = { ok: "✅", warn: "⚠️", fail: "❌", info: "ℹ️", paused: "⏸" };
@@ -149,16 +239,6 @@ const ICON = { ok: "✅", warn: "⚠️", fail: "❌", info: "ℹ️", paused: "
 function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
-
-function checksHtml(checks) {
-  return '<div class="checks">' + checks.map(ch => {
-    const name = ch.url
-      ? `<a href="${esc(ch.url)}" target="_blank" rel="noopener"><b>${esc(ch.name)}</b> ↗</a>`
-      : `<b>${esc(ch.name)}</b>`;
-    return `<div class="row ${ch.status}"><span class="dot ${ch.status}"></span>` +
-           `<span>${name} — ${esc(ch.detail || "")}</span></div>`;
-  }).join("") + "</div>";
 }
 
 function relTime(d) {
@@ -170,7 +250,37 @@ function relTime(d) {
   return `för ${Math.floor(h / 24)} dygn sedan`;
 }
 
-function card(title, status, checks, startCollapsed) {
+function svDate(iso) {
+  try {
+    return new Date(iso + "T00:00:00Z").toLocaleDateString("sv-SE",
+      { day: "numeric", month: "short" }).replace(/\.$/, "");
+  } catch (e) { return iso; }
+}
+
+// En mätrad + dess klartextförklaring. titel (människonamn) visas i fetstil;
+// det tekniska namnet flyttar ner i förklaringsraden så ingen behöver kunna
+// koderna utantill men de finns kvar för felsökning.
+function rowHtml(ch) {
+  const label = ch.titel || ch.name;
+  const linked = ch.url
+    ? `<a href="${esc(ch.url)}" target="_blank" rel="noopener"><b>${esc(label)}</b> ↗</a>`
+    : `<b>${esc(label)}</b>`;
+  let html = `<div class="row ${ch.status}"><span class="dot ${ch.status}"></span>` +
+             `<span>${linked} — ${esc(ch.detail || "")}</span></div>`;
+  const bits = [];
+  if (ch.explain) bits.push(esc(ch.explain));
+  if (ch.next_due) bits.push(`Nästa hämtning väntas senast <b>${esc(svDate(ch.next_due))}</b>.`);
+  if (ch.titel && ch.name && ch.titel !== ch.name)
+    bits.push(`<span class="tech">Tekniskt namn: ${esc(ch.name)}</span>`);
+  if (bits.length) html += `<div class="exp">${bits.join(" ")}</div>`;
+  return html;
+}
+
+function checksHtml(checks) {
+  return '<div class="checks">' + checks.map(rowHtml).join("") + "</div>";
+}
+
+function card(title, status, bodyHtml, startCollapsed) {
   const cls = status === "ok" && startCollapsed ? " collapsed" : "";
   const badge = status === "ok" ? "grön" : status === "warn" ? "varning"
               : status === "info" ? "info" : "FEL";
@@ -178,7 +288,7 @@ function card(title, status, checks, startCollapsed) {
     <div class="chead" onclick="this.parentElement.classList.toggle('collapsed')">
       <span class="name">${title}</span>
       <span class="pill ${status}">${badge}</span>
-    </div>${checksHtml(checks)}</div>`;
+    </div>${bodyHtml}</div>`;
 }
 
 function agg(results) {
@@ -187,11 +297,137 @@ function agg(results) {
   return "ok";
 }
 
+// Plocka ut "XX" ur radnamn som "🇱🇺 LU · datakälla" / "🇨🇾 CY — Cypern".
+function isoFromName(name) {
+  const m = /\b([A-Z]{2})\b\s*[·—-]/.exec(name || "");
+  return m ? m[1] : null;
+}
+
+// Ett landkort (statussida v2): underrubriker per radtyp, NOTAM-rad,
+// AI-granskning + veckans länkkoll inflätade, lagerinventering i botten.
+function countryCard(c, ctx) {
+  const rows = c.checks || [];
+  const by = k => rows.filter(r => (r.kind || "other") === k);
+  const parts = [];
+
+  const coverage = rows.filter(r => r.name === "Täckning i appen");
+  if (coverage.length) parts.push(coverage.map(rowHtml).join(""));
+
+  const feeds = by("feed");
+  if (feeds.length) parts.push(`<div class="subh">Kartlager i appen</div>` +
+                               feeds.map(rowHtml).join(""));
+
+  // NOTAM-raden syntetiseras per land. Två varianter: länder i det dagliga
+  // FIR-svepet (gemensam lista, landets FIR-koder) och länder där appen
+  // hämtar NOTAM live per flygplats (Sverige, USA — de saknar FIR-koder
+  // i svepet just för att de går den vägen).
+  if (c.has_notam) {
+    const firList = c.firs || [];
+    let n = null;
+    if (firList.length && ctx.notam) {
+      n = {
+        status: ctx.notam.status,
+        name: "NOTAM-bevakning",
+        titel: "NOTAM-bevakning",
+        detail: `region ${firList.join(", ")} · ` + (ctx.notam.detail || ""),
+        url: null,
+        explain: ("NOTAM är luftfartens korta officiella meddelanden till " +
+                  "piloter — 'kran uppställd', 'flyguppvisning på lördag'. " +
+                  "Hämtas en gång per dygn för hela landets " +
+                  "flyginformationsregion; appen läser listan med högst en " +
+                  "timmes fördröjning. Mätvärdet gäller den gemensamma " +
+                  "NOTAM-listan för alla länder."),
+      };
+    } else if (!firList.length) {
+      n = {
+        status: "info",
+        name: "NOTAM-bevakning",
+        titel: "NOTAM-bevakning",
+        detail: "hämtas live per flygplats direkt i appen",
+        url: null,
+        explain: ("NOTAM är luftfartens korta officiella meddelanden till " +
+                  "piloter. För det här landet frågar appen den " +
+                  "internationella NOTAM-tjänsten direkt, flygplats för " +
+                  "flygplats, när kartan används — färskare än dagslistan " +
+                  "och därför inget eget mätvärde här."),
+      };
+    }
+    if (n) parts.push(`<div class="subh">NOTAM</div>` + rowHtml(n));
+  }
+
+  const gists = by("gist");
+  if (gists.length) parts.push(`<div class="subh">Datafiler appen läser (gist)</div>` +
+                               gists.map(rowHtml).join(""));
+
+  const ups = by("upstream");
+  if (ups.length) parts.push(`<div class="subh">Robotens hämtkällor (uppströms)</div>` +
+                             ups.map(rowHtml).join(""));
+
+  const reg = rows.filter(r => r.kind === "rules" || r.kind === "link");
+  const weekly = ctx.linksByIso[c.iso] || [];
+  const ai = ctx.aiByIso[c.iso] || [];
+  if (reg.length || weekly.length || ai.length) {
+    parts.push(`<div class="subh">Regler &amp; officiella länkar</div>`);
+    parts.push(reg.map(rowHtml).join(""));
+    parts.push(weekly.map(l => rowHtml({
+      status: l.status, name: "Veckans länkkoll", titel: "Veckans länkkoll",
+      detail: l.detail, url: l.url,
+      explain: ("Alla landets källänkar testas en gång i veckan. " +
+                "Många 'trasiga' är myndighetsservrar som blockerar robotar " +
+                "men fungerar i vanlig webbläsare — klicka och verifiera."),
+    })).join(""));
+    parts.push(ai.map(a => rowHtml({
+      status: a.status,
+      name: a.name.replace(/^\S*\s*[A-Z]{2}\s*·\s*/, "AI: "),
+      detail: a.detail, url: a.url,
+      explain: ("Månadsvis läser en AI myndighetens sida och bedömer om " +
+                "innehållet fortfarande ser ut som en regelsida (fångar " +
+                "flyttade/rötade sidor). AI:n kan aldrig utlösa rött larm — " +
+                "bara flagga för mänsklig koll."),
+    })).join(""));
+  }
+
+  const drift = ctx.driftByIso[c.iso] || [];
+  if (drift.length) {
+    parts.push(`<div class="subh">Schemahändelser (källan bytte format)</div>`);
+    parts.push(drift.map(ev => rowHtml({
+      status: "info",
+      name: ev.label || "schemaändring",
+      detail: `${String(ev.detected || "").slice(0, 10)} — ${ev.diagnosis || (ev.changes || []).join("; ")}`,
+      url: ev.url,
+    })).join(""));
+  }
+
+  let body = `<div class="checks">${parts.join("")}</div>`;
+
+  // Lagerinventering: det vi HAR (ur appens riktiga konfiguration) och
+  // KÄNDA luckor (kuraterad lista). Bara för länder med zonkarta.
+  const har = ((c.layers || {}).har) || [];
+  const saknas = ((c.layers || {}).saknas) || [];
+  if (c.group === "overlay" && (har.length || saknas.length)) {
+    let inv = `<div class="layers"><div class="lh">Lager i appen (${har.length} st)</div>`;
+    inv += har.map(l => `<span class="chip">${esc(l.titel)}</span>`).join("");
+    if (saknas.length) {
+      inv += `<div class="miss"><div class="lh" style="margin-top:8px">Känt som saknas</div>`;
+      inv += saknas.map(s =>
+        `<div><span class="badge">${esc(s["läge"] || s.lage || "")}</span>` +
+        `<b>${esc(s.namn)}</b> — ${esc(s.varfor || "")}</div>`).join("");
+      inv += `</div>`;
+    } else {
+      inv += `<div class="miss">Inga kända luckor just nu — listan bygger på det vi vet.</div>`;
+    }
+    inv += `</div>`;
+    body += inv;
+  }
+
+  return card(`${c.flag} ${esc(c.name)}`, c.status, body, true);
+}
+
 const _cb = Math.floor(Date.now() / 300000);
 Promise.all([
   fetch("./status.json?t=" + _cb).then(r => r.json()),
   // AI-granskningen persisteras separat (deep-körning skriver den) → syns hela
-  // månaden oberoende av att status.json skrivs om 4×/dygn. 404 före första
+  // månaden oberoende av att status.json skrivs om 2×/dygn. 404 före första
   // deep-körningen är ofarligt.
   fetch("./ai_review.json?t=" + _cb).then(r => r.ok ? r.json() : null).catch(() => null),
   // Källförvaltningen (tools/source_stewardship.py) — egen sidofil så riskkön
@@ -212,15 +448,15 @@ Promise.all([
     }[overall];
 
     const ageMin = Math.round((Date.now() - gen.getTime()) / 60000);
-    let html = `<div class="stamp${ageMin > 420 ? " old" : ""}">
+    let html = `<div class="stamp${ageMin > 780 ? " old" : ""}">
       <span>🕐</span>
       <span><b>Uppdaterad ${gen.toLocaleString("sv-SE", { dateStyle: "short", timeStyle: "short" })}</b></span>
-      <span class="rel">${relTime(gen)}${ageMin > 420 ? " — äldre än schemat (6 h), kolla data-health-Action" : ""}</span>
+      <span class="rel">${relTime(gen)}${ageMin > 780 ? " — äldre än schemat (13 h), kolla data-health-Action" : ""}</span>
     </div>`;
 
     html += `<div class="banner ${overall}">
       <span class="big">${ICON[overall]}</span>
-      <span><b>${bannerTxt[0]}</b><small>${esc(bannerTxt[1])} · ${s.total_checks} checks</small></span>
+      <span><b>${bannerTxt[0]}</b><small>${esc(bannerTxt[1])} · ${s.total_checks} kontroller</small></span>
     </div>`;
 
     if (d.incident && d.incident.summary && s.fail > 0) {
@@ -234,76 +470,113 @@ Promise.all([
     const actOk = actions.filter(a => a.status === "ok").length;
     html += `<div class="agg">
       <div><b>${s.countries_ok}/${s.countries_total}</b><span>länder ok</span></div>
-      <div><b>${s.ok}</b><span>checks ok</span></div>
+      <div><b>${s.ok}</b><span>kontroller ok</span></div>
       <div><b>${s.warn}</b><span>varningar</span></div>
-      <div><b>${actions.length ? actOk + "/" + actions.length : "–"}</b><span>actions ok</span></div>
+      <div><b>${actions.length ? actOk + "/" + actions.length : "–"}</b><span>robotar ok</span></div>
     </div>`;
 
-    html += "<h2>Länder</h2>";
-    const order = { fail: 0, warn: 1, ok: 2 };
-    [...(d.countries || [])]
-      .sort((a, b) => order[a.status] - order[b.status])
-      .forEach(c => { html += card(`${c.flag} ${esc(c.name)}`, c.status, c.checks, true); });
+    // ── Gemensamt kontext för landkorten ──
+    const countries = d.countries || [];
+    const hasV2 = countries.some(c => c.group);
 
-    html += "<h2>System &amp; Gistar</h2>";
-    // "AI-granskning" + "Schemavakt" hoppas över här — de finns bara i den
-    // färska deep-status.json:en och skulle blinka bort efter ~6 h. AI-granskningen
-    // renderas i stället från den persisterade ai_review.json (nedan), och
-    // schemadriften från schema_drift-historiken.
+    const aiByIso = {}, linksByIso = {}, driftByIso = {};
+    ((ai && ai.checks) || []).forEach(a => {
+      const iso = isoFromName(a.name);
+      if (iso) (aiByIso[iso] = aiByIso[iso] || []).push(a);
+    });
+    ((src && src.links) || []).forEach(l => {
+      const iso = isoFromName(l.name);
+      if (iso) (linksByIso[iso] = linksByIso[iso] || []).push(l);
+    });
+    (Array.isArray(d.schema_drift) ? d.schema_drift : []).forEach(ev => {
+      if (ev.iso) (driftByIso[ev.iso] = driftByIso[ev.iso] || []).push(ev);
+    });
+
+    let notam = null;
+    (d.sections || []).forEach(sec => (sec.checks || []).forEach(ch => {
+      if ((ch.name || "").indexOf("NOTAMs Gist") === 0) notam = ch;
+    }));
+
+    const ctx = { aiByIso, linksByIso, driftByIso, notam };
+    const order = { fail: 0, warn: 1, ok: 2 };
+    const sortC = (a, b) => (order[a.status] - order[b.status]) ||
+                            a.name.localeCompare(b.name, "sv");
+
+    if (hasV2) {
+      const groups = [
+        ["overlay", "🗺 Länder med zonkarta i appen",
+         "Här ritar appen myndigheternas zoner direkt på kartan. Varje lager listas med sin hämtningstakt och väg in i appen."],
+        ["notam", "📡 Länder med NOTAM-bevakning",
+         "Appen visar NOTAM (luftfartens officiella meddelanden) samt regler och länkar — zonkarta finns inte här än."],
+        ["other", "📖 Övriga länder",
+         "Appen visar regler i klartext och länkar till myndighetens egna kartor."],
+      ];
+      groups.forEach(([key, title, sub]) => {
+        const list = countries.filter(c => (c.group || "overlay") === key);
+        if (!list.length) return;
+        html += `<h2>${title} (${list.length})</h2><div class="groupsub">${esc(sub)}</div>`;
+        list.sort(sortC).forEach(c => { html += countryCard(c, ctx); });
+      });
+    } else {
+      // Äldre status.json utan gruppfält — rendera som förr.
+      html += "<h2>Länder</h2>";
+      [...countries].sort(sortC).forEach(c => {
+        html += card(`${c.flag} ${esc(c.name)}`, c.status, checksHtml(c.checks), true);
+      });
+    }
+
+    // ── Systemet bakom ──
+    html += `<h2>🔧 Systemet bakom</h2>
+      <div class="groupsub">Det gemensamma maskineriet: appens styrfiler, regelbevakningen och robotarna. Allt landspecifikt bor i landkorten ovan.</div>`;
     (d.sections || [])
       .filter(sec => sec.title !== "AI-granskning" && !sec.title.startsWith("Schemavakt"))
       .forEach(sec => {
-        html += card(esc(sec.title), agg(sec.checks), sec.checks, true);
+        html += card(esc(sec.title), agg(sec.checks), checksHtml(sec.checks), true);
       });
 
     // Källförvaltning — rangordnar var en människas faktakoll gör mest nytta.
     // Medvetet INTE ett larm: korten är "info" och räknas aldrig in i summan.
-    // Statusen skickas explicit till card(), inte via agg() som saknar
-    // info-mappning och skulle måla dem gröna.
     if (src) {
       const queue = Array.isArray(src.queue) ? src.queue : [];
       const coverage = Array.isArray(src.coverage) ? src.coverage : [];
-      const links = Array.isArray(src.links) ? src.links : [];
-      if (queue.length || coverage.length || links.length) {
+      if (queue.length || coverage.length) {
         const when = src.generated ? new Date(src.generated) : null;
         const whenTxt = when ? " · " + relTime(when) : "";
-        html += `<h2>Källförvaltning${whenTxt}</h2>`;
-        // Råa värden — checksHtml esc:ar name/detail själv (ingen dubbel-escape).
+        html += `<h2>Källförvaltning${whenTxt}</h2>
+          <div class="groupsub">Arbetskö, inte larm: vilka länders regler som gör mest nytta att faktakolla härnäst. Trasiga länkar per land visas i landkorten ovan.</div>`;
         if (queue.length) {
           const n = src.countries_total || "";
-          html += card(`Granska härnäst${n ? ` (av ${n} länder)` : ""}`, "info", queue, false);
+          html += card(`Granska härnäst${n ? ` (av ${n} länder)` : ""}`, "info", checksHtml(queue), false);
         }
-        if (coverage.length) html += card("Tillsynstäckning", agg(coverage), coverage, false);
-        if (links.length) html += card("Trasiga källänkar", agg(links), links, true);
+        if (coverage.length) html += card("Tillsynstäckning", agg(coverage), checksHtml(coverage), false);
       }
     }
 
     if (ai && Array.isArray(ai.checks) && ai.checks.length) {
       const when = ai.generated ? new Date(ai.generated) : null;
-      const whenTxt = when ? " · senast " + when.toLocaleDateString("sv-SE") : "";
-      const modelTxt = ai.model ? " · " + esc(ai.model) : "";
-      html += `<h2>AI-granskning${whenTxt}${modelTxt}</h2>`;
-      html += card("Källinnehåll (AI)", agg(ai.checks), ai.checks, true);
+      const whenTxt = when ? when.toLocaleDateString("sv-SE") : "";
+      const rest = ai.checks.filter(a => !isoFromName(a.name));
+      html += `<div class="groupsub" style="margin-top:10px">🤖 AI-granskningen kördes senast ${esc(whenTxt)}${ai.model ? " (" + esc(ai.model) + ")" : ""} — resultaten visas per land i korten ovan.</div>`;
+      if (rest.length) html += card("AI-granskning (övrigt)", agg(rest), checksHtml(rest), true);
     }
 
-    const drift = Array.isArray(d.schema_drift) ? d.schema_drift : [];
-    if (drift.length) {
-      html += "<h2>Schemaförändringar (senaste)</h2>";
-      // Råa värden — checksHtml esc:ar name/detail själv (ingen dubbel-escape).
-      // Historiska events är info: larmet gick som warn i Schemavakt-sektionen
-      // den körning driften upptäcktes.
-      const rows = drift.map(ev => ({
+    // Schemahändelser utan landskod (ska inte finnas, men tappa aldrig data)
+    const driftRest = (Array.isArray(d.schema_drift) ? d.schema_drift : [])
+      .filter(ev => !ev.iso);
+    if (driftRest.length) {
+      const rows = driftRest.map(ev => ({
         status: "info",
         name: `${ev.iso || "?"} · ${ev.label || ""}`,
         detail: `${String(ev.detected || "").slice(0, 10)} — ${ev.diagnosis || (ev.changes || []).join("; ")}`,
         url: ev.url,
       }));
-      html += card("Schemavakt-historik", "ok", rows, true);
+      html += card("Schemavakt-historik", "ok", checksHtml(rows), true);
     }
 
     if (actions.length) {
-      html += "<h2>GitHub Actions (24 h)</h2>";
-      html += card("Pipelines", agg(actions), actions, true);
+      html += "<h2>Robotarnas körningar (senaste dygnet)</h2>";
+      html += `<div class="groupsub">Varje rad är en schemalagd robot i molnet. Grönt = senaste körningen lyckades.</div>`;
+      html += card("Pipelines", agg(actions), checksHtml(actions), true);
     }
 
     document.getElementById("app").innerHTML = html;
