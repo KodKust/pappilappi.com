@@ -159,6 +159,22 @@
   .cios { color: var(--ios); } .cand { color: var(--android); }
   .ddrow { display: grid; grid-template-columns: 18px 1fr 40px; gap: 8px; align-items: center; font-size: 13px; padding: 2px 0; }
   .ddrow .cvis { text-align: right; font-variant-numeric: tabular-nums; }
+  /* Trafikkällor: badgen säger VILKEN SORTS källa det är — det är den
+     skillnaden som gör en dipp diagnostiserbar (sök föll ≠ en länk dog). */
+  .stable { margin-top: 4px; }
+  /* 60px: "kampanj" är den längsta etiketten (~50px) — smalare kolumn klämmer
+     den mot badgens kant. */
+  .srow { display: grid; grid-template-columns: 60px minmax(56px,1fr) 34px 1fr; gap: 7px; align-items: center; font-size: 13px; padding: 3px 0; }
+  .srow .sname { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .srow .svis { text-align: right; font-variant-numeric: tabular-nums; }
+  .skind { font-size: 10px; text-align: center; padding: 1.5px 0; border-radius: 5px; border: 0.5px solid currentColor; text-transform: uppercase; letter-spacing: .02em; opacity: .95; }
+  .skind.search { color: var(--info-fg); }
+  .skind.link { color: var(--sel); }
+  .skind.campaign { color: var(--android); }
+  .skind.other { color: var(--muted); }
+  .ddsrow { display: grid; grid-template-columns: 60px 1fr 40px; gap: 8px; align-items: center; font-size: 13px; padding: 2px 0; }
+  .ddsrow .svis { text-align: right; font-variant-numeric: tabular-nums; }
+  .ddsrow .sname { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .tgen { font-size: 11.5px; color: var(--muted); margin-top: 12px; }
   .tnote { font-size: 12px; color: var(--warn-fg); margin-top: 9px; }
 </style>
@@ -626,6 +642,12 @@ setTimeout(() => location.reload(), 10 * 60 * 1000);
     return out;
   }
 
+  // Källtyp -> kort svensk etikett. Okänd/saknad typ faller till "övrigt" så
+  // en framtida ref_scheme från GoatCounter aldrig renderar tomt.
+  var KIND = { search:"sök", link:"länk", campaign:"kampanj", other:"övrigt" };
+  function kindOf(s){ return KIND[s&&s.kind] ? s.kind : "other"; }
+  function kindTag(s){ var k=kindOf(s); return '<span class="skind '+k+'">'+KIND[k]+'</span>'; }
+
   function dayDetail(d){
     if(!d) return "";
     var conv = d.visitors ? Math.round(((d.ios||0)+(d.android||0))/d.visitors*100) : 0;
@@ -636,6 +658,15 @@ setTimeout(() => location.reload(), 10 * 60 * 1000);
         rows+='<div class="ddrow"><span class="cflag">'+flag(c.code)+'</span><span class="cname">'+esc(c.name)+'</span><span class="cvis">'+fmt(c.count)+'</span></div>';
       }
       block='<div class="dd-clab">Toppländer denna dag</div>'+rows;
+    }
+    // Källorna saknas i äldre analytics.json → sektionen utelämnas tyst.
+    var ss = d.sources || [];
+    if(ss.length){
+      var srows="";
+      for(var j=0;j<ss.length;j++){ var s=ss[j];
+        srows+='<div class="ddsrow">'+kindTag(s)+'<span class="sname">'+esc(s.name)+'</span><span class="svis">'+fmt(s.count)+'</span></div>';
+      }
+      block+='<div class="dd-clab" style="margin-top:9px">Toppkällor denna dag</div>'+srows;
     }
     return '<div class="daydetail">'+
       '<div class="dd-top"><span class="dd-h">'+esc(dlong(d.day))+'</span><button class="dd-close" data-close="1">✕ stäng</button></div>'+
@@ -667,6 +698,17 @@ setTimeout(() => location.reload(), 10 * 60 * 1000);
              '<span class="cios">'+fmt(c.ios)+'</span><span class="cand">'+fmt(c.android)+'</span></div>';
     }
 
+    var ss=w.sources||[], maxS=1; for(i=0;i<ss.length;i++) maxS=Math.max(maxS,ss[i].count);
+    var srows=""; for(i=0;i<ss.length;i++){ var s=ss[i];
+      srows+='<div class="srow">'+kindTag(s)+'<span class="sname">'+esc(s.name)+'</span>'+
+             '<span class="svis">'+fmt(s.count)+'</span>'+
+             '<span class="cbar"><i style="width:'+Math.round(s.count/maxS*100)+'%"></i></span></div>';
+    }
+    // Hela källblocket utelämnas om analytics.json är från före källstödet.
+    var sblock = srows ?
+      '<div class="tsub"><span>Varifrån besökarna kom (hela perioden)</span></div>'+
+      '<div class="stable">'+srows+'</div>' : '';
+
     var clicks=w.clicks||{ios:0,android:0};
     var zero = (w.visitors===0) && (clicks.ios===0) && (clicks.android===0);
 
@@ -686,6 +728,7 @@ setTimeout(() => location.reload(), 10 * 60 * 1000);
       dayDetail(sel)+
       '<div class="tsub"><span>Toppländer &amp; butiksklick (hela perioden)</span></div>'+
       '<div class="ctable"><div class="chead-row"><span></span><span>Land</span><span class="r">Bes.</span><span></span><span class="r">iOS</span><span class="r">Andr.</span></div>'+crows+'</div>'+
+      sblock+
       (zero?'<div class="tnote">Sajten samlar ingen trafik än — siffrorna tänds när dronekoll.com är live.</div>':'')+
       '<div class="tgen">Fönster '+esc(w.start)+' – '+esc(w.end)+(gen?' · uppdaterad '+gen.toLocaleString("sv-SE",{dateStyle:"short",timeStyle:"short"}):'')+'</div>';
 
