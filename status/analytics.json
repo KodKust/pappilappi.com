@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T15:07:49+00:00",
+  "generated": "2026-07-27T15:19:10+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
@@ -85,20 +85,36 @@
             {
               "code": "US",
               "name": "United States",
-              "count": 25
+              "count": 44
+            },
+            {
+              "code": "IT",
+              "name": "Italy",
+              "count": 17
             },
             {
               "code": "SE",
               "name": "Sweden",
-              "count": 10
-            },
-            {
-              "code": "DE",
-              "name": "Germany",
-              "count": 9
+              "count": 15
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "Google",
+              "count": 50,
+              "kind": "search"
+            },
+            {
+              "name": "(direkt)",
+              "count": 32,
+              "kind": "other"
+            },
+            {
+              "name": "bing.com",
+              "count": 2,
+              "kind": "link"
+            }
+          ]
         },
         {
           "day": "2026-07-21",
@@ -107,26 +123,36 @@
           "android": 0,
           "countries": [
             {
+              "code": "FI",
+              "name": "Finland",
+              "count": 350
+            },
+            {
               "code": "US",
               "name": "United States",
-              "count": 19
+              "count": 31
             },
             {
               "code": "FR",
               "name": "France",
-              "count": 10
-            },
-            {
-              "code": "IT",
-              "name": "Italy",
-              "count": 8
+              "count": 21
             }
           ],
           "sources": [
             {
               "name": "Google",
-              "count": 1,
+              "count": 47,
               "kind": "search"
+            },
+            {
+              "name": "(direkt)",
+              "count": 19,
+              "kind": "other"
+            },
+            {
+              "name": "gemini.google.com",
+              "count": 2,
+              "kind": "link"
             }
           ]
         },
@@ -142,21 +168,31 @@
               "count": 350
             },
             {
-              "code": "IT",
-              "name": "Italy",
-              "count": 12
-            },
-            {
               "code": "US",
               "name": "United States",
-              "count": 12
+              "count": 30
+            },
+            {
+              "code": "IT",
+              "name": "Italy",
+              "count": 17
             }
           ],
           "sources": [
             {
+              "name": "(direkt)",
+              "count": 366,
+              "kind": "other"
+            },
+            {
               "name": "Google",
-              "count": 1,
+              "count": 60,
               "kind": "search"
+            },
+            {
+              "name": "App",
+              "count": 2,
+              "kind": "campaign"
             }
           ]
         },
@@ -167,22 +203,38 @@
           "android": 0,
           "countries": [
             {
-              "code": "US",
-              "name": "United States",
-              "count": 18
-            },
-            {
-              "code": "DK",
-              "name": "Denmark",
-              "count": 9
-            },
-            {
               "code": "SE",
               "name": "Sweden",
-              "count": 9
+              "count": 33
+            },
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 28
+            },
+            {
+              "code": "NL",
+              "name": "Netherlands",
+              "count": 21
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "Google",
+              "count": 57,
+              "kind": "search"
+            },
+            {
+              "name": "(direkt)",
+              "count": 25,
+              "kind": "other"
+            },
+            {
+              "name": "Yandex",
+              "count": 2,
+              "kind": "search"
+            }
+          ]
         },
         {
           "day": "2026-07-24",
@@ -191,22 +243,38 @@
           "android": 0,
           "countries": [
             {
+              "code": "ES",
+              "name": "Spain",
+              "count": 33
+            },
+            {
               "code": "SE",
               "name": "Sweden",
-              "count": 24
+              "count": 32
             },
             {
               "code": "NL",
               "name": "Netherlands",
               "count": 17
-            },
-            {
-              "code": "US",
-              "name": "United States",
-              "count": 10
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 27,
+              "kind": "other"
+            },
+            {
+              "name": "Google",
+              "count": 8,
+              "kind": "search"
+            },
+            {
+              "name": "bing.com",
+              "count": 4,
+              "kind": "link"
+            }
+          ]
         },
         {
           "day": "2026-07-25",
@@ -222,15 +290,31 @@
             {
               "code": "SE",
               "name": "Sweden",
-              "count": 8
+              "count": 12
             },
             {
               "code": "US",
               "name": "United States",
-              "count": 6
+              "count": 7
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 46,
+              "kind": "other"
+            },
+            {
+              "name": "perplexity",
+              "count": 3,
+              "kind": "campaign"
+            },
+            {
+              "name": "Google",
+              "count": 2,
+              "kind": "search"
+            }
+          ]
         },
         {
           "day": "2026-07-26",
@@ -241,20 +325,36 @@
             {
               "code": "SE",
               "name": "Sweden",
-              "count": 4
+              "count": 6
             },
             {
-              "code": "DE",
-              "name": "Germany",
-              "count": 2
+              "code": "US",
+              "name": "United States",
+              "count": 6
             },
             {
               "code": "FR",
               "name": "France",
-              "count": 2
+              "count": 3
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 5,
+              "kind": "other"
+            },
+            {
+              "name": "Google",
+              "count": 4,
+              "kind": "search"
+            },
+            {
+              "name": "duckduckgo.com",
+              "count": 2,
+              "kind": "link"
+            }
+          ]
         },
         {
           "day": "2026-07-27",
@@ -278,7 +378,23 @@
               "count": 2
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 13,
+              "kind": "other"
+            },
+            {
+              "name": "Google",
+              "count": 2,
+              "kind": "search"
+            },
+            {
+              "name": "copilot.com",
+              "count": 2,
+              "kind": "campaign"
+            }
+          ]
         }
       ]
     },
@@ -477,10 +593,26 @@
             {
               "code": "SE",
               "name": "Sweden",
-              "count": 15
+              "count": 17
+            },
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 4
+            },
+            {
+              "code": "CA",
+              "name": "Canada",
+              "count": 1
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 2,
+              "kind": "other"
+            }
+          ]
         },
         {
           "day": "2026-07-12",
@@ -491,12 +623,12 @@
             {
               "code": "US",
               "name": "United States",
-              "count": 4
+              "count": 5
             },
             {
               "code": "SE",
               "name": "Sweden",
-              "count": 2
+              "count": 3
             },
             {
               "code": "CA",
@@ -504,7 +636,13 @@
               "count": 1
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 7,
+              "kind": "other"
+            }
+          ]
         },
         {
           "day": "2026-07-13",
@@ -513,17 +651,28 @@
           "android": 0,
           "countries": [
             {
-              "code": "SE",
-              "name": "Sweden",
-              "count": 1
-            },
-            {
               "code": "US",
               "name": "United States",
-              "count": 1
+              "count": 8
+            },
+            {
+              "code": "NL",
+              "name": "Netherlands",
+              "count": 2
+            },
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 2
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 2,
+              "kind": "other"
+            }
+          ]
         },
         {
           "day": "2026-07-14",
@@ -534,20 +683,31 @@
             {
               "code": "US",
               "name": "United States",
-              "count": 7
+              "count": 15
+            },
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 13
             },
             {
               "code": "NL",
               "name": "Netherlands",
               "count": 2
-            },
-            {
-              "code": "SE",
-              "name": "Sweden",
-              "count": 1
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 9,
+              "kind": "other"
+            },
+            {
+              "name": "www.bing.com",
+              "count": 1,
+              "kind": "link"
+            }
+          ]
         },
         {
           "day": "2026-07-15",
@@ -558,20 +718,31 @@
             {
               "code": "SE",
               "name": "Sweden",
-              "count": 12
+              "count": 16
             },
             {
               "code": "US",
               "name": "United States",
-              "count": 8
+              "count": 11
             },
             {
-              "code": "FR",
-              "name": "France",
+              "code": "CA",
+              "name": "Canada",
               "count": 1
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 11,
+              "kind": "other"
+            },
+            {
+              "name": "bing.com",
+              "count": 1,
+              "kind": "link"
+            }
+          ]
         },
         {
           "day": "2026-07-16",
@@ -580,22 +751,33 @@
           "android": 0,
           "countries": [
             {
-              "code": "SE",
-              "name": "Sweden",
-              "count": 4
-            },
-            {
               "code": "US",
               "name": "United States",
-              "count": 3
+              "count": 22
             },
             {
-              "code": "CA",
-              "name": "Canada",
-              "count": 1
+              "code": "SE",
+              "name": "Sweden",
+              "count": 6
+            },
+            {
+              "code": "IT",
+              "name": "Italy",
+              "count": 5
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 6,
+              "kind": "other"
+            },
+            {
+              "name": "www.bing.com",
+              "count": 1,
+              "kind": "link"
+            }
+          ]
         },
         {
           "day": "2026-07-17",
@@ -606,20 +788,36 @@
             {
               "code": "US",
               "name": "United States",
-              "count": 19
+              "count": 46
             },
             {
               "code": "IT",
               "name": "Italy",
-              "count": 5
+              "count": 16
             },
             {
-              "code": "DE",
-              "name": "Germany",
-              "count": 3
+              "code": "FR",
+              "name": "France",
+              "count": 13
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 22,
+              "kind": "other"
+            },
+            {
+              "name": "Google",
+              "count": 12,
+              "kind": "search"
+            },
+            {
+              "name": "Yahoo",
+              "count": 1,
+              "kind": "search"
+            }
+          ]
         },
         {
           "day": "2026-07-18",
@@ -630,24 +828,34 @@
             {
               "code": "US",
               "name": "United States",
-              "count": 27
-            },
-            {
-              "code": "IT",
-              "name": "Italy",
-              "count": 11
+              "count": 53
             },
             {
               "code": "FR",
               "name": "France",
-              "count": 10
+              "count": 22
+            },
+            {
+              "code": "IT",
+              "name": "Italy",
+              "count": 21
             }
           ],
           "sources": [
             {
               "name": "Google",
-              "count": 1,
+              "count": 45,
               "kind": "search"
+            },
+            {
+              "name": "(direkt)",
+              "count": 27,
+              "kind": "other"
+            },
+            {
+              "name": "facebook.com",
+              "count": 3,
+              "kind": "link"
             }
           ]
         },
@@ -660,24 +868,34 @@
             {
               "code": "US",
               "name": "United States",
-              "count": 26
+              "count": 51
             },
             {
-              "code": "FR",
-              "name": "France",
-              "count": 12
+              "code": "IT",
+              "name": "Italy",
+              "count": 19
             },
             {
-              "code": "PL",
-              "name": "Poland",
-              "count": 11
+              "code": "DE",
+              "name": "Germany",
+              "count": 18
             }
           ],
           "sources": [
             {
+              "name": "Google",
+              "count": 67,
+              "kind": "search"
+            },
+            {
               "name": "(direkt)",
-              "count": 3,
+              "count": 27,
               "kind": "other"
+            },
+            {
+              "name": "bing.com",
+              "count": 6,
+              "kind": "link"
             }
           ]
         },
@@ -690,20 +908,36 @@
             {
               "code": "US",
               "name": "United States",
-              "count": 25
+              "count": 44
+            },
+            {
+              "code": "IT",
+              "name": "Italy",
+              "count": 17
             },
             {
               "code": "SE",
               "name": "Sweden",
-              "count": 10
-            },
-            {
-              "code": "DE",
-              "name": "Germany",
-              "count": 9
+              "count": 15
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "Google",
+              "count": 50,
+              "kind": "search"
+            },
+            {
+              "name": "(direkt)",
+              "count": 32,
+              "kind": "other"
+            },
+            {
+              "name": "bing.com",
+              "count": 2,
+              "kind": "link"
+            }
+          ]
         },
         {
           "day": "2026-07-21",
@@ -712,26 +946,36 @@
           "android": 0,
           "countries": [
             {
+              "code": "FI",
+              "name": "Finland",
+              "count": 350
+            },
+            {
               "code": "US",
               "name": "United States",
-              "count": 19
+              "count": 31
             },
             {
               "code": "FR",
               "name": "France",
-              "count": 10
-            },
-            {
-              "code": "IT",
-              "name": "Italy",
-              "count": 8
+              "count": 21
             }
           ],
           "sources": [
             {
               "name": "Google",
-              "count": 1,
+              "count": 47,
               "kind": "search"
+            },
+            {
+              "name": "(direkt)",
+              "count": 19,
+              "kind": "other"
+            },
+            {
+              "name": "gemini.google.com",
+              "count": 2,
+              "kind": "link"
             }
           ]
         },
@@ -747,21 +991,31 @@
               "count": 350
             },
             {
-              "code": "IT",
-              "name": "Italy",
-              "count": 12
-            },
-            {
               "code": "US",
               "name": "United States",
-              "count": 12
+              "count": 30
+            },
+            {
+              "code": "IT",
+              "name": "Italy",
+              "count": 17
             }
           ],
           "sources": [
             {
+              "name": "(direkt)",
+              "count": 366,
+              "kind": "other"
+            },
+            {
               "name": "Google",
-              "count": 1,
+              "count": 60,
               "kind": "search"
+            },
+            {
+              "name": "App",
+              "count": 2,
+              "kind": "campaign"
             }
           ]
         },
@@ -772,22 +1026,38 @@
           "android": 0,
           "countries": [
             {
-              "code": "US",
-              "name": "United States",
-              "count": 18
-            },
-            {
-              "code": "DK",
-              "name": "Denmark",
-              "count": 9
-            },
-            {
               "code": "SE",
               "name": "Sweden",
-              "count": 9
+              "count": 33
+            },
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 28
+            },
+            {
+              "code": "NL",
+              "name": "Netherlands",
+              "count": 21
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "Google",
+              "count": 57,
+              "kind": "search"
+            },
+            {
+              "name": "(direkt)",
+              "count": 25,
+              "kind": "other"
+            },
+            {
+              "name": "Yandex",
+              "count": 2,
+              "kind": "search"
+            }
+          ]
         },
         {
           "day": "2026-07-24",
@@ -796,22 +1066,38 @@
           "android": 0,
           "countries": [
             {
+              "code": "ES",
+              "name": "Spain",
+              "count": 33
+            },
+            {
               "code": "SE",
               "name": "Sweden",
-              "count": 24
+              "count": 32
             },
             {
               "code": "NL",
               "name": "Netherlands",
               "count": 17
-            },
-            {
-              "code": "US",
-              "name": "United States",
-              "count": 10
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 27,
+              "kind": "other"
+            },
+            {
+              "name": "Google",
+              "count": 8,
+              "kind": "search"
+            },
+            {
+              "name": "bing.com",
+              "count": 4,
+              "kind": "link"
+            }
+          ]
         },
         {
           "day": "2026-07-25",
@@ -827,15 +1113,31 @@
             {
               "code": "SE",
               "name": "Sweden",
-              "count": 8
+              "count": 12
             },
             {
               "code": "US",
               "name": "United States",
-              "count": 6
+              "count": 7
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 46,
+              "kind": "other"
+            },
+            {
+              "name": "perplexity",
+              "count": 3,
+              "kind": "campaign"
+            },
+            {
+              "name": "Google",
+              "count": 2,
+              "kind": "search"
+            }
+          ]
         },
         {
           "day": "2026-07-26",
@@ -846,20 +1148,36 @@
             {
               "code": "SE",
               "name": "Sweden",
-              "count": 4
+              "count": 6
             },
             {
-              "code": "DE",
-              "name": "Germany",
-              "count": 2
+              "code": "US",
+              "name": "United States",
+              "count": 6
             },
             {
               "code": "FR",
               "name": "France",
-              "count": 2
+              "count": 3
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 5,
+              "kind": "other"
+            },
+            {
+              "name": "Google",
+              "count": 4,
+              "kind": "search"
+            },
+            {
+              "name": "duckduckgo.com",
+              "count": 2,
+              "kind": "link"
+            }
+          ]
         },
         {
           "day": "2026-07-27",
@@ -883,7 +1201,23 @@
               "count": 2
             }
           ],
-          "sources": []
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 13,
+              "kind": "other"
+            },
+            {
+              "name": "Google",
+              "count": 2,
+              "kind": "search"
+            },
+            {
+              "name": "copilot.com",
+              "count": 2,
+              "kind": "campaign"
+            }
+          ]
         }
       ]
     }
