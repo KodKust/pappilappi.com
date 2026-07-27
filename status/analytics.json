@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T10:27:54+00:00",
+  "generated": "2026-07-27T15:07:49+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
@@ -22,14 +22,14 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 92,
+          "count": 96,
           "ios": 4,
           "android": 0
         },
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 64,
+          "count": 66,
           "ios": 5,
           "android": 0
         },
@@ -46,6 +46,33 @@
           "count": 35,
           "ios": 0,
           "android": 0
+        }
+      ],
+      "sources": [
+        {
+          "name": "(direkt)",
+          "count": 520,
+          "kind": "other"
+        },
+        {
+          "name": "Google",
+          "count": 226,
+          "kind": "search"
+        },
+        {
+          "name": "bing.com",
+          "count": 8,
+          "kind": "link"
+        },
+        {
+          "name": "perplexity",
+          "count": 5,
+          "kind": "campaign"
+        },
+        {
+          "name": "gemini.google.com",
+          "count": 4,
+          "kind": "link"
         }
       ],
       "daily": [
@@ -70,7 +97,8 @@
               "name": "Germany",
               "count": 9
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-21",
@@ -92,6 +120,13 @@
               "code": "IT",
               "name": "Italy",
               "count": 8
+            }
+          ],
+          "sources": [
+            {
+              "name": "Google",
+              "count": 1,
+              "kind": "search"
             }
           ]
         },
@@ -116,6 +151,13 @@
               "name": "United States",
               "count": 12
             }
+          ],
+          "sources": [
+            {
+              "name": "Google",
+              "count": 1,
+              "kind": "search"
+            }
           ]
         },
         {
@@ -139,7 +181,8 @@
               "name": "Sweden",
               "count": 9
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-24",
@@ -162,7 +205,8 @@
               "name": "United States",
               "count": 10
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-25",
@@ -185,7 +229,8 @@
               "name": "United States",
               "count": 6
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-26",
@@ -208,7 +253,8 @@
               "name": "France",
               "count": 2
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-27",
@@ -217,21 +263,22 @@
           "android": 0,
           "countries": [
             {
+              "code": "US",
+              "name": "United States",
+              "count": 5
+            },
+            {
               "code": "CA",
               "name": "Canada",
               "count": 2
             },
             {
-              "code": "PH",
-              "name": "Philippines",
-              "count": 2
-            },
-            {
-              "code": "TR",
-              "name": "Turkey",
+              "code": "GB",
+              "name": "United Kingdom",
               "count": 2
             }
-          ]
+          ],
+          "sources": []
         }
       ]
     },
@@ -255,14 +302,14 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 187,
+          "count": 191,
           "ios": 4,
           "android": 0
         },
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 107,
+          "count": 109,
           "ios": 6,
           "android": 0
         },
@@ -276,9 +323,36 @@
         {
           "code": "FR",
           "name": "France",
-          "count": 58,
+          "count": 59,
           "ios": 1,
           "android": 0
+        }
+      ],
+      "sources": [
+        {
+          "name": "(direkt)",
+          "count": 630,
+          "kind": "other"
+        },
+        {
+          "name": "Google",
+          "count": 349,
+          "kind": "search"
+        },
+        {
+          "name": "bing.com",
+          "count": 16,
+          "kind": "link"
+        },
+        {
+          "name": "facebook.com",
+          "count": 5,
+          "kind": "link"
+        },
+        {
+          "name": "www.facebook.com",
+          "count": 5,
+          "kind": "link"
         }
       ],
       "daily": [
@@ -287,98 +361,112 @@
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-06-28",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-06-29",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-06-30",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-01",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-02",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-03",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-04",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-05",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-06",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-07",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-08",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-09",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-10",
           "visitors": 0,
           "ios": 0,
           "android": 0,
-          "countries": []
+          "countries": [],
+          "sources": []
         },
         {
           "day": "2026-07-11",
@@ -391,7 +479,8 @@
               "name": "Sweden",
               "count": 15
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-12",
@@ -414,7 +503,8 @@
               "name": "Canada",
               "count": 1
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-13",
@@ -432,7 +522,8 @@
               "name": "United States",
               "count": 1
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-14",
@@ -455,7 +546,8 @@
               "name": "Sweden",
               "count": 1
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-15",
@@ -478,7 +570,8 @@
               "name": "France",
               "count": 1
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-16",
@@ -501,7 +594,8 @@
               "name": "Canada",
               "count": 1
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-17",
@@ -524,7 +618,8 @@
               "name": "Germany",
               "count": 3
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-18",
@@ -546,6 +641,13 @@
               "code": "FR",
               "name": "France",
               "count": 10
+            }
+          ],
+          "sources": [
+            {
+              "name": "Google",
+              "count": 1,
+              "kind": "search"
             }
           ]
         },
@@ -570,6 +672,13 @@
               "name": "Poland",
               "count": 11
             }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 3,
+              "kind": "other"
+            }
           ]
         },
         {
@@ -593,7 +702,8 @@
               "name": "Germany",
               "count": 9
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-21",
@@ -615,6 +725,13 @@
               "code": "IT",
               "name": "Italy",
               "count": 8
+            }
+          ],
+          "sources": [
+            {
+              "name": "Google",
+              "count": 1,
+              "kind": "search"
             }
           ]
         },
@@ -639,6 +756,13 @@
               "name": "United States",
               "count": 12
             }
+          ],
+          "sources": [
+            {
+              "name": "Google",
+              "count": 1,
+              "kind": "search"
+            }
           ]
         },
         {
@@ -662,7 +786,8 @@
               "name": "Sweden",
               "count": 9
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-24",
@@ -685,7 +810,8 @@
               "name": "United States",
               "count": 10
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-25",
@@ -708,7 +834,8 @@
               "name": "United States",
               "count": 6
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-26",
@@ -731,7 +858,8 @@
               "name": "France",
               "count": 2
             }
-          ]
+          ],
+          "sources": []
         },
         {
           "day": "2026-07-27",
@@ -740,21 +868,22 @@
           "android": 0,
           "countries": [
             {
+              "code": "US",
+              "name": "United States",
+              "count": 5
+            },
+            {
               "code": "CA",
               "name": "Canada",
               "count": 2
             },
             {
-              "code": "PH",
-              "name": "Philippines",
-              "count": 2
-            },
-            {
-              "code": "TR",
-              "name": "Turkey",
+              "code": "GB",
+              "name": "United Kingdom",
               "count": 2
             }
-          ]
+          ],
+          "sources": []
         }
       ]
     }
