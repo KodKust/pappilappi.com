@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T08:58:38.593193+00:00",
+  "generated": "2026-07-27T18:58:12.416133+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -119,7 +119,7 @@
     {
       "name": "Regelhash-bevakning",
       "status": "warn",
-      "detail": "53 av 55 länder, 162 URL:er bevakade — 21 källor utanför; NOLL bevakning: CY, UA",
+      "detail": "54 av 55 länder, 165 URL:er bevakade — 17 källor utanför; NOLL bevakning: UA",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -135,21 +135,13 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "75 av 501 länkar trasiga i 26 länder",
+      "detail": "61 av 501 länkar trasiga i 22 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
     }
   ],
   "links": [
-    {
-      "name": "🇨🇷 CR — Costa Rica",
-      "status": "warn",
-      "detail": "8 av 10 länkar trasiga (403, error)",
-      "last_modified": null,
-      "url": "https://drones.dgac.go.cr/",
-      "kind": "other"
-    },
     {
       "name": "🇨🇾 CY — Cypern",
       "status": "warn",
@@ -207,14 +199,6 @@
       "kind": "other"
     },
     {
-      "name": "🇺🇾 UY — Uruguay",
-      "status": "warn",
-      "detail": "4 av 10 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://utm.dinacia.gub.uy/",
-      "kind": "other"
-    },
-    {
       "name": "🇬🇷 GR — Grekland",
       "status": "warn",
       "detail": "3 av 9 länkar trasiga (403, timeout)",
@@ -223,11 +207,19 @@
       "kind": "other"
     },
     {
-      "name": "🇵🇦 PA — Panama",
+      "name": "🇹🇷 TR — Turkiet",
       "status": "warn",
-      "detail": "3 av 10 länkar trasiga (403, error, timeout)",
+      "detail": "3 av 10 länkar trasiga (error)",
       "last_modified": null,
-      "url": "https://www.aeronautica.gob.pa/Noticia/",
+      "url": "https://iha.shgm.gov.tr/",
+      "kind": "other"
+    },
+    {
+      "name": "🇦🇷 AR — Argentina",
+      "status": "warn",
+      "detail": "2 av 10 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
       "kind": "other"
     },
     {
@@ -239,22 +231,6 @@
       "kind": "other"
     },
     {
-      "name": "🇪🇨 EC — Ecuador",
-      "status": "warn",
-      "detail": "2 av 10 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://www.gob.ec/dgac/tramites/emision-permisos-sobrevuelo",
-      "kind": "other"
-    },
-    {
-      "name": "🇫🇷 FR — Frankrike",
-      "status": "warn",
-      "detail": "2 av 9 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://alphatango.aviation-civile.gouv.fr",
-      "kind": "other"
-    },
-    {
       "name": "🇲🇽 MX — Mexiko",
       "status": "warn",
       "detail": "2 av 10 länkar trasiga (error)",
@@ -263,9 +239,33 @@
       "kind": "other"
     },
     {
-      "name": "+ 11 länder till med trasiga länkar",
+      "name": "🇵🇪 PE — Peru",
+      "status": "warn",
+      "detail": "2 av 10 länkar trasiga (403, error)",
+      "last_modified": null,
+      "url": "mailto:rpas-dgac@mtc.gob.pe",
+      "kind": "other"
+    },
+    {
+      "name": "🇸🇬 SG — Singapore",
+      "status": "warn",
+      "detail": "2 av 9 länkar trasiga (404)",
+      "last_modified": null,
+      "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft/ua-regulatory-requirements",
+      "kind": "other"
+    },
+    {
+      "name": "🇧🇷 BR — Brasilien",
+      "status": "warn",
+      "detail": "1 av 10 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://sistemas.anac.gov.br/sisant/",
+      "kind": "other"
+    },
+    {
+      "name": "+ 7 länder till med trasiga länkar",
       "status": "info",
-      "detail": "12 länkar: SG, AR, BR, CA, DO, HK, IN, LI, NO, PE, TR",
+      "detail": "7 länkar: CR, DO, LI, NO, NZ, PA, UY",
       "last_modified": null,
       "url": null,
       "kind": "other"
