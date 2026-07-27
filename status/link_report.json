@@ -126,10 +126,10 @@
     "id": "shgm_kayit",
     "title": "İHA Kayıt Sistemi (500 g üzeri zorunlu)",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "error",
-    "code": null,
-    "final_url": "https://iha.shgm.gov.tr/",
-    "message": "[Errno 104] Connection reset by peer"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
+    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
   },
   {
     "country": "TR (Turkiet)",
@@ -195,7 +195,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://iha.shgm.gov.tr/",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "[Errno 54] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -203,10 +203,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "TR (Turkiet)",
@@ -448,7 +448,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5575021",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "MX (Mexiko)",
@@ -566,10 +566,10 @@
     "id": "anac_resolucion_550",
     "title": "Resolución ANAC 550/2025 (texto completo)",
     "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "AR (Argentina)",
@@ -577,10 +577,10 @@
     "id": "anac_ceta",
     "title": "CETA — Certificado de Explotador (uso comercial)",
     "url": "https://www.argentina.gob.ar/anac/ceta-rparpas",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://www.argentina.gob.ar/anac/requisitos-para-la-emision-o-modificacion-de-ceta-rparpas",
-    "message": "→ https://www.argentina.gob.ar/anac/requisitos-para-la-emision-o-modificacion-de-ceta-rparpas"
+    "status": "error",
+    "code": null,
+    "final_url": "https://www.argentina.gob.ar/anac/ceta-rparpas",
+    "message": "The read operation timed out"
   },
   {
     "country": "AR (Argentina)",
@@ -599,10 +599,10 @@
     "id": "anac_marco_normativo",
     "title": "Nuevo marco normativo (resumen oficial)",
     "url": "https://www.argentina.gob.ar/anac/nuevo-marco-normativo-para-la-operacion-de-drones",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.argentina.gob.ar/anac/nuevo-marco-normativo-para-la-operacion-de-drones",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "AR (Argentina)",
@@ -918,10 +918,10 @@
     "id": "tvperu_requisitos",
     "title": "TV Perú — Guía oficial de requisitos",
     "url": "https://www.tvperu.gob.pe/novedades/tvperu/estos-son-los-requisitos-para-operar-drones-en-el-peru",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.tvperu.gob.pe/novedades/tvperu/estos-son-los-requisitos-para-operar-drones-en-el-peru",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "PE (Peru)",
@@ -984,10 +984,10 @@
     "id": "dinacia_utm",
     "title": "UTM DINACIA — Plataforma de registro y autorización",
     "url": "https://utm.dinacia.gub.uy/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://utm.dinacia.gub.uy/",
-    "message": "OK"
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "UY (Uruguay)",
@@ -1028,10 +1028,10 @@
     "id": "dinacia_licencias",
     "title": "Trámite: Licencias aeronáuticas (gub.uy)",
     "url": "https://www.gub.uy/tramites/expedicion-licencias-aeronauticas-habilitaciones-piloto",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.gub.uy/tramites/expedicion-licencias-aeronauticas-habilitaciones-piloto",
-    "message": "OK"
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "UY (Uruguay)",
@@ -1039,10 +1039,10 @@
     "id": "aud_uruguay",
     "title": "AUD — Asociación Uruguaya de Drones",
     "url": "https://www.aud.org.uy/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://aud.org.uy/",
-    "message": "→ https://aud.org.uy/"
+    "status": "error",
+    "code": null,
+    "final_url": "https://www.aud.org.uy/",
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "UY (Uruguay)",
@@ -1050,10 +1050,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://utm.dinacia.gub.uy/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://utm.dinacia.gub.uy/",
-    "message": "OK"
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "UY (Uruguay)",
@@ -1083,10 +1083,10 @@
     "id": "dgac_drones_portal",
     "title": "DGAC — Registro de Drones (portal dedicado)",
     "url": "https://drones.dgac.go.cr/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.dgac.go.cr/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1094,10 +1094,10 @@
     "id": "dgac_main",
     "title": "DGAC — Página principal",
     "url": "https://www.dgac.go.cr/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://www.dgac.go.cr/WEB",
-    "message": "→ https://www.dgac.go.cr/WEB"
+    "status": "error",
+    "code": 403,
+    "final_url": "https://www.dgac.go.cr/",
+    "message": "Forbidden"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1105,10 +1105,10 @@
     "id": "dgac_faq",
     "title": "DGAC — Preguntas frecuentes (drones)",
     "url": "https://www.dgac.go.cr/WEB/PreguntasFrecuentes",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.dgac.go.cr/WEB/PreguntasFrecuentes",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1116,10 +1116,10 @@
     "id": "dgac_licencia_rpas",
     "title": "Solicitud de licencia RPAS (uso comercial)",
     "url": "https://sub.dgac.go.cr/aeronautica_/solicitud-de-licencia-rpas/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://sub.dgac.go.cr/aeronautica_/solicitud-de-licencia-rpas/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1127,10 +1127,10 @@
     "id": "sjo_drone_info",
     "title": "Aeropuerto SJO — Información drones cerca de aeropuertos",
     "url": "https://www.sjoairport.com/do-you-own-a-drone-know-the-rules-and-limitations-of-flying-it-near-an-airport/?lang=en",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.sjoairport.com/do-you-own-a-drone-know-the-rules-and-limitations-of-flying-it-near-an-airport/?lang=en",
-    "message": "OK"
+    "message": "The read operation timed out"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1141,7 +1141,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.sinac.go.cr/",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1160,10 +1160,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://drones.dgac.go.cr/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.dgac.go.cr/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1171,10 +1171,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://drones.dgac.go.cr/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.dgac.go.cr/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1226,10 +1226,10 @@
     "id": "dgac_permisos_sobrevuelo",
     "title": "Permisos de sobrevuelo (Gob.ec)",
     "url": "https://www.gob.ec/dgac/tramites/emision-permisos-sobrevuelo",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.gob.ec/dgac/tramites/emision-permisos-sobrevuelo",
-    "message": "OK"
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "EC (Ecuador)",
@@ -1248,10 +1248,10 @@
     "id": "parque_galapagos",
     "title": "Parque Nacional Galápagos — Normativa drones",
     "url": "https://www.galapagos.gob.ec/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://galapagos.gob.ec/",
-    "message": "→ https://galapagos.gob.ec/"
+    "status": "error",
+    "code": null,
+    "final_url": "https://www.galapagos.gob.ec/",
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "EC (Ecuador)",
@@ -1336,10 +1336,10 @@
     "id": "aac_noticias",
     "title": "AAC — Comunicados y normativa actual",
     "url": "https://www.aeronautica.gob.pa/Noticia/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.aeronautica.gob.pa/Noticia/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "PA (Panama)",
@@ -1358,10 +1358,10 @@
     "id": "miambiente",
     "title": "MiAmbiente — Áreas protegidas (parques nacionales)",
     "url": "https://www.miambiente.gob.pa/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://miambiente.gob.pa/",
-    "message": "→ https://miambiente.gob.pa/"
+    "status": "error",
+    "code": null,
+    "final_url": "https://www.miambiente.gob.pa/",
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "PA (Panama)",
@@ -1622,10 +1622,10 @@
     "id": "cad_sua",
     "title": "CAD — Small UA regulations",
     "url": "https://www.cad.gov.hk/english/sua.html",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.cad.gov.hk/english/sua.html",
-    "message": "OK"
+    "message": "The read operation timed out"
   },
   {
     "country": "HK (Hongkong)",
@@ -1812,7 +1812,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "CY (Cypern)",
@@ -1823,7 +1823,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "CY (Cypern)",
@@ -1845,7 +1845,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "CY (Cypern)",
@@ -1856,7 +1856,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "CY (Cypern)",
@@ -1889,7 +1889,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "CY (Cypern)",
@@ -3778,10 +3778,10 @@
     "id": "ulc_drones",
     "title": "ULC — Przepisy dotyczące dronów",
     "url": "https://www.ulc.gov.pl/en/unmanned-aircraft",
-    "status": "redirect",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://ulc.gov.pl/en/unmanned-aircraft",
-    "message": "→ https://ulc.gov.pl/en/unmanned-aircraft"
+    "final_url": "https://www.ulc.gov.pl/en/unmanned-aircraft",
+    "message": "OK"
   },
   {
     "country": "PL (Polen)",
@@ -3789,10 +3789,10 @@
     "id": "ulc_register",
     "title": "ULC — Rejestracja operatora",
     "url": "https://www.ulc.gov.pl/en/unmanned-aircraft",
-    "status": "redirect",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://ulc.gov.pl/en/unmanned-aircraft",
-    "message": "→ https://ulc.gov.pl/en/unmanned-aircraft"
+    "final_url": "https://www.ulc.gov.pl/en/unmanned-aircraft",
+    "message": "OK"
   },
   {
     "country": "PL (Polen)",
@@ -3803,7 +3803,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://dronemap.pansa.pl",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "PL (Polen)",
@@ -3814,7 +3814,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.pansa.pl/dronetower/",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "PL (Polen)",
@@ -3825,7 +3825,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.pansa.pl",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "PL (Polen)",
@@ -3833,10 +3833,10 @@
     "id": "ulc_faq",
     "title": "ULC — FAQ o dronach",
     "url": "https://www.ulc.gov.pl/en/unmanned-aircraft",
-    "status": "redirect",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://ulc.gov.pl/en/unmanned-aircraft",
-    "message": "→ https://ulc.gov.pl/en/unmanned-aircraft"
+    "final_url": "https://www.ulc.gov.pl/en/unmanned-aircraft",
+    "message": "OK"
   },
   {
     "country": "PL (Polen)",
@@ -3847,7 +3847,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://dronemap.pansa.pl",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
   },
   {
     "country": "PL (Polen)",
@@ -3855,10 +3855,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.ulc.gov.pl/en/unmanned-aircraft",
-    "status": "redirect",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://ulc.gov.pl/en/unmanned-aircraft",
-    "message": "→ https://ulc.gov.pl/en/unmanned-aircraft"
+    "final_url": "https://www.ulc.gov.pl/en/unmanned-aircraft",
+    "message": "OK"
   },
   {
     "country": "PL (Polen)",
@@ -4207,10 +4207,10 @@
     "id": "alphatango",
     "title": "AlphaTango — S'enregistrer comme exploitant",
     "url": "https://alphatango.aviation-civile.gouv.fr",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://alphatango.aviation-civile.gouv.fr",
-    "message": "OK"
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "FR (Frankrike)",
@@ -4251,10 +4251,10 @@
     "id": "sia_notam",
     "title": "SIA — NOTAM et information aéronautique",
     "url": "https://www.sia.aviation-civile.gouv.fr",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.sia.aviation-civile.gouv.fr",
-    "message": "OK"
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "FR (Frankrike)",
@@ -4625,10 +4625,10 @@
     "id": "caanz_part101",
     "title": "CAANZ — Part 101 rules",
     "url": "https://www.aviation.govt.nz/drones/rules-for-drones/",
-    "status": "error",
-    "code": 404,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviation.govt.nz/drones/rules-for-drones/",
-    "message": "Not Found"
+    "message": "OK"
   },
   {
     "country": "NZ (Nya Zeeland)",
@@ -4636,10 +4636,10 @@
     "id": "airshare_faq",
     "title": "CAA NZ — Drone rules",
     "url": "https://www.aviation.govt.nz/drones",
-    "status": "redirect",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://www.aviation.govt.nz/drones/",
-    "message": "→ https://www.aviation.govt.nz/drones/"
+    "final_url": "https://www.aviation.govt.nz/drones",
+    "message": "OK"
   },
   {
     "country": "NZ (Nya Zeeland)",
@@ -4889,10 +4889,10 @@
     "id": "sacaa_commercial",
     "title": "SACAA — Commercial licensing",
     "url": "https://www.caa.co.za/industry-information/uas/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/industry-information/uas/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -4900,10 +4900,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caa.co.za/industry-information/uas/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/industry-information/uas/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -4947,7 +4947,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://operatorportal.ninoxdrone.no/",
-    "message": "[Errno -2] Name or service not known"
+    "message": "[Errno 8] nodename nor servname provided, or not known"
   },
   {
     "country": "NO (Norge)",
@@ -5054,10 +5054,10 @@
     "id": "dgca_drones",
     "title": "DGCA — Drone regulations",
     "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/regulationCircular/Drones/Drone.html",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/regulationCircular/Drones/Drone.html",
-    "message": "OK"
+    "message": "Remote end closed connection without response"
   },
   {
     "country": "IN (Indien)",
@@ -5362,10 +5362,10 @@
     "id": "tc_register",
     "title": "Transport Canada — Register your drone",
     "url": "https://tc.canada.ca/en/aviation/drone-safety/drone-management-portal",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://tc.canada.ca/en/aviation/drone-safety/drone-management-portal",
-    "message": "OK"
+    "message": "The read operation timed out"
   },
   {
     "country": "CA (Kanada)",
