@@ -1,36 +1,36 @@
 {
-  "generated": "2026-07-27T15:23:49+00:00",
+  "generated": "2026-07-28T09:20:08+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
-      "start": "2026-07-20",
-      "end": "2026-07-27",
-      "visitors": 856,
-      "events_total": 17,
+      "start": "2026-07-21",
+      "end": "2026-07-28",
+      "visitors": 794,
+      "events_total": 16,
       "clicks": {
-        "ios": 17,
+        "ios": 16,
         "android": 0
       },
       "countries": [
         {
           "code": "FI",
           "name": "Finland",
-          "count": 354,
+          "count": 350,
           "ios": 0,
           "android": 0
         },
         {
           "code": "US",
           "name": "United States",
-          "count": 96,
+          "count": 75,
           "ios": 4,
           "android": 0
         },
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 66,
-          "ios": 5,
+          "count": 58,
+          "ios": 4,
           "android": 0
         },
         {
@@ -41,81 +41,41 @@
           "android": 0
         },
         {
-          "code": "IT",
-          "name": "Italy",
-          "count": 35,
-          "ios": 0,
+          "code": "FR",
+          "name": "France",
+          "count": 30,
+          "ios": 1,
           "android": 0
         }
       ],
       "sources": [
         {
           "name": "(direkt)",
-          "count": 520,
+          "count": 506,
           "kind": "other"
         },
         {
           "name": "Google",
-          "count": 226,
+          "count": 179,
           "kind": "search"
         },
         {
           "name": "bing.com",
-          "count": 8,
+          "count": 6,
           "kind": "link"
+        },
+        {
+          "name": "Yandex",
+          "count": 6,
+          "kind": "search"
         },
         {
           "name": "perplexity",
           "count": 5,
           "kind": "campaign"
-        },
-        {
-          "name": "gemini.google.com",
-          "count": 4,
-          "kind": "link"
         }
       ],
       "daily": [
-        {
-          "day": "2026-07-20",
-          "visitors": 93,
-          "ios": 1,
-          "android": 0,
-          "countries": [
-            {
-              "code": "US",
-              "name": "United States",
-              "count": 25
-            },
-            {
-              "code": "SE",
-              "name": "Sweden",
-              "count": 10
-            },
-            {
-              "code": "DE",
-              "name": "Germany",
-              "count": 9
-            }
-          ],
-          "sources": [
-            {
-              "name": "Google",
-              "count": 50,
-              "kind": "search"
-            },
-            {
-              "name": "(direkt)",
-              "count": 32,
-              "kind": "other"
-            },
-            {
-              "name": "bing.com",
-              "count": 2,
-              "kind": "link"
-            }
-          ]
-        },
         {
           "day": "2026-07-21",
           "visitors": 76,
@@ -358,7 +318,7 @@
         },
         {
           "day": "2026-07-27",
-          "visitors": 1,
+          "visitors": 27,
           "ios": 0,
           "android": 0,
           "countries": [
@@ -368,40 +328,60 @@
               "count": 5
             },
             {
-              "code": "CA",
-              "name": "Canada",
-              "count": 2
+              "code": "SE",
+              "name": "Sweden",
+              "count": 4
             },
             {
-              "code": "GB",
-              "name": "United Kingdom",
-              "count": 2
+              "code": "RU",
+              "name": "Russia",
+              "count": 3
             }
           ],
           "sources": [
             {
               "name": "(direkt)",
-              "count": 13,
+              "count": 18,
               "kind": "other"
+            },
+            {
+              "name": "Yandex",
+              "count": 3,
+              "kind": "search"
             },
             {
               "name": "Google",
               "count": 2,
               "kind": "search"
-            },
+            }
+          ]
+        },
+        {
+          "day": "2026-07-28",
+          "visitors": 5,
+          "ios": 0,
+          "android": 0,
+          "countries": [
             {
-              "name": "copilot.com",
-              "count": 2,
-              "kind": "campaign"
+              "code": "US",
+              "name": "United States",
+              "count": 4
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 4,
+              "kind": "other"
             }
           ]
         }
       ]
     },
     "30d": {
-      "start": "2026-06-27",
-      "end": "2026-07-27",
-      "visitors": 1146,
+      "start": "2026-06-28",
+      "end": "2026-07-28",
+      "visitors": 1177,
       "events_total": 24,
       "clicks": {
         "ios": 24,
@@ -418,14 +398,14 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 191,
+          "count": 195,
           "ios": 4,
           "android": 0
         },
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 109,
+          "count": 111,
           "ios": 6,
           "android": 0
         },
@@ -447,12 +427,12 @@
       "sources": [
         {
           "name": "(direkt)",
-          "count": 630,
+          "count": 648,
           "kind": "other"
         },
         {
           "name": "Google",
-          "count": 349,
+          "count": 351,
           "kind": "search"
         },
         {
@@ -461,25 +441,17 @@
           "kind": "link"
         },
         {
-          "name": "facebook.com",
-          "count": 5,
-          "kind": "link"
+          "name": "Yandex",
+          "count": 6,
+          "kind": "search"
         },
         {
-          "name": "www.facebook.com",
+          "name": "facebook.com",
           "count": 5,
           "kind": "link"
         }
       ],
       "daily": [
-        {
-          "day": "2026-06-27",
-          "visitors": 0,
-          "ios": 0,
-          "android": 0,
-          "countries": [],
-          "sources": []
-        },
         {
           "day": "2026-06-28",
           "visitors": 0,
@@ -1166,7 +1138,7 @@
         },
         {
           "day": "2026-07-27",
-          "visitors": 1,
+          "visitors": 27,
           "ios": 0,
           "android": 0,
           "countries": [
@@ -1176,31 +1148,51 @@
               "count": 5
             },
             {
-              "code": "CA",
-              "name": "Canada",
-              "count": 2
+              "code": "SE",
+              "name": "Sweden",
+              "count": 4
             },
             {
-              "code": "GB",
-              "name": "United Kingdom",
-              "count": 2
+              "code": "RU",
+              "name": "Russia",
+              "count": 3
             }
           ],
           "sources": [
             {
               "name": "(direkt)",
-              "count": 13,
+              "count": 18,
               "kind": "other"
+            },
+            {
+              "name": "Yandex",
+              "count": 3,
+              "kind": "search"
             },
             {
               "name": "Google",
               "count": 2,
               "kind": "search"
-            },
+            }
+          ]
+        },
+        {
+          "day": "2026-07-28",
+          "visitors": 5,
+          "ios": 0,
+          "android": 0,
+          "countries": [
             {
-              "name": "copilot.com",
-              "count": 2,
-              "kind": "campaign"
+              "code": "US",
+              "name": "United States",
+              "count": 4
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 4,
+              "kind": "other"
             }
           ]
         }
