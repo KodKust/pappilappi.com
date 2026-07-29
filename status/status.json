@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-29T09:29:21.059120+00:00",
+  "generated": "2026-07-29T14:54:38.937991+00:00",
   "summary": {
-    "fail": 0,
-    "warn": 17,
-    "ok": 173,
+    "fail": 124,
+    "warn": 14,
+    "ok": 52,
     "total_checks": 270,
     "countries_total": 55,
-    "countries_ok": 42
+    "countries_ok": 37
   },
   "countries": [
     {
@@ -577,7 +577,7 @@
       "iso": "LU",
       "name": "Luxembourg",
       "flag": "🇱🇺",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -595,14 +595,13 @@
       "checks": [
         {
           "name": "Feed: lu-zones",
-          "status": "ok",
-          "detail": "hämtad 2d sen, 53 kB",
-          "last_modified": "2026-07-26T22:10:58+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Luxemburgs drönarzoner",
-          "explain": "Officiella zoner från luftfartsmyndigheten DAC via geoportail.lu. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-03"
+          "explain": "Officiella zoner från luftfartsmyndigheten DAC via geoportail.lu. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -616,8 +615,8 @@
         },
         {
           "name": "Länk: DAC — Réglementation des drones",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://dac.gouvernement.lu/fr/drones.html",
           "kind": "link",
@@ -625,8 +624,8 @@
         },
         {
           "name": "Länk: DAC — S'enregistrer comme exploitant",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://dac.gouvernement.lu/fr/drones.html",
           "kind": "link",
@@ -634,8 +633,8 @@
         },
         {
           "name": "Länk: Geoportail.lu — Carte des drones",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.geoportail.lu",
           "kind": "link",
@@ -643,8 +642,8 @@
         },
         {
           "name": "Länk: DAC — Aperçu des règles",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://dac.gouvernement.lu/fr/drones.html",
           "kind": "link",
@@ -690,7 +689,7 @@
       "iso": "SI",
       "name": "Slovenia",
       "flag": "🇸🇮",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -714,9 +713,9 @@
       "checks": [
         {
           "name": "Feed: si-zones",
-          "status": "ok",
-          "detail": "hämtad 5d sen, 385 kB",
-          "last_modified": "2026-07-23T10:01:25+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/si-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Sloveniens drönarzoner",
@@ -734,8 +733,8 @@
         },
         {
           "name": "Länk: CAA Slovenia — Predpisi o dronih",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
           "kind": "link",
@@ -743,8 +742,8 @@
         },
         {
           "name": "Länk: CAA Slovenia — Registracija operaterja",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://uas.caa.si",
           "kind": "link",
@@ -752,8 +751,8 @@
         },
         {
           "name": "Länk: CAA Slovenia — Karta zračnega prostora",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
           "kind": "link",
@@ -761,8 +760,8 @@
         },
         {
           "name": "Länk: CAA Slovenia — Brezplačni izpit A1/A3",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://uas.caa.si",
           "kind": "link",
@@ -810,7 +809,7 @@
       "iso": "CH",
       "name": "Switzerland",
       "flag": "🇨🇭",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -870,8 +869,8 @@
       "checks": [
         {
           "name": "Primär (geoadmin)",
-          "status": "ok",
-          "detail": "200 OK, 2641288B",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://api3.geo.admin.ch/rest/services/api/MapServer",
           "kind": "feed",
@@ -880,102 +879,93 @@
         },
         {
           "name": "Feed: luftfahrthindernis",
-          "status": "ok",
-          "detail": "hämtad 10d sen, 8681 kB",
-          "last_modified": "2026-07-19T07:30:09+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson?v=20260605c",
           "kind": "feed",
           "titel": "Lufthinder",
-          "explain": "Master, linbanor, kranar och annat högt som en drönare kan träffa. Från luftfartsmyndigheten BAZL:s hinderregister. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-21"
+          "explain": "Master, linbanor, kranar och annat högt som en drönare kan träffa. Från luftfartsmyndigheten BAZL:s hinderregister. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: ch-ctr",
-          "status": "ok",
-          "detail": "hämtad 5d sen, 47 kB",
-          "last_modified": "2026-07-24T07:32:39+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ch-ctr.geojson",
           "kind": "feed",
           "titel": "Kontrollzoner (CTR)",
-          "explain": "Luften närmast flygplatserna, där flygledningen bestämmer. Här gäller hårda drönarregler. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-26"
+          "explain": "Luften närmast flygplatserna, där flygledningen bestämmer. Här gäller hårda drönarregler. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: ch-tma",
-          "status": "ok",
-          "detail": "hämtad 5d sen, 151 kB",
-          "last_modified": "2026-07-24T07:32:39+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ch-tma.geojson",
           "kind": "feed",
           "titel": "Terminalområden (TMA)",
-          "explain": "Kontrollerad luft i 'trattar' ovanför och runt flygplatser, där trafikflyg stiger och sjunker. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-26"
+          "explain": "Kontrollerad luft i 'trattar' ovanför och runt flygplatser, där trafikflyg stiger och sjunker. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: ch-cta",
-          "status": "ok",
-          "detail": "hämtad 5d sen, 63 kB",
-          "last_modified": "2026-07-24T07:32:39+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ch-cta.geojson",
           "kind": "feed",
           "titel": "Kontrollområden (CTA)",
-          "explain": "Större kontrollerade luftrumsblock på högre höjd. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-26"
+          "explain": "Större kontrollerade luftrumsblock på högre höjd. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: ch-uas-aktivitaetszonen",
-          "status": "ok",
-          "detail": "hämtad 5d sen, 210 kB",
-          "last_modified": "2026-07-24T07:32:39+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson",
           "kind": "feed",
           "titel": "Drönar-aktivitetszoner",
-          "explain": "Utpekade områden för drönar- och modellflyg. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-26"
+          "explain": "Utpekade områden för drönar- och modellflyg. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: ch-jagdbanngebiete",
-          "status": "ok",
-          "detail": "hämtad 5d sen, 2223 kB",
-          "last_modified": "2026-07-24T07:32:39+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson",
           "kind": "feed",
           "titel": "Viltskyddsområden",
-          "explain": "Jaktbannområden — skyddade områden för vilt där drönare stör djurlivet. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-26"
+          "explain": "Jaktbannområden — skyddade områden för vilt där drönare stör djurlivet. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: ch-vogelreservate",
-          "status": "ok",
-          "detail": "hämtad 5d sen, 567 kB",
-          "last_modified": "2026-07-24T07:32:39+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ch-vogelreservate.geojson",
           "kind": "feed",
           "titel": "Fågelreservat",
-          "explain": "Skyddade fågelområden med drönarbegränsningar. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-26"
+          "explain": "Skyddade fågelområden med drönarbegränsningar. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: ch-sicherheitszonenplan",
-          "status": "ok",
-          "detail": "hämtad 5d sen, 513 kB",
-          "last_modified": "2026-07-24T07:32:39+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson",
           "kind": "feed",
           "titel": "Säkerhetszoner vid flygplatser",
-          "explain": "Officiella säkerhetszonplaner runt flygplatser. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-26"
+          "explain": "Officiella säkerhetszonplaner runt flygplatser. Från geo.admin.ch. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: ch-schiessanzeigen",
-          "status": "ok",
-          "detail": "hämtad 1h sen, 494 kB",
-          "last_modified": "2026-07-29T07:44:37+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
           "titel": "Skjuttider (dagsfärska)",
-          "explain": "Platser och tider där militär och skytteföreningar skjuter — från försvarsdepartementet VBS. Ändras varje dag, därför hämtas den varje dag. Hämtas varje dag (skjuttider ändras dagligen). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-07-31"
+          "explain": "Platser och tider där militär och skytteföreningar skjuter — från försvarsdepartementet VBS. Ändras varje dag, därför hämtas den varje dag. Hämtas varje dag (skjuttider ändras dagligen). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -989,8 +979,8 @@
         },
         {
           "name": "Länk: FOCA/BAZL — Drohnenvorschriften",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.bazl.admin.ch/drohnen",
           "kind": "link",
@@ -998,8 +988,8 @@
         },
         {
           "name": "Länk: FOCA — Als Betreiber registrieren",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.bazl.admin.ch/de/registrierung-drohnenbetreiber",
           "kind": "link",
@@ -1007,8 +997,8 @@
         },
         {
           "name": "Länk: Swiss Dronemap — Luftraumkarte",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.swiss-dronemap.ch",
           "kind": "link",
@@ -1016,8 +1006,8 @@
         },
         {
           "name": "Länk: FOCA — Regelübersicht",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.bazl.admin.ch/de/flugregeln-drohnen",
           "kind": "link",
@@ -1029,7 +1019,7 @@
       "iso": "SK",
       "name": "Slovakia",
       "flag": "🇸🇰",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1047,14 +1037,13 @@
       "checks": [
         {
           "name": "Feed: sk-zones",
-          "status": "ok",
-          "detail": "hämtad 1d sen, 291 kB",
-          "last_modified": "2026-07-27T10:12:58+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/sk-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Slovakiens drönarzoner",
-          "explain": "Officiella zoner från transportmyndigheten (Dopravný úrad). Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-04"
+          "explain": "Officiella zoner från transportmyndigheten (Dopravný úrad). Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1068,8 +1057,8 @@
         },
         {
           "name": "Länk: Dopravný úrad — Predpisy pre drony",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
           "kind": "link",
@@ -1077,8 +1066,8 @@
         },
         {
           "name": "Länk: Dopravný úrad — Registrácia prevádzkovateľa",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
           "kind": "link",
@@ -1086,8 +1075,8 @@
         },
         {
           "name": "Länk: LPS — Mapa vzdušného priestoru",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://gis.lps.sk",
           "kind": "link",
@@ -1095,8 +1084,8 @@
         },
         {
           "name": "Länk: Dopravný úrad — Prehľad pravidiel",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
           "kind": "link",
@@ -1108,7 +1097,7 @@
       "iso": "NL",
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "status": "ok",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1130,30 +1119,28 @@
       "checks": [
         {
           "name": "Feed: ienw-ed269",
-          "status": "ok",
-          "detail": "data oförändrad sedan 2d sen, 1072 kB",
-          "last_modified": "2026-07-27T07:36:33+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/nl-ed269.geojson?cb=20260603e",
           "kind": "feed",
           "titel": "Nederländernas zonlista",
-          "explain": "Den officiella zonlistan (ED-269) från infrastruktur- och vattendepartementet IenW: flygplatser, förbud, natur. Hämtas varje dag (filen rörs bara när innehållet ändrats). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-10"
+          "explain": "Den officiella zonlistan (ED-269) från infrastruktur- och vattendepartementet IenW: flygplatser, förbud, natur. Hämtas varje dag (filen rörs bara när innehållet ändrats). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: pdok-natura",
-          "status": "ok",
-          "detail": "data oförändrad sedan 2d sen, 1889 kB",
-          "last_modified": "2026-07-27T00:57:32+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/nl-pdok-natura.geojson?cb=20260603d",
           "kind": "feed",
           "titel": "Natura 2000-områden",
-          "explain": "Skyddad natur från statens karttjänst PDOK. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-29"
+          "explain": "Skyddad natur från statens karttjänst PDOK. Hämtas varje månad. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Aerodromes Gist (nl.json)",
-          "status": "ok",
-          "detail": "236 fält",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": null,
           "kind": "gist",
@@ -1162,8 +1149,8 @@
         },
         {
           "name": "Uppströms: PDOK Natura 2000 WFS",
-          "status": "ok",
-          "detail": "200 OK, 15434B",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://service.pdok.nl/rvo/natura2000/wfs/v1_0?request=GetCapabilities&service=WFS",
           "kind": "upstream",
@@ -1181,8 +1168,8 @@
         },
         {
           "name": "Länk: ILT — Droneregels",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen",
           "kind": "link",
@@ -1190,8 +1177,8 @@
         },
         {
           "name": "Länk: RDW — Registreren als exploitant",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.rdw.nl/drone",
           "kind": "link",
@@ -1199,8 +1186,8 @@
         },
         {
           "name": "Länk: ILT — Overzicht van de regels",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/regels-voor-drones",
           "kind": "link",
@@ -1390,7 +1377,7 @@
       "iso": "IE",
       "name": "Ireland",
       "flag": "🇮🇪",
-      "status": "ok",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1415,8 +1402,8 @@
       "checks": [
         {
           "name": "Primär (geojson-static)",
-          "status": "ok",
-          "detail": "85 zoner",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://gist.githubusercontent.com/KodKust/c52cf5d3ef3370a7d4c26d9c2b616506/raw/iaa_simplified.geojson",
           "kind": "feed",
@@ -1435,8 +1422,8 @@
         },
         {
           "name": "Länk: IAA — Drone regulations",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.iaa.ie/general-aviation/drones",
           "kind": "link",
@@ -1444,8 +1431,8 @@
         },
         {
           "name": "Länk: IAA — Register as operator",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.iaa.ie/general-aviation/drones/drone-register",
           "kind": "link",
@@ -1453,8 +1440,8 @@
         },
         {
           "name": "Länk: IAA — Geographical zones map",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.iaa.ie/general-aviation/drones/faqs/geographical-zones",
           "kind": "link",
@@ -1462,8 +1449,8 @@
         },
         {
           "name": "Länk: SafeDrone — Airspace map",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://geozone.safedrone.ie/",
           "kind": "link",
@@ -1475,7 +1462,7 @@
       "iso": "PT",
       "name": "Portugal",
       "flag": "🇵🇹",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1493,14 +1480,13 @@
       "checks": [
         {
           "name": "Feed: pt-zones",
-          "status": "ok",
-          "detail": "hämtad 2d sen, 391 kB",
-          "last_modified": "2026-07-27T08:59:23+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/pt-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Portugals drönarzoner",
-          "explain": "Officiella zoner från luftfartsmyndigheten ANAC. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-04"
+          "explain": "Officiella zoner från luftfartsmyndigheten ANAC. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1514,8 +1500,8 @@
         },
         {
           "name": "Länk: ANAC — Regulamentação de drones",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.anac.pt/vPT/Generico/drones/legislacao_regulamentacao_uas/Paginas/LegislacaoeRegulamentacaoEspecifica.aspx",
           "kind": "link",
@@ -1523,8 +1509,8 @@
         },
         {
           "name": "Länk: ANAC — Registar como operador",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.anac.pt/vPT/Generico/drones/registo_uas/Paginas/OperadoresdeUAS.aspx",
           "kind": "link",
@@ -1532,8 +1518,8 @@
         },
         {
           "name": "Länk: NAV Portugal — Informação do espaço aéreo",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.nav.pt",
           "kind": "link",
@@ -1541,8 +1527,8 @@
         },
         {
           "name": "Länk: ANAC — Resumo das regras para drones",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.anac.pt/vPT/Generico/drones/categoria_aberta/Paginas/CategoriaAberta.aspx",
           "kind": "link",
@@ -1550,8 +1536,8 @@
         },
         {
           "name": "Länk: AAN — Autorização para filmagens aéreas",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.aan.pt/subPagina-AAN-001.005-levantamentos-a-reos",
           "kind": "link",
@@ -1599,7 +1585,7 @@
       "iso": "IS",
       "name": "Iceland",
       "flag": "🇮🇸",
-      "status": "ok",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1617,14 +1603,13 @@
       "checks": [
         {
           "name": "Feed: is-zones",
-          "status": "ok",
-          "detail": "hämtad 2d sen, 147 kB",
-          "last_modified": "2026-07-26T22:10:53+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/is-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Islands drönarzoner",
-          "explain": "Zoner från transportmyndigheten Samgöngustofa via statens kartserver. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-03"
+          "explain": "Zoner från transportmyndigheten Samgöngustofa via statens kartserver. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1638,8 +1623,8 @@
         },
         {
           "name": "Länk: Samgöngustofa – Reglur um dróna",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://island.is/en/o/transport-authority/drones",
           "kind": "link",
@@ -1647,8 +1632,8 @@
         },
         {
           "name": "Länk: Samgöngustofa – Skráðu þig sem rekstraraðila",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://island.is/en/o/transport-authority/drones",
           "kind": "link",
@@ -1656,8 +1641,8 @@
         },
         {
           "name": "Länk: FlyDrone.is – Loftrýmiskort",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://flydrone.is",
           "kind": "link",
@@ -1665,8 +1650,8 @@
         },
         {
           "name": "Länk: island.is – Skráning dróna",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://island.is",
           "kind": "link",
@@ -1678,7 +1663,7 @@
       "iso": "EE",
       "name": "Estonia",
       "flag": "🇪🇪",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1696,14 +1681,13 @@
       "checks": [
         {
           "name": "Feed: ee-zones",
-          "status": "ok",
-          "detail": "hämtad 1d sen, 953 kB",
-          "last_modified": "2026-07-27T09:57:09+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Estlands drönarzoner",
-          "explain": "Officiella zoner från flygtrafiktjänsten EANS drönarkarta. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-04"
+          "explain": "Officiella zoner från flygtrafiktjänsten EANS drönarkarta. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1717,8 +1701,8 @@
         },
         {
           "name": "Länk: Transpordiamet – Droonireeglid",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://transpordiamet.ee/en/drones",
           "kind": "link",
@@ -1726,8 +1710,8 @@
         },
         {
           "name": "Länk: Transpordiamet – Registreeru käitajana",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://transpordiamet.ee/en/aviation-and-aviation-safety/flying-drones-estonia/operator-registration",
           "kind": "link",
@@ -1735,8 +1719,8 @@
         },
         {
           "name": "Länk: Estonian Drone Map (UTM)",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://utm.eans.ee",
           "kind": "link",
@@ -1744,8 +1728,8 @@
         },
         {
           "name": "Länk: Transpordiamet – Reeglite ülevaade",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://transpordiamet.ee/en/open-category-flights",
           "kind": "link",
@@ -1757,7 +1741,7 @@
       "iso": "AT",
       "name": "Austria",
       "flag": "🇦🇹",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1775,14 +1759,13 @@
       "checks": [
         {
           "name": "Feed: at-zones",
-          "status": "ok",
-          "detail": "hämtad 1d sen, 474 kB",
-          "last_modified": "2026-07-27T10:27:40+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/at-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Österrikes drönarzoner",
-          "explain": "Officiella geozoner från luftfartsmyndigheten Austro Control. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-04"
+          "explain": "Officiella geozoner från luftfartsmyndigheten Austro Control. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1796,8 +1779,8 @@
         },
         {
           "name": "Länk: Austro Control — Drohnenvorschriften",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.dronespace.at/",
           "kind": "link",
@@ -1805,8 +1788,8 @@
         },
         {
           "name": "Länk: Austro Control — Als Betreiber registrieren",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.dronespace.at/registrierung/allgemeine_informationen",
           "kind": "link",
@@ -1814,8 +1797,8 @@
         },
         {
           "name": "Länk: Dronespace.at — Luftraumkarte",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.dronespace.at",
           "kind": "link",
@@ -1823,8 +1806,8 @@
         },
         {
           "name": "Länk: Austro Control — Schulung und Prüfungen",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.dronespace.at/drohnenfuehrerschein",
           "kind": "link",
@@ -1836,7 +1819,7 @@
       "iso": "DK",
       "name": "Denmark",
       "flag": "🇩🇰",
-      "status": "ok",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1858,25 +1841,23 @@
       "checks": [
         {
           "name": "Feed: dk-primary",
-          "status": "ok",
-          "detail": "hämtad 2h sen, 2114 kB",
-          "last_modified": "2026-07-29T07:22:12+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
           "kind": "feed",
           "titel": "Danmarks dronezoner",
-          "explain": "Trafikstyrelsens samlade dronezoner: flygplatser, militära områden, fängelser, kungahusets slott m.m. Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-07-31"
+          "explain": "Trafikstyrelsens samlade dronezoner: flygplatser, militära områden, fängelser, kungahusets slott m.m. Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: dk-natur",
-          "status": "ok",
-          "detail": "hämtad 2h sen, 708 kB",
-          "last_modified": "2026-07-29T07:22:12+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a",
           "kind": "feed",
           "titel": "Naturskyddsområden",
-          "explain": "Natura 2000- och fågelskyddsområden med drönarbegränsning, ur samma danska myndighetstjänst. Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-07-31"
+          "explain": "Natura 2000- och fågelskyddsområden med drönarbegränsning, ur samma danska myndighetstjänst. Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -1890,8 +1871,8 @@
         },
         {
           "name": "Länk: Trafikstyrelsen — Droneregler",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.droneregler.dk/",
           "kind": "link",
@@ -1899,8 +1880,8 @@
         },
         {
           "name": "Länk: Trafikstyrelsen — Registrér som operatør",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.droneregler.dk/",
           "kind": "link",
@@ -1908,8 +1889,8 @@
         },
         {
           "name": "Länk: Droneregler.dk — Kort og regler",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.droneregler.dk",
           "kind": "link",
@@ -1917,8 +1898,8 @@
         },
         {
           "name": "Länk: Naviair — Luftruminformation",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.naviair.dk",
           "kind": "link",
@@ -1966,7 +1947,7 @@
       "iso": "RO",
       "name": "Romania",
       "flag": "🇷🇴",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1984,14 +1965,13 @@
       "checks": [
         {
           "name": "Feed: ro-zones",
-          "status": "ok",
-          "detail": "hämtad 2d sen, 650 kB",
-          "last_modified": "2026-07-26T22:05:55+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Rumäniens drönarzoner",
-          "explain": "Restriktionszoner från flygtrafiktjänsten ROMATSA. Deras server blockerar molnrobotar — hämtas därför från Kristoffers Mac (hemmadriften). Hämtas varje vecka (körs från Kristoffers Mac — Rumänien blockerar molnservrar). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-02"
+          "explain": "Restriktionszoner från flygtrafiktjänsten ROMATSA. Deras server blockerar molnrobotar — hämtas därför från Kristoffers Mac (hemmadriften). Hämtas varje vecka (körs från Kristoffers Mac — Rumänien blockerar molnservrar). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -2005,8 +1985,8 @@
         },
         {
           "name": "Länk: AACR — Reglementări privind dronele",
-          "status": "warn",
-          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.caa.ro/page/uas",
           "kind": "link",
@@ -2014,8 +1994,8 @@
         },
         {
           "name": "Länk: AACR — Înregistrare ca operator",
-          "status": "warn",
-          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.caa.ro/page/uas",
           "kind": "link",
@@ -2023,8 +2003,8 @@
         },
         {
           "name": "Länk: ROMATSA — Harta spațiului aerian",
-          "status": "warn",
-          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.romatsa.ro",
           "kind": "link",
@@ -2032,8 +2012,8 @@
         },
         {
           "name": "Länk: AACR — Reguli UAS",
-          "status": "warn",
-          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.caa.ro/page/uas",
           "kind": "link",
@@ -2081,7 +2061,7 @@
       "iso": "DE",
       "name": "Deutschland",
       "flag": "🇩🇪",
-      "status": "ok",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2219,250 +2199,228 @@
       "checks": [
         {
           "name": "Feed: de-kontrollzonen",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 161 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/kontrollzonen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Kontrollzoner",
-          "explain": "Luften närmast flygplatserna. Från statens drönarplattform dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Luften närmast flygplatserna. Från statens drönarplattform dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-flugbeschraenkungsgebiete",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 305 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/flugbeschraenkungsgebiete.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Flygbegränsningsområden",
-          "explain": "Permanenta förbuds- och begränsningsområden (ED-R). Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Permanenta förbuds- och begränsningsområden (ED-R). Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-flughaefen",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 179 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/flughaefen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Större flygplatser",
-          "explain": "Trafikflygplatser med skyddsavstånd. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Trafikflygplatser med skyddsavstånd. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-flugplaetze",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 2437 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/flugplaetze.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Mindre flygfält",
-          "explain": "Småflygfält och segelflygfält. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Småflygfält och segelflygfält. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-temporaere_betriebseinschraenkungen",
-          "status": "ok",
-          "detail": "data oförändrad sedan 1h sen, 73 kB",
-          "last_modified": "2026-07-29T08:12:23+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (dagsfärska)",
-          "explain": "Tillfälliga begränsningar — statsbesök, evenemang, insatser. Ändras dagligen, därför hämtas lagret varje dag. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-12"
+          "explain": "Tillfälliga begränsningar — statsbesök, evenemang, insatser. Ändras dagligen, därför hämtas lagret varje dag. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-militaerische_anlagen",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 6310 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/militaerische_anlagen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Militära anläggningar",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-natur",
-          "status": "ok",
-          "detail": "data oförändrad sedan 2d sen, 5278 kB",
-          "last_modified": "2026-07-27T08:03:34+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/natur.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Naturskyddsområden",
-          "explain": "Från naturvårdsmyndigheten BfN:s karttjänst. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-10"
+          "explain": "Från naturvårdsmyndigheten BfN:s karttjänst. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-natur2000",
-          "status": "ok",
-          "detail": "data oförändrad sedan 2d sen, 12051 kB",
-          "last_modified": "2026-07-27T08:03:34+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/natur2000.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Natura 2000-områden",
-          "explain": "EU:s skyddade naturområden, från BfN. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-10"
+          "explain": "EU:s skyddade naturområden, från BfN. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-windkraftanlagen",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 5094 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/windkraftanlagen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Vindkraftverk",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-freibaeder",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 7995 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/freibaeder.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Friluftsbad",
-          "explain": "Badanläggningar — integritetsskydd i tyska drönarlagen. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Badanläggningar — integritetsskydd i tyska drönarlagen. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-krankenhaeuser",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 5709 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/krankenhaeuser.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Sjukhus",
-          "explain": "Sjukhus med helikopterverksamhet. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Sjukhus med helikopterverksamhet. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-polizei",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 6247 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/polizei.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Polisanläggningar",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-sicherheitsbehoerden",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 3333 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/sicherheitsbehoerden.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Säkerhetsmyndigheter",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-behoerden",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 3145 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/behoerden.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Myndighetsbyggnader",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-umspannwerke",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 856 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/umspannwerke.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Transformatorstationer",
-          "explain": "Elnätets knutpunkter. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Elnätets knutpunkter. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-kraftwerke",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 251 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/kraftwerke.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Kraftverk",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-justizvollzugsanstalten",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 841 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/justizvollzugsanstalten.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Fängelser",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-diplomatische_vertretungen",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 536 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/diplomatische_vertretungen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Ambassader och konsulat",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-internationale_organisationen",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 155 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/internationale_organisationen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Internationella organisationer",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-labore",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 11 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/labore.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Skyddsklassade laboratorier",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-seewasserstrassen",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 2989 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/seewasserstrassen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Farleder till havs",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-schifffahrtsanlagen",
-          "status": "ok",
-          "detail": "data oförändrad sedan 14d sen, 864 kB",
-          "last_modified": "2026-07-14T15:44:27+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/de/schifffahrtsanlagen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Slussar och hamnanläggningar",
-          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-28"
+          "explain": "Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: de-wohngrundstuecke (live-bbox)",
-          "status": "ok",
-          "detail": "1 zoner",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:wohngrundstuecke&outputFormat=application/json&count=1",
           "kind": "feed",
@@ -2471,8 +2429,8 @@
         },
         {
           "name": "Feed: de-bundesstrassen (live-bbox)",
-          "status": "ok",
-          "detail": "1 zoner",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:bundesstrassen&outputFormat=application/json&count=1",
           "kind": "feed",
@@ -2481,8 +2439,8 @@
         },
         {
           "name": "Feed: de-bundesautobahnen (live-bbox)",
-          "status": "ok",
-          "detail": "1 zoner",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:bundesautobahnen&outputFormat=application/json&count=1",
           "kind": "feed",
@@ -2491,8 +2449,8 @@
         },
         {
           "name": "Feed: de-bahnanlagen (live-bbox)",
-          "status": "ok",
-          "detail": "1 zoner",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:bahnanlagen&outputFormat=application/json&count=1",
           "kind": "feed",
@@ -2501,8 +2459,8 @@
         },
         {
           "name": "Feed: de-binnenwasserstrassen (live-bbox)",
-          "status": "ok",
-          "detail": "1 zoner",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:binnenwasserstrassen&outputFormat=application/json&count=1",
           "kind": "feed",
@@ -2511,8 +2469,8 @@
         },
         {
           "name": "Feed: de-stromleitungen (live-bbox)",
-          "status": "ok",
-          "detail": "1 zoner",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:stromleitungen&outputFormat=application/json&count=1",
           "kind": "feed",
@@ -2521,8 +2479,8 @@
         },
         {
           "name": "Feed: de-industrieanlagen (live-bbox)",
-          "status": "ok",
-          "detail": "1 zoner",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:industrieanlagen&outputFormat=application/json&count=1",
           "kind": "feed",
@@ -2531,8 +2489,8 @@
         },
         {
           "name": "EU-Aerodromes Gist (de.json)",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": null,
           "kind": "gist",
@@ -2541,8 +2499,8 @@
         },
         {
           "name": "Uppströms: DFS dipul WFS",
-          "status": "ok",
-          "detail": "200 OK, ?B",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://uas-betrieb.de/geoservices/dipul/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=dipul:kontrollzonen&outputFormat=application/json&count=1",
           "kind": "upstream",
@@ -2550,8 +2508,8 @@
         },
         {
           "name": "Uppströms: BfN Schutzgebiete WFS",
-          "status": "ok",
-          "detail": "200 OK, ?B",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://geodienste.bfn.de/ogc/wfs/schutzgebiet?service=WFS&request=GetCapabilities",
           "kind": "upstream",
@@ -2569,8 +2527,8 @@
         },
         {
           "name": "Länk: dipul – Offizielle Drohnenkarte",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://maptool-dipul.dfs.de",
           "kind": "link",
@@ -2578,8 +2536,8 @@
         },
         {
           "name": "Länk: LBA – Registrierung & Fernpilotenzeugnis",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.lba.de/DE/Drohnen/Drohnen_node.html",
           "kind": "link",
@@ -2587,8 +2545,8 @@
         },
         {
           "name": "Länk: Droniq – Drohnenflug-App",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://droniq.de/droniq-app/",
           "kind": "link",
@@ -2600,7 +2558,7 @@
       "iso": "ES",
       "name": "Spain",
       "flag": "🇪🇸",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2624,8 +2582,8 @@
       "checks": [
         {
           "name": "Primär (arcgis)",
-          "status": "ok",
-          "detail": "200 OK, ?B",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://servais.enaire.es/insignia/rest/services/NSF_SRV/SRV_UAS_ZG_V0/MapServer",
           "kind": "feed",
@@ -2634,14 +2592,13 @@
         },
         {
           "name": "Feed: es-parques",
-          "status": "ok",
-          "detail": "hämtad 2d sen, 283 kB",
-          "last_modified": "2026-07-26T22:07:10+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/es-parques.geojson?cb=20260604a",
           "kind": "feed",
           "titel": "Nationalparker",
-          "explain": "Spaniens nationalparker från parkmyndigheten OAPN. Hämtas varannan månad (parkgränser ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-24"
+          "explain": "Spaniens nationalparker från parkmyndigheten OAPN. Hämtas varannan månad (parkgränser ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Regler (lastVerified)",
@@ -2655,8 +2612,8 @@
         },
         {
           "name": "Länk: AESA — Normativa de drones",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones",
           "kind": "link",
@@ -2664,8 +2621,8 @@
         },
         {
           "name": "Länk: AESA — Registro como operador",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/registro-de-operador-de-drones-uas",
           "kind": "link",
@@ -2673,8 +2630,8 @@
         },
         {
           "name": "Länk: ENAIRE — Mapa del espacio aéreo para drones",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://drones.enaire.es",
           "kind": "link",
@@ -2682,8 +2639,8 @@
         },
         {
           "name": "Länk: AESA — Examen de piloto en línea",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones",
           "kind": "link",
@@ -2733,7 +2690,7 @@
       "iso": "FR",
       "name": "France",
       "flag": "🇫🇷",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2762,41 +2719,38 @@
       "checks": [
         {
           "name": "Feed: fr-drones",
-          "status": "ok",
-          "detail": "hämtad 1d sen, 15406 kB",
-          "last_modified": "2026-07-27T16:08:02+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/fr-drones.geojson?cb=20260609a",
           "kind": "feed",
           "titel": "Drönarrestriktioner med höjdgränser",
-          "explain": "IGN:s officiella drönarkarta: var man inte får flyga alls och var det finns höjdtak (30/50/60/100 m). Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-04"
+          "explain": "IGN:s officiella drönarkarta: var man inte får flyga alls och var det finns höjdtak (30/50/60/100 m). Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: zicad",
-          "status": "ok",
-          "detail": "hämtad 1d sen, 275 kB",
-          "last_modified": "2026-07-27T16:08:02+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/fr-zicad.geojson",
           "kind": "feed",
           "titel": "Fotoförbudszoner (ZICAD)",
-          "explain": "Områden där flygfotografering är förbjuden — militära och andra känsliga anläggningar. Från IGN. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-04"
+          "explain": "Områden där flygfotografering är förbjuden — militära och andra känsliga anläggningar. Från IGN. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Feed: fr-parcs",
-          "status": "ok",
-          "detail": "hämtad 2d sen, 723 kB",
-          "last_modified": "2026-07-26T22:07:22+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": "https://pappilappi.com/airspace/fr-parcs.geojson?cb=20260604b",
           "kind": "feed",
           "titel": "Nationalparker",
-          "explain": "Frankrikes nationalparker med drönarförbud. Från IGN. Hämtas varannan månad (parkgränser ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-24"
+          "explain": "Frankrikes nationalparker med drönarförbud. Från IGN. Hämtas varannan månad (parkgränser ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen."
         },
         {
           "name": "Uppströms: IGN Géoportail WFS",
-          "status": "ok",
-          "detail": "200 OK, ?B",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": "https://data.geopf.fr/wfs/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=TRANSPORTS.DRONES.RESTRICTIONS:carte_restriction_drones_lf&outputFormat=application/json&srsName=CRS:84&count=1&BBOX=2.34,48.85,2.36,48.87,CRS:84",
           "kind": "upstream",
@@ -2918,7 +2872,7 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 1h sen, 639 kB",
+          "detail": "hämtad 7h sen, 639 kB",
           "last_modified": "2026-07-29T07:34:09+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
           "kind": "feed",
@@ -2929,7 +2883,7 @@
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 1h sen, 6919 kB",
+          "detail": "hämtad 7h sen, 6919 kB",
           "last_modified": "2026-07-29T07:34:09+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260604a",
           "kind": "feed",
@@ -3563,8 +3517,8 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 2h sen, 468 kB",
-          "last_modified": "2026-07-29T07:19:28+00:00",
+          "detail": "data oförändrad sedan 4h sen, 519 kB",
+          "last_modified": "2026-07-29T10:04:14+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (TFR)",
@@ -3820,9 +3774,9 @@
       "checks": [
         {
           "name": "NOTAMs Gist (FIR-based)",
-          "status": "ok",
-          "detail": "17h sen, 26454 NOTAMs, max cirkel 60 NM, 73 GNSS-områden i egen kanal",
-          "last_modified": "2026-07-28T16:07:31.004711+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": null,
           "kind": "gist",
           "titel": "NOTAM-listan (alla länder)",
@@ -3830,8 +3784,8 @@
         },
         {
           "name": "Countries.json Gist",
-          "status": "ok",
-          "detail": "56 länder",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": null,
           "kind": "gist",
@@ -3860,8 +3814,8 @@
         },
         {
           "name": "Classifier strings Gist",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": null,
           "kind": "gist",
@@ -3870,8 +3824,8 @@
         },
         {
           "name": "Tour strings Gist (funktionsrundturen)",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": null,
           "kind": "gist",
@@ -3885,16 +3839,16 @@
       "checks": [
         {
           "name": "cell-endpoint es/NL",
-          "status": "ok",
-          "detail": "42 min sen, 7 kB",
-          "last_modified": "2026-07-29T08:46:52+00:00",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
+          "last_modified": null,
           "url": null,
           "kind": "other"
         },
         {
           "name": "/go-bryggan",
-          "status": "ok",
-          "detail": "200 OK, 42968B",
+          "status": "fail",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known",
           "last_modified": null,
           "url": null,
           "kind": "other"
@@ -3906,8 +3860,8 @@
       "checks": [
         {
           "name": "Regulations baseline",
-          "status": "ok",
-          "detail": "54 länder / 165 URL:er tracked",
+          "status": "warn",
+          "detail": "kunde inte hämtas (URLError: [Errno 8] nodename nor servname provided, or not known)",
           "last_modified": null,
           "url": "https://pappilappi.com/status/regulations_baseline.json",
           "kind": "other",
