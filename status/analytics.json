@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T05:53:09+00:00",
+  "generated": "2026-07-29T09:24:07+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
@@ -22,14 +22,14 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 59,
+          "count": 60,
           "ios": 4,
           "android": 0
         },
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 53,
+          "count": 55,
           "ios": 4,
           "android": 0
         },
@@ -43,7 +43,7 @@
         {
           "code": "NL",
           "name": "Netherlands",
-          "count": 24,
+          "count": 25,
           "ios": 0,
           "android": 0
         }
@@ -361,8 +361,35 @@
           "visitors": 1,
           "ios": 0,
           "android": 0,
-          "countries": [],
-          "sources": []
+          "countries": [
+            {
+              "code": "PL",
+              "name": "Poland",
+              "count": 9
+            },
+            {
+              "code": "ME",
+              "name": "Montenegro",
+              "count": 2
+            },
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 2
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 13,
+              "kind": "other"
+            },
+            {
+              "name": "copilot.com",
+              "count": 2,
+              "kind": "campaign"
+            }
+          ]
         }
       ]
     },
@@ -386,14 +413,14 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 198,
+          "count": 199,
           "ios": 4,
           "android": 0
         },
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 111,
+          "count": 113,
           "ios": 6,
           "android": 0
         },
@@ -1201,8 +1228,35 @@
           "visitors": 1,
           "ios": 0,
           "android": 0,
-          "countries": [],
-          "sources": []
+          "countries": [
+            {
+              "code": "PL",
+              "name": "Poland",
+              "count": 9
+            },
+            {
+              "code": "ME",
+              "name": "Montenegro",
+              "count": 2
+            },
+            {
+              "code": "SE",
+              "name": "Sweden",
+              "count": 2
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 13,
+              "kind": "other"
+            },
+            {
+              "name": "copilot.com",
+              "count": 2,
+              "kind": "campaign"
+            }
+          ]
         }
       ]
     }
