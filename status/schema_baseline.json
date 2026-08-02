@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated": "2026-07-05T01:18:42.143758+00:00",
+  "generated": "2026-08-02T07:50:15.563031+00:00",
   "feeds": {
     "https://pappilappi.com/airspace/lu-zones.geojson": {
       "iso": "LU",
       "label": "lu-zones",
       "fingerprint": {
-        "feature_count": 48,
+        "feature_count": 47,
         "geometry_types": [
           "Polygon"
         ],
@@ -34,7 +34,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/si-zones.geojson": {
       "iso": "SI",
@@ -64,16 +64,15 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson": {
       "iso": "CH",
       "label": "luftfahrthindernis",
       "fingerprint": {
-        "feature_count": 14336,
+        "feature_count": 14367,
         "geometry_types": [
-          "LineString",
-          "Point"
+          "LineString"
         ],
         "property_keys": [
           "_zoneType",
@@ -95,25 +94,24 @@
         ],
         "sample": {
           "_zoneType": "str:OBSTACLE_CH",
-          "airport": "str:LSZQ",
           "dataSource": "str:geo.admin.ch",
-          "effectiveDate": "str:2011-01-01",
+          "effectiveDate": "str:2024-08-21",
           "group": "str:NO",
           "lighting": "str:NONE",
           "marking": "str:NONE",
-          "maxHeightAGL": "str:53",
+          "maxHeightAGL": "str:35",
           "modified": "str:NO",
-          "name": "str:Brücke (53 m)",
+          "name": "str:Brücke (35 m)",
           "obstacleType": "str:BRIDGE",
-          "registrationnumber": "str:222JU30021",
+          "registrationnumber": "str:GR24001478",
           "small": "str:NO",
           "sourceLayer": "str:ch.bazl.luftfahrthindernis",
-          "topElevationAMSL": "str:502.8",
-          "uuid": "str:58c727c7-d1e8-4c2d-b510-41cf8774d291"
+          "topElevationAMSL": "str:1509.9",
+          "uuid": "str:8cdbf2a5-1303-41b6-98c2-b964dfa3bb2a"
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ch-ctr.geojson": {
       "iso": "CH",
@@ -153,7 +151,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ch-tma.geojson": {
       "iso": "CH",
@@ -193,7 +191,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ch-cta.geojson": {
       "iso": "CH",
@@ -233,7 +231,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson": {
       "iso": "CH",
@@ -283,7 +281,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson": {
       "iso": "CH",
@@ -323,7 +321,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ch-vogelreservate.geojson": {
       "iso": "CH",
@@ -371,7 +369,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson": {
       "iso": "CH",
@@ -445,7 +443,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson": {
       "iso": "CH",
@@ -473,13 +471,13 @@
           "location": "str:Geissalp (Ziel-Stellungrm/NGST)",
           "name": "str:Geissalp",
           "phone": "str:+41 58 467 19 90",
-          "shootingPeriods": "list:['2026-07-06 0800-1800']",
+          "shootingPeriods": "list:['2026-08-05 0700-2300', '2026-08-06 070",
           "sourceLayer": "str:ch.vbs.schiessanzeigen",
           "url": "str:https://www.armee.ch/schiessanzeigen/110"
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/sk-zones.geojson": {
       "iso": "SK",
@@ -509,7 +507,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/nl-ed269.geojson": {
       "iso": "NL",
@@ -557,7 +555,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/nl-pdok-natura.geojson": {
       "iso": "NL",
@@ -598,13 +596,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
-    "https://gist.githubusercontent.com/KodKust/c52cf5d3ef3370a7d4c26d9c2b616506/raw/iaa_simplified.geojson": {
+    "https://pappilappi.com/airspace/ie-ed269.geojson": {
       "iso": "IE",
       "label": "primär",
       "fingerprint": {
-        "feature_count": 85,
+        "feature_count": 86,
         "geometry_types": [
           "MultiPolygon"
         ],
@@ -612,43 +610,35 @@
           "country",
           "identifier",
           "limitedApplicability",
-          "lower",
-          "lowerReference",
           "message",
           "name",
           "otherReasonInfo",
+          "radius",
           "reason",
+          "region",
           "regulationExemption",
           "restrictionConditions",
           "type",
-          "uom",
-          "upper",
-          "upperReference",
           "variant",
           "zoneAuthority"
         ],
         "sample": {
           "country": "str:IRL",
-          "identifier": "str:T2",
-          "limitedApplicability": "list:[{'startDateTime': '2026-02-19T00:00:00Z",
-          "lower": "float:0.0",
-          "lowerReference": "str:AGL",
-          "message": "str:Access may be requested through the zone",
-          "name": "str:Temporary BVLOS Cork Area 1",
-          "otherReasonInfo": "NoneType:None",
-          "reason": "str:SAFETY",
+          "identifier": "str:U74",
+          "message": "str:Model Aircraft are exempt from the restr",
+          "name": "str:Cork Model Aero Club 2",
+          "otherReasonInfo": "str:Exemption Zone",
+          "reason": "str:OTHER",
+          "region": "NoneType:None",
           "regulationExemption": "NoneType:None",
-          "restrictionConditions": "NoneType:None",
-          "type": "str:REQ_AUTHORIZATION",
-          "uom": "str:ft",
-          "upper": "float:400.0",
-          "upperReference": "str:AMSL",
-          "variant": "str:COMMON",
-          "zoneAuthority": "list:[{'purpose': 'AUTHORIZATION', 'name': 'A"
+          "restrictionConditions": "str:PERMITTED/MODEL AIRCRAFT=YES",
+          "type": "str:CONDITIONAL",
+          "variant": "str:CUSTOMIZED",
+          "zoneAuthority": "list:[{'purpose': 'AUTHORIZATION', 'intervalB"
         }
       },
-      "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/pt-zones.geojson": {
       "iso": "PT",
@@ -682,7 +672,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/is-zones.geojson": {
       "iso": "IS",
@@ -690,7 +680,8 @@
       "fingerprint": {
         "feature_count": 271,
         "geometry_types": [
-          "MultiPolygon"
+          "MultiPolygon",
+          "Polygon"
         ],
         "property_keys": [
           "_zoneType",
@@ -710,13 +701,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ee-zones.geojson": {
       "iso": "EE",
       "label": "ee-zones",
       "fingerprint": {
-        "feature_count": 217,
+        "feature_count": 230,
         "geometry_types": [
           "Polygon"
         ],
@@ -729,6 +720,7 @@
           "lowerLimit",
           "message",
           "name",
+          "uom",
           "upperLimit"
         ],
         "sample": {
@@ -740,17 +732,18 @@
           "lowerLimit": "int:51",
           "message": "str:Operations higher than 50 metres (165 fe",
           "name": "str:EEGZ24",
+          "uom": "str:M",
           "upperLimit": "int:120"
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/at-zones.geojson": {
       "iso": "AT",
       "label": "at-zones",
       "fingerprint": {
-        "feature_count": 238,
+        "feature_count": 241,
         "geometry_types": [
           "Polygon"
         ],
@@ -778,13 +771,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/dk-primary.geojson": {
       "iso": "DK",
       "label": "dk-primary",
       "fingerprint": {
-        "feature_count": 843,
+        "feature_count": 845,
         "geometry_types": [
           "MultiPolygon",
           "Polygon"
@@ -864,7 +857,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/dk-natur.geojson": {
       "iso": "DK",
@@ -923,7 +916,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/ro-zones.geojson": {
       "iso": "RO",
@@ -955,7 +948,754 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/kontrollzonen.geojson": {
+      "iso": "DE",
+      "label": "de-kontrollzonen",
+      "fingerprint": {
+        "feature_count": 69,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code",
+          "upper_limit_alt_ref",
+          "upper_limit_altitude",
+          "upper_limit_unit"
+        ],
+        "sample": {
+          "external_reference": "str:2069",
+          "generated_name_DE": "str:MOENCHENGLADBACH (CTR)",
+          "generated_name_EN": "str:MOENCHENGLADBACH (CTR)",
+          "legal_ref": "str:§ 21h, Abs. 3 (9.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:MOENCHENGLADBACH (CTR)",
+          "type_code": "str:KONTROLLZONE",
+          "upper_limit_alt_ref": "str:MSL",
+          "upper_limit_altitude": "int:2000",
+          "upper_limit_unit": "str:ft"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/flugbeschraenkungsgebiete.geojson": {
+      "iso": "DE",
+      "label": "de-flugbeschraenkungsgebiete",
+      "fingerprint": {
+        "feature_count": 108,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code",
+          "upper_limit_alt_ref",
+          "upper_limit_altitude",
+          "upper_limit_unit"
+        ],
+        "sample": {
+          "external_reference": "str:653",
+          "generated_name_DE": "str:HOLZDORF",
+          "generated_name_EN": "str:HOLZDORF",
+          "legal_ref": "str:§ 17, Abs. 1 LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:HOLZDORF",
+          "type_code": "str:FLUGBESCHRAENKUNGSGEBIET",
+          "upper_limit_alt_ref": "str:MSL",
+          "upper_limit_altitude": "int:1500",
+          "upper_limit_unit": "str:ft"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/flughaefen.geojson": {
+      "iso": "DE",
+      "label": "de-flughaefen",
+      "fingerprint": {
+        "feature_count": 63,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:1PCFQKA",
+          "generated_name_DE": "str:Neubrandenburg",
+          "generated_name_EN": "str:Neubrandenburg",
+          "legal_ref": "str:§ 21h, Abs. 3 (2.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Neubrandenburg",
+          "type_code": "str:FLUGHAFEN"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/flugplaetze.geojson": {
+      "iso": "DE",
+      "label": "de-flugplaetze",
+      "fingerprint": {
+        "feature_count": 1205,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:lwTjAKA",
+          "generated_name_DE": "str:HALLE-KROELLWITZ UNIVERSITAETSKLINIKUM",
+          "generated_name_EN": "str:HALLE-KROELLWITZ UNIVERSITAETSKLINIKUM",
+          "legal_ref": "str:§ 21h, Abs. 3 (1.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:HALLE-KROELLWITZ UNIVERSITAETSKLINIKUM",
+          "type_code": "str:FLUGPLATZ"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson": {
+      "iso": "DE",
+      "label": "de-temporaere_betriebseinschraenkungen",
+      "fingerprint": {
+        "feature_count": 29,
+        "geometry_types": [
+          "MultiPolygon"
+        ],
+        "property_keys": [
+          "end_time",
+          "external_reference",
+          "generated_name_de",
+          "generated_name_en",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "start_time",
+          "type_code",
+          "upper_limit_alt_ref",
+          "upper_limit_altitude",
+          "upper_limit_unit"
+        ],
+        "sample": {
+          "end_time": "str:2035-07-11T13:49:00Z",
+          "external_reference": "str:06776029-f404-4309-8207-ba73dcb0a410",
+          "generated_name_de": "str:DFS Systemhaus - As test zone in prod",
+          "generated_name_en": "str:DFS Systemhaus - As test zone in prod",
+          "legal_ref": "str:Test zone on prod",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:M",
+          "name": "str:DFS Systemhaus - As test zone in prod",
+          "start_time": "str:2025-07-11T12:49:00Z",
+          "type_code": "str:U_NFZ",
+          "upper_limit_alt_ref": "str:AGL",
+          "upper_limit_altitude": "int:99999",
+          "upper_limit_unit": "str:M"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/militaerische_anlagen.geojson": {
+      "iso": "DE",
+      "label": "de-militaerische_anlagen",
+      "fingerprint": {
+        "feature_count": 1637,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:iDYaMTA",
+          "generated_name_DE": "str:Militärische Anlage",
+          "generated_name_EN": "str:Military facility",
+          "legal_ref": "str:§ 21h, Abs. 3 (3.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Militärische Anlage",
+          "type_code": "str:MILITAERISCHE_ANLAGE"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/natur.geojson": {
+      "iso": "DE",
+      "label": "de-natur",
+      "fingerprint": {
+        "feature_count": 13800,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "dataSource",
+          "name"
+        ],
+        "sample": {
+          "_zoneType": "str:DE_NATURE",
+          "dataSource": "str:BfN",
+          "name": "str:Elsteraue bei Arnsnesta"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/natur2000.geojson": {
+      "iso": "DE",
+      "label": "de-natur2000",
+      "fingerprint": {
+        "feature_count": 18567,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "dataSource",
+          "name"
+        ],
+        "sample": {
+          "_zoneType": "str:DE_NATURE_2000",
+          "dataSource": "str:BfN",
+          "name": "str:"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/windkraftanlagen.geojson": {
+      "iso": "DE",
+      "label": "de-windkraftanlagen",
+      "fingerprint": {
+        "feature_count": 2576,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:hlEtkhA",
+          "generated_name_DE": "str:1600002 Grevenbroich",
+          "generated_name_EN": "str:1600002 Grevenbroich",
+          "legal_ref": "str:§ 21h, Abs. 3 (3.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:1600002 Grevenbroich",
+          "type_code": "str:WINDKRAFTANLAGE"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/freibaeder.geojson": {
+      "iso": "DE",
+      "label": "de-freibaeder",
+      "fingerprint": {
+        "feature_count": 6600,
+        "geometry_types": [
+          "MultiPolygon",
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:aFUNJBA",
+          "generated_name_DE": "str:BÜHLOT-BAD",
+          "generated_name_EN": "str:BÜHLOT-BAD",
+          "legal_ref": "str:§ 21h, Abs. 3 (8.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:BÜHLOT-BAD",
+          "type_code": "str:FREIBAD"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/krankenhaeuser.geojson": {
+      "iso": "DE",
+      "label": "de-krankenhaeuser",
+      "fingerprint": {
+        "feature_count": 2521,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:bgEKcQA",
+          "generated_name_DE": "str:Universitätsklinikum Heidelberg",
+          "generated_name_EN": "str:Universitätsklinikum Heidelberg",
+          "legal_ref": "str:§ 21h, Abs. 3 (10.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Universitätsklinikum Heidelberg",
+          "type_code": "str:KRANKENHAUS"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/polizei.geojson": {
+      "iso": "DE",
+      "label": "de-polizei",
+      "fingerprint": {
+        "feature_count": 3708,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:0AaNDYA",
+          "generated_name_DE": "str:Polizeistation Aumühle",
+          "generated_name_EN": "str:Polizeistation Aumühle",
+          "legal_ref": "str:§ 21h, Abs. 3 (4.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Polizeistation Aumühle",
+          "type_code": "str:POLIZEI"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/sicherheitsbehoerden.geojson": {
+      "iso": "DE",
+      "label": "de-sicherheitsbehoerden",
+      "fingerprint": {
+        "feature_count": 1922,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:0AQQLXA",
+          "generated_name_DE": "str:Berufsfeuerwehr Hamburg - Feuer- und Ret",
+          "generated_name_EN": "str:Berufsfeuerwehr Hamburg - Feuer- und Ret",
+          "legal_ref": "str:§ 21h, Abs. 3 (4.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Berufsfeuerwehr Hamburg - Feuer- und Ret",
+          "type_code": "str:SICHERHEITSBEHOERDE"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/behoerden.geojson": {
+      "iso": "DE",
+      "label": "de-behoerden",
+      "fingerprint": {
+        "feature_count": 1524,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:b4T0JeA",
+          "generated_name_DE": "str:Deutscher Wetterdienst - Bildungszentrum",
+          "generated_name_EN": "str:Deutscher Wetterdienst - Bildungszentrum",
+          "legal_ref": "str:§ 21h, Abs. 3 (4.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Deutscher Wetterdienst - Bildungszentrum",
+          "type_code": "str:BEHOERDE"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/umspannwerke.geojson": {
+      "iso": "DE",
+      "label": "de-umspannwerke",
+      "fingerprint": {
+        "feature_count": 389,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:1bSAAdA",
+          "generated_name_DE": "str:Umspannwerk (HS)",
+          "generated_name_EN": "str:Umspannwerk (HS)",
+          "legal_ref": "str:§ 21h, Abs. 3 (3.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Umspannwerk (HS)",
+          "type_code": "str:UMSPANNWERK"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/kraftwerke.geojson": {
+      "iso": "DE",
+      "label": "de-kraftwerke",
+      "fingerprint": {
+        "feature_count": 70,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:ZfAWjIA",
+          "generated_name_DE": "str:AVA Velsen ",
+          "generated_name_EN": "str:AVA Velsen ",
+          "legal_ref": "str:§ 21h, Abs. 3 (3.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:AVA Velsen ",
+          "type_code": "str:KRAFTWERK"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/justizvollzugsanstalten.geojson": {
+      "iso": "DE",
+      "label": "de-justizvollzugsanstalten",
+      "fingerprint": {
+        "feature_count": 353,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:TogGRPA",
+          "generated_name_DE": "str:Justizvollzugsanstalt Rottweil",
+          "generated_name_EN": "str:Justizvollzugsanstalt Rottweil",
+          "legal_ref": "str:§ 21h, Abs. 3 (3.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Justizvollzugsanstalt Rottweil",
+          "type_code": "str:JUSTIZVOLLZUGSANSTALT"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/diplomatische_vertretungen.geojson": {
+      "iso": "DE",
+      "label": "de-diplomatische_vertretungen",
+      "fingerprint": {
+        "feature_count": 303,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:huEfSEA",
+          "generated_name_DE": "str:Generalkonsulat der Hellenischen Republi",
+          "generated_name_EN": "str:Generalkonsulat der Hellenischen Republi",
+          "legal_ref": "str:§ 21h, Abs. 3 (4.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Generalkonsulat der Hellenischen Republi",
+          "type_code": "str:DIPLOMATISCHE_VERTRETUNG"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/internationale_organisationen.geojson": {
+      "iso": "DE",
+      "label": "de-internationale_organisationen",
+      "fingerprint": {
+        "feature_count": 59,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:tfcEiOA",
+          "generated_name_DE": "str:Organisation für wirtschaftliche Zusamme",
+          "generated_name_EN": "str:Organisation für wirtschaftliche Zusamme",
+          "legal_ref": "str:§ 21h, Abs. 3 (4.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Organisation für wirtschaftliche Zusamme",
+          "type_code": "str:INTERNATIONALE_ORGANISATION"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/labore.geojson": {
+      "iso": "DE",
+      "label": "de-labore",
+      "fingerprint": {
+        "feature_count": 4,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:zGcpIFA",
+          "generated_name_DE": "str:Bernhard-Nocht-Institut für Tropenmedizi",
+          "generated_name_EN": "str:Bernhard-Nocht-Institut für Tropenmedizi",
+          "legal_ref": "str:§ 21h, Abs. 3 (3.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Bernhard-Nocht-Institut für Tropenmedizi",
+          "type_code": "str:BSL-4-LABOR"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/seewasserstrassen.geojson": {
+      "iso": "DE",
+      "label": "de-seewasserstrassen",
+      "fingerprint": {
+        "feature_count": 14,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:1sChgcA",
+          "generated_name_DE": "str:Seewasserstraße",
+          "generated_name_EN": "str:Sea waterway",
+          "legal_ref": "str:§ 21h, Abs. 3 (5.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Seewasserstraße",
+          "type_code": "str:SEEWASSERSTRASSE"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/de/schifffahrtsanlagen.geojson": {
+      "iso": "DE",
+      "label": "de-schifffahrtsanlagen",
+      "fingerprint": {
+        "feature_count": 437,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "external_reference",
+          "generated_name_DE",
+          "generated_name_EN",
+          "legal_ref",
+          "lower_limit_alt_ref",
+          "lower_limit_altitude",
+          "lower_limit_unit",
+          "name",
+          "type_code"
+        ],
+        "sample": {
+          "external_reference": "str:baT6BaA",
+          "generated_name_DE": "str:Staustufe Neckarzimmern",
+          "generated_name_EN": "str:Staustufe Neckarzimmern",
+          "legal_ref": "str:§ 21h, Abs. 3 (5.) LuftVO",
+          "lower_limit_alt_ref": "str:AGL",
+          "lower_limit_altitude": "int:0",
+          "lower_limit_unit": "str:m",
+          "name": "str:Staustufe Neckarzimmern",
+          "type_code": "str:SCHIFFFAHRTSANLAGE"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/es-parques.geojson": {
       "iso": "ES",
@@ -1015,7 +1755,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/fr-drones.geojson": {
       "iso": "FR",
@@ -1072,7 +1812,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/fr-parcs.geojson": {
       "iso": "FR",
@@ -1146,13 +1886,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/fi-primary.geojson": {
       "iso": "FI",
       "label": "fi-primary",
       "fingerprint": {
-        "feature_count": 720,
+        "feature_count": 723,
         "geometry_types": [
           "Polygon"
         ],
@@ -1190,7 +1930,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/fi-natur.geojson": {
       "iso": "FI",
@@ -1243,47 +1983,100 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
-    "https://pappilappi.com/airspace/fi-efr-static.geojson": {
+    "https://pappilappi.com/airspace/fi-permanent.geojson": {
       "iso": "FI",
-      "label": "fi-efr-static",
+      "label": "fi-permanent",
       "fingerprint": {
-        "feature_count": 123,
+        "feature_count": 233,
         "geometry_types": [
           "Polygon"
         ],
         "property_keys": [
           "_zoneType",
-          "authority",
-          "authority_url",
-          "country",
-          "identifier",
-          "lowerLimit",
-          "lowerRef",
+          "activity",
+          "airRiskLevel",
+          "atsAreaType",
+          "endDate",
+          "gmlId",
+          "groundRiskDensity",
+          "id",
           "name",
-          "source",
-          "uom",
-          "upperLimit",
-          "upperRef"
+          "notes",
+          "permanentReserveType",
+          "startDate",
+          "temporaryReserveType",
+          "uasReserveType"
         ],
         "sample": {
-          "_zoneType": "str:EFP_FI",
-          "authority": "str:AIS Finland (Fintraffic ANS)",
-          "authority_url": "str:https://www.ais.fi/",
-          "country": "str:FIN",
-          "identifier": "str:EFP10",
-          "lowerLimit": "str:0",
-          "lowerRef": "str:AGL",
-          "name": "str:LOVIISA",
-          "source": "str:EF-ENR 5.1",
-          "uom": "str:M",
-          "upperLimit": "str:999",
-          "upperRef": "str:FL"
+          "_zoneType": "str:EFR_FI",
+          "activity": "str:",
+          "airRiskLevel": "NoneType:None",
+          "atsAreaType": "NoneType:None",
+          "endDate": "NoneType:None",
+          "gmlId": "str:8f7468c1-c1c1-456a-873d-0e1c1490c924",
+          "groundRiskDensity": "NoneType:None",
+          "id": "int:145474",
+          "name": "str:EFR37 UPINNIEMI",
+          "notes": "str:",
+          "permanentReserveType": "str:Rajoitusalue",
+          "startDate": "str:2014-11-13T00:00:00",
+          "temporaryReserveType": "NoneType:None",
+          "uasReserveType": "NoneType:None"
         }
       },
-      "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
+    },
+    "https://pappilappi.com/airspace/fi-temporary.geojson": {
+      "iso": "FI",
+      "label": "fi-temporary",
+      "fingerprint": {
+        "feature_count": 314,
+        "geometry_types": [
+          "Polygon"
+        ],
+        "property_keys": [
+          "_zoneType",
+          "activity",
+          "airRiskLevel",
+          "atsAreaType",
+          "endDate",
+          "gmlId",
+          "groundRiskDensity",
+          "id",
+          "lowerLimit",
+          "name",
+          "notes",
+          "permanentReserveType",
+          "startDate",
+          "temporaryReserveType",
+          "uasReserveType",
+          "uom",
+          "upperLimit"
+        ],
+        "sample": {
+          "_zoneType": "str:EFD_FI",
+          "activity": "str:PARAGLIDER",
+          "airRiskLevel": "NoneType:None",
+          "atsAreaType": "NoneType:None",
+          "endDate": "str:2026-10-26T22:00:00",
+          "gmlId": "str:8725cff0-1eba-4d56-aaae-857a646de8ba",
+          "groundRiskDensity": "NoneType:None",
+          "id": "int:146993",
+          "name": "str:TAMPERE-LIELAHTI",
+          "notes": "str:REMARK: ACTIVATED BY NOTAM:\n09 JAN 2026 ",
+          "permanentReserveType": "NoneType:None",
+          "startDate": "str:2026-01-09T02:00:00",
+          "temporaryReserveType": "str:D",
+          "uasReserveType": "NoneType:None",
+          "uom": "str:FT",
+          "upperLimit": "int:3500"
+        }
+      },
+      "first_seen": "2026-08-02T07:50:15.563031+00:00",
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/no-nve-infra.geojson": {
       "iso": "NO",
@@ -1345,13 +2138,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us.geojson": {
       "iso": "US",
       "label": "primär",
       "fingerprint": {
-        "feature_count": 7152,
+        "feature_count": 7132,
         "geometry_types": [
           "Polygon"
         ],
@@ -1383,13 +2176,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us-nps.geojson": {
       "iso": "US",
       "label": "nps",
       "fingerprint": {
-        "feature_count": 418,
+        "feature_count": 442,
         "geometry_types": [
           "MultiPolygon",
           "Polygon"
@@ -1411,10 +2204,10 @@
           "authority": "str:National Park Service",
           "conditions": "str:Violations may result in citations, fine",
           "dataSource": "str:NPS Park Boundaries",
-          "identifier": "str:NPS:AMME",
+          "identifier": "str:NPS:HALE",
           "licenseId": "str:Public domain (US Gov work)",
           "lowerLimit": "str:GND",
-          "name": "str:American Memorial Park (Park) — MP",
+          "name": "str:Haleakala National Park (National Parks)",
           "remark": "str:Drone flying prohibited under 36 CFR §2.",
           "siteUrl": "str:https://www.nps.gov/aboutus/news/release",
           "type": "str:NPS_PARK",
@@ -1422,13 +2215,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us-classes.geojson": {
       "iso": "US",
       "label": "classes",
       "fingerprint": {
-        "feature_count": 1796,
+        "feature_count": 1798,
         "geometry_types": [
           "MultiPolygon",
           "Polygon"
@@ -1461,13 +2254,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us-sua.geojson": {
       "iso": "US",
       "label": "sua",
       "fingerprint": {
-        "feature_count": 1494,
+        "feature_count": 1498,
         "geometry_types": [
           "MultiPolygon",
           "Polygon"
@@ -1500,13 +2293,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us-heliports.geojson": {
       "iso": "US",
       "label": "heliports",
       "fingerprint": {
-        "feature_count": 1647,
+        "feature_count": 1636,
         "geometry_types": [
           "Point"
         ],
@@ -1534,7 +2327,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us-dc-sfra.geojson": {
       "iso": "US",
@@ -1572,7 +2365,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us-nsufr.geojson": {
       "iso": "US",
@@ -1611,7 +2404,7 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us-wildlife-refuges.geojson": {
       "iso": "US",
@@ -1648,13 +2441,13 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us-fria.geojson": {
       "iso": "US",
       "label": "fria",
       "fingerprint": {
-        "feature_count": 2671,
+        "feature_count": 2688,
         "geometry_types": [
           "Polygon"
         ],
@@ -1675,18 +2468,18 @@
           "authority": "str:FAA (FRIA program)",
           "conditions": "str:FAA-Recognized Identification Area (FRIA",
           "dataSource": "str:FAA FAA_Recognized_Identification_Areas",
-          "identifier": "str:FAA-FRIA_US:2023-CBO-00190-FRIA",
+          "identifier": "str:FAA-FRIA_US:2023-CBO-03107-FRIA-A1",
           "licenseId": "str:Public domain (US Gov work)",
           "lowerLimit": "str:GND",
-          "name": "str:South Carroll Aeromodelers #1588 - 4th S",
-          "remark": "str:South Carroll Aeromodelers #1588 - 4th S",
+          "name": "str:Harford County RC Modelers, Inc. #1287",
+          "remark": "str:Harford County RC Modelers, Inc. #1287 ·",
           "siteUrl": "str:https://www.faa.gov/uas/getting_started/",
           "type": "str:FRIA_US",
           "upperLimit": "str:400 ft AGL"
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     },
     "https://pappilappi.com/airspace/us-rec-sites.geojson": {
       "iso": "US",
@@ -1724,8 +2517,39 @@
         }
       },
       "first_seen": "2026-07-02T04:59:52.687175+00:00",
-      "updated": "2026-07-05T01:18:42.143758+00:00"
+      "updated": "2026-08-02T07:50:15.563031+00:00"
     }
   },
-  "history": []
+  "history": [
+    {
+      "detected": "2026-08-02T07:50:15.563031+00:00",
+      "iso": "EE",
+      "label": "ee-zones",
+      "url": "https://pappilappi.com/airspace/ee-zones.geojson",
+      "changes": [
+        "nya fält: uom"
+      ],
+      "diagnosis": "Ett nytt fält \"uom\" har tillkommit i property-nycklarna (med värdet \"M\" i exempelfeaturen), medan alla tidigare fält är oförändrade och geometrin fortsatt är Polygon. Sannolik orsak är en uppströms formatändring där leverantören lagt till en explicit måttenhet (unit of measure) för höjdgränserna lowerLimit och upperLimit. Eftersom befintliga fält behålls och antalet features ökat från 217 till 230 bör parsern fortsätta fungera och inga zoner försvinna; den enda risken är att appen tolkar lowerLimit/upperLimit som en fast enhet och därför missar den nya \"uom\"-informationen om enheten framöver skulle variera."
+    },
+    {
+      "detected": "2026-08-02T07:50:15.563031+00:00",
+      "iso": "IS",
+      "label": "is-zones",
+      "url": "https://pappilappi.com/airspace/is-zones.geojson",
+      "changes": [
+        "geometrityper: MultiPolygon → MultiPolygon, Polygon"
+      ],
+      "diagnosis": "Den enda strukturella förändringen är att geometrityperna utökats från enbart MultiPolygon till både MultiPolygon och Polygon, medan antalet features (271) och samtliga egenskapsnycklar (_zoneType, authority, dataSource, identifier, message, name) är oförändrade. Mest troligt har uppströmskällan börjat koda enklare zoner som Polygon istället för att paketera dem som MultiPolygon, vilket är en geometrikodningsändring snarare än fältbyte eller trunkering. Egenskapsattributen bör fortsätta lösas ut som vanligt, men om appens parser bara hanterar MultiPolygon riskerar de nya Polygon-features att inte ritas ut och därmed försvinna från kartan."
+    },
+    {
+      "detected": "2026-08-02T07:50:15.563031+00:00",
+      "iso": "CH",
+      "label": "luftfahrthindernis",
+      "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson",
+      "changes": [
+        "geometrityper: LineString, Point → LineString"
+      ],
+      "diagnosis": "Den strukturella förändringen är att geometrityperna gått från LineString och Point till enbart LineString, medan antalet features ökat något (14336 → 14367). Egenskapsnycklarna är oförändrade, men i exempelfeaturen saknas nu ett värde för fältet \"airport\" som tidigare fanns (str:LSZQ). Den mest sannolika orsaken är en uppströms formatändring där punktbaserade hinder antingen tagits bort eller kodats om till LineString-geometri, eventuellt i samband med en datauppdatering (effectiveDate har flyttats från 2011 till 2024). Effekten för parsern är att alla hinder som tidigare var Point-geometrier riskerar att inte längre ritas ut som förväntat om koden särbehandlar punkter, och attributet \"airport\" kan sluta resolvera för vissa features, vilket kan göra att enskilda hinderzoner försvinner eller visas felaktigt på kartan."
+    }
+  ]
 }
