@@ -566,10 +566,10 @@
     "id": "anac_resolucion_550",
     "title": "Resolución ANAC 550/2025 (texto completo)",
     "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "AR (Argentina)",
@@ -577,10 +577,10 @@
     "id": "anac_ceta",
     "title": "CETA — Certificado de Explotador (uso comercial)",
     "url": "https://www.argentina.gob.ar/anac/ceta-rparpas",
-    "status": "error",
-    "code": null,
-    "final_url": "https://www.argentina.gob.ar/anac/ceta-rparpas",
-    "message": "The read operation timed out"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://www.argentina.gob.ar/anac/requisitos-para-la-emision-o-modificacion-de-ceta-rparpas",
+    "message": "→ https://www.argentina.gob.ar/anac/requisitos-para-la-emision-o-modificacion-de-ceta-rparpas"
   },
   {
     "country": "AR (Argentina)",
@@ -1028,10 +1028,10 @@
     "id": "dinacia_licencias",
     "title": "Trámite: Licencias aeronáuticas (gub.uy)",
     "url": "https://www.gub.uy/tramites/expedicion-licencias-aeronauticas-habilitaciones-piloto",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.gub.uy/tramites/expedicion-licencias-aeronauticas-habilitaciones-piloto",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)"
+    "message": "OK"
   },
   {
     "country": "UY (Uruguay)",
@@ -1808,22 +1808,22 @@
     "section": "primary",
     "id": "dcad_drones",
     "title": "DCAD – Κανονισμοί για drones",
-    "url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
+    "url": "https://drones.gov.cy",
     "status": "error",
-    "code": null,
-    "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "code": 403,
+    "final_url": "https://drones.gov.cy",
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
     "section": "primary",
     "id": "dcad_register",
     "title": "DCAD – Εγγραφή χειριστή",
-    "url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
+    "url": "https://drones.gov.cy",
     "status": "error",
-    "code": null,
-    "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "code": 403,
+    "final_url": "https://drones.gov.cy",
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1841,22 +1841,22 @@
     "section": "primary",
     "id": "dcad_rules",
     "title": "DCAD – Επισκόπηση κανόνων",
-    "url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
+    "url": "https://drones.gov.cy/open-category/",
     "status": "error",
-    "code": null,
-    "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "code": 403,
+    "final_url": "https://drones.gov.cy/open-category/",
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
     "section": "secondary",
     "id": "dcad_faq",
     "title": "DCAD – Συχνές ερωτήσεις για drones",
-    "url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
+    "url": "https://drones.gov.cy/open-specific-intro-faq/",
     "status": "error",
-    "code": null,
-    "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "code": 403,
+    "final_url": "https://drones.gov.cy/open-specific-intro-faq/",
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1885,11 +1885,11 @@
     "section": "config",
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
-    "url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
+    "url": "https://drones.gov.cy",
     "status": "error",
-    "code": null,
-    "final_url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "code": 403,
+    "final_url": "https://drones.gov.cy",
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -4932,22 +4932,22 @@
     "section": "primary",
     "id": "avinor_dronekart",
     "title": "Avinor Dronekart",
-    "url": "https://experience.arcgis.com/experience/95695705756d477d8a166150a6b7b831/page/Dronekart/",
+    "url": "https://experience.arcgis.com/experience/9d098dbc738e436f9525fdb4ef443f61",
     "status": "ok",
     "code": 200,
-    "final_url": "https://experience.arcgis.com/experience/95695705756d477d8a166150a6b7b831/page/Dronekart/",
+    "final_url": "https://experience.arcgis.com/experience/9d098dbc738e436f9525fdb4ef443f61",
     "message": "OK"
   },
   {
     "country": "NO (Norge)",
     "section": "primary",
-    "id": "ninox",
-    "title": "Ninox Drone – tillatelse nær flyplass",
-    "url": "https://operatorportal.ninoxdrone.no/",
-    "status": "error",
-    "code": null,
-    "final_url": "https://operatorportal.ninoxdrone.no/",
-    "message": "[Errno -2] Name or service not known"
+    "id": "avinor_ninox",
+    "title": "NinoxDrone – søk tillatelse",
+    "url": "https://utm.avinor.no/avm",
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://utm.avinor.no/avm/",
+    "message": "→ https://utm.avinor.no/avm/"
   },
   {
     "country": "NO (Norge)",
@@ -5009,10 +5009,10 @@
     "section": "config",
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
-    "url": "https://experience.arcgis.com/experience/95695705756d477d8a166150a6b7b831/page/Dronekart/",
+    "url": "https://experience.arcgis.com/experience/9d098dbc738e436f9525fdb4ef443f61",
     "status": "ok",
     "code": 200,
-    "final_url": "https://experience.arcgis.com/experience/95695705756d477d8a166150a6b7b831/page/Dronekart/",
+    "final_url": "https://experience.arcgis.com/experience/9d098dbc738e436f9525fdb4ef443f61",
     "message": "OK"
   },
   {
@@ -5548,11 +5548,11 @@
     "section": "primary",
     "id": "easa_drones",
     "title": "EASA — Civil drones",
-    "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility",
-    "status": "error",
-    "code": 404,
-    "final_url": "https://www.easa.europa.eu/en/domains/drones-air-mobility",
-    "message": "Not Found"
+    "url": "https://www.easa.europa.eu/en/domains/civil-drones",
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://www.easa.europa.eu/en/domains/civil-drones",
+    "message": "OK"
   },
   {
     "country": "UA (Ukraina)",
@@ -5586,5 +5586,195 @@
     "code": 200,
     "final_url": "https://pappilappi.com/privacy.html",
     "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "Open-Meteo (väder, kundnyckel)",
+    "url": "https://customer-api.open-meteo.com/v1/forecast?latitude=59.33&longitude=18.07&current_weather=true&apikey=***",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://customer-api.open-meteo.com/v1/forecast?latitude=59.33&longitude=18.07&current_weather=true&apikey=***",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "adsb.fi (flygtrafik)",
+    "url": "https://opendata.adsb.fi/api/v2/lat/59.33/lon/18.07/dist/25",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://opendata.adsb.fi/api/v2/lat/59.33/lon/18.07/dist/25",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "LibreWXR (radar)",
+    "url": "https://api.librewxr.net/public/weather-maps.json",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://api.librewxr.net/public/weather-maps.json",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "aviationweather.gov (METAR)",
+    "url": "https://aviationweather.gov/api/data/metar?ids=ESSA&format=json",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://aviationweather.gov/api/data/metar?ids=ESSA&format=json",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "Nominatim (adresssökning)",
+    "url": "https://nominatim.openstreetmap.org/search?q=Stockholm&format=json&limit=1",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://nominatim.openstreetmap.org/search?q=Stockholm&format=json&limit=1",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "open-elevation",
+    "url": "https://api.open-elevation.com/api/v1/lookup?locations=59.33,18.07",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://api.open-elevation.com/api/v1/lookup?locations=59.33,18.07",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "🇸🇪 LFV DAIM WFS",
+    "url": "https://daim.lfv.se/geoserver/wfs?service=WFS&request=GetCapabilities",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://daim.lfv.se/geoserver/wfs?service=WFS&request=GetCapabilities",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "🇳🇱 LVNL ArcGIS",
+    "url": "https://geoservices.lvnl.nl/arcgis/rest/services/Hosted/Airspace_Dataportaal/FeatureServer?f=json",
+    "expect": 200,
+    "status": "error",
+    "code": null,
+    "final_url": "https://geoservices.lvnl.nl/arcgis/rest/services/Hosted/Airspace_Dataportaal/FeatureServer?f=json",
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
+    "country": "API",
+    "id": "🇪🇸 ENAIRE ArcGIS",
+    "url": "https://servais.enaire.es/insignia/rest/services/NSF_SRV/SRV_UAS_ZG_V0/MapServer?f=json",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://servais.enaire.es/insignia/rest/services/NSF_SRV/SRV_UAS_ZG_V0/MapServer?f=json",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "🇨🇭 FOCA geo.admin.ch",
+    "url": "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bazl.einschraenkungen-drohnen?f=json",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bazl.einschraenkungen-drohnen?f=json",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "🇩🇪 DFS dipul WMS",
+    "url": "https://uas-betrieb.de/geoservices/dipul/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://uas-betrieb.de/geoservices/dipul/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "🇫🇷 IGN Géoportail WMS",
+    "url": "https://data.geopf.fr/wms-r/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://data.geopf.fr/wms-r/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "🇫🇷 IGN WFS (tap-info)",
+    "url": "https://data.geopf.fr/wfs/ows?service=WFS&version=2.0.0&request=GetCapabilities",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://data.geopf.fr/wfs/ows?service=WFS&version=2.0.0&request=GetCapabilities",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "GitHub Gist (NOTAMs)",
+    "url": "https://gist.githubusercontent.com/KodKust/05d84a207c31d0da55284f1e1ce5d78d/raw/notams.json",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://gist.githubusercontent.com/KodKust/05d84a207c31d0da55284f1e1ce5d78d/raw/notams.json",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "GitHub Gist (countries.json)",
+    "url": "https://gist.githubusercontent.com/KodKust/c01bd701b8de3549bd4fd7efaffbed97/raw/countries.json",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://gist.githubusercontent.com/KodKust/c01bd701b8de3549bd4fd7efaffbed97/raw/countries.json",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "GitHub Gist (classifier_strings)",
+    "url": "https://gist.githubusercontent.com/KodKust/d80e1ed0cb7c9910aa2683f83046d69c/raw/classifier_strings.json",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://gist.githubusercontent.com/KodKust/d80e1ed0cb7c9910aa2683f83046d69c/raw/classifier_strings.json",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "pappilappi.com (privacy)",
+    "url": "https://pappilappi.com/privacy.html",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://pappilappi.com/privacy.html",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "Apple EULA",
+    "url": "https://www.apple.com/legal/macapps/stdeula/",
+    "expect": 200,
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://www.apple.com/legal/macapps/stdeula/",
+    "message": "OK"
+  },
+  {
+    "country": "API",
+    "id": "Planespotters (flygfoton)",
+    "url": "https://api.planespotters.net/pub/photos/hex/A00000",
+    "expect": 200,
+    "status": "error",
+    "code": 403,
+    "final_url": "https://api.planespotters.net/pub/photos/hex/A00000",
+    "message": "Forbidden"
   }
 ]
