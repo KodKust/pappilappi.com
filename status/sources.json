@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03T08:51:58.520765+00:00",
+  "generated": "2026-08-03T19:08:37.668635+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -135,7 +135,7 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "61 av 501 länkar trasiga i 22 länder",
+      "detail": "56 av 501 länkar trasiga i 19 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -145,9 +145,9 @@
     {
       "name": "🇨🇾 CY — Cypern",
       "status": "warn",
-      "detail": "7 av 9 länkar trasiga (403, error)",
+      "detail": "7 av 9 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://www.mcw.gov.cy/mcw/DCA/dca.nsf/drones",
+      "url": "https://drones.gov.cy",
       "kind": "other"
     },
     {
@@ -191,14 +191,6 @@
       "kind": "other"
     },
     {
-      "name": "🇺🇦 UA — Ukraina",
-      "status": "warn",
-      "detail": "4 av 5 länkar trasiga (403, 404)",
-      "last_modified": null,
-      "url": "https://avia.gov.ua",
-      "kind": "other"
-    },
-    {
       "name": "🇬🇷 GR — Grekland",
       "status": "warn",
       "detail": "3 av 9 länkar trasiga (403, timeout)",
@@ -215,11 +207,11 @@
       "kind": "other"
     },
     {
-      "name": "🇦🇷 AR — Argentina",
+      "name": "🇺🇦 UA — Ukraina",
       "status": "warn",
-      "detail": "2 av 10 länkar trasiga (error)",
+      "detail": "3 av 5 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
+      "url": "https://avia.gov.ua",
       "kind": "other"
     },
     {
@@ -263,9 +255,17 @@
       "kind": "other"
     },
     {
-      "name": "+ 7 länder till med trasiga länkar",
+      "name": "🇨🇷 CR — Costa Rica",
+      "status": "warn",
+      "detail": "1 av 10 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://www.sinac.go.cr/",
+      "kind": "other"
+    },
+    {
+      "name": "+ 4 länder till med trasiga länkar",
       "status": "info",
-      "detail": "7 länkar: CR, DO, LI, NO, NZ, PA, UY",
+      "detail": "4 länkar: DO, LI, NZ, PA",
       "last_modified": null,
       "url": null,
       "kind": "other"
