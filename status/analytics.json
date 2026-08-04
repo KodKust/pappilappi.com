@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-03T10:25:29+00:00",
+  "generated": "2026-08-04T09:23:13+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
-      "start": "2026-07-27",
-      "end": "2026-08-03",
-      "visitors": 189,
+      "start": "2026-07-28",
+      "end": "2026-08-04",
+      "visitors": 175,
       "events_total": 19,
       "clicks": {
         "ios": 7,
@@ -15,14 +15,14 @@
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 50,
+          "count": 46,
           "ios": 2,
           "android": 0
         },
         {
           "code": "US",
           "name": "United States",
-          "count": 22,
+          "count": 27,
           "ios": 0,
           "android": 0
         },
@@ -51,18 +51,13 @@
       "sources": [
         {
           "name": "(direkt)",
-          "count": 84,
+          "count": 80,
           "kind": "other"
         },
         {
           "name": "Google",
-          "count": 11,
-          "kind": "search"
-        },
-        {
-          "name": "www.bing.com",
           "count": 9,
-          "kind": "link"
+          "kind": "search"
         },
         {
           "name": "duckduckgo.com",
@@ -70,55 +65,20 @@
           "kind": "link"
         },
         {
-          "name": "copilot.com",
+          "name": "www.bing.com",
           "count": 7,
+          "kind": "link"
+        },
+        {
+          "name": "App",
+          "count": 5,
           "kind": "campaign"
         }
       ],
       "daily": [
         {
-          "day": "2026-07-27",
-          "visitors": 26,
-          "ios": 0,
-          "android": 0,
-          "countries": [
-            {
-              "code": "US",
-              "name": "United States",
-              "count": 5
-            },
-            {
-              "code": "SE",
-              "name": "Sweden",
-              "count": 4
-            },
-            {
-              "code": "RU",
-              "name": "Russia",
-              "count": 3
-            }
-          ],
-          "sources": [
-            {
-              "name": "(direkt)",
-              "count": 18,
-              "kind": "other"
-            },
-            {
-              "name": "Yandex",
-              "count": 3,
-              "kind": "search"
-            },
-            {
-              "name": "Google",
-              "count": 2,
-              "kind": "search"
-            }
-          ]
-        },
-        {
           "day": "2026-07-28",
-          "visitors": 14,
+          "visitors": 13,
           "ios": 1,
           "android": 0,
           "countries": [
@@ -358,18 +318,75 @@
         },
         {
           "day": "2026-08-03",
-          "visitors": 0,
+          "visitors": 12,
           "ios": 0,
           "android": 0,
-          "countries": [],
-          "sources": []
+          "countries": [
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 5
+            },
+            {
+              "code": "TR",
+              "name": "Turkey",
+              "count": 3
+            },
+            {
+              "code": "DE",
+              "name": "Germany",
+              "count": 1
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 10,
+              "kind": "other"
+            },
+            {
+              "name": "Yandex",
+              "count": 1,
+              "kind": "search"
+            }
+          ]
+        },
+        {
+          "day": "2026-08-04",
+          "visitors": 1,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 5
+            },
+            {
+              "code": "FR",
+              "name": "France",
+              "count": 1
+            },
+            {
+              "code": "IL",
+              "name": "Israel",
+              "count": 1
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 7,
+              "kind": "other"
+            }
+          ]
         }
       ]
     },
     "30d": {
-      "start": "2026-07-04",
-      "end": "2026-08-03",
-      "visitors": 1335,
+      "start": "2026-07-05",
+      "end": "2026-08-04",
+      "visitors": 1348,
       "events_total": 43,
       "clicks": {
         "ios": 31,
@@ -386,7 +403,7 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 208,
+          "count": 218,
           "ios": 4,
           "android": 0
         },
@@ -405,17 +422,17 @@
           "android": 0
         },
         {
-          "code": "DE",
-          "name": "Germany",
-          "count": 61,
-          "ios": 5,
+          "code": "FR",
+          "name": "France",
+          "count": 62,
+          "ios": 1,
           "android": 0
         }
       ],
       "sources": [
         {
           "name": "(direkt)",
-          "count": 714,
+          "count": 724,
           "kind": "other"
         },
         {
@@ -440,14 +457,6 @@
         }
       ],
       "daily": [
-        {
-          "day": "2026-07-04",
-          "visitors": 0,
-          "ios": 0,
-          "android": 0,
-          "countries": [],
-          "sources": []
-        },
         {
           "day": "2026-07-05",
           "visitors": 0,
@@ -1358,11 +1367,68 @@
         },
         {
           "day": "2026-08-03",
-          "visitors": 0,
+          "visitors": 12,
           "ios": 0,
           "android": 0,
-          "countries": [],
-          "sources": []
+          "countries": [
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 5
+            },
+            {
+              "code": "TR",
+              "name": "Turkey",
+              "count": 3
+            },
+            {
+              "code": "DE",
+              "name": "Germany",
+              "count": 1
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 10,
+              "kind": "other"
+            },
+            {
+              "name": "Yandex",
+              "count": 1,
+              "kind": "search"
+            }
+          ]
+        },
+        {
+          "day": "2026-08-04",
+          "visitors": 1,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 5
+            },
+            {
+              "code": "FR",
+              "name": "France",
+              "count": 1
+            },
+            {
+              "code": "IL",
+              "name": "Israel",
+              "count": 1
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 7,
+              "kind": "other"
+            }
+          ]
         }
       ]
     }
