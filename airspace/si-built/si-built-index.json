@@ -1,0 +1,885 @@
+{
+  "_meta": {
+    "source": "MKGP RABA klass 3000 (dejanska raba)",
+    "license": "OPSI \"Ni omejitev uporabe\" / noLimitations; Vir: MKGP",
+    "raba_zip": "https://rkg.gov.si/arhiv/RABA/RABA_2026_07_31.zip",
+    "cell_deg": 0.2,
+    "close_m": [
+      44,
+      33
+    ],
+    "built_by": "fetch_si_built_fast.py (rutvis closing, WORK_M=20km, MARGIN_M=132m)"
+  },
+  "tiles": [
+    {
+      "bounds": [
+        13.4,
+        45.4,
+        13.6,
+        45.6
+      ],
+      "url": "si-built-67_227.geojson",
+      "n": 19
+    },
+    {
+      "bounds": [
+        13.4,
+        45.8,
+        13.6,
+        46.0
+      ],
+      "url": "si-built-67_229.geojson",
+      "n": 86
+    },
+    {
+      "bounds": [
+        13.4,
+        46.0,
+        13.6,
+        46.2
+      ],
+      "url": "si-built-67_230.geojson",
+      "n": 133
+    },
+    {
+      "bounds": [
+        13.4,
+        46.2,
+        13.6,
+        46.4
+      ],
+      "url": "si-built-67_231.geojson",
+      "n": 351
+    },
+    {
+      "bounds": [
+        13.4,
+        46.4,
+        13.6,
+        46.6
+      ],
+      "url": "si-built-67_232.geojson",
+      "n": 8
+    },
+    {
+      "bounds": [
+        13.6,
+        45.4,
+        13.8,
+        45.6
+      ],
+      "url": "si-built-68_227.geojson",
+      "n": 266
+    },
+    {
+      "bounds": [
+        13.6,
+        45.6,
+        13.8,
+        45.8
+      ],
+      "url": "si-built-68_228.geojson",
+      "n": 64
+    },
+    {
+      "bounds": [
+        13.6,
+        45.8,
+        13.8,
+        46.0
+      ],
+      "url": "si-built-68_229.geojson",
+      "n": 481
+    },
+    {
+      "bounds": [
+        13.6,
+        46.0,
+        13.8,
+        46.2
+      ],
+      "url": "si-built-68_230.geojson",
+      "n": 559
+    },
+    {
+      "bounds": [
+        13.6,
+        46.2,
+        13.8,
+        46.4
+      ],
+      "url": "si-built-68_231.geojson",
+      "n": 436
+    },
+    {
+      "bounds": [
+        13.6,
+        46.4,
+        13.8,
+        46.6
+      ],
+      "url": "si-built-68_232.geojson",
+      "n": 160
+    },
+    {
+      "bounds": [
+        13.8,
+        45.4,
+        14.0,
+        45.6
+      ],
+      "url": "si-built-69_227.geojson",
+      "n": 300
+    },
+    {
+      "bounds": [
+        13.8,
+        45.6,
+        14.0,
+        45.8
+      ],
+      "url": "si-built-69_228.geojson",
+      "n": 400
+    },
+    {
+      "bounds": [
+        13.8,
+        45.8,
+        14.0,
+        46.0
+      ],
+      "url": "si-built-69_229.geojson",
+      "n": 488
+    },
+    {
+      "bounds": [
+        13.8,
+        46.0,
+        14.0,
+        46.2
+      ],
+      "url": "si-built-69_230.geojson",
+      "n": 755
+    },
+    {
+      "bounds": [
+        13.8,
+        46.2,
+        14.0,
+        46.4
+      ],
+      "url": "si-built-69_231.geojson",
+      "n": 536
+    },
+    {
+      "bounds": [
+        13.8,
+        46.4,
+        14.0,
+        46.6
+      ],
+      "url": "si-built-69_232.geojson",
+      "n": 171
+    },
+    {
+      "bounds": [
+        14.0,
+        45.4,
+        14.2,
+        45.6
+      ],
+      "url": "si-built-70_227.geojson",
+      "n": 189
+    },
+    {
+      "bounds": [
+        14.0,
+        45.6,
+        14.2,
+        45.8
+      ],
+      "url": "si-built-70_228.geojson",
+      "n": 425
+    },
+    {
+      "bounds": [
+        14.0,
+        45.8,
+        14.2,
+        46.0
+      ],
+      "url": "si-built-70_229.geojson",
+      "n": 344
+    },
+    {
+      "bounds": [
+        14.0,
+        46.0,
+        14.2,
+        46.2
+      ],
+      "url": "si-built-70_230.geojson",
+      "n": 668
+    },
+    {
+      "bounds": [
+        14.0,
+        46.2,
+        14.2,
+        46.4
+      ],
+      "url": "si-built-70_231.geojson",
+      "n": 716
+    },
+    {
+      "bounds": [
+        14.0,
+        46.4,
+        14.2,
+        46.6
+      ],
+      "url": "si-built-70_232.geojson",
+      "n": 234
+    },
+    {
+      "bounds": [
+        14.2,
+        45.4,
+        14.4,
+        45.6
+      ],
+      "url": "si-built-71_227.geojson",
+      "n": 193
+    },
+    {
+      "bounds": [
+        14.2,
+        45.6,
+        14.4,
+        45.8
+      ],
+      "url": "si-built-71_228.geojson",
+      "n": 348
+    },
+    {
+      "bounds": [
+        14.2,
+        45.8,
+        14.4,
+        46.0
+      ],
+      "url": "si-built-71_229.geojson",
+      "n": 370
+    },
+    {
+      "bounds": [
+        14.2,
+        46.0,
+        14.4,
+        46.2
+      ],
+      "url": "si-built-71_230.geojson",
+      "n": 583
+    },
+    {
+      "bounds": [
+        14.2,
+        46.2,
+        14.4,
+        46.4
+      ],
+      "url": "si-built-71_231.geojson",
+      "n": 523
+    },
+    {
+      "bounds": [
+        14.2,
+        46.4,
+        14.4,
+        46.6
+      ],
+      "url": "si-built-71_232.geojson",
+      "n": 54
+    },
+    {
+      "bounds": [
+        14.4,
+        45.4,
+        14.6,
+        45.6
+      ],
+      "url": "si-built-72_227.geojson",
+      "n": 38
+    },
+    {
+      "bounds": [
+        14.4,
+        45.6,
+        14.6,
+        45.8
+      ],
+      "url": "si-built-72_228.geojson",
+      "n": 390
+    },
+    {
+      "bounds": [
+        14.4,
+        45.8,
+        14.6,
+        46.0
+      ],
+      "url": "si-built-72_229.geojson",
+      "n": 413
+    },
+    {
+      "bounds": [
+        14.4,
+        46.0,
+        14.6,
+        46.2
+      ],
+      "url": "si-built-72_230.geojson",
+      "n": 353
+    },
+    {
+      "bounds": [
+        14.4,
+        46.2,
+        14.6,
+        46.4
+      ],
+      "url": "si-built-72_231.geojson",
+      "n": 401
+    },
+    {
+      "bounds": [
+        14.4,
+        46.4,
+        14.6,
+        46.6
+      ],
+      "url": "si-built-72_232.geojson",
+      "n": 37
+    },
+    {
+      "bounds": [
+        14.6,
+        45.4,
+        14.8,
+        45.6
+      ],
+      "url": "si-built-73_227.geojson",
+      "n": 56
+    },
+    {
+      "bounds": [
+        14.6,
+        45.6,
+        14.8,
+        45.8
+      ],
+      "url": "si-built-73_228.geojson",
+      "n": 326
+    },
+    {
+      "bounds": [
+        14.6,
+        45.8,
+        14.8,
+        46.0
+      ],
+      "url": "si-built-73_229.geojson",
+      "n": 383
+    },
+    {
+      "bounds": [
+        14.6,
+        46.0,
+        14.8,
+        46.2
+      ],
+      "url": "si-built-73_230.geojson",
+      "n": 450
+    },
+    {
+      "bounds": [
+        14.6,
+        46.2,
+        14.8,
+        46.4
+      ],
+      "url": "si-built-73_231.geojson",
+      "n": 528
+    },
+    {
+      "bounds": [
+        14.6,
+        46.4,
+        14.8,
+        46.6
+      ],
+      "url": "si-built-73_232.geojson",
+      "n": 136
+    },
+    {
+      "bounds": [
+        14.8,
+        45.4,
+        15.0,
+        45.6
+      ],
+      "url": "si-built-74_227.geojson",
+      "n": 165
+    },
+    {
+      "bounds": [
+        14.8,
+        45.6,
+        15.0,
+        45.8
+      ],
+      "url": "si-built-74_228.geojson",
+      "n": 257
+    },
+    {
+      "bounds": [
+        14.8,
+        45.8,
+        15.0,
+        46.0
+      ],
+      "url": "si-built-74_229.geojson",
+      "n": 444
+    },
+    {
+      "bounds": [
+        14.8,
+        46.0,
+        15.0,
+        46.2
+      ],
+      "url": "si-built-74_230.geojson",
+      "n": 506
+    },
+    {
+      "bounds": [
+        14.8,
+        46.2,
+        15.0,
+        46.4
+      ],
+      "url": "si-built-74_231.geojson",
+      "n": 568
+    },
+    {
+      "bounds": [
+        14.8,
+        46.4,
+        15.0,
+        46.6
+      ],
+      "url": "si-built-74_232.geojson",
+      "n": 495
+    },
+    {
+      "bounds": [
+        14.8,
+        46.6,
+        15.0,
+        46.8
+      ],
+      "url": "si-built-74_233.geojson",
+      "n": 32
+    },
+    {
+      "bounds": [
+        15.0,
+        45.4,
+        15.2,
+        45.6
+      ],
+      "url": "si-built-75_227.geojson",
+      "n": 233
+    },
+    {
+      "bounds": [
+        15.0,
+        45.6,
+        15.2,
+        45.8
+      ],
+      "url": "si-built-75_228.geojson",
+      "n": 324
+    },
+    {
+      "bounds": [
+        15.0,
+        45.8,
+        15.2,
+        46.0
+      ],
+      "url": "si-built-75_229.geojson",
+      "n": 382
+    },
+    {
+      "bounds": [
+        15.0,
+        46.0,
+        15.2,
+        46.2
+      ],
+      "url": "si-built-75_230.geojson",
+      "n": 605
+    },
+    {
+      "bounds": [
+        15.0,
+        46.2,
+        15.2,
+        46.4
+      ],
+      "url": "si-built-75_231.geojson",
+      "n": 530
+    },
+    {
+      "bounds": [
+        15.0,
+        46.4,
+        15.2,
+        46.6
+      ],
+      "url": "si-built-75_232.geojson",
+      "n": 598
+    },
+    {
+      "bounds": [
+        15.0,
+        46.6,
+        15.2,
+        46.8
+      ],
+      "url": "si-built-75_233.geojson",
+      "n": 150
+    },
+    {
+      "bounds": [
+        15.2,
+        45.4,
+        15.4,
+        45.6
+      ],
+      "url": "si-built-76_227.geojson",
+      "n": 197
+    },
+    {
+      "bounds": [
+        15.2,
+        45.6,
+        15.4,
+        45.8
+      ],
+      "url": "si-built-76_228.geojson",
+      "n": 290
+    },
+    {
+      "bounds": [
+        15.2,
+        45.8,
+        15.4,
+        46.0
+      ],
+      "url": "si-built-76_229.geojson",
+      "n": 470
+    },
+    {
+      "bounds": [
+        15.2,
+        46.0,
+        15.4,
+        46.2
+      ],
+      "url": "si-built-76_230.geojson",
+      "n": 782
+    },
+    {
+      "bounds": [
+        15.2,
+        46.2,
+        15.4,
+        46.4
+      ],
+      "url": "si-built-76_231.geojson",
+      "n": 598
+    },
+    {
+      "bounds": [
+        15.2,
+        46.4,
+        15.4,
+        46.6
+      ],
+      "url": "si-built-76_232.geojson",
+      "n": 457
+    },
+    {
+      "bounds": [
+        15.2,
+        46.6,
+        15.4,
+        46.8
+      ],
+      "url": "si-built-76_233.geojson",
+      "n": 125
+    },
+    {
+      "bounds": [
+        15.4,
+        45.6,
+        15.6,
+        45.8
+      ],
+      "url": "si-built-77_228.geojson",
+      "n": 9
+    },
+    {
+      "bounds": [
+        15.4,
+        45.8,
+        15.6,
+        46.0
+      ],
+      "url": "si-built-77_229.geojson",
+      "n": 429
+    },
+    {
+      "bounds": [
+        15.4,
+        46.0,
+        15.6,
+        46.2
+      ],
+      "url": "si-built-77_230.geojson",
+      "n": 752
+    },
+    {
+      "bounds": [
+        15.4,
+        46.2,
+        15.6,
+        46.4
+      ],
+      "url": "si-built-77_231.geojson",
+      "n": 702
+    },
+    {
+      "bounds": [
+        15.4,
+        46.4,
+        15.6,
+        46.6
+      ],
+      "url": "si-built-77_232.geojson",
+      "n": 597
+    },
+    {
+      "bounds": [
+        15.4,
+        46.6,
+        15.6,
+        46.8
+      ],
+      "url": "si-built-77_233.geojson",
+      "n": 182
+    },
+    {
+      "bounds": [
+        15.6,
+        45.8,
+        15.8,
+        46.0
+      ],
+      "url": "si-built-78_229.geojson",
+      "n": 212
+    },
+    {
+      "bounds": [
+        15.6,
+        46.0,
+        15.8,
+        46.2
+      ],
+      "url": "si-built-78_230.geojson",
+      "n": 158
+    },
+    {
+      "bounds": [
+        15.6,
+        46.2,
+        15.8,
+        46.4
+      ],
+      "url": "si-built-78_231.geojson",
+      "n": 597
+    },
+    {
+      "bounds": [
+        15.6,
+        46.4,
+        15.8,
+        46.6
+      ],
+      "url": "si-built-78_232.geojson",
+      "n": 349
+    },
+    {
+      "bounds": [
+        15.6,
+        46.6,
+        15.8,
+        46.8
+      ],
+      "url": "si-built-78_233.geojson",
+      "n": 277
+    },
+    {
+      "bounds": [
+        15.8,
+        46.2,
+        16.0,
+        46.4
+      ],
+      "url": "si-built-79_231.geojson",
+      "n": 330
+    },
+    {
+      "bounds": [
+        15.8,
+        46.4,
+        16.0,
+        46.6
+      ],
+      "url": "si-built-79_232.geojson",
+      "n": 331
+    },
+    {
+      "bounds": [
+        15.8,
+        46.6,
+        16.0,
+        46.8
+      ],
+      "url": "si-built-79_233.geojson",
+      "n": 228
+    },
+    {
+      "bounds": [
+        15.8,
+        46.8,
+        16.0,
+        47.0
+      ],
+      "url": "si-built-79_234.geojson",
+      "n": 8
+    },
+    {
+      "bounds": [
+        16.0,
+        46.2,
+        16.2,
+        46.4
+      ],
+      "url": "si-built-80_231.geojson",
+      "n": 163
+    },
+    {
+      "bounds": [
+        16.0,
+        46.4,
+        16.2,
+        46.6
+      ],
+      "url": "si-built-80_232.geojson",
+      "n": 384
+    },
+    {
+      "bounds": [
+        16.0,
+        46.6,
+        16.2,
+        46.8
+      ],
+      "url": "si-built-80_233.geojson",
+      "n": 341
+    },
+    {
+      "bounds": [
+        16.0,
+        46.8,
+        16.2,
+        47.0
+      ],
+      "url": "si-built-80_234.geojson",
+      "n": 92
+    },
+    {
+      "bounds": [
+        16.2,
+        46.2,
+        16.4,
+        46.4
+      ],
+      "url": "si-built-81_231.geojson",
+      "n": 35
+    },
+    {
+      "bounds": [
+        16.2,
+        46.4,
+        16.4,
+        46.6
+      ],
+      "url": "si-built-81_232.geojson",
+      "n": 245
+    },
+    {
+      "bounds": [
+        16.2,
+        46.6,
+        16.4,
+        46.8
+      ],
+      "url": "si-built-81_233.geojson",
+      "n": 241
+    },
+    {
+      "bounds": [
+        16.2,
+        46.8,
+        16.4,
+        47.0
+      ],
+      "url": "si-built-81_234.geojson",
+      "n": 76
+    },
+    {
+      "bounds": [
+        16.4,
+        46.4,
+        16.6,
+        46.6
+      ],
+      "url": "si-built-82_232.geojson",
+      "n": 76
+    },
+    {
+      "bounds": [
+        16.4,
+        46.6,
+        16.6,
+        46.8
+      ],
+      "url": "si-built-82_233.geojson",
+      "n": 11
+    }
+  ]
+}
