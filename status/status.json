@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-07T07:13:45.735041+00:00",
+  "generated": "2026-08-07T07:25:56.401283+00:00",
   "summary": {
-    "fail": 0,
+    "fail": 1,
     "warn": 23,
-    "ok": 189,
+    "ok": 188,
     "total_checks": 286,
     "countries_total": 55,
     "countries_ok": 36
@@ -1638,7 +1638,7 @@
       "iso": "IS",
       "name": "Iceland",
       "flag": "🇮🇸",
-      "status": "warn",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1695,8 +1695,8 @@
         },
         {
           "name": "Länk: FlyDrone.is – Loftrýmiskort",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "fail",
+          "detail": "domänen finns inte (NXDOMAIN) — död länk [URLError: [Errno 8] nodename nor servname provided, or not known]",
           "last_modified": null,
           "url": "https://flydrone.is",
           "kind": "link",
@@ -2024,7 +2024,7 @@
         {
           "name": "Feed: ro-zones",
           "status": "ok",
-          "detail": "hämtad 5 min sen, 650 kB",
+          "detail": "hämtad 17 min sen, 650 kB",
           "last_modified": "2026-08-07T07:08:00+00:00",
           "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -2303,7 +2303,7 @@
         {
           "name": "Feed: de-temporaere_betriebseinschraenkungen",
           "status": "ok",
-          "detail": "data oförändrad sedan 18 min sen, 78 kB",
+          "detail": "data oförändrad sedan 30 min sen, 78 kB",
           "last_modified": "2026-08-07T06:54:49+00:00",
           "url": "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson?cb=20260714a",
           "kind": "feed",
@@ -3225,7 +3225,7 @@
         {
           "name": "AIP-SUP Gist (se.json)",
           "status": "ok",
-          "detail": "21h sen, 75 SUPs",
+          "detail": "22h sen, 75 SUPs",
           "last_modified": "2026-08-06T09:18:22.148859+00:00",
           "url": null,
           "kind": "gist",
@@ -3345,7 +3345,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 1h sen, 602 kB",
+          "detail": "data oförändrad sedan 2h sen, 602 kB",
           "last_modified": "2026-08-07T05:23:15+00:00",
           "url": "https://pappilappi.com/airspace/no.geojson?v=11",
           "kind": "feed",
@@ -3356,7 +3356,7 @@
         {
           "name": "Feed: no-nature",
           "status": "ok",
-          "detail": "data oförändrad sedan 1h sen, 20733 kB",
+          "detail": "data oförändrad sedan 2h sen, 20733 kB",
           "last_modified": "2026-08-07T05:23:15+00:00",
           "url": "https://pappilappi.com/airspace/no-nature.geojson?cb=20260802a",
           "kind": "feed",
@@ -3367,7 +3367,7 @@
         {
           "name": "Feed: no-nve-infra",
           "status": "ok",
-          "detail": "hämtad 1h sen, 123 kB",
+          "detail": "hämtad 2h sen, 123 kB",
           "last_modified": "2026-08-07T05:23:15+00:00",
           "url": "https://pappilappi.com/airspace/no-nve-infra.geojson?cb=20260604a",
           "kind": "feed",
@@ -3641,7 +3641,7 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 56 min sen, 505 kB",
+          "detail": "data oförändrad sedan 1h sen, 505 kB",
           "last_modified": "2026-08-07T06:17:29+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
@@ -3899,7 +3899,7 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "4 min sen, 29421 NOTAMs, max cirkel 60 NM, 81 GNSS-områden i egen kanal",
+          "detail": "15 min sen, 29421 NOTAMs, max cirkel 60 NM, 81 GNSS-områden i egen kanal",
           "last_modified": "2026-08-07T07:09:00.164370+00:00",
           "url": null,
           "kind": "gist",
@@ -3964,8 +3964,8 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "ok",
-          "detail": "20h sen, 7 kB",
-          "last_modified": "2026-08-06T11:13:04+00:00",
+          "detail": "7 min sen, 7 kB",
+          "last_modified": "2026-08-07T07:17:42+00:00",
           "url": null,
           "kind": "other"
         },
