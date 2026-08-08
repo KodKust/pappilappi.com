@@ -12,20 +12,23 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p><strong>DroneKoll</strong> — last updated: 2026-04-07</p>
+  <p><strong>DroneKoll</strong> — last updated: 2026-08-08</p>
 
   <h2>Summary</h2>
-  <p>DroneKoll collects <strong>no personal information</strong> about you. We do not sell, share or store any data on external servers.</p>
+  <p>Everything you enter stays on your device. We do not sell, share or store your data on our servers. The only data that leaves your device is crash reports — see below.</p>
 
   <h2>Location data</h2>
   <p>The app uses your GPS position to display relevant weather and air traffic information nearby. Your location <strong>never leaves your device</strong> — it is not sent to any servers and is not stored permanently.</p>
   <p>The app makes anonymous API requests to open services (Open-Meteo, adsb.fi, Nominatim/OpenStreetMap) using your approximate position. These services may log IP addresses according to their own terms.</p>
 
   <h2>Flight log</h2>
-  <p>Logged flights (time, location, drone) are stored <strong>only locally on your device</strong> via iOS standard storage. No data is synced to the cloud or shared with third parties.</p>
+  <p>Logged flights (time, location, drone) are stored <strong>only locally on your device</strong> via the device's standard storage. No data is synced to the cloud or shared with third parties.</p>
 
   <h2>Drone certificate</h2>
   <p>Images you upload are stored <strong>only locally on your device</strong>.</p>
+
+  <h2>Pro profile (pilot details)</h2>
+  <p>If you use Pro mode, the details you enter — name, email address, phone number, certificate numbers, operator ID, insurance details and your signature — are stored in your device's <strong>secure storage</strong> (Keychain on iOS, Keystore on Android). They are used to fill in your flight log, drone card and PDF exports. They are <strong>never transmitted</strong> to us or to any third party.</p>
 
   <h2>Settings and preferences</h2>
   <p>App settings (e.g. selected country, drone model) are stored locally in the app's settings on your device and are not transmitted.</p>
@@ -41,8 +44,16 @@
   </ul>
   <p>No personal data is transmitted to these services. Requests contain only geographic coordinates to retrieve location-based data.</p>
 
-  <h2>No tracking or analytics</h2>
-  <p>The app does not use any analytics, tracking or advertising services. No user profiles are created.</p>
+  <h2>Crash reports (Firebase Crashlytics)</h2>
+  <p>The app uses Firebase Crashlytics (Google LLC) for crash analysis. When the app crashes, the following technical data is sent to Google's servers:</p>
+  <ul>
+    <li>Device model and OS version</li>
+    <li>App version</li>
+    <li>Timestamp and stack trace for the crash</li>
+    <li>An installation ID that cannot be linked to you as a person</li>
+  </ul>
+  <p>No location data or personal details are sent. More information: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
+  <p>Apart from Crashlytics, the app uses no analytics, tracking or advertising services. No user profiles are created.</p>
 
   <h2>Contact</h2>
   <p>Questions about privacy: <a href="mailto:twistcase@gmail.com">twistcase@gmail.com</a></p>

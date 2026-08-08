@@ -12,20 +12,23 @@
 </head>
 <body>
   <h1>Politica de confidențialitate</h1>
-  <p><strong>DroneKoll</strong> — ultima actualizare: 2026-04-07</p>
+  <p><strong>DroneKoll</strong> — ultima actualizare: 2026-08-08</p>
 
   <h2>Rezumat</h2>
-  <p>DroneKoll nu colectează <strong>nicio informație personală</strong> despre dumneavoastră. Nu vindem, nu partajăm și nu stocăm date pe servere externe.</p>
+  <p>Tot ce introduceți rămâne pe dispozitivul dumneavoastră. Nu vindem, nu partajăm și nu stocăm datele dumneavoastră pe serverele noastre. Singurul lucru care părăsește dispozitivul sunt rapoartele de eroare — vedeți mai jos.</p>
 
   <h2>Date de localizare</h2>
   <p>Aplicația folosește poziția dumneavoastră GPS pentru a afișa informații meteorologice și de trafic aerian relevante din apropiere. Locația dumneavoastră <strong>nu părăsește niciodată dispozitivul</strong> — nu este trimisă către niciun server și nu este stocată permanent.</p>
   <p>Aplicația efectuează solicitări API anonime către servicii deschise (Open-Meteo, adsb.fi, Nominatim/OpenStreetMap) folosind poziția dumneavoastră aproximativă. Aceste servicii pot înregistra adrese IP conform propriilor termeni.</p>
 
   <h2>Jurnal de zbor</h2>
-  <p>Zborurile înregistrate (timp, locație, dronă) sunt stocate <strong>numai local pe dispozitivul dumneavoastră</strong> prin stocarea standard iOS. Nicio dată nu este sincronizată în cloud sau partajată cu terți.</p>
+  <p>Zborurile înregistrate (timp, locație, dronă) sunt stocate <strong>numai local pe dispozitivul dumneavoastră</strong> prin stocarea standard a dispozitivului. Nicio dată nu este sincronizată în cloud sau partajată cu terți.</p>
 
   <h2>Certificat de dronă</h2>
   <p>Imaginile pe care le încărcați sunt stocate <strong>numai local pe dispozitivul dumneavoastră</strong>.</p>
+
+  <h2>Profil Pro (datele pilotului)</h2>
+  <p>Dacă folosiți modul Pro, datele pe care le introduceți — nume, adresă de e-mail, telefon, numere de certificat, ID de operator, date de asigurare și semnătura dumneavoastră — sunt păstrate în <strong>stocarea securizată</strong> a dispozitivului (Keychain pe iOS, Keystore pe Android). Sunt folosite pentru a completa jurnalul de zbor, cardul de dronă și exporturile PDF. <strong>Nu sunt niciodată transmise</strong> către noi sau către terți.</p>
 
   <h2>Setări și preferințe</h2>
   <p>Setările aplicației (de exemplu, țara selectată, modelul dronei) sunt stocate local în setările aplicației de pe dispozitivul dumneavoastră și nu sunt transmise.</p>
@@ -41,8 +44,16 @@
   </ul>
   <p>Nu se transmit date personale către aceste servicii. Solicitările conțin doar coordonate geografice pentru a obține date bazate pe locație.</p>
 
-  <h2>Fără urmărire sau analiză</h2>
-  <p>Aplicația nu utilizează servicii de analiză, urmărire sau publicitate. Nu sunt create profiluri de utilizator.</p>
+  <h2>Rapoarte de eroare (Firebase Crashlytics)</h2>
+  <p>Aplicația folosește Firebase Crashlytics (Google LLC) pentru analiza erorilor. La o eroare, următoarele date tehnice sunt trimise către serverele Google:</p>
+  <ul>
+    <li>Modelul dispozitivului și versiunea sistemului de operare</li>
+    <li>Versiunea aplicației</li>
+    <li>Marcaj de timp și urma erorii</li>
+    <li>Un ID de instalare care nu poate fi asociat cu dumneavoastră ca persoană</li>
+  </ul>
+  <p>Nu se trimit date de localizare sau date personale. Mai multe informații: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
+  <p>În afară de Crashlytics, aplicația nu folosește servicii de analiză, urmărire sau publicitate. Nu se creează profiluri de utilizator.</p>
 
   <h2>Contact</h2>
   <p>Întrebări legate de confidențialitate: <a href="mailto:twistcase@gmail.com">twistcase@gmail.com</a></p>

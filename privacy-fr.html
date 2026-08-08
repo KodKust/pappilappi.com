@@ -12,20 +12,23 @@
 </head>
 <body>
   <h1>Politique de confidentialité</h1>
-  <p><strong>DroneKoll</strong> — dernière mise à jour : 2026-04-07</p>
+  <p><strong>DroneKoll</strong> — dernière mise à jour : 2026-08-08</p>
 
   <h2>Résumé</h2>
-  <p>DroneKoll ne collecte <strong>aucune information personnelle</strong> vous concernant. Nous ne vendons, ne partageons ni ne stockons aucune donnée sur des serveurs externes.</p>
+  <p>Tout ce que vous saisissez reste sur votre appareil. Nous ne vendons, ne partageons ni ne stockons vos données sur nos serveurs. La seule chose qui quitte votre appareil, ce sont les rapports de plantage — voir ci-dessous.</p>
 
   <h2>Données de localisation</h2>
   <p>L'application utilise votre position GPS pour afficher les informations météorologiques et le trafic aérien pertinents à proximité. Votre position <strong>ne quitte jamais votre appareil</strong> — elle n'est envoyée à aucun serveur et n'est pas stockée de manière permanente.</p>
   <p>L'application effectue des requêtes API anonymes vers des services ouverts (Open-Meteo, adsb.fi, Nominatim/OpenStreetMap) en utilisant votre position approximative. Ces services peuvent enregistrer les adresses IP conformément à leurs propres conditions.</p>
 
   <h2>Journal de vol</h2>
-  <p>Les vols enregistrés (heure, lieu, drone) sont stockés <strong>uniquement localement sur votre appareil</strong> via le stockage standard iOS. Aucune donnée n'est synchronisée avec le cloud ni partagée avec des tiers.</p>
+  <p>Les vols enregistrés (heure, lieu, drone) sont stockés <strong>uniquement localement sur votre appareil</strong> via le stockage standard de l'appareil. Aucune donnée n'est synchronisée avec le cloud ni partagée avec des tiers.</p>
 
   <h2>Certificat de drone</h2>
   <p>Les images que vous téléchargez sont stockées <strong>uniquement localement sur votre appareil</strong>.</p>
+
+  <h2>Profil Pro (informations du télépilote)</h2>
+  <p>Si vous utilisez le mode Pro, les informations que vous saisissez — nom, adresse e-mail, numéro de téléphone, numéros de certificat, identifiant d'exploitant, informations d'assurance et votre signature — sont conservées dans le <strong>stockage sécurisé</strong> de votre appareil (Keychain sur iOS, Keystore sur Android). Elles servent à remplir le carnet de vol, la carte de drone et les exports PDF. Elles ne nous sont <strong>jamais transmises</strong>, ni à des tiers.</p>
 
   <h2>Paramètres et préférences</h2>
   <p>Les paramètres de l'application (par exemple le pays sélectionné, le modèle de drone) sont stockés localement dans les paramètres de l'application sur votre appareil et ne sont pas transmis.</p>
@@ -41,8 +44,16 @@
   </ul>
   <p>Aucune donnée personnelle n'est transmise à ces services. Les requêtes ne contiennent que des coordonnées géographiques permettant de récupérer des données basées sur la localisation.</p>
 
-  <h2>Pas de suivi ni d'analyse</h2>
-  <p>L'application n'utilise aucun service d'analyse, de suivi ou de publicité. Aucun profil utilisateur n'est créé.</p>
+  <h2>Rapports de plantage (Firebase Crashlytics)</h2>
+  <p>L'application utilise Firebase Crashlytics (Google LLC) pour l'analyse des plantages. Lors d'un plantage, les données techniques suivantes sont envoyées aux serveurs de Google :</p>
+  <ul>
+    <li>Modèle d'appareil et version du système d'exploitation</li>
+    <li>Version de l'application</li>
+    <li>Horodatage et trace d'appels du plantage</li>
+    <li>Un identifiant d'installation qui ne peut pas vous être associé personnellement</li>
+  </ul>
+  <p>Aucune donnée de localisation ni donnée personnelle n'est envoyée. En savoir plus : <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
+  <p>En dehors de Crashlytics, l'application n'utilise aucun service d'analyse, de suivi ou de publicité. Aucun profil utilisateur n'est créé.</p>
 
   <h2>Contact</h2>
   <p>Questions concernant la confidentialité : <a href="mailto:twistcase@gmail.com">twistcase@gmail.com</a></p>

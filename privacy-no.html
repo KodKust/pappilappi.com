@@ -12,20 +12,23 @@
 </head>
 <body>
   <h1>Personvernerklæring</h1>
-  <p><strong>Drønekollen</strong> — sist oppdatert: 2026-04-07</p>
+  <p><strong>Drønekollen</strong> — sist oppdatert: 2026-08-08</p>
 
   <h2>Kort oppsummering</h2>
-  <p>Drønekollen samler <strong>ingen personlig informasjon</strong> om deg. Vi selger, deler eller lagrer ingen data på eksterne servere.</p>
+  <p>Alt du fyller inn blir værende på enheten din. Vi selger, deler eller lagrer ikke dataene dine på våre servere. Det eneste som forlater enheten er krasjrapporter — se nedenfor.</p>
 
   <h2>Posisjonsdata</h2>
   <p>Appen bruker GPS-posisjonen din for å vise relevant luftromsinformasjon, vær og flytrafikk i nærheten. Posisjonen <strong>forlater aldri enheten din</strong> — den sendes ikke til noen servere og lagres ikke permanent.</p>
   <p>Appen gjør anonyme API-forespørsler til åpne tjenester (Open-Meteo, adsb.fi, Nominatim/OpenStreetMap) med din omtrentlige posisjon. Disse tjenestene kan logge IP-adresser i henhold til sine egne vilkår.</p>
 
   <h2>Flygedagbok</h2>
-  <p>Loggede flygninger (tid, sted, drone) lagres <strong>kun lokalt på enheten din</strong> via iOS sin standardlagring. Ingen data synkroniseres til skyen eller deles med tredjeparter.</p>
+  <p>Loggede flygninger (tid, sted, drone) lagres <strong>kun lokalt på enheten din</strong> via enhetens standardlagring. Ingen data synkroniseres til skyen eller deles med tredjeparter.</p>
 
   <h2>Kompetansebevis</h2>
   <p>Bilder du laster opp lagres <strong>kun lokalt på enheten din</strong>.</p>
+
+  <h2>Pro-profil (pilotopplysninger)</h2>
+  <p>Bruker du Pro-modus, lagres opplysningene du fyller inn — navn, e-postadresse, telefonnummer, sertifikatnumre, operatør-ID, forsikringsopplysninger og signaturen din — i enhetens <strong>sikre lagring</strong> (Keychain på iOS, Keystore på Android). De brukes til å fylle ut flygedagbok, dronekort og PDF-eksport. De <strong>overføres aldri</strong> til oss eller til tredjeparter.</p>
 
   <h2>Innstillinger og preferanser</h2>
   <p>Appinnstillinger (f.eks. valgt land, dronemodell) lagres lokalt i appens innstillinger på enheten din og overføres ikke.</p>
@@ -41,8 +44,16 @@
   </ul>
   <p>Det overføres ingen personopplysninger til disse tjenestene. Forespørslene inneholder kun geografiske koordinater for å hente stedsbaserte data.</p>
 
-  <h2>Ingen sporing eller analyse</h2>
-  <p>Appen bruker ingen analyse-, sporings- eller annonsetjenester. Det opprettes ingen brukerprofiler.</p>
+  <h2>Krasjrapporter (Firebase Crashlytics)</h2>
+  <p>Appen bruker Firebase Crashlytics (Google LLC) for krasjanalyse. Ved en krasj sendes følgende tekniske data til Googles servere:</p>
+  <ul>
+    <li>Enhetsmodell og OS-versjon</li>
+    <li>App-versjon</li>
+    <li>Tidsstempel og stack trace for krasjen</li>
+    <li>En installasjons-ID som ikke kan knyttes til deg som person</li>
+  </ul>
+  <p>Ingen posisjonsdata eller personopplysninger sendes. Les mer: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
+  <p>Utover Crashlytics brukes ingen analyse-, sporings- eller reklametjenester. Det opprettes ingen brukerprofiler.</p>
 
   <h2>Kontakt</h2>
   <p>Spørsmål om personvern: <a href="mailto:twistcase@gmail.com">twistcase@gmail.com</a></p>

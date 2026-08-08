@@ -12,20 +12,23 @@
 </head>
 <body>
   <h1>Pravila privatnosti</h1>
-  <p><strong>DroneKoll</strong> — posljednje ažuriranje: 2026-04-07</p>
+  <p><strong>DroneKoll</strong> — posljednje ažuriranje: 2026-08-08</p>
 
   <h2>Sažetak</h2>
-  <p>DroneKoll ne prikuplja <strong>nikakve osobne podatke</strong> o vama. Ne prodajemo, ne dijelimo niti pohranjujemo podatke na vanjskim poslužiteljima.</p>
+  <p>Sve što unesete ostaje na vašem uređaju. Vaše podatke ne prodajemo, ne dijelimo niti pohranjujemo na našim poslužiteljima. Jedino što napušta uređaj su izvješća o rušenju — vidi niže.</p>
 
   <h2>Podaci o lokaciji</h2>
   <p>Aplikacija koristi vaš GPS položaj za prikaz relevantnih vremenskih i zračnoprometnih informacija u blizini. Vaša lokacija <strong>nikada ne napušta vaš uređaj</strong> — ne šalje se nijednom poslužitelju i ne pohranjuje se trajno.</p>
   <p>Aplikacija šalje anonimne API zahtjeve prema otvorenim servisima (Open-Meteo, adsb.fi, Nominatim/OpenStreetMap) koristeći vaš približan položaj. Ovi servisi mogu bilježiti IP adrese u skladu s vlastitim uvjetima.</p>
 
   <h2>Dnevnik letova</h2>
-  <p>Zabilježeni letovi (vrijeme, lokacija, dron) pohranjuju se <strong>samo lokalno na vašem uređaju</strong> putem iOS standardne pohrane. Nikakvi se podaci ne sinkroniziraju s oblakom niti dijele s trećim stranama.</p>
+  <p>Zabilježeni letovi (vrijeme, lokacija, dron) pohranjuju se <strong>samo lokalno na vašem uređaju</strong> putem standardne pohrane uređaja. Nikakvi se podaci ne sinkroniziraju s oblakom niti dijele s trećim stranama.</p>
 
   <h2>Certifikat drona</h2>
   <p>Slike koje učitavate pohranjuju se <strong>samo lokalno na vašem uređaju</strong>.</p>
+
+  <h2>Pro profil (podaci pilota)</h2>
+  <p>Ako koristite Pro način rada, podaci koje unesete — ime, e-adresa, telefon, brojevi potvrda, ID operatora, podaci o osiguranju i vaš potpis — pohranjuju se u <strong>sigurnu pohranu</strong> uređaja (Keychain na iOS-u, Keystore na Androidu). Koriste se za popunjavanje dnevnika letova, dronske iskaznice i PDF izvoza. <strong>Nikada se ne prenose</strong> nama ni trećim stranama.</p>
 
   <h2>Postavke i preferencije</h2>
   <p>Postavke aplikacije (npr. odabrana država, model drona) pohranjuju se lokalno u postavkama aplikacije na vašem uređaju i ne prenose se.</p>
@@ -41,8 +44,16 @@
   </ul>
   <p>Ovim se servisima ne prenose osobni podaci. Zahtjevi sadrže samo geografske koordinate za dohvaćanje podataka ovisno o lokaciji.</p>
 
-  <h2>Bez praćenja i analitike</h2>
-  <p>Aplikacija ne koristi nikakve analitičke, alate za praćenje ni oglašivačke usluge. Ne stvaraju se korisnički profili.</p>
+  <h2>Izvješća o rušenju (Firebase Crashlytics)</h2>
+  <p>Aplikacija koristi Firebase Crashlytics (Google LLC) za analizu rušenja. Pri rušenju se na Googleove poslužitelje šalju sljedeći tehnički podaci:</p>
+  <ul>
+    <li>Model uređaja i verzija operacijskog sustava</li>
+    <li>Verzija aplikacije</li>
+    <li>Vremenska oznaka i trag pogreške rušenja</li>
+    <li>ID instalacije koji se ne može povezati s vama kao osobom</li>
+  </ul>
+  <p>Ne šalju se podaci o lokaciji ni osobni podaci. Više informacija: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
+  <p>Osim Crashlyticsa, aplikacija ne koristi usluge analitike, praćenja ni oglašavanja. Ne stvaraju se korisnički profili.</p>
 
   <h2>Kontakt</h2>
   <p>Pitanja o privatnosti: <a href="mailto:twistcase@gmail.com">twistcase@gmail.com</a></p>

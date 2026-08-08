@@ -12,20 +12,23 @@
 </head>
 <body>
   <h1>Informativa sulla privacy</h1>
-  <p><strong>DroneKoll</strong> — ultimo aggiornamento: 2026-04-07</p>
+  <p><strong>DroneKoll</strong> — ultimo aggiornamento: 2026-08-08</p>
 
   <h2>Riepilogo</h2>
-  <p>DroneKoll non raccoglie <strong>alcuna informazione personale</strong> su di te. Non vendiamo, condividiamo né memorizziamo alcun dato su server esterni.</p>
+  <p>Tutto ciò che inserisci resta sul tuo dispositivo. Non vendiamo, condividiamo né conserviamo i tuoi dati sui nostri server. L'unica cosa che lascia il dispositivo sono i rapporti di arresto anomalo — vedi sotto.</p>
 
   <h2>Dati di posizione</h2>
   <p>L'app utilizza la tua posizione GPS per mostrare informazioni meteorologiche e sul traffico aereo rilevanti nelle vicinanze. La tua posizione <strong>non lascia mai il tuo dispositivo</strong> — non viene inviata ad alcun server e non viene memorizzata in modo permanente.</p>
   <p>L'app effettua richieste API anonime a servizi aperti (Open-Meteo, adsb.fi, Nominatim/OpenStreetMap) utilizzando la tua posizione approssimativa. Questi servizi possono registrare gli indirizzi IP secondo i propri termini.</p>
 
   <h2>Registro di volo</h2>
-  <p>I voli registrati (ora, posizione, drone) vengono memorizzati <strong>solo localmente sul tuo dispositivo</strong> tramite l'archiviazione standard di iOS. Nessun dato viene sincronizzato con il cloud o condiviso con terze parti.</p>
+  <p>I voli registrati (ora, posizione, drone) vengono memorizzati <strong>solo localmente sul tuo dispositivo</strong> tramite l'archiviazione standard del dispositivo. Nessun dato viene sincronizzato con il cloud o condiviso con terze parti.</p>
 
   <h2>Certificato del drone</h2>
   <p>Le immagini che carichi vengono memorizzate <strong>solo localmente sul tuo dispositivo</strong>.</p>
+
+  <h2>Profilo Pro (dati del pilota)</h2>
+  <p>Se usi la modalità Pro, i dati che inserisci — nome, indirizzo e-mail, numero di telefono, numeri di certificato, ID operatore, dati assicurativi e la tua firma — sono conservati nell'<strong>archivio sicuro</strong> del dispositivo (Keychain su iOS, Keystore su Android). Servono a compilare il registro di volo, il tesserino del drone e le esportazioni PDF. <strong>Non vengono mai trasmessi</strong> a noi né a terzi.</p>
 
   <h2>Impostazioni e preferenze</h2>
   <p>Le impostazioni dell'app (ad esempio il paese selezionato, il modello di drone) vengono memorizzate localmente nelle impostazioni dell'app sul tuo dispositivo e non vengono trasmesse.</p>
@@ -41,8 +44,16 @@
   </ul>
   <p>Nessun dato personale viene trasmesso a questi servizi. Le richieste contengono solo coordinate geografiche per recuperare dati basati sulla posizione.</p>
 
-  <h2>Nessun tracciamento o analisi</h2>
-  <p>L'app non utilizza alcun servizio di analisi, tracciamento o pubblicità. Non vengono creati profili utente.</p>
+  <h2>Rapporti di arresto anomalo (Firebase Crashlytics)</h2>
+  <p>L'app utilizza Firebase Crashlytics (Google LLC) per l'analisi degli arresti anomali. In caso di arresto, ai server di Google vengono inviati i seguenti dati tecnici:</p>
+  <ul>
+    <li>Modello del dispositivo e versione del sistema operativo</li>
+    <li>Versione dell'app</li>
+    <li>Data/ora e stack trace dell'arresto</li>
+    <li>Un ID di installazione che non può essere collegato a te come persona</li>
+  </ul>
+  <p>Non vengono inviati dati di posizione né dati personali. Maggiori informazioni: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
+  <p>Oltre a Crashlytics, l'app non utilizza servizi di analisi, tracciamento o pubblicità. Non vengono creati profili utente.</p>
 
   <h2>Contatti</h2>
   <p>Domande sulla privacy: <a href="mailto:twistcase@gmail.com">twistcase@gmail.com</a></p>

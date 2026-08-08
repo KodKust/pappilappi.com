@@ -12,20 +12,23 @@
 </head>
 <body>
   <h1>Adatvédelmi tájékoztató</h1>
-  <p><strong>DroneKoll</strong> — utolsó frissítés: 2026-04-07</p>
+  <p><strong>DroneKoll</strong> — utolsó frissítés: 2026-08-08</p>
 
   <h2>Összefoglaló</h2>
-  <p>A DroneKoll <strong>semmilyen személyes adatot</strong> nem gyűjt Önről. Nem értékesítünk, nem osztunk meg és nem tárolunk adatokat külső szervereken.</p>
+  <p>Minden, amit megad, a készülékén marad. Adatait nem adjuk el, nem osztjuk meg és nem tároljuk a szervereinken. Az egyetlen, ami elhagyja a készüléket, az összeomlási jelentés — lásd lent.</p>
 
   <h2>Helyadatok</h2>
   <p>Az alkalmazás a GPS-pozícióját használja a közelben lévő releváns időjárási és légiforgalmi információk megjelenítéséhez. A helyzete <strong>soha nem hagyja el az eszközét</strong> — nem küldjük el semmilyen szervernek, és nem tároljuk állandó jelleggel.</p>
   <p>Az alkalmazás anonim API-kéréseket küld nyílt szolgáltatások (Open-Meteo, adsb.fi, Nominatim/OpenStreetMap) felé a megközelítő pozíciója alapján. Ezek a szolgáltatások saját feltételeiknek megfelelően naplózhatják az IP-címeket.</p>
 
   <h2>Repülési napló</h2>
-  <p>A rögzített repülések (idő, hely, drón) <strong>csak helyben, az eszközén</strong> kerülnek tárolásra az iOS szabványos tárolóján keresztül. Semmilyen adatot nem szinkronizálunk a felhővel, és nem osztunk meg harmadik féllel.</p>
+  <p>A rögzített repülések (idő, hely, drón) <strong>csak helyben, az eszközén</strong> kerülnek tárolásra a készülék szabványos tárolóján keresztül. Semmilyen adatot nem szinkronizálunk a felhővel, és nem osztunk meg harmadik féllel.</p>
 
   <h2>Drón igazolvány</h2>
   <p>A feltöltött képek <strong>csak helyben, az eszközén</strong> kerülnek tárolásra.</p>
+
+  <h2>Pro profil (pilóta adatai)</h2>
+  <p>Ha a Pro módot használja, a megadott adatok — név, e-mail cím, telefonszám, képesítési számok, üzemben tartó azonosító, biztosítási adatok és az aláírása — a készülék <strong>biztonságos tárolójában</strong> maradnak (Keychain iOS-en, Keystore Androidon). Ezek töltik ki a repülési naplót, a drónkártyát és a PDF-exportokat. <strong>Soha nem kerülnek továbbításra</strong> hozzánk vagy harmadik félhez.</p>
 
   <h2>Beállítások és preferenciák</h2>
   <p>Az alkalmazás beállításai (pl. kiválasztott ország, drón modell) helyben tárolódnak az alkalmazás beállításaiban az eszközén, és nem kerülnek továbbításra.</p>
@@ -41,8 +44,16 @@
   </ul>
   <p>Ezekhez a szolgáltatásokhoz nem továbbítunk személyes adatokat. A kérések csak földrajzi koordinátákat tartalmaznak a helyalapú adatok lekéréséhez.</p>
 
-  <h2>Nincs nyomon követés vagy analitika</h2>
-  <p>Az alkalmazás nem használ analitikai, nyomon követési vagy hirdetési szolgáltatásokat. Nem készülnek felhasználói profilok.</p>
+  <h2>Összeomlási jelentések (Firebase Crashlytics)</h2>
+  <p>Az alkalmazás a Firebase Crashlytics (Google LLC) szolgáltatást használja összeomlás-elemzésre. Összeomláskor a következő technikai adatok kerülnek a Google szervereire:</p>
+  <ul>
+    <li>Készüléktípus és operációs rendszer verziója</li>
+    <li>Alkalmazásverzió</li>
+    <li>Az összeomlás időbélyege és hibanyoma</li>
+    <li>Egy telepítési azonosító, amely nem köthető Önhöz mint személyhez</li>
+  </ul>
+  <p>Helyadatok és személyes adatok nem kerülnek elküldésre. Bővebben: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
+  <p>A Crashlyticson kívül az alkalmazás nem használ analitikai, nyomkövető vagy hirdetési szolgáltatásokat. Felhasználói profilok nem jönnek létre.</p>
 
   <h2>Kapcsolat</h2>
   <p>Adatvédelemmel kapcsolatos kérdések: <a href="mailto:twistcase@gmail.com">twistcase@gmail.com</a></p>

@@ -12,20 +12,23 @@
 </head>
 <body>
   <h1>Zásady ochrany osobních údajů</h1>
-  <p><strong>DroneKoll</strong> — poslední aktualizace: 2026-04-07</p>
+  <p><strong>DroneKoll</strong> — poslední aktualizace: 2026-08-08</p>
 
   <h2>Shrnutí</h2>
-  <p>DroneKoll neshromažďuje <strong>žádné osobní údaje</strong> o vás. Neprodáváme, nesdílíme ani neukládáme žádná data na externích serverech.</p>
+  <p>Vše, co zadáte, zůstává ve vašem zařízení. Vaše údaje neprodáváme, nesdílíme ani neukládáme na našich serverech. Jediné, co zařízení opouští, jsou zprávy o pádu — viz níže.</p>
 
   <h2>Údaje o poloze</h2>
   <p>Aplikace používá vaši GPS polohu k zobrazení relevantních informací o počasí a leteckém provozu v okolí. Vaše poloha <strong>nikdy neopustí vaše zařízení</strong> — není odesílána na žádné servery a není trvale ukládána.</p>
   <p>Aplikace provádí anonymní API požadavky na otevřené služby (Open-Meteo, adsb.fi, Nominatim/OpenStreetMap) pomocí vaší přibližné polohy. Tyto služby mohou zaznamenávat IP adresy v souladu s vlastními podmínkami.</p>
 
   <h2>Záznam letů</h2>
-  <p>Zaznamenané lety (čas, poloha, dron) jsou uloženy <strong>pouze lokálně ve vašem zařízení</strong> prostřednictvím standardního úložiště iOS. Žádná data nejsou synchronizována do cloudu ani sdílena s třetími stranami.</p>
+  <p>Zaznamenané lety (čas, poloha, dron) jsou uloženy <strong>pouze lokálně ve vašem zařízení</strong> prostřednictvím standardního úložiště zařízení. Žádná data nejsou synchronizována do cloudu ani sdílena s třetími stranami.</p>
 
   <h2>Certifikát dronu</h2>
   <p>Obrázky, které nahráváte, jsou uloženy <strong>pouze lokálně ve vašem zařízení</strong>.</p>
+
+  <h2>Profil Pro (údaje pilota)</h2>
+  <p>Pokud používáte režim Pro, údaje, které zadáte — jméno, e-mailová adresa, telefon, čísla osvědčení, ID provozovatele, údaje o pojištění a váš podpis — se ukládají do <strong>zabezpečeného úložiště</strong> zařízení (Keychain v iOS, Keystore v Androidu). Slouží k vyplnění letového deníku, průkazu dronu a PDF exportů. <strong>Nikdy se nepřenášejí</strong> k nám ani třetím stranám.</p>
 
   <h2>Nastavení a předvolby</h2>
   <p>Nastavení aplikace (např. vybraná země, model dronu) jsou uložena lokálně v nastavení aplikace ve vašem zařízení a nejsou přenášena.</p>
@@ -41,8 +44,16 @@
   </ul>
   <p>Těmto službám nejsou předávány žádné osobní údaje. Požadavky obsahují pouze zeměpisné souřadnice pro získání dat podle polohy.</p>
 
-  <h2>Žádné sledování ani analytika</h2>
-  <p>Aplikace nepoužívá žádné analytické, sledovací ani reklamní služby. Nejsou vytvářeny žádné uživatelské profily.</p>
+  <h2>Zprávy o pádu (Firebase Crashlytics)</h2>
+  <p>Aplikace používá Firebase Crashlytics (Google LLC) k analýze pádů. Při pádu se na servery Googlu odesílají tyto technické údaje:</p>
+  <ul>
+    <li>Model zařízení a verze operačního systému</li>
+    <li>Verze aplikace</li>
+    <li>Časové razítko a chybový výpis pádu</li>
+    <li>ID instalace, které nelze spojit s vámi jako osobou</li>
+  </ul>
+  <p>Neodesílají se žádné údaje o poloze ani osobní údaje. Více informací: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></p>
+  <p>Kromě Crashlytics aplikace nepoužívá žádné analytické, sledovací ani reklamní služby. Nevytvářejí se žádné uživatelské profily.</p>
 
   <h2>Kontakt</h2>
   <p>Dotazy ohledně ochrany osobních údajů: <a href="mailto:twistcase@gmail.com">twistcase@gmail.com</a></p>
