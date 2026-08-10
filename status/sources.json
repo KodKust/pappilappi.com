@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T06:54:51.036438+00:00",
+  "generated": "2026-08-10T10:31:23.056250+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -119,7 +119,7 @@
     {
       "name": "Regelhash-bevakning",
       "status": "ok",
-      "detail": "55 av 55 länder, 167 URL:er bevakade — 22 källor utanför",
+      "detail": "55 av 55 länder, 165 URL:er bevakade — 18 källor utanför",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -135,7 +135,7 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "56 av 501 länkar trasiga i 19 länder",
+      "detail": "58 av 505 länkar trasiga i 20 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -239,6 +239,14 @@
       "kind": "other"
     },
     {
+      "name": "🇷🇴 RO — Rumänien",
+      "status": "warn",
+      "detail": "2 av 9 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://flightplan.romatsa.ro/",
+      "kind": "other"
+    },
+    {
       "name": "🇸🇬 SG — Singapore",
       "status": "warn",
       "detail": "2 av 9 länkar trasiga (404)",
@@ -255,17 +263,9 @@
       "kind": "other"
     },
     {
-      "name": "🇨🇷 CR — Costa Rica",
-      "status": "warn",
-      "detail": "1 av 10 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://www.sinac.go.cr/",
-      "kind": "other"
-    },
-    {
-      "name": "+ 4 länder till med trasiga länkar",
+      "name": "+ 5 länder till med trasiga länkar",
       "status": "info",
-      "detail": "4 länkar: DO, LI, NZ, PA",
+      "detail": "5 länkar: CR, DO, LI, NZ, PA",
       "last_modified": null,
       "url": null,
       "kind": "other"
