@@ -448,7 +448,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5575021",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.dof.gob.mx'. (_ssl.c:1010)"
   },
   {
     "country": "MX (Mexiko)",
@@ -1006,10 +1006,10 @@
     "id": "dinacia_rau",
     "title": "DINACIA — LAR 61 Licencias para pilotos",
     "url": "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-15-febrero",
-    "status": "ok",
+    "status": "redirect",
     "code": 200,
-    "final_url": "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-15-febrero",
-    "message": "OK"
+    "final_url": "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-16-febrero",
+    "message": "→ https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-16-febrero"
   },
   {
     "country": "UY (Uruguay)",
@@ -1775,11 +1775,11 @@
     "section": "config",
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
-    "url": "https://drones.geoportail.lu",
+    "url": "https://g-o.lu/uas",
     "status": "redirect",
     "code": 200,
-    "final_url": "https://drones.geoportail.lu/zones",
-    "message": "→ https://drones.geoportail.lu/zones"
+    "final_url": "https://map.geoportail.lu/theme/main?lang=fr&version=3&zoom=9&X=699003&Y=6414253&rotation=0&layers=1928-1927&opacities=0.5-0.5&bgLayer=basemap_2015_global",
+    "message": "→ https://map.geoportail.lu/theme/main?lang=fr&version=3&zoom=9&X=699003&Y=6414253&rotation=0&layers=1928-1927&opacities=0.5-0.5&bgLayer=basemap_2015_global"
   },
   {
     "country": "LU (Luxemburg)",
@@ -2168,6 +2168,17 @@
   },
   {
     "country": "CH (Schweiz)",
+    "section": "secondary",
+    "id": "dabs",
+    "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+    "url": "https://www.bazl.admin.ch/de/geografische-flugeinschraenkungen",
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://www.bazl.admin.ch/de/geografische-flugeinschraenkungen",
+    "message": "OK"
+  },
+  {
+    "country": "CH (Schweiz)",
     "section": "config",
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
@@ -2197,6 +2208,17 @@
     "status": "ok",
     "code": 200,
     "final_url": "https://pappilappi.com/privacy-de.html",
+    "message": "OK"
+  },
+  {
+    "country": "SK (Slovakien)",
+    "section": "primary",
+    "id": "nsat-zony",
+    "title": "Zemepisné oblasti UAS — Dopravný úrad",
+    "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
     "message": "OK"
   },
   {
@@ -2983,6 +3005,17 @@
   {
     "country": "PT (Portugal)",
     "section": "primary",
+    "id": "",
+    "title": "ANAC — Mapa de geozonas UAS",
+    "url": "https://dnt.anac.pt/",
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://dnt.anac.pt/",
+    "message": "OK"
+  },
+  {
+    "country": "PT (Portugal)",
+    "section": "primary",
     "id": "anac_register",
     "title": "ANAC — Registar como operador",
     "url": "https://www.anac.pt/vPT/Generico/drones/registo_uas/Paginas/OperadoresdeUAS.aspx",
@@ -3051,10 +3084,10 @@
     "section": "config",
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
-    "url": "https://www.anac.pt/vPT/Generico/drones/legislacao_regulamentacao_uas/Paginas/LegislacaoeRegulamentacaoEspecifica.aspx",
+    "url": "https://dnt.anac.pt/",
     "status": "ok",
     "code": 200,
-    "final_url": "https://www.anac.pt/vPT/Generico/drones/legislacao_regulamentacao_uas/Paginas/LegislacaoeRegulamentacaoEspecifica.aspx",
+    "final_url": "https://dnt.anac.pt/",
     "message": "OK"
   },
   {
@@ -3246,13 +3279,24 @@
   },
   {
     "country": "IS (Island)",
+    "section": "secondary",
+    "id": "",
+    "title": "Kortasjá – drónakort",
+    "url": "https://kort.gis.is/mapview/?app=dronar",
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://kort.gis.is/mapview/?app=dronar",
+    "message": "OK"
+  },
+  {
+    "country": "IS (Island)",
     "section": "config",
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
-    "url": "https://flydrone.is",
+    "url": "https://kort.gis.is/mapview/?app=dronar",
     "status": "ok",
     "code": 200,
-    "final_url": "https://flydrone.is",
+    "final_url": "https://kort.gis.is/mapview/?app=dronar",
     "message": "OK"
   },
   {
@@ -3403,11 +3447,11 @@
     "section": "primary",
     "id": "dronespace",
     "title": "Dronespace.at — Luftraumkarte",
-    "url": "https://www.dronespace.at",
-    "status": "ok",
+    "url": "https://map.dronespace.at",
+    "status": "redirect",
     "code": 200,
-    "final_url": "https://www.dronespace.at",
-    "message": "OK"
+    "final_url": "https://utm.dronespace.at/avm/",
+    "message": "→ https://utm.dronespace.at/avm/"
   },
   {
     "country": "AT (Österrike)",
@@ -3700,11 +3744,11 @@
     "section": "primary",
     "id": "romatsa",
     "title": "ROMATSA — Harta spațiului aerian",
-    "url": "https://www.romatsa.ro",
-    "status": "ok",
-    "code": 200,
-    "final_url": "https://www.romatsa.ro",
-    "message": "OK"
+    "url": "https://flightplan.romatsa.ro/",
+    "status": "error",
+    "code": null,
+    "final_url": "https://flightplan.romatsa.ro/",
+    "message": "[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1010)"
   },
   {
     "country": "RO (Rumänien)",
@@ -3733,11 +3777,11 @@
     "section": "secondary",
     "id": "romatsa_notam",
     "title": "ROMATSA — NOTAM",
-    "url": "https://www.romatsa.ro",
-    "status": "ok",
-    "code": 200,
-    "final_url": "https://www.romatsa.ro",
-    "message": "OK"
+    "url": "https://flightplan.romatsa.ro/",
+    "status": "error",
+    "code": null,
+    "final_url": "https://flightplan.romatsa.ro/",
+    "message": "[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1010)"
   },
   {
     "country": "RO (Rumänien)",
@@ -4216,11 +4260,11 @@
     "country": "FR (Frankrike)",
     "section": "primary",
     "id": "geoportail",
-    "title": "Géoportail — Carte des restrictions drones",
-    "url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
+    "title": "cartes.gouv.fr — Restrictions UAS catégorie Ouverte et aéromodélisme",
+    "url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
     "status": "ok",
     "code": 200,
-    "final_url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
+    "final_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
     "message": "OK"
   },
   {
@@ -4261,10 +4305,10 @@
     "section": "config",
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
-    "url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
+    "url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
     "status": "ok",
     "code": 200,
-    "final_url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
+    "final_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
     "message": "OK"
   },
   {
@@ -4272,10 +4316,10 @@
     "section": "config",
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
-    "url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
+    "url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
     "status": "ok",
     "code": 200,
-    "final_url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
+    "final_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
     "message": "OK"
   },
   {
@@ -4393,7 +4437,7 @@
     "section": "primary",
     "id": "traficom_drones",
     "title": "Traficom – Drone-säännöt",
-    "url": "https://droneinfo.fi/en/droneinfo-front-page",
+    "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
     "status": "redirect",
     "code": 200,
     "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu",
@@ -4404,7 +4448,7 @@
     "section": "primary",
     "id": "traficom_register",
     "title": "Traficom – Rekisteröidy käyttäjäksi",
-    "url": "https://droneinfo.fi/en/registering-drone-operator",
+    "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
     "status": "redirect",
     "code": 200,
     "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu",
@@ -4415,7 +4459,7 @@
     "section": "primary",
     "id": "droneinfo",
     "title": "Droneinfo.fi – Ilmatilakartta",
-    "url": "https://www.droneinfo.fi",
+    "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
     "status": "redirect",
     "code": 200,
     "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu",
@@ -4426,7 +4470,7 @@
     "section": "primary",
     "id": "traficom_training",
     "title": "Traficom – Koulutus ja kokeet",
-    "url": "https://droneinfo.fi/en/droneinfo-front-page",
+    "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
     "status": "redirect",
     "code": 200,
     "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu",
@@ -4448,7 +4492,7 @@
     "section": "secondary",
     "id": "traficom_faq",
     "title": "Traficom – Usein kysyttyä droneista",
-    "url": "https://droneinfo.fi/en/droneinfo-front-page",
+    "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
     "status": "redirect",
     "code": 200,
     "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu",
@@ -4459,18 +4503,18 @@
     "section": "config",
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
-    "url": "https://www.droneinfo.fi",
-    "status": "redirect",
+    "url": "https://sky.fintraffic.fi/",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu",
-    "message": "→ https://www.traficom.fi/fi/miehittamaton-ilmailu"
+    "final_url": "https://sky.fintraffic.fi/",
+    "message": "OK"
   },
   {
     "country": "FI (Finland)",
     "section": "config",
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
-    "url": "https://droneinfo.fi/en/droneinfo-front-page",
+    "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
     "status": "redirect",
     "code": 200,
     "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu",
