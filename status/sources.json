@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T06:03:30.303690+00:00",
+  "generated": "2026-08-17T18:00:03.418326+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -119,7 +119,7 @@
     {
       "name": "Regelhash-bevakning",
       "status": "ok",
-      "detail": "55 av 55 länder, 165 URL:er bevakade — 18 källor utanför",
+      "detail": "55 av 55 länder, 166 URL:er bevakade — 17 källor utanför",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -135,7 +135,7 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "58 av 505 länkar trasiga i 20 länder",
+      "detail": "68 av 505 länkar trasiga i 26 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -169,7 +169,7 @@
     {
       "name": "🇲🇹 MT — Malta",
       "status": "warn",
-      "detail": "5 av 9 länkar trasiga (403)",
+      "detail": "6 av 9 länkar trasiga (403, error)",
       "last_modified": null,
       "url": "https://www.transport.gov.mt/aviation/civil-aviation-directorate/drones",
       "kind": "other"
@@ -191,6 +191,14 @@
       "kind": "other"
     },
     {
+      "name": "🇿🇦 ZA — Sydafrika",
+      "status": "warn",
+      "detail": "4 av 5 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://www.caa.co.za/industry-information/uas/",
+      "kind": "other"
+    },
+    {
       "name": "🇬🇷 GR — Grekland",
       "status": "warn",
       "detail": "3 av 9 länkar trasiga (403, timeout)",
@@ -199,11 +207,11 @@
       "kind": "other"
     },
     {
-      "name": "🇹🇷 TR — Turkiet",
+      "name": "🇸🇬 SG — Singapore",
       "status": "warn",
-      "detail": "3 av 10 länkar trasiga (error)",
+      "detail": "3 av 9 länkar trasiga (404, error)",
       "last_modified": null,
-      "url": "https://iha.shgm.gov.tr/",
+      "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft/ua-regulatory-requirements",
       "kind": "other"
     },
     {
@@ -220,6 +228,14 @@
       "detail": "2 av 10 länkar trasiga (403, error)",
       "last_modified": null,
       "url": "http://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-de-aeronaves-pilotadas-a-distancia-rpas-drones/documents/forms/allitems.aspx",
+      "kind": "other"
+    },
+    {
+      "name": "🇮🇳 IN — Indien",
+      "status": "warn",
+      "detail": "2 av 7 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://digitalsky.dgca.gov.in/",
       "kind": "other"
     },
     {
@@ -247,25 +263,9 @@
       "kind": "other"
     },
     {
-      "name": "🇸🇬 SG — Singapore",
-      "status": "warn",
-      "detail": "2 av 9 länkar trasiga (404)",
-      "last_modified": null,
-      "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft/ua-regulatory-requirements",
-      "kind": "other"
-    },
-    {
-      "name": "🇧🇷 BR — Brasilien",
-      "status": "warn",
-      "detail": "1 av 10 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://sistemas.anac.gov.br/sisant/",
-      "kind": "other"
-    },
-    {
-      "name": "+ 5 länder till med trasiga länkar",
+      "name": "+ 11 länder till med trasiga länkar",
       "status": "info",
-      "detail": "5 länkar: CR, DO, LI, NZ, PA",
+      "detail": "11 länkar: BR, CA, CR, DO, ES, IS, LI, NO, NZ, PA, PT",
       "last_modified": null,
       "url": null,
       "kind": "other"
