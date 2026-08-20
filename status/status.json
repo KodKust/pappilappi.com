@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-20T11:42:27.435287+00:00",
+  "generated": "2026-08-20T11:47:13.693972+00:00",
   "summary": {
-    "fail": 1,
-    "warn": 27,
-    "ok": 198,
+    "fail": 0,
+    "warn": 26,
+    "ok": 200,
     "total_checks": 301,
     "countries_total": 55,
     "countries_ok": 36
@@ -1948,7 +1948,7 @@
         {
           "name": "Feed: dk-gul",
           "status": "ok",
-          "detail": "hämtad < 1 min sen, 45 kB",
+          "detail": "hämtad 5 min sen, 277 kB",
           "last_modified": "2026-08-20T11:41:36+00:00",
           "url": "https://pappilappi.com/airspace/dk-gul.geojson?cb=20260815a",
           "kind": "feed",
@@ -1959,7 +1959,7 @@
         {
           "name": "Feed: dk-indudflyv",
           "status": "ok",
-          "detail": "hämtad < 1 min sen, 165 kB",
+          "detail": "hämtad 5 min sen, 165 kB",
           "last_modified": "2026-08-20T11:41:36+00:00",
           "url": "https://pappilappi.com/airspace/dk-indudflyv.geojson?cb=20260815a",
           "kind": "feed",
@@ -1970,7 +1970,7 @@
         {
           "name": "Feed: dk-jernbane",
           "status": "ok",
-          "detail": "hämtad < 1 min sen, 1002 kB",
+          "detail": "hämtad 5 min sen, 1002 kB",
           "last_modified": "2026-08-20T11:41:36+00:00",
           "url": "https://pappilappi.com/airspace/dk-jernbane.geojson?cb=20260815a",
           "kind": "feed",
@@ -1981,7 +1981,7 @@
         {
           "name": "Feed: dk-veje70",
           "status": "ok",
-          "detail": "hämtad < 1 min sen, 2361 kB",
+          "detail": "hämtad 5 min sen, 2361 kB",
           "last_modified": "2026-08-20T11:41:36+00:00",
           "url": "https://pappilappi.com/airspace/dk-veje70.geojson?cb=20260815a",
           "kind": "feed",
@@ -2897,7 +2897,7 @@
         {
           "name": "Feed: fr-parcs",
           "status": "ok",
-          "detail": "hämtad 17d sen, 723 kB",
+          "detail": "hämtad 18d sen, 723 kB",
           "last_modified": "2026-08-02T11:42:39+00:00",
           "url": "https://pappilappi.com/airspace/fr-parcs.geojson?cb=20260604b",
           "kind": "feed",
@@ -2935,8 +2935,8 @@
         },
         {
           "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att alphatango.aviation-civile.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://alphatango.aviation-civile.gouv.fr",
           "kind": "link",
@@ -3288,7 +3288,7 @@
         {
           "name": "Feed: se-heliports-aip",
           "status": "ok",
-          "detail": "hämtad < 1 min sen, 3 kB",
+          "detail": "hämtad 5 min sen, 1 kB",
           "last_modified": "2026-08-20T11:41:21+00:00",
           "url": "https://pappilappi.com/airspace/se-heliports-aip.geojson?cb=20260810a",
           "kind": "feed",
@@ -3746,7 +3746,7 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 2 min sen, 492 kB",
+          "detail": "data oförändrad sedan 7 min sen, 492 kB",
           "last_modified": "2026-08-20T11:39:50+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
@@ -4109,9 +4109,9 @@
         },
         {
           "name": "Hemmadriftens puls",
-          "status": "fail",
-          "detail": "den lokala reservrunnern har inte hört av sig på 4.2 dygn (> 72 h). Hemmadriften är ENDA vägen för ro-zones och ES-lagren (molnservrar geo-blockas) — kolla launchd-agenten på Macen (`launchctl kickstart`) och att den vaknar ur sömn",
-          "last_modified": "2026-08-16T07:00:58.403137+00:00",
+          "status": "ok",
+          "detail": "senaste körning 5 min sen (3 pipelines körda)",
+          "last_modified": "2026-08-20T11:41:40.098306+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
