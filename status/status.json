@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-20T05:59:49.015163+00:00",
+  "generated": "2026-08-20T11:42:27.435287+00:00",
   "summary": {
     "fail": 1,
-    "warn": 29,
-    "ok": 203,
-    "total_checks": 317,
+    "warn": 27,
+    "ok": 198,
+    "total_checks": 301,
     "countries_total": 55,
     "countries_ok": 36
   },
@@ -596,7 +596,7 @@
         {
           "name": "Feed: lu-zones",
           "status": "ok",
-          "detail": "hämtad 2d sen, 96 kB",
+          "detail": "hämtad 3d sen, 96 kB",
           "last_modified": "2026-08-17T06:04:31+00:00",
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -723,7 +723,7 @@
         {
           "name": "Feed: si-aviation",
           "status": "warn",
-          "detail": "senast lyckad hämtning 9d sen (> 8d — pipeline kan ha tystnat)",
+          "detail": "senast lyckad hämtning 10d sen (> 8d — pipeline kan ha tystnat)",
           "last_modified": "2026-08-10T06:43:37+00:00",
           "url": "https://pappilappi.com/airspace/si-aviation.geojson?cb=20260805a",
           "kind": "feed",
@@ -765,7 +765,7 @@
         {
           "name": "Länk: CAA Slovenia — Predpisi o dronih",
           "status": "ok",
-          "detail": "202 OK",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
           "kind": "link",
@@ -783,7 +783,7 @@
         {
           "name": "Länk: CAA Slovenia — Karta zračnega prostora",
           "status": "ok",
-          "detail": "202 OK",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
           "kind": "link",
@@ -901,7 +901,7 @@
         {
           "name": "Primär (geoadmin)",
           "status": "ok",
-          "detail": "200 OK, 2639858B",
+          "detail": "200 OK, 2639917B",
           "last_modified": null,
           "url": "https://api3.geo.admin.ch/rest/services/api/MapServer",
           "kind": "feed",
@@ -911,7 +911,7 @@
         {
           "name": "Feed: luftfahrthindernis",
           "status": "ok",
-          "detail": "hämtad 18d sen, 8687 kB",
+          "detail": "hämtad 19d sen, 8687 kB",
           "last_modified": "2026-08-01T07:30:10+00:00",
           "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson?v=20260605c",
           "kind": "feed",
@@ -922,7 +922,7 @@
         {
           "name": "Feed: ch-ctr",
           "status": "ok",
-          "detail": "hämtad 17d sen, 47 kB",
+          "detail": "hämtad 18d sen, 47 kB",
           "last_modified": "2026-08-02T07:32:22+00:00",
           "url": "https://pappilappi.com/airspace/ch-ctr.geojson",
           "kind": "feed",
@@ -933,7 +933,7 @@
         {
           "name": "Feed: ch-tma",
           "status": "ok",
-          "detail": "hämtad 17d sen, 151 kB",
+          "detail": "hämtad 18d sen, 151 kB",
           "last_modified": "2026-08-02T07:32:22+00:00",
           "url": "https://pappilappi.com/airspace/ch-tma.geojson",
           "kind": "feed",
@@ -944,7 +944,7 @@
         {
           "name": "Feed: ch-cta",
           "status": "ok",
-          "detail": "hämtad 17d sen, 63 kB",
+          "detail": "hämtad 18d sen, 63 kB",
           "last_modified": "2026-08-02T07:32:22+00:00",
           "url": "https://pappilappi.com/airspace/ch-cta.geojson",
           "kind": "feed",
@@ -955,7 +955,7 @@
         {
           "name": "Feed: ch-uas-aktivitaetszonen",
           "status": "ok",
-          "detail": "hämtad 17d sen, 210 kB",
+          "detail": "hämtad 18d sen, 210 kB",
           "last_modified": "2026-08-02T07:32:22+00:00",
           "url": "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson",
           "kind": "feed",
@@ -966,7 +966,7 @@
         {
           "name": "Feed: ch-jagdbanngebiete",
           "status": "ok",
-          "detail": "hämtad 17d sen, 2223 kB",
+          "detail": "hämtad 18d sen, 2223 kB",
           "last_modified": "2026-08-02T07:32:22+00:00",
           "url": "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson",
           "kind": "feed",
@@ -977,7 +977,7 @@
         {
           "name": "Feed: ch-vogelreservate",
           "status": "ok",
-          "detail": "hämtad 17d sen, 567 kB",
+          "detail": "hämtad 18d sen, 567 kB",
           "last_modified": "2026-08-02T07:32:22+00:00",
           "url": "https://pappilappi.com/airspace/ch-vogelreservate.geojson",
           "kind": "feed",
@@ -988,7 +988,7 @@
         {
           "name": "Feed: ch-sicherheitszonenplan",
           "status": "ok",
-          "detail": "hämtad 17d sen, 513 kB",
+          "detail": "hämtad 18d sen, 513 kB",
           "last_modified": "2026-08-02T07:32:22+00:00",
           "url": "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson",
           "kind": "feed",
@@ -999,7 +999,7 @@
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 25 min sen, 494 kB",
+          "detail": "hämtad 6h sen, 494 kB",
           "last_modified": "2026-08-20T05:32:18+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
@@ -1078,7 +1078,7 @@
         {
           "name": "Feed: sk-zones",
           "status": "ok",
-          "detail": "hämtad 2d sen, 304 kB",
+          "detail": "hämtad 3d sen, 304 kB",
           "last_modified": "2026-08-17T07:28:20+00:00",
           "url": "https://pappilappi.com/airspace/sk-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1098,8 +1098,8 @@
         },
         {
           "name": "Länk: Zemepisné oblasti UAS — Dopravný úrad",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
           "kind": "link",
@@ -1107,8 +1107,8 @@
         },
         {
           "name": "Länk: Dopravný úrad — Predpisy pre drony",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
           "kind": "link",
@@ -1116,8 +1116,8 @@
         },
         {
           "name": "Länk: Dopravný úrad — Registrácia prevádzkovateľa",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
           "kind": "link",
@@ -1134,8 +1134,8 @@
         },
         {
           "name": "Länk: Dopravný úrad — Prehľad pravidiel",
-          "status": "info",
-          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
           "kind": "link",
@@ -1181,7 +1181,7 @@
         {
           "name": "Feed: pdok-natura",
           "status": "ok",
-          "detail": "data oförändrad sedan 18d sen, 1774 kB",
+          "detail": "data oförändrad sedan 19d sen, 1774 kB",
           "last_modified": "2026-08-01T06:32:55+00:00",
           "url": "https://pappilappi.com/airspace/nl-pdok-natura.geojson?cb=20260603d",
           "kind": "feed",
@@ -1456,7 +1456,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "hämtad 1h sen, 1505 kB",
+          "detail": "hämtad 6h sen, 1505 kB",
           "last_modified": "2026-08-20T04:52:45+00:00",
           "url": "https://pappilappi.com/airspace/ie-ed269.geojson",
           "kind": "feed",
@@ -1536,7 +1536,7 @@
         {
           "name": "Feed: pt-zones",
           "status": "ok",
-          "detail": "hämtad 2d sen, 790 kB",
+          "detail": "hämtad 3d sen, 790 kB",
           "last_modified": "2026-08-17T06:23:17+00:00",
           "url": "https://pappilappi.com/airspace/pt-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1669,7 +1669,7 @@
         {
           "name": "Feed: is-zones",
           "status": "ok",
-          "detail": "hämtad 2d sen, 150 kB",
+          "detail": "hämtad 3d sen, 150 kB",
           "last_modified": "2026-08-17T06:24:01+00:00",
           "url": "https://pappilappi.com/airspace/is-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1748,7 +1748,7 @@
         {
           "name": "Feed: ee-zones",
           "status": "ok",
-          "detail": "hämtad 2d sen, 236 kB",
+          "detail": "hämtad 3d sen, 236 kB",
           "last_modified": "2026-08-17T07:01:08+00:00",
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1827,7 +1827,7 @@
         {
           "name": "Feed: at-zones",
           "status": "ok",
-          "detail": "hämtad 2d sen, 512 kB",
+          "detail": "hämtad 3d sen, 512 kB",
           "last_modified": "2026-08-17T07:34:31+00:00",
           "url": "https://pappilappi.com/airspace/at-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1904,19 +1904,19 @@
             "label": "dk-natur"
           },
           {
-            "titel": "dk-gul",
+            "titel": "Gula restriktionsområden",
             "label": "dk-gul"
           },
           {
-            "titel": "dk-indudflyv",
+            "titel": "In- och utflygningsytor",
             "label": "dk-indudflyv"
           },
           {
-            "titel": "dk-jernbane",
+            "titel": "Järnvägar",
             "label": "dk-jernbane"
           },
           {
-            "titel": "dk-veje70",
+            "titel": "Vägar med fartgräns 70 km/t och över",
             "label": "dk-veje70"
           }
         ],
@@ -1926,7 +1926,7 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "hämtad 53 min sen, 2270 kB",
+          "detail": "hämtad 6h sen, 2270 kB",
           "last_modified": "2026-08-20T05:05:12+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
           "kind": "feed",
@@ -1937,7 +1937,7 @@
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "hämtad 53 min sen, 714 kB",
+          "detail": "hämtad 6h sen, 714 kB",
           "last_modified": "2026-08-20T05:05:12+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a",
           "kind": "feed",
@@ -1947,43 +1947,47 @@
         },
         {
           "name": "Feed: dk-gul",
-          "status": "warn",
-          "detail": "senast lyckad hämtning 8d sen (> 7d — pipeline kan ha tystnat)",
-          "last_modified": "2026-08-11T22:47:30+00:00",
+          "status": "ok",
+          "detail": "hämtad < 1 min sen, 45 kB",
+          "last_modified": "2026-08-20T11:41:36+00:00",
           "url": "https://pappilappi.com/airspace/dk-gul.geojson?cb=20260815a",
           "kind": "feed",
-          "explain": "Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-18"
+          "titel": "Gula restriktionsområden",
+          "explain": "Danska R-områden vars begränsning aktiveras via NOTAM. Området ligger kvar på kartan även när ingen aktivering pågår. Ur Trafikstyrelsens och Naviairs R-områdeslager. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-27"
         },
         {
           "name": "Feed: dk-indudflyv",
-          "status": "warn",
-          "detail": "senast lyckad hämtning 8d sen (> 7d — pipeline kan ha tystnat)",
-          "last_modified": "2026-08-11T22:47:30+00:00",
+          "status": "ok",
+          "detail": "hämtad < 1 min sen, 165 kB",
+          "last_modified": "2026-08-20T11:41:36+00:00",
           "url": "https://pappilappi.com/airspace/dk-indudflyv.geojson?cb=20260815a",
           "kind": "feed",
-          "explain": "Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-18"
+          "titel": "In- och utflygningsytor",
+          "explain": "Ytorna kring danska flygplatser där § 9 stk. 2 avgör vilket höjdtak som gäller för drönaren. Ur Trafikstyrelsens ind- og udflyvningsplaner. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-27"
         },
         {
           "name": "Feed: dk-jernbane",
-          "status": "warn",
-          "detail": "senast lyckad hämtning 8d sen (> 7d — pipeline kan ha tystnat)",
-          "last_modified": "2026-08-11T22:47:30+00:00",
+          "status": "ok",
+          "detail": "hämtad < 1 min sen, 1002 kB",
+          "last_modified": "2026-08-20T11:41:36+00:00",
           "url": "https://pappilappi.com/airspace/dk-jernbane.geojson?cb=20260815a",
           "kind": "feed",
-          "explain": "Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-18"
+          "titel": "Järnvägar",
+          "explain": "Danska banelement som drönaren inte får komma närmare än 15 meter (§ 16). Linjelager ur samma infrastrukturkarta. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-27"
         },
         {
           "name": "Feed: dk-veje70",
-          "status": "warn",
-          "detail": "senast lyckad hämtning 8d sen (> 7d — pipeline kan ha tystnat)",
-          "last_modified": "2026-08-11T22:47:30+00:00",
+          "status": "ok",
+          "detail": "hämtad < 1 min sen, 2361 kB",
+          "last_modified": "2026-08-20T11:41:36+00:00",
           "url": "https://pappilappi.com/airspace/dk-veje70.geojson?cb=20260815a",
           "kind": "feed",
-          "explain": "Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-18"
+          "titel": "Vägar med fartgräns 70 km/t och över",
+          "explain": "Danska vägsträckor som inte får överflygas med drönare (§ 17). Linjelager ur Trafikstyrelsens infrastrukturkarta. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-08-27"
         },
         {
           "name": "Regler (lastVerified)",
@@ -2112,8 +2116,8 @@
         },
         {
           "name": "Länk: AACR — Reglementări privind dronele",
-          "status": "info",
-          "detail": "RemoteDisconnected från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "warn",
+          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://www.caa.ro/page/uas",
           "kind": "link",
@@ -2121,8 +2125,8 @@
         },
         {
           "name": "Länk: AACR — Înregistrare ca operator",
-          "status": "info",
-          "detail": "RemoteDisconnected från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "warn",
+          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://www.caa.ro/page/uas",
           "kind": "link",
@@ -2130,8 +2134,8 @@
         },
         {
           "name": "Länk: ROMATSA — Harta spațiului aerian",
-          "status": "info",
-          "detail": "URLError: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1010) från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "warn",
+          "detail": "URLError: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000) (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://flightplan.romatsa.ro/",
           "kind": "link",
@@ -2139,8 +2143,8 @@
         },
         {
           "name": "Länk: AACR — Reguli UAS",
-          "status": "info",
-          "detail": "RemoteDisconnected från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
+          "status": "warn",
+          "detail": "RemoteDisconnected (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://www.caa.ro/page/uas",
           "kind": "link",
@@ -2371,13 +2375,13 @@
         {
           "name": "Feed: de-temporaere_betriebseinschraenkungen",
           "status": "ok",
-          "detail": "data oförändrad sedan 23h sen, 75 kB",
-          "last_modified": "2026-08-19T06:04:13+00:00",
+          "detail": "data oförändrad sedan 5h sen, 76 kB",
+          "last_modified": "2026-08-20T06:04:03+00:00",
           "url": "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson?cb=20260714a",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (dagsfärska)",
           "explain": "Tillfälliga begränsningar — statsbesök, evenemang, insatser. Ändras dagligen, därför hämtas lagret varje dag. Från dipul. Hämtas varje vecka (tillfälliga flygförbud hämtas dagligen — se raden för det lagret). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-10-03"
+          "next_due": "2026-10-04"
         },
         {
           "name": "Feed: de-militaerische_anlagen",
@@ -2393,7 +2397,7 @@
         {
           "name": "Feed: de-natur",
           "status": "ok",
-          "detail": "data oförändrad sedan 16d sen, 5278 kB",
+          "detail": "data oförändrad sedan 17d sen, 5278 kB",
           "last_modified": "2026-08-03T07:59:08+00:00",
           "url": "https://pappilappi.com/airspace/de/natur.geojson?cb=20260714a",
           "kind": "feed",
@@ -2404,7 +2408,7 @@
         {
           "name": "Feed: de-natur2000",
           "status": "ok",
-          "detail": "data oförändrad sedan 16d sen, 12051 kB",
+          "detail": "data oförändrad sedan 17d sen, 12051 kB",
           "last_modified": "2026-08-03T07:59:08+00:00",
           "url": "https://pappilappi.com/airspace/de/natur2000.geojson?cb=20260714a",
           "kind": "feed",
@@ -2931,8 +2935,8 @@
         },
         {
           "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att alphatango.aviation-civile.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://alphatango.aviation-civile.gouv.fr",
           "kind": "link",
@@ -3031,7 +3035,7 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 31 min sen, 643 kB",
+          "detail": "hämtad 6h sen, 643 kB",
           "last_modified": "2026-08-20T05:27:43+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
           "kind": "feed",
@@ -3042,7 +3046,7 @@
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 31 min sen, 6540 kB",
+          "detail": "hämtad 6h sen, 6540 kB",
           "last_modified": "2026-08-20T05:27:43+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260802b",
           "kind": "feed",
@@ -3053,7 +3057,7 @@
         {
           "name": "Feed: fi-permanent",
           "status": "ok",
-          "detail": "hämtad 31 min sen, 173 kB",
+          "detail": "hämtad 6h sen, 173 kB",
           "last_modified": "2026-08-20T05:27:43+00:00",
           "url": "https://pappilappi.com/airspace/fi-permanent.geojson?cb=20260802a",
           "kind": "feed",
@@ -3064,7 +3068,7 @@
         {
           "name": "Feed: fi-temporary",
           "status": "ok",
-          "detail": "hämtad 31 min sen, 291 kB",
+          "detail": "hämtad 6h sen, 291 kB",
           "last_modified": "2026-08-20T05:27:43+00:00",
           "url": "https://pappilappi.com/airspace/fi-temporary.geojson?cb=20260802a",
           "kind": "feed",
@@ -3283,14 +3287,14 @@
         },
         {
           "name": "Feed: se-heliports-aip",
-          "status": "warn",
-          "detail": "senast lyckad hämtning 9d sen (> 7d — pipeline kan ha tystnat)",
-          "last_modified": "2026-08-10T06:00:06+00:00",
+          "status": "ok",
+          "detail": "hämtad < 1 min sen, 3 kB",
+          "last_modified": "2026-08-20T11:41:21+00:00",
           "url": "https://pappilappi.com/airspace/se-heliports-aip.geojson?cb=20260810a",
           "kind": "feed",
           "titel": "Sjukhushelikopterplatser som saknas i LFV:s karta",
           "explain": "Reglerna säger att flygning närmare än 1 000 m från de helikopterflygplatser som står i flyghandboken (AIP) bara får ske efter samråd med platsen. Flyghandboken listar 42 sådana platser, men LFV:s kartlager ritar bara 37 — bland de som saknas finns Sahlgrenska i Göteborg. Den här filen fyller igen skillnaden så att appen varnar även där. Blir filen tom betyder det att LFV kompletterat sin karta, alltså att allt är som det ska. Hämtas var 28:e dag (samma takt som flyghandboken ändras i). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-17"
+          "next_due": "2026-08-27"
         },
         {
           "name": "LFV DroneChart uas_zones",
@@ -3325,8 +3329,8 @@
         {
           "name": "AIP-SUP Gist (se.json)",
           "status": "ok",
-          "detail": "6d sen, 79 SUPs",
-          "last_modified": "2026-08-13T07:58:56.377683+00:00",
+          "detail": "4h sen, 84 SUPs",
+          "last_modified": "2026-08-20T07:13:46.427188+00:00",
           "url": null,
           "kind": "gist",
           "titel": "Tillfälliga ändringar (AIP SUP)",
@@ -3742,8 +3746,8 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 5 min sen, 494 kB",
-          "last_modified": "2026-08-20T05:54:13+00:00",
+          "detail": "data oförändrad sedan 2 min sen, 492 kB",
+          "last_modified": "2026-08-20T11:39:50+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (TFR)",
@@ -3852,7 +3856,7 @@
         {
           "name": "Aerodromes Gist (us.json)",
           "status": "ok",
-          "detail": "5d sen, 4080 fält",
+          "detail": "6d sen, 4080 fält",
           "last_modified": "2026-08-14T07:57:48.573380+00:00",
           "url": null,
           "kind": "gist",
@@ -4000,7 +4004,7 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "15h sen, 5718 NOTAMs, max cirkel 60 NM, 56 GNSS-områden i egen kanal",
+          "detail": "21h sen, 5718 NOTAMs, max cirkel 60 NM, 56 GNSS-områden i egen kanal",
           "last_modified": "2026-08-19T14:39:22.288744+00:00",
           "url": null,
           "kind": "gist",
@@ -4065,8 +4069,8 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "ok",
-          "detail": "22h sen, 7 kB",
-          "last_modified": "2026-08-19T07:57:02+00:00",
+          "detail": "3h sen, 7 kB",
+          "last_modified": "2026-08-20T07:59:59+00:00",
           "url": null,
           "kind": "other"
         },
@@ -4106,7 +4110,7 @@
         {
           "name": "Hemmadriftens puls",
           "status": "fail",
-          "detail": "den lokala reservrunnern har inte hört av sig på 4.0 dygn (> 72 h). Hemmadriften är ENDA vägen för ro-zones och ES-lagren (molnservrar geo-blockas) — kolla launchd-agenten på Macen (`launchctl kickstart`) och att den vaknar ur sömn",
+          "detail": "den lokala reservrunnern har inte hört av sig på 4.2 dygn (> 72 h). Hemmadriften är ENDA vägen för ro-zones och ES-lagren (molnservrar geo-blockas) — kolla launchd-agenten på Macen (`launchctl kickstart`) och att den vaknar ur sömn",
           "last_modified": "2026-08-16T07:00:58.403137+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
@@ -4115,8 +4119,8 @@
         },
         {
           "name": "Registerkorsningen",
-          "status": "warn",
-          "detail": "7 avvikelser mellan registren — kör tools/register_sync.py lokalt: R4: manifest-id dk-infra saknar HUMAN_CADENCE — statusraderna visar ingen hämtningstakt; R5: manifest-pathen airspace/dk-gul.geojson saknar FEEDS-post (statusraden blir oförklarad)",
+          "status": "ok",
+          "detail": "countries.json + appens gistar + manifest + katalog + workflows i synk",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4125,8 +4129,8 @@
         },
         {
           "name": "QA-regressionsvakten",
-          "status": "ok",
-          "detail": "fixade zonkontrollfynd (DK-höjder, DK-säsonger, DK-tidsfönster, EE open category, ES-parknamn, NO-forsvar + dubbletter, IS-myndigheter, FI-höjder) håller",
+          "status": "info",
+          "detail": "fixade zonkontrollfynd (DK-höjder, DK-säsonger, DK-tidsfönster, EE open category, ES-parknamn, NO-forsvar + dubbletter, IS-myndigheter, FI-höjder) håller; ej kollat här: dk-primary, no",
           "last_modified": null,
           "url": null,
           "kind": "upstream",
@@ -4248,145 +4252,17 @@
   ],
   "github_actions_24h": [
     {
-      "name": "Airspace data source health check",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "App Store reviews digest",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "App Store sales digest",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Apple Ads keyword monitor",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Apple Ads spend digest",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Data health (all sources)",
-      "status": "ok",
-      "detail": "2/2 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Fetch & publish CH airspace (BAZL/BAFU/VBS via geo.admin.ch)",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Fetch & publish US TFRs (FAA WFS)",
-      "status": "ok",
-      "detail": "27/27 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Fetch IAA ED-269 (IE airspace)",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Fetch IenW ED-269 (NL airspace)",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Snapshot LVNL Airspace (NL)",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "fetch-dk-airspace",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "fetch-fi-airspace",
-      "status": "ok",
-      "detail": "1/1 OK",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Cron-pulsen",
-      "status": "ok",
-      "detail": "46 schemalagda workflows, 1 i grace efter cron-omläggning — alla tickar enligt schema",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Puls: fetch-si-zones.yml",
-      "status": "info",
-      "detail": "avstängd enligt beslut — utfasad 2026-08-05 — CAA-licensen underkändes 2026-07-23, ersatt av si-aviation/si-nature/si-built",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
-      "name": "Puls: bundle-drift.yml",
-      "status": "info",
-      "detail": "cron ändrad för 1d sedan — inväntar första körningen enligt nya schemat",
-      "last_modified": null,
-      "url": null,
-      "kind": "other"
-    },
-    {
       "name": "Shapely-vakten",
       "status": "ok",
-      "detail": "21 workflows kör shapely-beroende kod — alla installerar shapely",
+      "detail": "22 workflows kör shapely-beroende kod — alla installerar shapely",
       "last_modified": null,
       "url": null,
       "kind": "other"
     },
     {
       "name": "Parserkontraktets paritet",
-      "status": "warn",
-      "detail": "PARSER_TIME_CONTRACT nämner fältnamn som Dart inte längre datumparsar: endDate, startDate — tabellen är stale och fältkontraktsvakten mäter mot fel facit",
+      "status": "ok",
+      "detail": "24 datumparsade fältnamn i Dart, alla 6 kontraktsfält lever",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -4431,42 +4307,5 @@
       "titel": "Norska karttexterna (Miljødirektoratet + Avinor)",
       "explain": "Norges naturvernområden beskrivs av Miljødirektoratet i deras kartkatalog, och Avinor beskriver reglerna runt flygplatserna. Appens norska zontexter vilar på båda. Kontrollen läser fyra sidor och letar dessutom efter sju ORDAGRANNA meningar som våra texter är källbelagda mot — bland annat att drönare inte räknas som luftfartyg i verneforskrifterna, och vilken app piloten söker tillstånd i. Försvinner en sådan mening, eller ändras en sida, blir raden gul och larmet namnger de zontexter som tappar sitt stöd. Åtgärden är att läsa om myndighetens sida och antingen uppdatera vår text eller bekräfta att den håller — och då spara om jämförelsekopian."
     }
-  ],
-  "schema_drift": [
-    {
-      "detected": "2026-08-02T07:50:15.563031+00:00",
-      "iso": "EE",
-      "label": "ee-zones",
-      "url": "https://pappilappi.com/airspace/ee-zones.geojson",
-      "changes": [
-        "nya fält: uom"
-      ],
-      "diagnosis": "Ett nytt fält \"uom\" har tillkommit i property-nycklarna (med värdet \"M\" i exempelfeaturen), medan alla tidigare fält är oförändrade och geometrin fortsatt är Polygon. Sannolik orsak är en uppströms formatändring där leverantören lagt till en explicit måttenhet (unit of measure) för höjdgränserna lowerLimit och upperLimit. Eftersom befintliga fält behålls och antalet features ökat från 217 till 230 bör parsern fortsätta fungera och inga zoner försvinna; den enda risken är att appen tolkar lowerLimit/upperLimit som en fast enhet och därför missar den nya \"uom\"-informationen om enheten framöver skulle variera."
-    },
-    {
-      "detected": "2026-08-02T07:50:15.563031+00:00",
-      "iso": "IS",
-      "label": "is-zones",
-      "url": "https://pappilappi.com/airspace/is-zones.geojson",
-      "changes": [
-        "geometrityper: MultiPolygon → MultiPolygon, Polygon"
-      ],
-      "diagnosis": "Den enda strukturella förändringen är att geometrityperna utökats från enbart MultiPolygon till både MultiPolygon och Polygon, medan antalet features (271) och samtliga egenskapsnycklar (_zoneType, authority, dataSource, identifier, message, name) är oförändrade. Mest troligt har uppströmskällan börjat koda enklare zoner som Polygon istället för att paketera dem som MultiPolygon, vilket är en geometrikodningsändring snarare än fältbyte eller trunkering. Egenskapsattributen bör fortsätta lösas ut som vanligt, men om appens parser bara hanterar MultiPolygon riskerar de nya Polygon-features att inte ritas ut och därmed försvinna från kartan."
-    },
-    {
-      "detected": "2026-08-02T07:50:15.563031+00:00",
-      "iso": "CH",
-      "label": "luftfahrthindernis",
-      "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson",
-      "changes": [
-        "geometrityper: LineString, Point → LineString"
-      ],
-      "diagnosis": "Den strukturella förändringen är att geometrityperna gått från LineString och Point till enbart LineString, medan antalet features ökat något (14336 → 14367). Egenskapsnycklarna är oförändrade, men i exempelfeaturen saknas nu ett värde för fältet \"airport\" som tidigare fanns (str:LSZQ). Den mest sannolika orsaken är en uppströms formatändring där punktbaserade hinder antingen tagits bort eller kodats om till LineString-geometri, eventuellt i samband med en datauppdatering (effectiveDate har flyttats från 2011 till 2024). Effekten för parsern är att alla hinder som tidigare var Point-geometrier riskerar att inte längre ritas ut som förväntat om koden särbehandlar punkter, och attributet \"airport\" kan sluta resolvera för vissa features, vilket kan göra att enskilda hinderzoner försvinner eller visas felaktigt på kartan."
-    }
-  ],
-  "incident": {
-    "summary": "En check har fallerat medan 29 varnar av totalt 317 (2026-08-20 05:59 UTC). Felet gäller \"Hemmadriftens puls\" under Reglering & datapuls: den lokala reservrunnern har varit tyst i fyra dygn, alltså över tröskeln på 72 timmar. Det här är kritiskt eftersom hemmadriften enligt detaljtexten är den enda vägen för ro-zones och ES-lagren, då molnservrarna geoblockas. Eftersom bara en enda check fallerar handlar det troligen om att den lokala runnern på Macen har slutat rapportera, exempelvis för att launchd-agenten stannat eller att datorn gått i viloläge, snarare än om något gemensamt uppströmsfel. Föreslagen första åtgärd är att kontrollera launchd-agenten på Macen och starta om den med `launchctl kickstart`, samt säkerställa att maskinen inte somnar in.",
-    "model": "claude-opus-4-8",
-    "generated": "2026-08-20T05:59:49.015604+00:00"
-  }
+  ]
 }
