@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T18:31:39.973208+00:00",
+  "generated": "2026-08-23T04:57:15.322995+00:00",
   "summary": {
     "fail": 0,
     "warn": 29,
@@ -40,7 +40,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -77,7 +77,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 111d sedan",
+          "detail": "regler verifierade 112d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -91,8 +91,8 @@
       "name": "Liechtenstein",
       "flag": "🇱🇮",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [],
       "layers": {
         "har": [],
@@ -102,16 +102,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 137d sedan",
+          "detail": "regler verifierade 138d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -147,7 +147,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 137d sedan",
+          "detail": "regler verifierade 138d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -186,7 +186,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 111d sedan",
+          "detail": "regler verifierade 112d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -224,7 +224,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -238,8 +238,8 @@
       "name": "Chile",
       "flag": "🇨🇱",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "SCEZ",
         "SCFZ",
@@ -255,16 +255,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -278,8 +278,8 @@
       "name": "Colombia",
       "flag": "🇨🇴",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "SKED",
         "SKEC"
@@ -292,16 +292,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -315,8 +315,8 @@
       "name": "Perú",
       "flag": "🇵🇪",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "SPIM"
       ],
@@ -328,16 +328,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -351,8 +351,8 @@
       "name": "Uruguay",
       "flag": "🇺🇾",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "SUEO"
       ],
@@ -364,16 +364,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -387,8 +387,8 @@
       "name": "Costa Rica",
       "flag": "🇨🇷",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "MROC",
         "MHCC"
@@ -401,16 +401,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -424,8 +424,8 @@
       "name": "Ecuador",
       "flag": "🇪🇨",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "SEFG",
         "SEGU"
@@ -438,16 +438,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -461,8 +461,8 @@
       "name": "Panamá",
       "flag": "🇵🇦",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "MPZL"
       ],
@@ -474,16 +474,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -497,8 +497,8 @@
       "name": "República Dominicana",
       "flag": "🇩🇴",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "MDCS"
       ],
@@ -510,16 +510,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -533,8 +533,8 @@
       "name": "Singapore",
       "flag": "🇸🇬",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "WSJC"
       ],
@@ -546,16 +546,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -569,8 +569,8 @@
       "name": "Hong Kong",
       "flag": "🇭🇰",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "VHHK"
       ],
@@ -582,16 +582,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -634,7 +634,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 72d sedan — dags för audit",
+          "detail": "regler verifierade 73d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -684,8 +684,8 @@
       "name": "Cyprus",
       "flag": "🇨🇾",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "LCCC"
       ],
@@ -697,16 +697,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -784,7 +784,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 72d sedan — dags för audit",
+          "detail": "regler verifierade 73d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -856,7 +856,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 137d sedan",
+          "detail": "regler verifierade 138d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1028,7 +1028,7 @@
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 13h sen, 493 kB",
+          "detail": "hämtad 23h sen, 493 kB",
           "last_modified": "2026-08-22T05:28:44+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
@@ -1039,7 +1039,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 73d sedan — dags för audit",
+          "detail": "regler verifierade 74d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1118,7 +1118,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 72d sedan — dags för audit",
+          "detail": "regler verifierade 73d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1199,7 +1199,7 @@
         {
           "name": "Feed: ienw-ed269",
           "status": "ok",
-          "detail": "data oförändrad sedan 12d sen, 1122 kB",
+          "detail": "data oförändrad sedan 13d sen, 1122 kB",
           "last_modified": "2026-08-10T04:32:02+00:00",
           "url": "https://pappilappi.com/airspace/nl-ed269.geojson?cb=20260603e",
           "kind": "feed",
@@ -1240,7 +1240,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 64d sedan — dags för audit",
+          "detail": "regler verifierade 65d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1303,7 +1303,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1339,7 +1339,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1375,7 +1375,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 137d sedan",
+          "detail": "regler verifierade 138d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1411,7 +1411,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 137d sedan",
+          "detail": "regler verifierade 138d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1425,8 +1425,8 @@
       "name": "United Arab Emirates",
       "flag": "🇦🇪",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "OMAE"
       ],
@@ -1438,16 +1438,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 138d sedan",
+          "detail": "regler verifierade 139d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1487,18 +1487,18 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "hämtad 13h sen, 1530 kB",
-          "last_modified": "2026-08-22T04:48:54+00:00",
+          "detail": "hämtad 4 min sen, 1530 kB",
+          "last_modified": "2026-08-23T04:52:04+00:00",
           "url": "https://pappilappi.com/airspace/ie-ed269.geojson",
           "kind": "feed",
           "titel": "Irlands zonlista",
           "explain": "Luftfartsmyndigheten IAA:s officiella zonlista (ED-269), hämtad dagligen direkt från iaa.ie sedan 2026-08-01 (ersatte den manuellt uppdaterade gisten). Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-24"
+          "next_due": "2026-08-25"
         },
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 64d sedan — dags för audit",
+          "detail": "regler verifierade 65d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1578,7 +1578,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 72d sedan — dags för audit",
+          "detail": "regler verifierade 73d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1668,7 +1668,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 137d sedan",
+          "detail": "regler verifierade 138d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1711,7 +1711,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 64d sedan — dags för audit",
+          "detail": "regler verifierade 65d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1790,7 +1790,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 72d sedan — dags för audit",
+          "detail": "regler verifierade 73d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1869,7 +1869,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 72d sedan — dags för audit",
+          "detail": "regler verifierade 73d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1957,7 +1957,7 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "hämtad 13h sen, 2270 kB",
+          "detail": "hämtad 23h sen, 2270 kB",
           "last_modified": "2026-08-22T05:00:46+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
           "kind": "feed",
@@ -1968,7 +1968,7 @@
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "hämtad 13h sen, 714 kB",
+          "detail": "hämtad 23h sen, 714 kB",
           "last_modified": "2026-08-22T05:00:46+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a",
           "kind": "feed",
@@ -2023,7 +2023,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 64d sedan — dags för audit",
+          "detail": "regler verifierade 65d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2095,7 +2095,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 137d sedan",
+          "detail": "regler verifierade 138d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2127,7 +2127,7 @@
         {
           "name": "Feed: ro-zones",
           "status": "ok",
-          "detail": "hämtad 8h sen, 788 kB",
+          "detail": "hämtad 18h sen, 788 kB",
           "last_modified": "2026-08-22T10:30:20+00:00",
           "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -2138,7 +2138,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 64d sedan — dags för audit",
+          "detail": "regler verifierade 65d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2210,7 +2210,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2702,7 +2702,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 64d sedan — dags för audit",
+          "detail": "regler verifierade 65d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2788,7 +2788,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 73d sedan — dags för audit",
+          "detail": "regler verifierade 74d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2862,7 +2862,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2948,7 +2948,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 101d sedan — dags för audit",
+          "detail": "regler verifierade 102d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3022,7 +3022,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3066,7 +3066,7 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 13h sen, 645 kB",
+          "detail": "hämtad 23h sen, 645 kB",
           "last_modified": "2026-08-22T05:16:21+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
           "kind": "feed",
@@ -3077,7 +3077,7 @@
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 13h sen, 8989 kB",
+          "detail": "hämtad 23h sen, 8989 kB",
           "last_modified": "2026-08-22T05:16:21+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260802b",
           "kind": "feed",
@@ -3088,7 +3088,7 @@
         {
           "name": "Feed: fi-permanent",
           "status": "ok",
-          "detail": "hämtad 13h sen, 173 kB",
+          "detail": "hämtad 23h sen, 173 kB",
           "last_modified": "2026-08-22T05:16:21+00:00",
           "url": "https://pappilappi.com/airspace/fi-permanent.geojson?cb=20260802a",
           "kind": "feed",
@@ -3099,7 +3099,7 @@
         {
           "name": "Feed: fi-temporary",
           "status": "ok",
-          "detail": "hämtad 13h sen, 303 kB",
+          "detail": "hämtad 23h sen, 303 kB",
           "last_modified": "2026-08-22T05:16:21+00:00",
           "url": "https://pappilappi.com/airspace/fi-temporary.geojson?cb=20260802a",
           "kind": "feed",
@@ -3120,7 +3120,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 78d sedan — dags för audit",
+          "detail": "regler verifierade 79d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3192,7 +3192,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 137d sedan",
+          "detail": "regler verifierade 138d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3206,8 +3206,8 @@
       "name": "New Zealand",
       "flag": "🇳🇿",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "NZZC",
         "NZZO"
@@ -3220,16 +3220,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3243,8 +3243,8 @@
       "name": "Philippines",
       "flag": "🇵🇭",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "RPHI"
       ],
@@ -3256,16 +3256,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3313,7 +3313,7 @@
         {
           "name": "Feed: se-natur",
           "status": "ok",
-          "detail": "hämtad 13d sen, 9847 kB",
+          "detail": "hämtad 14d sen, 9847 kB",
           "last_modified": "2026-08-08T22:35:36+00:00",
           "url": "https://pappilappi.com/airspace/se-natur.geojson?cb=20260809a",
           "kind": "feed",
@@ -3375,7 +3375,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 73d sedan — dags för audit",
+          "detail": "regler verifierade 74d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3425,8 +3425,8 @@
       "name": "South Africa",
       "flag": "🇿🇦",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "FAJA",
         "FACA",
@@ -3440,16 +3440,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 138d sedan",
+          "detail": "regler verifierade 139d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3490,7 +3490,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 1d sen, 604 kB",
+          "detail": "data oförändrad sedan 2d sen, 604 kB",
           "last_modified": "2026-08-21T04:23:18+00:00",
           "url": "https://pappilappi.com/airspace/no.geojson?v=11",
           "kind": "feed",
@@ -3501,7 +3501,7 @@
         {
           "name": "Feed: no-nature",
           "status": "ok",
-          "detail": "data oförändrad sedan 1d sen, 20733 kB",
+          "detail": "data oförändrad sedan 2d sen, 20733 kB",
           "last_modified": "2026-08-21T04:23:18+00:00",
           "url": "https://pappilappi.com/airspace/no-nature.geojson?cb=20260802a",
           "kind": "feed",
@@ -3512,7 +3512,7 @@
         {
           "name": "Feed: no-nve-infra",
           "status": "ok",
-          "detail": "hämtad 1d sen, 123 kB",
+          "detail": "hämtad 2d sen, 123 kB",
           "last_modified": "2026-08-21T04:23:18+00:00",
           "url": "https://pappilappi.com/airspace/no-nve-infra.geojson?cb=20260604a",
           "kind": "feed",
@@ -3578,7 +3578,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 77d sedan — dags för audit",
+          "detail": "regler verifierade 78d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3628,8 +3628,8 @@
       "name": "India",
       "flag": "🇮🇳",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "VABF",
         "VECF",
@@ -3644,16 +3644,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3667,8 +3667,8 @@
       "name": "Australia",
       "flag": "🇦🇺",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "YBBB",
         "YMMM"
@@ -3681,16 +3681,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Zonkarta saknas än så länge — landet visar regler i klartext och länkar till myndighetens egna kartor."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3783,7 +3783,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 6d sen, 19646 kB",
+          "detail": "data oförändrad sedan 7d sen, 19646 kB",
           "last_modified": "2026-08-16T04:36:49+00:00",
           "url": "https://pappilappi.com/airspace/us.geojson",
           "kind": "feed",
@@ -3794,13 +3794,13 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 9 min sen, 498 kB",
-          "last_modified": "2026-08-22T18:22:31+00:00",
+          "detail": "data oförändrad sedan 35 min sen, 494 kB",
+          "last_modified": "2026-08-23T04:21:46+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (TFR)",
           "explain": "Presidentbesök, skogsbränder, stora evenemang — förbud som kommer och går med kort varsel. Hämtas var 15:e minut (molnroboten), dagligen som backstopp hemma. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-08-23"
+          "next_due": "2026-08-24"
         },
         {
           "name": "Feed: nps",
@@ -3914,7 +3914,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 64d sedan — dags för audit",
+          "detail": "regler verifierade 65d sedan — dags för audit",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4001,7 +4001,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 110d sedan",
+          "detail": "regler verifierade 111d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4015,8 +4015,8 @@
       "name": "Ukraine",
       "flag": "🇺🇦",
       "status": "ok",
-      "group": "other",
-      "has_notam": false,
+      "group": "notam",
+      "has_notam": true,
       "firs": [
         "UKBV",
         "UKDV",
@@ -4032,16 +4032,16 @@
         {
           "name": "Täckning i appen",
           "status": "info",
-          "detail": "Regler och officiella länkar",
+          "detail": "NOTAM-bevakning samt regler och officiella länkar",
           "last_modified": null,
           "url": null,
           "kind": "other",
-          "explain": "Ukrainas luftrum är stängt för drönare under krigslagarna — ett zonöverlägg vore missvisande."
+          "explain": "NOTAM är luftfartens officiella korta meddelanden till piloter — 'kran uppställd', 'flyguppvisning på lördag'. Vi hämtar dem en gång per dygn för hela landets flyginformationsregion; appen läser listan med högst en timmes fördröjning. Ukrainas luftrum är stängt för drönare under krigslagarna — ett zonöverlägg vore missvisande."
         },
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 72d sedan",
+          "detail": "regler verifierade 73d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4058,8 +4058,8 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "4h sen, 5631 NOTAMs, max cirkel 60 NM, 45 GNSS-områden i egen kanal",
-          "last_modified": "2026-08-22T14:26:49.640099+00:00",
+          "detail": "8h sen, 5743 NOTAMs, max cirkel 60 NM, 49 GNSS-områden i egen kanal",
+          "last_modified": "2026-08-22T19:59:25.423065+00:00",
           "url": null,
           "kind": "gist",
           "titel": "NOTAM-listan (alla länder)",
@@ -4123,8 +4123,8 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "ok",
-          "detail": "10h sen, 7 kB",
-          "last_modified": "2026-08-22T07:48:56+00:00",
+          "detail": "21h sen, 7 kB",
+          "last_modified": "2026-08-22T07:48:57+00:00",
           "url": null,
           "kind": "other"
         },
@@ -4164,8 +4164,8 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 3h sen (inget var due — allt färskt)",
-          "last_modified": "2026-08-22T14:43:03.545299+00:00",
+          "detail": "senaste körning 10h sen (inget var due — allt färskt)",
+          "last_modified": "2026-08-22T18:30:14.038414+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
@@ -4173,8 +4173,8 @@
         },
         {
           "name": "Registerkorsningen",
-          "status": "ok",
-          "detail": "countries.json + appens gistar + manifest + katalog + workflows i synk",
+          "status": "warn",
+          "detail": "1 avvikelser mellan registren — kör tools/register_sync.py lokalt: R6: workflown feed-renderbarhet.yml kör ['tools/feed_renderbarhet.py'] utan manifest-koppling — ingen lokal backstopp vid kvotblackout",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4303,8 +4303,8 @@
         },
         {
           "name": "airspace-rules-gist-drift",
-          "status": "warn",
-          "detail": "ODOKUMENTERAD DRIFT: zones — tyst rollback eller opublicerad fix? · 1 nycklar driftar (dokumenterad holdback: 0)",
+          "status": "ok",
+          "detail": "0 nycklar driftar (dokumenterad holdback: 0)",
           "last_modified": null,
           "url": "https://gist.githubusercontent.com/KodKust/dd9d6be7635b53f6dbcb18d7ec0067ea/raw/airspace_rules.json",
           "kind": "gist",
@@ -4334,7 +4334,7 @@
         {
           "name": "AIRAC-cykel",
           "status": "info",
-          "detail": "AIRAC 3-2026+3, 12d kvar av cykeln",
+          "detail": "AIRAC 3-2026+3, 11d kvar av cykeln",
           "last_modified": null,
           "url": null,
           "kind": "other",
