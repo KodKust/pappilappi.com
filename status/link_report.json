@@ -126,10 +126,10 @@
     "id": "shgm_kayit",
     "title": "İHA Kayıt Sistemi (500 g üzeri zorunlu)",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
-    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
+    "status": "error",
+    "code": null,
+    "final_url": "https://iha.shgm.gov.tr/",
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -192,10 +192,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
-    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
+    "status": "error",
+    "code": null,
+    "final_url": "https://iha.shgm.gov.tr/",
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -203,10 +203,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha",
-    "message": "OK"
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -412,10 +412,10 @@
     "id": "privacyPolicyUrl",
     "title": "privacyPolicyUrl",
     "url": "https://pappilappi.com/privacy-en.html",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://pappilappi.com/privacy-en.html",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "MX (Mexiko)",
@@ -984,10 +984,10 @@
     "id": "dinacia_utm",
     "title": "UTM DINACIA — Plataforma de registro y autorización",
     "url": "https://utm.dinacia.gub.uy/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://utm.dinacia.gub.uy/",
-    "message": "OK"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
   },
   {
     "country": "UY (Uruguay)",
@@ -1050,10 +1050,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://utm.dinacia.gub.uy/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://utm.dinacia.gub.uy/",
-    "message": "OK"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
   },
   {
     "country": "UY (Uruguay)",
@@ -1303,10 +1303,10 @@
     "id": "aac_main",
     "title": "AAC — Autoridad Aeronáutica Civil de Panamá",
     "url": "https://www.aeronautica.gob.pa/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.aeronautica.gob.pa/",
-    "message": "OK"
+    "message": "[Errno -3] Temporary failure in name resolution"
   },
   {
     "country": "PA (Panama)",
@@ -1314,10 +1314,10 @@
     "id": "aac_racp",
     "title": "RACP — Reglamento de Aeronáutica Civil de Panamá",
     "url": "https://sigob.aeronautica.gob.pa/snra/subtipo/2",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://sigob.aeronautica.gob.pa/snra/subtipo/2",
-    "message": "OK"
+    "message": "[Errno -3] Temporary failure in name resolution"
   },
   {
     "country": "PA (Panama)",
@@ -1325,10 +1325,10 @@
     "id": "aac_albrook_office",
     "title": "Oficina AAC Albrook (registro presencial obligatorio)",
     "url": "https://www.aeronautica.gob.pa/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.aeronautica.gob.pa/",
-    "message": "OK"
+    "message": "[Errno -3] Temporary failure in name resolution"
   },
   {
     "country": "PA (Panama)",
@@ -1336,10 +1336,10 @@
     "id": "aac_noticias",
     "title": "AAC — Comunicados y normativa actual",
     "url": "https://www.aeronautica.gob.pa/Noticia/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.aeronautica.gob.pa/Noticia/",
-    "message": "OK"
+    "message": "[Errno -3] Temporary failure in name resolution"
   },
   {
     "country": "PA (Panama)",
@@ -1380,10 +1380,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.aeronautica.gob.pa/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.aeronautica.gob.pa/",
-    "message": "OK"
+    "message": "[Errno -3] Temporary failure in name resolution"
   },
   {
     "country": "PA (Panama)",
@@ -1391,10 +1391,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.aeronautica.gob.pa/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.aeronautica.gob.pa/",
-    "message": "OK"
+    "message": "[Errno -3] Temporary failure in name resolution"
   },
   {
     "country": "PA (Panama)",
@@ -1568,9 +1568,9 @@
     "title": "CAAS — UA Pilot License (UAPL)",
     "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft/ua-regulatory-requirements",
     "status": "error",
-    "code": null,
+    "code": 404,
     "final_url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft/ua-regulatory-requirements",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "Not Found"
   },
   {
     "country": "SG (Singapore)",
@@ -1578,10 +1578,10 @@
     "id": "caas_brid",
     "title": "CAAS — Broadcast Remote ID",
     "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft",
-    "status": "error",
-    "code": null,
-    "final_url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft",
-    "message": "[Errno 104] Connection reset by peer"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://www.caas.gov.sg/unmanned-aircraft/",
+    "message": "→ https://www.caas.gov.sg/unmanned-aircraft/"
   },
   {
     "country": "SG (Singapore)",
@@ -2007,10 +2007,10 @@
     "id": "bcaa_drones",
     "title": "BCAA — Droneregels",
     "url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "message": "OK"
+    "message": "[Errno 101] Network is unreachable"
   },
   {
     "country": "BE (Belgien)",
@@ -2040,10 +2040,10 @@
     "id": "bcaa_training",
     "title": "BCAA — Opleiding en examens",
     "url": "https://mobilit.belgium.be/en/node/6144",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://mobilit.belgium.be/en/node/6144",
-    "message": "OK"
+    "message": "[Errno 101] Network is unreachable"
   },
   {
     "country": "BE (Belgien)",
@@ -2062,10 +2062,10 @@
     "id": "bcaa_faq",
     "title": "BCAA — Drone-FAQ",
     "url": "https://mobilit.belgium.be/en/node/444",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://mobilit.belgium.be/en/node/444",
-    "message": "OK"
+    "message": "[Errno 101] Network is unreachable"
   },
   {
     "country": "BE (Belgien)",
@@ -2084,10 +2084,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "message": "OK"
+    "message": "[Errno 101] Network is unreachable"
   },
   {
     "country": "BE (Belgien)",
@@ -3316,10 +3316,10 @@
     "id": "privacyPolicyUrl",
     "title": "privacyPolicyUrl",
     "url": "https://pappilappi.com/privacy-en.html",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://pappilappi.com/privacy-en.html",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "EE (Estland)",
@@ -3943,10 +3943,10 @@
     "id": "droniq",
     "title": "Droniq – Drohnenflug-App",
     "url": "https://droniq.de/droniq-app/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 503,
     "final_url": "https://droniq.de/droniq-app/",
-    "message": "OK"
+    "message": "Backend fetch failed"
   },
   {
     "country": "DE (Tyskland)",
@@ -4108,10 +4108,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://drones.enaire.es",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://drones.enaire.es",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "ES (Spanien)",
@@ -4240,10 +4240,10 @@
     "id": "dgac_drones",
     "title": "DGAC — Réglementation des drones",
     "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "FR (Frankrike)",
@@ -4922,10 +4922,10 @@
     "id": "sacaa_main",
     "title": "SACAA — Main portal",
     "url": "https://www.caa.co.za/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -4933,10 +4933,10 @@
     "id": "sacaa_commercial",
     "title": "SACAA — Commercial licensing",
     "url": "https://www.caa.co.za/industry-information/uas/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/industry-information/uas/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -4944,10 +4944,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caa.co.za/industry-information/uas/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/industry-information/uas/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -5054,10 +5054,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://experience.arcgis.com/experience/9d098dbc738e436f9525fdb4ef443f61",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://experience.arcgis.com/experience/9d098dbc738e436f9525fdb4ef443f61",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "NO (Norge)",
@@ -5087,10 +5087,10 @@
     "id": "digitalsky",
     "title": "DigitalSky — DGCA platform",
     "url": "https://digitalsky.dgca.gov.in/",
-    "status": "error",
-    "code": null,
-    "final_url": "https://digitalsky.dgca.gov.in/",
-    "message": "[Errno 104] Connection reset by peer"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://digitalsky.aai.aero/",
+    "message": "→ https://digitalsky.aai.aero/"
   },
   {
     "country": "IN (Indien)",
@@ -5153,10 +5153,10 @@
     "id": "privacyPolicyUrl",
     "title": "privacyPolicyUrl",
     "url": "https://pappilappi.com/privacy-en.html",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://pappilappi.com/privacy-en.html",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "AU (Australien)",
@@ -5472,10 +5472,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.navcanada.ca/en/flight-planning/drone-flight-planning.aspx",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.navcanada.ca/en/flight-planning/drone-flight-planning.aspx",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "CA (Kanada)",
