@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "verktyg": "python3 -m tools.si_pt_regeltext_watch --update-baseline",
+    "vad": "Normaliserad brödtext från CAA Slovenias och ANAC:s regelsidor. Textdrift = info; ANKARE som faller = warn.",
+    "kallor": {
+      "si": "https://www.caa.si/geografske-omejitve-za-uas.html",
+      "pt": "https://www.anac.pt/vPT/Generico/drones/categoria_aberta/Paginas/CategoriaAberta.aspx"
+    }
+  },
+  "sidor": {
+    "si": {
+      "tecken": 3711,
+      "sha256": "c14279934c8adb692c7629054c1e0f0f27b2b75bdcb6ffb3ee4dd67152032499"
+    },
+    "pt": {
+      "tecken": 4800,
+      "sha256": "8fa5557874576f9225396aecd740b2744f08efb84fd661605310a694ab7ee722"
+    }
+  }
+}
