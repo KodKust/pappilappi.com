@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-26T19:26:36.653179+00:00",
+  "generated": "2026-08-26T19:33:49.528956+00:00",
   "summary": {
     "fail": 0,
-    "warn": 31,
+    "warn": 12,
     "ok": 223,
     "total_checks": 333,
     "countries_total": 55,
-    "countries_ok": 36
+    "countries_ok": 55
   },
   "countries": [
     {
@@ -604,7 +604,7 @@
       "iso": "LU",
       "name": "Luxembourg",
       "flag": "🇱🇺",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -633,8 +633,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 76d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -655,7 +655,7 @@
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
-          "url": "https://dac.gouvernement.lu/fr/drones.html",
+          "url": "https://dac.gouvernement.lu/fr/drones/where-when-register.html",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
@@ -664,7 +664,7 @@
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
-          "url": "https://www.geoportail.lu",
+          "url": "https://g-o.lu/uas",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
@@ -673,7 +673,7 @@
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
-          "url": "https://dac.gouvernement.lu/fr/drones.html",
+          "url": "https://dac.gouvernement.lu/fr/drones/drones-let-me-fly/categorie-open.html",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
@@ -719,7 +719,7 @@
       "iso": "SI",
       "name": "Slovenia",
       "flag": "🇸🇮",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -783,8 +783,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 76d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -869,7 +869,7 @@
       "iso": "CH",
       "name": "Switzerland",
       "flag": "🇨🇭",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1038,8 +1038,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 77d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1088,7 +1088,7 @@
       "iso": "SK",
       "name": "Slovakia",
       "flag": "🇸🇰",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1107,7 +1107,7 @@
         {
           "name": "Feed: sk-zones",
           "status": "ok",
-          "detail": "hämtad 1d sen, 202 kB",
+          "detail": "hämtad 2d sen, 202 kB",
           "last_modified": "2026-08-24T19:30:56+00:00",
           "url": "https://pappilappi.com/airspace/sk-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1117,8 +1117,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 76d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1176,7 +1176,7 @@
       "iso": "NL",
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1239,8 +1239,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 68d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1460,7 +1460,7 @@
       "iso": "IE",
       "name": "Ireland",
       "flag": "🇮🇪",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1497,8 +1497,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 68d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1547,7 +1547,7 @@
       "iso": "PT",
       "name": "Portugal",
       "flag": "🇵🇹",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1577,8 +1577,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 76d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1635,7 +1635,7 @@
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
-          "url": "https://www.aan.pt/subPagina-AAN-001.005-levantamentos-a-reos",
+          "url": "https://www.aan.pt/subPagina-AAN-001.005.005-aeronaves-nao-tripuladas-drones",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
@@ -1681,7 +1681,7 @@
       "iso": "IS",
       "name": "Iceland",
       "flag": "🇮🇸",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1710,8 +1710,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 68d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1737,7 +1737,7 @@
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
-          "name": "Länk: FlyDrone.is – Loftrýmiskort",
+          "name": "Länk: FlyDrone.is – Skráning og A1/A3-próf",
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
@@ -1760,7 +1760,7 @@
       "iso": "EE",
       "name": "Estonia",
       "flag": "🇪🇪",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1789,8 +1789,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 76d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1839,7 +1839,7 @@
       "iso": "AT",
       "name": "Austria",
       "flag": "🇦🇹",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1868,8 +1868,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 76d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1918,7 +1918,7 @@
       "iso": "DK",
       "name": "Denmark",
       "flag": "🇩🇰",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2022,8 +2022,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 68d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2108,7 +2108,7 @@
       "iso": "RO",
       "name": "Romania",
       "flag": "🇷🇴",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2137,8 +2137,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 68d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2150,7 +2150,7 @@
           "status": "ok",
           "detail": "200 OK (HEAD blockerad: RemoteDisconnected — WAF, inte död länk)",
           "last_modified": null,
-          "url": "https://www.caa.ro/page/uas",
+          "url": "https://www.caa.ro/ro/pages/drone",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
@@ -2159,7 +2159,7 @@
           "status": "ok",
           "detail": "200 OK (HEAD blockerad: RemoteDisconnected — WAF, inte död länk)",
           "last_modified": null,
-          "url": "https://www.caa.ro/page/uas",
+          "url": "https://www.caa.ro/ro/pages/drone",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
@@ -2177,7 +2177,7 @@
           "status": "ok",
           "detail": "200 OK (HEAD blockerad: RemoteDisconnected — WAF, inte död länk)",
           "last_modified": null,
-          "url": "https://www.caa.ro/page/uas",
+          "url": "https://www.caa.ro/ro/pages/drone",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
@@ -2223,7 +2223,7 @@
       "iso": "DE",
       "name": "Deutschland",
       "flag": "🇩🇪",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2701,8 +2701,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 68d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2742,7 +2742,7 @@
       "iso": "ES",
       "name": "Spain",
       "flag": "🇪🇸",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2787,8 +2787,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 77d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2875,7 +2875,7 @@
       "iso": "FR",
       "name": "France",
       "flag": "🇫🇷",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2947,8 +2947,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 105d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3035,7 +3035,7 @@
       "iso": "FI",
       "name": "Finland",
       "flag": "🇫🇮",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -3119,8 +3119,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 82d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3141,7 +3141,7 @@
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
-          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
+          "url": "https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
@@ -3150,7 +3150,7 @@
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
-          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
+          "url": "https://www.droneinfo.fi/",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
@@ -3159,7 +3159,7 @@
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
-          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
+          "url": "https://traficom.fi/fi/miehittamaton-ilmailu/verkkoteoriakoe-toiminnan-alakategoriaan-a1-ja-a3",
           "kind": "link",
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         }
@@ -3278,7 +3278,7 @@
       "iso": "SE",
       "name": "Sverige",
       "flag": "🇸🇪",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [],
@@ -3374,8 +3374,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 77d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3401,7 +3401,7 @@
           "explain": "En officiell länk som visas för piloter i appen. Kontrollen ser att sidan svarar — innehållet bedöms i den månatliga AI-granskningen och de manuella faktakollarna."
         },
         {
-          "name": "Länk: Operatörsregistrering (krävs ≥250g eller kamera)",
+          "name": "Länk: Operatörsregistrering (krävs ≥250 g eller kamera, 250 kr/år)",
           "status": "ok",
           "detail": "200 OK",
           "last_modified": null,
@@ -3462,7 +3462,7 @@
       "iso": "NO",
       "name": "Norge",
       "flag": "🇳🇴",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -3577,8 +3577,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 81d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3703,7 +3703,7 @@
       "iso": "US",
       "name": "United States",
       "flag": "🇺🇸",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -3794,7 +3794,7 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 54 min sen, 519 kB",
+          "detail": "data oförändrad sedan 1h sen, 519 kB",
           "last_modified": "2026-08-26T18:31:33+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
@@ -3913,8 +3913,8 @@
         },
         {
           "name": "Regler (lastVerified)",
-          "status": "warn",
-          "detail": "regler verifierade 68d sedan — dags för audit",
+          "status": "info",
+          "detail": "regler verifierade 0d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4058,7 +4058,7 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "52 min sen, 6005 NOTAMs, max cirkel 60 NM, 80 GNSS-områden i egen kanal",
+          "detail": "59 min sen, 6005 NOTAMs, max cirkel 60 NM, 80 GNSS-områden i egen kanal",
           "last_modified": "2026-08-26T18:32:26.852256+00:00",
           "url": null,
           "kind": "gist",
@@ -4123,7 +4123,7 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "ok",
-          "detail": "51 min sen, 7 kB",
+          "detail": "58 min sen, 7 kB",
           "last_modified": "2026-08-26T18:32:56+00:00",
           "url": null,
           "kind": "other"
@@ -4164,7 +4164,7 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 53 min sen (1 pipelines körda)",
+          "detail": "senaste körning 1h sen (1 pipelines körda)",
           "last_modified": "2026-08-26T18:31:30.023329+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
@@ -4404,7 +4404,7 @@
     {
       "name": "Data health (all sources)",
       "status": "ok",
-      "detail": "4/4 OK",
+      "detail": "5/5 OK",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -4468,7 +4468,7 @@
     {
       "name": "Flutter CI",
       "status": "warn",
-      "detail": "6/17 FAIL",
+      "detail": "6/18 FAIL",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -4476,7 +4476,7 @@
     {
       "name": "Publish countries.json to Gist",
       "status": "warn",
-      "detail": "1/3 FAIL",
+      "detail": "1/4 FAIL",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -4492,7 +4492,7 @@
     {
       "name": "feed-renderbarhet",
       "status": "warn",
-      "detail": "2/6 FAIL",
+      "detail": "2/7 FAIL",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -4532,7 +4532,7 @@
     {
       "name": "GitHub Actions (24h): täckning",
       "status": "info",
-      "detail": "99 körningar över 23 workflows bedömda — hela dygnet täckt",
+      "detail": "103 körningar över 23 workflows bedömda — hela dygnet täckt",
       "last_modified": null,
       "url": null,
       "kind": "other"
