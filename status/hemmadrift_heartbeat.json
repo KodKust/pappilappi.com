@@ -1,14 +1,12 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-08-27T14:30:52.548970+00:00",
-  "started_at": "2026-08-27T14:30:07.244845+00:00",
-  "duration_s": 45,
+  "stamped_at": "2026-08-27T18:30:26.791755+00:00",
+  "started_at": "2026-08-27T18:30:07.746019+00:00",
+  "duration_s": 19,
   "slept_s": 0,
   "mode": "--due --publish --status --notify",
-  "pipelines_ok": [
-    "se-heliports-aip"
-  ],
+  "pipelines_ok": [],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
     "ro-zones",
@@ -16,6 +14,7 @@
     "es-parques",
     "fr-parcs",
     "se-natur",
+    "se-heliports-aip",
     "ch-schiessen",
     "dk-airspace",
     "dk-infra",
@@ -59,5 +58,5 @@
     "de-full"
   ],
   "pipelines_skipped_wip": [],
-  "nothing_due": false
+  "nothing_due": true
 }
