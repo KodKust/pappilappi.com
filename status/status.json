@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T05:02:38.648207+00:00",
+  "generated": "2026-08-29T10:37:03.617421+00:00",
   "summary": {
     "fail": 0,
     "warn": 4,
@@ -3040,8 +3040,8 @@
         },
         {
           "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att alphatango.aviation-civile.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://alphatango.aviation-civile.gouv.fr",
           "kind": "link",
@@ -3049,8 +3049,8 @@
         },
         {
           "name": "Länk: cartes.gouv.fr — Restrictions UAS catégorie Ouverte et aéromodélisme",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att cartes.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
           "kind": "link",
@@ -3858,7 +3858,7 @@
         {
           "name": "Feed: tfrs",
           "status": "info",
-          "detail": "200 OK, 521 kB — ingen GitHub-token (ålder ej bedömd)",
+          "detail": "200 OK, 504 kB — ingen GitHub-token (ålder ej bedömd)",
           "last_modified": null,
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
@@ -3958,7 +3958,7 @@
         {
           "name": "Aerodromes Gist (us.json)",
           "status": "ok",
-          "detail": "10h sen, 4080 fält",
+          "detail": "15h sen, 4080 fält",
           "last_modified": "2026-08-28T18:55:29.298025+00:00",
           "url": null,
           "kind": "gist",
@@ -4112,7 +4112,7 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "5h sen, 6029 NOTAMs, max cirkel 60 NM, 51 GNSS-områden i egen kanal",
+          "detail": "11h sen, 6029 NOTAMs, max cirkel 60 NM, 51 GNSS-områden i egen kanal",
           "last_modified": "2026-08-28T23:30:10.828933+00:00",
           "url": null,
           "kind": "gist",
@@ -4177,8 +4177,8 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "ok",
-          "detail": "9h sen, 7 kB",
-          "last_modified": "2026-08-28T19:29:00+00:00",
+          "detail": "15h sen, 7 kB",
+          "last_modified": "2026-08-28T19:28:59+00:00",
           "url": null,
           "kind": "other"
         },
@@ -4218,8 +4218,8 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 10h sen (inget var due — allt färskt)",
-          "last_modified": "2026-08-28T18:32:29.218791+00:00",
+          "detail": "senaste körning 5h sen (1 pipelines körda)",
+          "last_modified": "2026-08-29T04:59:53.555558+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
