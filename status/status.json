@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-30T10:53:04.644462+00:00",
+  "generated": "2026-08-30T14:51:37.136062+00:00",
   "summary": {
     "fail": 0,
-    "warn": 27,
-    "ok": 198,
+    "warn": 24,
+    "ok": 201,
     "total_checks": 319,
     "countries_total": 55,
-    "countries_ok": 51
+    "countries_ok": 53
   },
   "countries": [
     {
@@ -1048,7 +1048,7 @@
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 23 min sen, 532 kB",
+          "detail": "hämtad 4h sen, 532 kB",
           "last_modified": "2026-08-30T10:18:50+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
@@ -1500,7 +1500,7 @@
       "iso": "IE",
       "name": "Ireland",
       "flag": "🇮🇪",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1525,7 +1525,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "hämtad 45 min sen, 1533 kB",
+          "detail": "hämtad 4h sen, 1533 kB",
           "last_modified": "2026-08-30T09:56:40+00:00",
           "url": "https://pappilappi.com/airspace/ie-ed269.geojson",
           "kind": "feed",
@@ -1555,8 +1555,8 @@
         },
         {
           "name": "Länk: IAA — Drone regulations",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (andra uppslagningen lyckades — transient resolver-miss, inte död domän) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.iaa.ie/general-aviation/drones",
           "kind": "link",
@@ -1564,8 +1564,8 @@
         },
         {
           "name": "Länk: IAA — Register as operator",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (andra uppslagningen lyckades — transient resolver-miss, inte död domän) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.iaa.ie/general-aviation/drones/drone-register",
           "kind": "link",
@@ -1573,8 +1573,8 @@
         },
         {
           "name": "Länk: IAA — Geographical zones map",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (andra uppslagningen lyckades — transient resolver-miss, inte död domän) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.iaa.ie/general-aviation/drones/faqs/geographical-zones",
           "kind": "link",
@@ -2045,7 +2045,7 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "hämtad 47 min sen, 2270 kB",
+          "detail": "hämtad 4h sen, 2270 kB",
           "last_modified": "2026-08-30T10:04:31+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
           "kind": "feed",
@@ -2056,7 +2056,7 @@
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "hämtad 47 min sen, 714 kB",
+          "detail": "hämtad 4h sen, 714 kB",
           "last_modified": "2026-08-30T10:04:31+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a",
           "kind": "feed",
@@ -2514,7 +2514,7 @@
         {
           "name": "Feed: de-temporaere_betriebseinschraenkungen",
           "status": "ok",
-          "detail": "data oförändrad sedan 23h sen, 75 kB",
+          "detail": "data oförändrad sedan 1d sen, 75 kB",
           "last_modified": "2026-08-29T11:49:23+00:00",
           "url": "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson?cb=20260714a",
           "kind": "feed",
@@ -2885,7 +2885,7 @@
         {
           "name": "Feed: es-parques",
           "status": "ok",
-          "detail": "hämtad 27d sen, 284 kB",
+          "detail": "hämtad 28d sen, 284 kB",
           "last_modified": "2026-08-02T12:16:38+00:00",
           "url": "https://pappilappi.com/airspace/es-parques.geojson?cb=20260604a",
           "kind": "feed",
@@ -2993,7 +2993,7 @@
       "iso": "FR",
       "name": "France",
       "flag": "🇫🇷",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -3046,7 +3046,7 @@
         {
           "name": "Feed: fr-parcs",
           "status": "ok",
-          "detail": "hämtad 27d sen, 723 kB",
+          "detail": "hämtad 28d sen, 723 kB",
           "last_modified": "2026-08-02T11:42:39+00:00",
           "url": "https://pappilappi.com/airspace/fr-parcs.geojson?cb=20260604b",
           "kind": "feed",
@@ -3094,8 +3094,8 @@
         },
         {
           "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att alphatango.aviation-civile.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://alphatango.aviation-civile.gouv.fr",
           "kind": "link",
@@ -3103,8 +3103,8 @@
         },
         {
           "name": "Länk: cartes.gouv.fr — Restrictions UAS catégorie Ouverte et aéromodélisme",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att cartes.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK (HEAD blockerad: URLError: [Errno 8] nodename nor servname provided, or not known — WAF, inte död länk)",
           "last_modified": null,
           "url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
           "kind": "link",
@@ -3194,7 +3194,7 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 40 min sen, 649 kB",
+          "detail": "hämtad 4h sen, 649 kB",
           "last_modified": "2026-08-30T10:12:42+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
           "kind": "feed",
@@ -3205,7 +3205,7 @@
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 40 min sen, 8989 kB",
+          "detail": "hämtad 4h sen, 8989 kB",
           "last_modified": "2026-08-30T10:12:42+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260802b",
           "kind": "feed",
@@ -3216,7 +3216,7 @@
         {
           "name": "Feed: fi-permanent",
           "status": "ok",
-          "detail": "hämtad 40 min sen, 173 kB",
+          "detail": "hämtad 4h sen, 173 kB",
           "last_modified": "2026-08-30T10:12:42+00:00",
           "url": "https://pappilappi.com/airspace/fi-permanent.geojson?cb=20260802a",
           "kind": "feed",
@@ -3227,7 +3227,7 @@
         {
           "name": "Feed: fi-temporary",
           "status": "ok",
-          "detail": "hämtad 40 min sen, 302 kB",
+          "detail": "hämtad 4h sen, 302 kB",
           "last_modified": "2026-08-30T10:12:42+00:00",
           "url": "https://pappilappi.com/airspace/fi-temporary.geojson?cb=20260802a",
           "kind": "feed",
@@ -3452,7 +3452,7 @@
         {
           "name": "Feed: se-heliports-aip",
           "status": "ok",
-          "detail": "hämtad 2d sen, 1 kB",
+          "detail": "hämtad 3d sen, 1 kB",
           "last_modified": "2026-08-27T14:30:35+00:00",
           "url": "https://pappilappi.com/airspace/se-heliports-aip.geojson?cb=20260810a",
           "kind": "feed",
@@ -3911,7 +3911,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 1h sen, 19662 kB",
+          "detail": "data oförändrad sedan 5h sen, 19662 kB",
           "last_modified": "2026-08-30T09:48:49+00:00",
           "url": "https://pappilappi.com/airspace/us.geojson",
           "kind": "feed",
@@ -3922,8 +3922,8 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 505 kB",
-          "last_modified": "2026-08-30T05:24:37+00:00",
+          "detail": "data oförändrad sedan 1h sen, 496 kB",
+          "last_modified": "2026-08-30T13:48:36+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (TFR)",
@@ -3944,7 +3944,7 @@
         {
           "name": "Feed: classes",
           "status": "ok",
-          "detail": "data oförändrad sedan 36 min sen, 2253 kB",
+          "detail": "data oförändrad sedan 4h sen, 2253 kB",
           "last_modified": "2026-08-30T10:16:56+00:00",
           "url": "https://pappilappi.com/airspace/us-classes.geojson",
           "kind": "feed",
@@ -3955,7 +3955,7 @@
         {
           "name": "Feed: sua",
           "status": "ok",
-          "detail": "data oförändrad sedan 44 min sen, 1685 kB",
+          "detail": "data oförändrad sedan 4h sen, 1685 kB",
           "last_modified": "2026-08-30T10:08:00+00:00",
           "url": "https://pappilappi.com/airspace/us-sua.geojson",
           "kind": "feed",
@@ -3966,7 +3966,7 @@
         {
           "name": "Feed: heliports",
           "status": "ok",
-          "detail": "data oförändrad sedan 44 min sen, 1582 kB",
+          "detail": "data oförändrad sedan 4h sen, 1582 kB",
           "last_modified": "2026-08-30T10:08:05+00:00",
           "url": "https://pappilappi.com/airspace/us-heliports.geojson",
           "kind": "feed",
@@ -3977,7 +3977,7 @@
         {
           "name": "Feed: dc-sfra",
           "status": "ok",
-          "detail": "data oförändrad sedan 47 min sen, 3 kB",
+          "detail": "data oförändrad sedan 4h sen, 3 kB",
           "last_modified": "2026-08-30T10:05:09+00:00",
           "url": "https://pappilappi.com/airspace/us-dc-sfra.geojson",
           "kind": "feed",
@@ -3988,7 +3988,7 @@
         {
           "name": "Feed: nsufr",
           "status": "ok",
-          "detail": "data oförändrad sedan 47 min sen, 8 kB",
+          "detail": "data oförändrad sedan 4h sen, 8 kB",
           "last_modified": "2026-08-30T10:05:13+00:00",
           "url": "https://pappilappi.com/airspace/us-nsufr.geojson",
           "kind": "feed",
@@ -3999,7 +3999,7 @@
         {
           "name": "Feed: wildlife-refuges",
           "status": "ok",
-          "detail": "data oförändrad sedan 45 min sen, 13339 kB",
+          "detail": "data oförändrad sedan 4h sen, 13339 kB",
           "last_modified": "2026-08-30T10:07:01+00:00",
           "url": "https://pappilappi.com/airspace/us-wildlife-refuges.geojson",
           "kind": "feed",
@@ -4010,7 +4010,7 @@
         {
           "name": "Feed: fria",
           "status": "ok",
-          "detail": "data oförändrad sedan 45 min sen, 2886 kB",
+          "detail": "data oförändrad sedan 4h sen, 2886 kB",
           "last_modified": "2026-08-30T10:07:15+00:00",
           "url": "https://pappilappi.com/airspace/us-fria.geojson",
           "kind": "feed",
@@ -4021,7 +4021,7 @@
         {
           "name": "Feed: rec-sites",
           "status": "ok",
-          "detail": "data oförändrad sedan 45 min sen, 2418 kB",
+          "detail": "data oförändrad sedan 4h sen, 2418 kB",
           "last_modified": "2026-08-30T10:07:29+00:00",
           "url": "https://pappilappi.com/airspace/us-rec-sites.geojson",
           "kind": "feed",
@@ -4186,7 +4186,7 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "17h sen, 5990 NOTAMs, max cirkel 60 NM, 43 GNSS-områden i egen kanal",
+          "detail": "21h sen, 5990 NOTAMs, max cirkel 60 NM, 43 GNSS-områden i egen kanal",
           "last_modified": "2026-08-29T17:38:02.557099+00:00",
           "url": null,
           "kind": "gist",
@@ -4250,16 +4250,16 @@
       "checks": [
         {
           "name": "cell-endpoint es/NL",
-          "status": "ok",
-          "detail": "21h sen, 7 kB",
-          "last_modified": "2026-08-29T13:12:07+00:00",
+          "status": "warn",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att dronekoll.com finns — systemets resolver hickade (negativ cache?))",
+          "last_modified": null,
           "url": null,
           "kind": "other"
         },
         {
           "name": "/go-bryggan",
-          "status": "ok",
-          "detail": "200 OK, 44070B",
+          "status": "warn",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att dronekoll.com finns — systemets resolver hickade (negativ cache?))",
           "last_modified": null,
           "url": null,
           "kind": "other"
@@ -4292,8 +4292,8 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 5h sen (1 pipelines körda)",
-          "last_modified": "2026-08-30T04:56:56.529939+00:00",
+          "detail": "senaste körning 4h sen (inget var due — allt färskt)",
+          "last_modified": "2026-08-30T10:41:53.389334+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
