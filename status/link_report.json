@@ -27,10 +27,10 @@
     "id": "decea_sarpas",
     "title": "SARPAS — Autorização de voo (DECEA)",
     "url": "https://servicos.decea.mil.br/sarpas/",
-    "status": "error",
-    "code": 520,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://servicos.decea.mil.br/sarpas/",
-    "message": "<none>"
+    "message": "OK"
   },
   {
     "country": "BR (Brasilien)",
@@ -126,10 +126,10 @@
     "id": "shgm_kayit",
     "title": "İHA Kayıt Sistemi (500 g üzeri zorunlu)",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
-    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
+    "status": "error",
+    "code": null,
+    "final_url": "https://iha.shgm.gov.tr/",
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -192,10 +192,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
-    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
+    "status": "error",
+    "code": null,
+    "final_url": "https://iha.shgm.gov.tr/",
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -203,10 +203,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha",
-    "message": "OK"
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -973,10 +973,10 @@
     "id": "dinacia_drones_main",
     "title": "DINACIA — Ordenamiento básico de drones",
     "url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "UY (Uruguay)",
@@ -995,10 +995,10 @@
     "id": "dinacia_registro_servicio",
     "title": "DINACIA — Permisos de Operador RPAS",
     "url": "https://www.dinacia.gub.uy/novedades/permisos-de-operador-rpas",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.dinacia.gub.uy/novedades/permisos-de-operador-rpas",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "UY (Uruguay)",
@@ -1006,10 +1006,10 @@
     "id": "dinacia_rau",
     "title": "DINACIA — LAR 61 Licencias para pilotos",
     "url": "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-15-febrero",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-16-febrero",
-    "message": "→ https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-16-febrero"
+    "status": "timeout",
+    "code": null,
+    "final_url": "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-15-febrero",
+    "message": "Timeout"
   },
   {
     "country": "UY (Uruguay)",
@@ -1017,10 +1017,10 @@
     "id": "dinacia_main",
     "title": "DINACIA — Página principal",
     "url": "https://www.dinacia.gub.uy/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.dinacia.gub.uy/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "UY (Uruguay)",
@@ -1061,10 +1061,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "UY (Uruguay)",
@@ -1141,7 +1141,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.sinac.go.cr/",
-    "message": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
     "country": "CR (Costa Rica)",
@@ -2216,10 +2216,10 @@
     "id": "nsat-zony",
     "title": "Zemepisné oblasti UAS — Dopravný úrad",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2227,10 +2227,10 @@
     "id": "du_drones",
     "title": "Dopravný úrad — Predpisy pre drony",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2238,10 +2238,10 @@
     "id": "du_register",
     "title": "Dopravný úrad — Registrácia prevádzkovateľa",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2260,10 +2260,10 @@
     "id": "du_rules",
     "title": "Dopravný úrad — Prehľad pravidiel",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2282,10 +2282,10 @@
     "id": "du_faq",
     "title": "Dopravný úrad — FAQ o dronoch",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/caste-otazky-a-odpovede-faq/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/caste-otazky-a-odpovede-faq/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2304,10 +2304,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://letectvo.nsat.sk/en/unmanned-aviation/news/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/en/unmanned-aviation/news/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -5817,8 +5817,8 @@
     "url": "https://api.planespotters.net/pub/photos/hex/A00000",
     "expect": 200,
     "status": "error",
-    "code": 525,
+    "code": 403,
     "final_url": "https://api.planespotters.net/pub/photos/hex/A00000",
-    "message": "<none>"
+    "message": "Forbidden"
   }
 ]
