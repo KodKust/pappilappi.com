@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-08-31T04:56:12.541137+00:00",
-  "started_at": "2026-08-31T04:56:01.926037+00:00",
-  "duration_s": 10,
+  "stamped_at": "2026-08-31T10:30:31.641170+00:00",
+  "started_at": "2026-08-31T10:30:04.198018+00:00",
+  "duration_s": 27,
   "slept_s": 0,
   "mode": "--due --publish --status --notify",
   "pipelines_ok": [
-    "si-aviation"
+    "dk-infra"
   ],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
@@ -19,7 +19,6 @@
     "se-heliports-aip",
     "ch-schiessen",
     "dk-airspace",
-    "dk-infra",
     "fi-airspace",
     "de-temporaere",
     "us-tfr",
@@ -32,6 +31,7 @@
     "is-zones",
     "lu-zones",
     "pt-zones",
+    "si-aviation",
     "si-nature",
     "sk-zones",
     "fr-drones",
