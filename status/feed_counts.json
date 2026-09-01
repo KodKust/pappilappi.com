@@ -1,0 +1,452 @@
+{
+ "generated": "2026-09-01T19:57:59+00:00",
+ "fonster": 12,
+ "min_obs": 3,
+ "kvot": 0.5,
+ "feeds": {
+  "airspace/lu-zones.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 47
+   }
+  ],
+  "airspace/si-aviation.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 51
+   }
+  ],
+  "airspace/si-nature.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 461
+   }
+  ],
+  "airspace/si-built": [
+   {
+    "d": "2026-09-01",
+    "n": 28404
+   }
+  ],
+  "airspace/ch-luftfahrthindernis.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 14378
+   }
+  ],
+  "airspace/ch-ctr.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 18
+   }
+  ],
+  "airspace/ch-tma.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 90
+   }
+  ],
+  "airspace/ch-cta.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 2
+   }
+  ],
+  "airspace/ch-uas-aktivitaetszonen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 43
+   }
+  ],
+  "airspace/ch-jagdbanngebiete.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 43
+   }
+  ],
+  "airspace/ch-vogelreservate.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 35
+   }
+  ],
+  "airspace/ch-sicherheitszonenplan.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 51
+   }
+  ],
+  "airspace/ch-schiessanzeigen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 285
+   }
+  ],
+  "airspace/sk-zones.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 103
+   }
+  ],
+  "airspace/nl-ed269.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 743
+   }
+  ],
+  "airspace/nl-pdok-natura.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 209
+   }
+  ],
+  "airspace/ie-ed269.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 86
+   }
+  ],
+  "airspace/pt-zones.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 375
+   }
+  ],
+  "airspace/is-zones.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 278
+   }
+  ],
+  "airspace/ee-zones.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 234
+   }
+  ],
+  "airspace/at-zones.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 248
+   }
+  ],
+  "airspace/dk-primary.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 876
+   }
+  ],
+  "airspace/dk-natur.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 140
+   }
+  ],
+  "airspace/dk-gul.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 50
+   }
+  ],
+  "airspace/dk-indudflyv.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 186
+   }
+  ],
+  "airspace/dk-jernbane.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 44
+   }
+  ],
+  "airspace/dk-veje70.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 525
+   }
+  ],
+  "airspace/ro-zones.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1272
+   }
+  ],
+  "airspace/de/kontrollzonen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 143
+   }
+  ],
+  "airspace/de/flugbeschraenkungsgebiete.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 108
+   }
+  ],
+  "airspace/de/flughaefen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 63
+   }
+  ],
+  "airspace/de/flugplaetze.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1206
+   }
+  ],
+  "airspace/de/temporaere_betriebseinschraenkungen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 30
+   }
+  ],
+  "airspace/de/militaerische_anlagen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 904
+   }
+  ],
+  "airspace/de/natur.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 13800
+   }
+  ],
+  "airspace/de/natur2000.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 18567
+   }
+  ],
+  "airspace/de/windkraftanlagen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 2576
+   }
+  ],
+  "airspace/de/freibaeder.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 6600
+   }
+  ],
+  "airspace/de/krankenhaeuser.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 2521
+   }
+  ],
+  "airspace/de/polizei.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 3708
+   }
+  ],
+  "airspace/de/sicherheitsbehoerden.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1922
+   }
+  ],
+  "airspace/de/behoerden.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1524
+   }
+  ],
+  "airspace/de/umspannwerke.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 389
+   }
+  ],
+  "airspace/de/kraftwerke.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 70
+   }
+  ],
+  "airspace/de/justizvollzugsanstalten.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 353
+   }
+  ],
+  "airspace/de/diplomatische_vertretungen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 303
+   }
+  ],
+  "airspace/de/internationale_organisationen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 59
+   }
+  ],
+  "airspace/de/labore.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 4
+   }
+  ],
+  "airspace/de/seewasserstrassen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 14
+   }
+  ],
+  "airspace/de/schifffahrtsanlagen.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 437
+   }
+  ],
+  "airspace/es-parques.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 27
+   }
+  ],
+  "airspace/fr-drones.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 3589
+   }
+  ],
+  "airspace/fr-zicad.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 511
+   }
+  ],
+  "airspace/fr-parcs.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 34
+   }
+  ],
+  "airspace/fi-primary.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 731
+   }
+  ],
+  "airspace/fi-natur.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1778
+   }
+  ],
+  "airspace/fi-permanent.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 233
+   }
+  ],
+  "airspace/fi-temporary.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 318
+   }
+  ],
+  "airspace/se-natur.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 6016
+   }
+  ],
+  "airspace/se-heliports-aip.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1
+   }
+  ],
+  "airspace/no-nature.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 6967
+   }
+  ],
+  "airspace/no-nve-infra.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 39
+   }
+  ],
+  "airspace/no.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 311
+   }
+  ],
+  "tfrs/us.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 315
+   }
+  ],
+  "airspace/us-nps.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 442
+   }
+  ],
+  "airspace/us-classes.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1798
+   }
+  ],
+  "airspace/us-sua.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1498
+   }
+  ],
+  "airspace/us-heliports.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1636
+   }
+  ],
+  "airspace/us-dc-sfra.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1
+   }
+  ],
+  "airspace/us-nsufr.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 5
+   }
+  ],
+  "airspace/us-wildlife-refuges.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 1085
+   }
+  ],
+  "airspace/us-fria.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 2706
+   }
+  ],
+  "airspace/us-rec-sites.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 2172
+   }
+  ],
+  "airspace/us.geojson": [
+   {
+    "d": "2026-09-01",
+    "n": 12237
+   }
+  ]
+ }
+}
