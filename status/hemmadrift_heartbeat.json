@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-02T18:32:16.766301+00:00",
-  "started_at": "2026-09-02T18:32:12.394149+00:00",
-  "duration_s": 4,
+  "stamped_at": "2026-09-02T18:32:19.972976+00:00",
+  "started_at": "2026-09-02T18:32:18.931954+00:00",
+  "duration_s": 1,
   "slept_s": 0,
-  "mode": "--publish --only si-aviation",
-  "pipelines_ok": [
-    "si-aviation"
+  "mode": "--publish --only si-nature",
+  "pipelines_ok": [],
+  "pipelines_failed": [
+    "si-nature"
   ],
-  "pipelines_failed": [],
   "pipelines_skipped_not_due": [],
   "pipelines_skipped_wip": [],
   "nothing_due": false
