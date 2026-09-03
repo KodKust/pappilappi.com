@@ -1,16 +1,17 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-03T04:56:19.218654+00:00",
-  "started_at": "2026-09-03T04:56:05.384469+00:00",
-  "duration_s": 13,
+  "stamped_at": "2026-09-03T10:30:21.985059+00:00",
+  "started_at": "2026-09-03T10:30:01.025046+00:00",
+  "duration_s": 20,
   "slept_s": 0,
   "mode": "--due --publish --status --notify",
   "pipelines_ok": [
-    "ro-zones"
+    "nl-lvnl-snapshot"
   ],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
+    "ro-zones",
     "es-zones",
     "es-parques",
     "fr-parcs",
@@ -25,7 +26,6 @@
     "us-tfr",
     "notams-gist",
     "aip-sup-gist",
-    "nl-lvnl-snapshot",
     "se-zones",
     "at-zones",
     "ee-zones",
