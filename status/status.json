@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-06T14:31:49.050977+00:00",
+  "generated": "2026-09-06T18:32:02.896439+00:00",
   "summary": {
     "fail": 0,
-    "warn": 5,
-    "ok": 232,
-    "total_checks": 332,
+    "warn": 7,
+    "ok": 233,
+    "total_checks": 338,
     "countries_total": 55,
-    "countries_ok": 52
+    "countries_ok": 51
   },
   "countries": [
     {
@@ -45,7 +45,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -82,7 +82,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -111,12 +111,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 152d sedan",
+          "detail": "regler verifierade 152d sedan — audit förfaller om 28d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -147,12 +147,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 152d sedan",
+          "detail": "regler verifierade 152d sedan — audit förfaller om 28d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -191,7 +191,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -229,7 +229,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -269,7 +269,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -306,7 +306,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -342,7 +342,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -378,7 +378,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -415,7 +415,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -452,7 +452,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -488,7 +488,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -524,7 +524,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -560,7 +560,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -596,7 +596,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -623,8 +623,8 @@
         {
           "name": "Feed: lu-zones",
           "status": "ok",
-          "detail": "hämtad 6h sen, 96 kB",
-          "last_modified": "2026-09-06T07:52:07+00:00",
+          "detail": "hämtad 9 min sen, 98 kB",
+          "last_modified": "2026-09-06T18:20:21+00:00",
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Luxemburgs drönarzoner",
@@ -649,7 +649,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: DAC — Réglementation des drones",
@@ -721,7 +721,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -784,7 +784,7 @@
         {
           "name": "Feed: si-built",
           "status": "ok",
-          "detail": "hämtad 31d sen, 13 kB",
+          "detail": "hämtad 32d sen, 13 kB",
           "last_modified": "2026-08-05T16:37:59+00:00",
           "url": "https://pappilappi.com/airspace/si-built/",
           "kind": "feed",
@@ -809,7 +809,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: CAA Slovenia — Predpisi o dronih",
@@ -876,12 +876,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 152d sedan",
+          "detail": "regler verifierade 152d sedan — audit förfaller om 28d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -1048,8 +1048,8 @@
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 5h sen, 530 kB",
-          "last_modified": "2026-09-06T09:11:50+00:00",
+          "detail": "hämtad 6 min sen, 530 kB",
+          "last_modified": "2026-09-06T18:23:37+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
           "titel": "Skjuttider (dagsfärska)",
@@ -1074,7 +1074,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: FOCA/BAZL — Drohnenvorschriften",
@@ -1141,7 +1141,7 @@
         {
           "name": "Feed: sk-zones",
           "status": "ok",
-          "detail": "hämtad 22h sen, 209 kB",
+          "detail": "hämtad 1d sen, 209 kB",
           "last_modified": "2026-09-05T16:21:43+00:00",
           "url": "https://pappilappi.com/airspace/sk-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1152,7 +1152,7 @@
         {
           "name": "Feed: sk-reservations",
           "status": "ok",
-          "detail": "hämtad 3h sen, 59 kB",
+          "detail": "hämtad 7h sen, 59 kB",
           "last_modified": "2026-09-06T10:57:08+00:00",
           "url": "https://pappilappi.com/airspace/sk-reservations.geojson",
           "kind": "feed",
@@ -1178,7 +1178,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Zemepisné oblasti UAS — Dopravný úrad",
@@ -1280,13 +1280,13 @@
         {
           "name": "Feed: nl-lvnl-zones",
           "status": "ok",
-          "detail": "hämtad 2d sen, 48 kB",
-          "last_modified": "2026-09-04T12:06:33+00:00",
+          "detail": "hämtad 41 min sen, 74 kB",
+          "last_modified": "2026-09-06T17:49:12+00:00",
           "url": "https://pappilappi.com/airspace/nl-lvnl-zones.geojson",
           "kind": "feed",
           "titel": "Fallskärmsområden + Maastricht CTR (del 2 och 3)",
           "explain": "Flygledningen LVNL:s 21 fallskärmsområden (säkerhets-information för bemannad trafik, inget drönarförbud i sig) och de två delar av Maastrichts kontrollzon som ministeriets zonlista inte täcker — där gäller flygförbudet för öppna kategorin ändå. Hämtas varje fredag (flyghandbokens cykel byts alltid på en torsdag — vi hämtar dagen efter). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-12"
+          "next_due": "2026-09-14"
         },
         {
           "name": "Aerodromes Gist (nl.json)",
@@ -1315,7 +1315,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: ILT — Droneregels",
@@ -1378,7 +1378,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -1414,7 +1414,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -1445,12 +1445,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 152d sedan",
+          "detail": "regler verifierade 152d sedan — audit förfaller om 28d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -1481,12 +1481,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 152d sedan",
+          "detail": "regler verifierade 152d sedan — audit förfaller om 28d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -1517,12 +1517,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 153d sedan",
+          "detail": "regler verifierade 153d sedan — audit förfaller om 27d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -1581,7 +1581,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: IAA — Drone regulations",
@@ -1645,13 +1645,13 @@
         {
           "name": "Feed: pt-zones",
           "status": "ok",
-          "detail": "hämtad 23h sen, 790 kB",
-          "last_modified": "2026-09-05T15:16:18+00:00",
+          "detail": "hämtad 40 min sen, 895 kB",
+          "last_modified": "2026-09-06T17:49:52+00:00",
           "url": "https://pappilappi.com/airspace/pt-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Portugals drönarzoner",
           "explain": "Officiella zoner från luftfartsmyndigheten ANAC. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-13"
+          "next_due": "2026-09-14"
         },
         {
           "name": "EU-Aerodromes Gist (pt.json)",
@@ -1671,7 +1671,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: ANAC — Regulamentação de drones",
@@ -1756,12 +1756,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 152d sedan",
+          "detail": "regler verifierade 152d sedan — audit förfaller om 28d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -1769,7 +1769,7 @@
       "iso": "IS",
       "name": "Iceland",
       "flag": "🇮🇸",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1788,13 +1788,13 @@
         {
           "name": "Feed: is-zones",
           "status": "ok",
-          "detail": "hämtad 22h sen, 182 kB",
-          "last_modified": "2026-09-05T16:22:26+00:00",
+          "detail": "hämtad 13 min sen, 191 kB",
+          "last_modified": "2026-09-06T18:17:56+00:00",
           "url": "https://pappilappi.com/airspace/is-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Islands drönarzoner",
           "explain": "Zoner från transportmyndigheten Samgöngustofa via statens kartserver. Hämtas varje vecka. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-13"
+          "next_due": "2026-09-14"
         },
         {
           "name": "EU-Aerodromes Gist (is.json)",
@@ -1814,7 +1814,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Samgöngustofa – Reglur um dróna",
@@ -1836,8 +1836,8 @@
         },
         {
           "name": "Länk: FlyDrone.is – Skráning og A1/A3-próf",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att flydrone.is finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://flydrone.is",
           "kind": "link",
@@ -1877,8 +1877,8 @@
         {
           "name": "Feed: ee-zones",
           "status": "ok",
-          "detail": "hämtad 3h sen, 248 kB",
-          "last_modified": "2026-09-06T10:48:36+00:00",
+          "detail": "hämtad 10 min sen, 244 kB",
+          "last_modified": "2026-09-06T18:21:05+00:00",
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Estlands drönarzoner",
@@ -1903,7 +1903,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Transpordiamet – Droonireeglid",
@@ -1992,7 +1992,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Austro Control — Drohnenvorschriften",
@@ -2075,7 +2075,7 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "hämtad 5h sen, 2270 kB",
+          "detail": "hämtad 9h sen, 2270 kB",
           "last_modified": "2026-09-06T08:48:22+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
           "kind": "feed",
@@ -2086,7 +2086,7 @@
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "hämtad 5h sen, 728 kB",
+          "detail": "hämtad 9h sen, 728 kB",
           "last_modified": "2026-09-06T08:48:22+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260904a",
           "kind": "feed",
@@ -2156,7 +2156,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Trafikstyrelsen — Droneregler",
@@ -2223,12 +2223,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 152d sedan",
+          "detail": "regler verifierade 152d sedan — audit förfaller om 28d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -2281,7 +2281,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: AACR — Reglementări privind dronele",
@@ -2353,7 +2353,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -2544,7 +2544,7 @@
         {
           "name": "Feed: de-temporaere_betriebseinschraenkungen",
           "status": "ok",
-          "detail": "data oförändrad sedan 4h sen, 69 kB",
+          "detail": "data oförändrad sedan 8h sen, 69 kB",
           "last_modified": "2026-09-06T09:42:45+00:00",
           "url": "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson?cb=20260714a",
           "kind": "feed",
@@ -2709,7 +2709,7 @@
         {
           "name": "Feed: de-labore",
           "status": "warn",
-          "detail": "data oförändrad 53d sen (> 45d)",
+          "detail": "data oförändrad 54d sen (> 45d)",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/labore.geojson?cb=20260714a",
           "kind": "feed",
@@ -2845,7 +2845,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: dipul – Offizielle Drohnenkarte",
@@ -2915,7 +2915,7 @@
         {
           "name": "Feed: es-parques",
           "status": "ok",
-          "detail": "hämtad 23h sen, 284 kB",
+          "detail": "hämtad 1d sen, 284 kB",
           "last_modified": "2026-09-05T15:23:34+00:00",
           "url": "https://pappilappi.com/airspace/es-parques.geojson?cb=20260604a",
           "kind": "feed",
@@ -2941,7 +2941,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: AESA — Normativa de drones",
@@ -3015,7 +3015,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -3111,7 +3111,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: DGAC — Réglementation des drones",
@@ -3124,8 +3124,8 @@
         },
         {
           "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att alphatango.aviation-civile.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://alphatango.aviation-civile.gouv.fr",
           "kind": "link",
@@ -3133,8 +3133,8 @@
         },
         {
           "name": "Länk: cartes.gouv.fr — Restrictions UAS catégorie Ouverte et aéromodélisme",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att cartes.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
           "kind": "link",
@@ -3185,7 +3185,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -3224,7 +3224,7 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 5h sen, 649 kB",
+          "detail": "hämtad 9h sen, 649 kB",
           "last_modified": "2026-09-06T09:01:44+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
           "kind": "feed",
@@ -3235,7 +3235,7 @@
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 5h sen, 8989 kB",
+          "detail": "hämtad 9h sen, 8989 kB",
           "last_modified": "2026-09-06T09:01:44+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260802b",
           "kind": "feed",
@@ -3246,7 +3246,7 @@
         {
           "name": "Feed: fi-permanent",
           "status": "ok",
-          "detail": "hämtad 5h sen, 173 kB",
+          "detail": "hämtad 9h sen, 182 kB",
           "last_modified": "2026-09-06T09:01:44+00:00",
           "url": "https://pappilappi.com/airspace/fi-permanent.geojson?cb=20260802a",
           "kind": "feed",
@@ -3257,7 +3257,7 @@
         {
           "name": "Feed: fi-temporary",
           "status": "ok",
-          "detail": "hämtad 5h sen, 293 kB",
+          "detail": "hämtad 9h sen, 293 kB",
           "last_modified": "2026-09-06T09:01:44+00:00",
           "url": "https://pappilappi.com/airspace/fi-temporary.geojson?cb=20260802a",
           "kind": "feed",
@@ -3283,7 +3283,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Traficom – Drone-säännöt",
@@ -3350,12 +3350,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 152d sedan",
+          "detail": "regler verifierade 152d sedan — audit förfaller om 28d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -3392,7 +3392,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -3428,7 +3428,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -3497,7 +3497,7 @@
         {
           "name": "Feed: se-exes-ctr",
           "status": "ok",
-          "detail": "hämtad 3d sen, 5 kB",
+          "detail": "hämtad 4d sen, 5 kB",
           "last_modified": "2026-09-02T15:37:37+00:00",
           "url": "https://pappilappi.com/airspace/se-exes-ctr.geojson?cb=20260902b",
           "kind": "feed",
@@ -3563,7 +3563,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Transportstyrelsen — Drönarregler",
@@ -3632,12 +3632,12 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 153d sedan",
+          "detail": "regler verifierade 153d sedan — audit förfaller om 27d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -3781,7 +3781,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: Avinor – Fly drone i Norge",
@@ -3856,7 +3856,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -3893,7 +3893,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -3981,6 +3981,10 @@
           {
             "titel": "Vildmarksområden (Wilderness)",
             "label": "us-wilderness"
+          },
+          {
+            "titel": "NOAA:s marina skyddszoner (Greater Farallones)",
+            "label": "noaa-sanctuaries"
           }
         ],
         "saknas": []
@@ -3989,7 +3993,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 6h sen, 16790 kB",
+          "detail": "data oförändrad sedan 10h sen, 16790 kB",
           "last_modified": "2026-09-06T08:26:04+00:00",
           "url": "https://pappilappi.com/airspace/us.geojson",
           "kind": "feed",
@@ -4000,8 +4004,8 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 2h sen, 469 kB",
-          "last_modified": "2026-09-06T12:09:10+00:00",
+          "detail": "data oförändrad sedan 10 min sen, 482 kB",
+          "last_modified": "2026-09-06T18:21:53+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (TFR)",
@@ -4022,7 +4026,7 @@
         {
           "name": "Feed: classes",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 2857 kB",
+          "detail": "data oförändrad sedan 9h sen, 2857 kB",
           "last_modified": "2026-09-06T09:06:01+00:00",
           "url": "https://pappilappi.com/airspace/us-classes.geojson",
           "kind": "feed",
@@ -4033,7 +4037,7 @@
         {
           "name": "Feed: sua",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 1984 kB",
+          "detail": "data oförändrad sedan 9h sen, 1984 kB",
           "last_modified": "2026-09-06T08:54:53+00:00",
           "url": "https://pappilappi.com/airspace/us-sua.geojson",
           "kind": "feed",
@@ -4044,7 +4048,7 @@
         {
           "name": "Feed: heliports",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 1807 kB",
+          "detail": "data oförändrad sedan 9h sen, 1807 kB",
           "last_modified": "2026-09-06T08:54:56+00:00",
           "url": "https://pappilappi.com/airspace/us-heliports.geojson",
           "kind": "feed",
@@ -4055,7 +4059,7 @@
         {
           "name": "Feed: dc-sfra",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 4 kB",
+          "detail": "data oförändrad sedan 9h sen, 4 kB",
           "last_modified": "2026-09-06T08:48:57+00:00",
           "url": "https://pappilappi.com/airspace/us-dc-sfra.geojson",
           "kind": "feed",
@@ -4066,7 +4070,7 @@
         {
           "name": "Feed: nsufr",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 8 kB",
+          "detail": "data oförändrad sedan 9h sen, 8 kB",
           "last_modified": "2026-09-06T08:49:01+00:00",
           "url": "https://pappilappi.com/airspace/us-nsufr.geojson",
           "kind": "feed",
@@ -4077,7 +4081,7 @@
         {
           "name": "Feed: nsufr-fulltime",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 2282 kB",
+          "detail": "data oförändrad sedan 9h sen, 2282 kB",
           "last_modified": "2026-09-06T08:49:31+00:00",
           "url": "https://pappilappi.com/airspace/us-nsufr-fulltime.geojson",
           "kind": "feed",
@@ -4088,7 +4092,7 @@
         {
           "name": "Feed: wildlife-refuges",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 13663 kB",
+          "detail": "data oförändrad sedan 9h sen, 13663 kB",
           "last_modified": "2026-09-06T08:53:59+00:00",
           "url": "https://pappilappi.com/airspace/us-wildlife-refuges.geojson",
           "kind": "feed",
@@ -4099,7 +4103,7 @@
         {
           "name": "Feed: fria",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 3995 kB",
+          "detail": "data oförändrad sedan 9h sen, 3995 kB",
           "last_modified": "2026-09-06T08:54:11+00:00",
           "url": "https://pappilappi.com/airspace/us-fria.geojson",
           "kind": "feed",
@@ -4110,7 +4114,7 @@
         {
           "name": "Feed: rec-sites",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 3436 kB",
+          "detail": "data oförändrad sedan 9h sen, 3436 kB",
           "last_modified": "2026-09-06T08:54:23+00:00",
           "url": "https://pappilappi.com/airspace/us-rec-sites.geojson",
           "kind": "feed",
@@ -4121,13 +4125,24 @@
         {
           "name": "Feed: us-wilderness",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 2785 kB",
+          "detail": "data oförändrad sedan 9h sen, 2785 kB",
           "last_modified": "2026-09-06T08:52:13+00:00",
           "url": "https://pappilappi.com/airspace/us-wilderness.geojson",
           "kind": "feed",
           "titel": "Vildmarksområden (Wilderness)",
           "explain": "Federala vildmarksområden (USFS och BLM) där start, landning och flygning från marken är förbjudet. Hämtas varje vecka (innehållet ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
           "next_due": "2026-10-21"
+        },
+        {
+          "name": "Feed: noaa-sanctuaries",
+          "status": "ok",
+          "detail": "data oförändrad sedan 9 min sen, 38 kB",
+          "last_modified": "2026-09-06T18:22:40+00:00",
+          "url": "https://pappilappi.com/airspace/us-noaa-sanctuaries.geojson",
+          "kind": "feed",
+          "titel": "NOAA:s marina skyddszoner (Greater Farallones)",
+          "explain": "Sju särskilda viltskyddszoner i Greater Farallones marina sanktuarium utanför Kalifornien. Där är motordriven luftfart förbjuden under 1 000 fot över vattnen — och NOAA skriver själv att förbudet gäller modellflyg, quadcopters och drönare. Hämtas varje fredag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
+          "next_due": "2026-09-14"
         },
         {
           "name": "Aerodromes Gist (us.json)",
@@ -4147,7 +4162,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Efter 45 dagar påminner sidan om att det är dags igen."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 45 dagar räknas ner i raden, och efter 45 dagar påminner sidan om att det är dags igen."
         },
         {
           "name": "Länk: FAA — Drone regulations",
@@ -4234,7 +4249,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     },
@@ -4274,7 +4289,7 @@
           "url": null,
           "kind": "rules",
           "titel": "Regler senast faktakollade",
-          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Vilket land som står på tur härnäst styrs av kön under Källförvaltning längre ner på sidan."
+          "explain": "Datumet då reglerna för landet senast faktakollades av en människa mot myndighetens texter. Den sista månaden före 180 dagar räknas ner i raden. Efter 180 dagar ställs landet i kö — de 5 äldsta blir gula, resten räknas på en enda rad under Reglering & datapuls, och så snart ett land är omkollat tar nästa dess plats."
         }
       ]
     }
@@ -4286,8 +4301,8 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "21h sen, 5789 NOTAMs, max cirkel 60 NM, 52 GNSS-områden i egen kanal",
-          "last_modified": "2026-09-05T16:41:45.097889+00:00",
+          "detail": "1h sen, 5477 NOTAMs, max cirkel 60 NM, 51 GNSS-områden i egen kanal",
+          "last_modified": "2026-09-06T16:48:13.087645+00:00",
           "url": null,
           "kind": "gist",
           "titel": "NOTAM-listan (alla länder)",
@@ -4316,7 +4331,7 @@
         {
           "name": "Airspace rules Gist",
           "status": "ok",
-          "detail": "ostämplad (färskhet mäts inte här), 244 zontyper",
+          "detail": "ostämplad (färskhet mäts inte här), 245 zontyper",
           "last_modified": null,
           "url": null,
           "kind": "gist",
@@ -4370,6 +4385,26 @@
       "title": "Reglering & datapuls",
       "checks": [
         {
+          "name": "Audit-kön (regler)",
+          "status": "info",
+          "detail": "inget av 36 länder över 180d — kön är tom",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Regelauditens kö",
+          "explain": "Vilka länder står näst på tur att faktakollas av en människa? De fem äldsta får en gul rad på sina egna landskort; blir de fler än så räknas resten här, så att kön syns utan att halva listan blir gul samtidigt. Kön rullar: så snart ett land är omkollat tar nästa dess plats."
+        },
+        {
+          "name": "Regler (OTHER)",
+          "status": "info",
+          "detail": "fallbacktexterna verifierade 152d sedan — audit förfaller om 28d",
+          "last_modified": null,
+          "url": null,
+          "kind": "rules",
+          "titel": "Fallbacktexternas regler",
+          "explain": "Appen har en uppsättning generella regeltexter som visas för länder utan egen landssida. De har ingen egen landsruta på sidan, och stod därför utanför faktakollarnas kö — den här raden räknar deras ålder med samma mått som övriga länder."
+        },
+        {
           "name": "Regulations baseline",
           "status": "ok",
           "detail": "55 länder / 172 URL:er tracked",
@@ -4382,7 +4417,7 @@
         {
           "name": "Hemmadrift-manifestet",
           "status": "ok",
-          "detail": "50 pipelines täcker alla 79 pappilappi-feeds — lokal redundans komplett",
+          "detail": "51 pipelines täcker alla 80 pappilappi-feeds — lokal redundans komplett",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4393,7 +4428,7 @@
           "name": "Hemmadriftens puls",
           "status": "ok",
           "detail": "senaste körning 4h sen (inget var due — allt färskt)",
-          "last_modified": "2026-09-06T10:30:13.914254+00:00",
+          "last_modified": "2026-09-06T14:30:14.741445+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
@@ -4430,6 +4465,16 @@
           "explain": "Bebyggd mark är Sloveniens tyngsta drönarregel och det tyngsta lagret att bygga — det försvann en gång utan att någon märkte det. Raden blir gul om kartrutorna saknas eller blivit för få på servern."
         },
         {
+          "name": "CH UAS-delning",
+          "status": "info",
+          "detail": "grinden EMIT_CH_UAS_INFO_SPLIT är AV — 42 zoner utan delning (dagens förbud gäller alla)",
+          "last_modified": null,
+          "url": null,
+          "kind": "other",
+          "titel": "Schweiz UAS-aktivitetszoner",
+          "explain": "BAZL kallar de flesta av zonerna ren lägesinformation, men två av dem bär myndighetens egen text om ett tillfälligt restriktionsområde. Raden blir gul om delningen slutar träffa — då visas alla som förbjudna igen, vilket är säkert men fel."
+        },
+        {
           "name": "Källtextvakten",
           "status": "ok",
           "detail": "8/8 feeds bär myndighetens egen zontext över golvet",
@@ -4440,9 +4485,29 @@
           "explain": "Zonkorten ska visa myndighetens EGNA ord, inte appens generella mallar. Raden blir gul om andelen zoner med myndighetstext faller i något land — det betyder att en källa bytt fältnamn eller att en robot tappat texten, och att korten tyst börjat visa mallar igen."
         },
         {
+          "name": "PT ANAC-leveransens ålder",
+          "status": "ok",
+          "detail": "ANAC:s zonfil är 137 dygn gammal (larm vid >300)",
+          "last_modified": null,
+          "url": null,
+          "kind": "upstream",
+          "titel": "Portugals leveransålder",
+          "explain": "ANAC publicerar sin zonfil ungefär två gånger om året. Raden blir gul när filen blivit äldre än myndighetens sämsta uppmätta glapp — zonerna är fortfarande sanna, men leveransen har uteblivit och det ska en människa få veta."
+        },
+        {
+          "name": "Våg L — zonens egna uppgifter (fältgolv)",
+          "status": "ok",
+          "detail": "4 grindade fält inom golvet",
+          "last_modified": null,
+          "url": null,
+          "kind": "feed",
+          "titel": "Zonens egna uppgifter (golv)",
+          "explain": "Fyra fält ger piloten zonens EGNA uppgifter: Luxemburgs zonskiss, Estlands kontaktadress, Portugals texter på eget språk och USA:s TFR-tak. De kan tystna helt utan att något går sönder. Raden blir gul om andelen zonkort med uppgiften faller — men bara för de fält som är påslagna."
+        },
+        {
           "name": "Tidsfältens kontraktsvakt",
           "status": "ok",
-          "detail": "10 feeds bekräftade skarpt mot appens parsergrenar, 1 friska redan i baslinjen (16 feeds saknas i schemabaslinjen (nya, live-bbox eller >15 MB) — ej täckta)",
+          "detail": "10 feeds bekräftade skarpt mot appens parsergrenar, 1 friska redan i baslinjen (17 feeds saknas i schemabaslinjen (nya, live-bbox eller >15 MB) — ej täckta)",
           "last_modified": null,
           "url": null,
           "kind": "feed",
@@ -4472,7 +4537,7 @@
         {
           "name": "zone-claims-register",
           "status": "warn",
-          "detail": "290 claims · 130/152 nycklar med kvitto · 42 enforced · 162 regelrader vaktade (snitt 478 tecken) · 47 låsta mot återfall · 1 claims förfallna för omprövning: ZC-US-002",
+          "detail": "299 claims · 131/152 nycklar med kvitto · 42 enforced · 166 regelrader vaktade (snitt 481 tecken) · 48 låsta mot återfall · 1 claims förfallna för omprövning: ZC-US-002",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4492,7 +4557,7 @@
         {
           "name": "mappningsregistret",
           "status": "ok",
-          "detail": "62 mapping-claims · 49 ommätta · 13 omätbara (spegelregeln)",
+          "detail": "65 mapping-claims · 51 ommätta · 14 omätbara (spegelregeln)",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4512,7 +4577,7 @@
         {
           "name": "zontextregistret",
           "status": "warn",
-          "detail": "89 claims prövade FÖRE en källändring: främst EU-EASA-EAR-SERA (17), EE-EANS-UAS-GEOJSON (9), LU-DAC-GEOZONES-FR (8), EU-EURLEX-2019-947 (7) · 9 claims på källor som blivit onåbara: ZC-SI-301, ZC-SI-302, ZC-SI-303, ZC-SI-304, ZC-SI-305 … · 1 claims på avförda (döda) källor: ZC-US-031 · 290 claims · 117/152 gist-nycklar täckta · enforced 42 · ADVISORY_NOT_LAW:6 CONTRADICTED:16 NO_OFFICIAL_SUPPORT:16 OUTDATED:1 PARTIAL:59 VERIFIED:192 · källkoppling når 230/290 claims (3 källor bevakade på annat håll), 41 på källor utan baslinjepost (US-LAANC (6), US-FAA-UASFM (5), NO-LT-VEILEDER (4), US-FAA-TFR (4)), 4 utan sourceIds trots status som kräver källa",
+          "detail": "89 claims prövade FÖRE en källändring: främst EU-EASA-EAR-SERA (17), EE-EANS-UAS-GEOJSON (9), LU-DAC-GEOZONES-FR (8), EU-EURLEX-2019-947 (7) · 9 claims på källor som blivit onåbara: ZC-SI-301, ZC-SI-302, ZC-SI-303, ZC-SI-304, ZC-SI-305 … · 1 claims på avförda (döda) källor: ZC-US-031 · 299 claims · 118/152 gist-nycklar täckta · enforced 42 · ADVISORY_NOT_LAW:6 CONTRADICTED:16 NO_OFFICIAL_SUPPORT:16 OUTDATED:1 PARTIAL:60 VERIFIED:200 · källkoppling når 237/299 claims (3 källor bevakade på annat håll), 43 på källor utan baslinjepost (US-LAANC (6), US-FAA-UASFM (5), US-FAA-TFR (5), NO-LT-VEILEDER (4)), 4 utan sourceIds trots status som kräver källa",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4551,8 +4616,8 @@
         },
         {
           "name": "classifier-gist-drift",
-          "status": "ok",
-          "detail": "3 nycklar driftar (dokumenterad holdback: 3)",
+          "status": "warn",
+          "detail": "ODOKUMENTERAD DRIFT: UAS_AKT_CH — tyst rollback eller opublicerad fix? · 4 nycklar driftar (dokumenterad holdback: 3)",
           "last_modified": null,
           "url": "https://gist.githubusercontent.com/KodKust/d80e1ed0cb7c9910aa2683f83046d69c/raw/classifier_strings.json",
           "kind": "gist",
