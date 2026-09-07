@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T14:31:45.246555+00:00",
+  "generated": "2026-09-07T18:32:39.540270+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -135,13 +135,21 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "68 av 505 länkar trasiga i 25 länder",
+      "detail": "57 av 505 länkar trasiga i 20 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
     }
   ],
   "links": [
+    {
+      "name": "🇨🇾 CY — Cypern",
+      "status": "warn",
+      "detail": "7 av 9 länkar trasiga (403)",
+      "last_modified": null,
+      "url": "https://drones.gov.cy",
+      "kind": "other"
+    },
     {
       "name": "🇦🇺 AU — Australien",
       "status": "warn",
@@ -159,22 +167,6 @@
       "kind": "other"
     },
     {
-      "name": "🇪🇨 EC — Ecuador",
-      "status": "warn",
-      "detail": "5 av 10 länkar trasiga (500)",
-      "last_modified": null,
-      "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-      "kind": "other"
-    },
-    {
-      "name": "🇭🇷 HR — Kroatien",
-      "status": "warn",
-      "detail": "5 av 9 länkar trasiga (timeout)",
-      "last_modified": null,
-      "url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
-      "kind": "other"
-    },
-    {
       "name": "🇲🇹 MT — Malta",
       "status": "warn",
       "detail": "5 av 9 länkar trasiga (403)",
@@ -183,11 +175,11 @@
       "kind": "other"
     },
     {
-      "name": "🇧🇪 BE — Belgien",
+      "name": "🇸🇮 SI — Slovenien",
       "status": "warn",
-      "detail": "4 av 9 länkar trasiga (error)",
+      "detail": "5 av 9 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
+      "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
       "kind": "other"
     },
     {
@@ -199,14 +191,6 @@
       "kind": "other"
     },
     {
-      "name": "🇫🇷 FR — Frankrike",
-      "status": "warn",
-      "detail": "3 av 9 länkar trasiga (error, timeout)",
-      "last_modified": null,
-      "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-      "kind": "other"
-    },
-    {
       "name": "🇬🇷 GR — Grekland",
       "status": "warn",
       "detail": "3 av 9 länkar trasiga (403, timeout)",
@@ -215,27 +199,11 @@
       "kind": "other"
     },
     {
-      "name": "🇹🇷 TR — Turkiet",
-      "status": "warn",
-      "detail": "3 av 10 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://iha.shgm.gov.tr/",
-      "kind": "other"
-    },
-    {
       "name": "🇺🇦 UA — Ukraina",
       "status": "warn",
       "detail": "3 av 5 länkar trasiga (403)",
       "last_modified": null,
       "url": "https://avia.gov.ua",
-      "kind": "other"
-    },
-    {
-      "name": "🇧🇷 BR — Brasilien",
-      "status": "warn",
-      "detail": "2 av 10 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://sistemas.anac.gov.br/sisant/",
       "kind": "other"
     },
     {
@@ -263,9 +231,41 @@
       "kind": "other"
     },
     {
-      "name": "+ 10 länder till med trasiga länkar",
+      "name": "🇵🇪 PE — Peru",
+      "status": "warn",
+      "detail": "2 av 10 länkar trasiga (403, error)",
+      "last_modified": null,
+      "url": "mailto:rpas-dgac@mtc.gob.pe",
+      "kind": "other"
+    },
+    {
+      "name": "🇷🇴 RO — Rumänien",
+      "status": "warn",
+      "detail": "2 av 9 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://flightplan.romatsa.ro/",
+      "kind": "other"
+    },
+    {
+      "name": "🇸🇬 SG — Singapore",
+      "status": "warn",
+      "detail": "2 av 9 länkar trasiga (404)",
+      "last_modified": null,
+      "url": "https://www.caas.gov.sg/public-passengers/unmanned-aircraft/ua-regulatory-requirements",
+      "kind": "other"
+    },
+    {
+      "name": "🇧🇷 BR — Brasilien",
+      "status": "warn",
+      "detail": "1 av 10 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://sistemas.anac.gov.br/sisant/",
+      "kind": "other"
+    },
+    {
+      "name": "+ 5 länder till med trasiga länkar",
       "status": "info",
-      "detail": "13 länkar: PE, RO, SG, DO, LI, NZ, PA, PT, SE, UY",
+      "detail": "5 länkar: DO, LI, NO, NZ, PA",
       "last_modified": null,
       "url": null,
       "kind": "other"
