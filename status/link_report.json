@@ -49,10 +49,10 @@
     "id": "decea_aisweb",
     "title": "AISWEB — NOTAM e cartas aeronáuticas (DECEA)",
     "url": "https://aisweb.decea.mil.br/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://aisweb.decea.mil.br/",
-    "message": "OK"
+    "message": "Remote end closed connection without response"
   },
   {
     "country": "BR (Brasilien)",
@@ -973,10 +973,10 @@
     "id": "dinacia_drones_main",
     "title": "DINACIA — Ordenamiento básico de drones",
     "url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "UY (Uruguay)",
@@ -995,10 +995,10 @@
     "id": "dinacia_registro_servicio",
     "title": "DINACIA — Permisos de Operador RPAS",
     "url": "https://www.dinacia.gub.uy/novedades/permisos-de-operador-rpas",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dinacia.gub.uy/novedades/permisos-de-operador-rpas",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "UY (Uruguay)",
@@ -1006,10 +1006,10 @@
     "id": "dinacia_rau",
     "title": "DINACIA — LAR 61 Licencias para pilotos",
     "url": "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-15-febrero",
-    "status": "timeout",
-    "code": null,
-    "final_url": "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-15-febrero",
-    "message": "Timeout"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-16-febrero",
+    "message": "→ https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-16-febrero"
   },
   {
     "country": "UY (Uruguay)",
@@ -1017,10 +1017,10 @@
     "id": "dinacia_main",
     "title": "DINACIA — Página principal",
     "url": "https://www.dinacia.gub.uy/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dinacia.gub.uy/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "UY (Uruguay)",
@@ -1039,10 +1039,10 @@
     "id": "aud_uruguay",
     "title": "AUD — Asociación Uruguaya de Drones",
     "url": "https://www.aud.org.uy/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://aud.org.uy/",
-    "message": "→ https://aud.org.uy/"
+    "status": "timeout",
+    "code": null,
+    "final_url": "https://www.aud.org.uy/",
+    "message": "Timeout"
   },
   {
     "country": "UY (Uruguay)",
@@ -1061,10 +1061,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "UY (Uruguay)",
@@ -1149,10 +1149,10 @@
     "id": "costaricainfo",
     "title": "Visit Costa Rica — Información oficial turismo",
     "url": "https://www.visitcostarica.com/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.visitcostarica.com/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1193,10 +1193,10 @@
     "id": "dgac_registro_drones",
     "title": "DGAC — Registro de Drones (SISAC)",
     "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 500,
     "final_url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "message": "OK"
+    "message": "Internal Server Error"
   },
   {
     "country": "EC (Ecuador)",
@@ -1204,10 +1204,10 @@
     "id": "dgac_main",
     "title": "DGAC Ecuador — Página principal",
     "url": "https://www.aviacioncivil.gob.ec/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 500,
     "final_url": "https://www.aviacioncivil.gob.ec/",
-    "message": "OK"
+    "message": "Internal Server Error"
   },
   {
     "country": "EC (Ecuador)",
@@ -1215,10 +1215,10 @@
     "id": "dgac_induccion",
     "title": "DGAC — Inducción al uso de drones",
     "url": "https://www.aviacioncivil.gob.ec/induccion-al-uso-de-drones-en-el-ecuador/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 500,
     "final_url": "https://www.aviacioncivil.gob.ec/induccion-al-uso-de-drones-en-el-ecuador/",
-    "message": "OK"
+    "message": "Internal Server Error"
   },
   {
     "country": "EC (Ecuador)",
@@ -1270,10 +1270,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.aviacioncivil.gob.ec/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 500,
     "final_url": "https://www.aviacioncivil.gob.ec/",
-    "message": "OK"
+    "message": "Internal Server Error"
   },
   {
     "country": "EC (Ecuador)",
@@ -1281,10 +1281,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 500,
     "final_url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "message": "OK"
+    "message": "Internal Server Error"
   },
   {
     "country": "EC (Ecuador)",
@@ -1358,10 +1358,10 @@
     "id": "miambiente",
     "title": "MiAmbiente — Áreas protegidas (parques nacionales)",
     "url": "https://www.miambiente.gob.pa/",
-    "status": "error",
-    "code": 503,
-    "final_url": "https://www.miambiente.gob.pa/",
-    "message": "Service Unavailable"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://miambiente.gob.pa/",
+    "message": "→ https://miambiente.gob.pa/"
   },
   {
     "country": "PA (Panama)",
@@ -1809,10 +1809,10 @@
     "id": "dcad_drones",
     "title": "DCAD – Κανονισμοί για drones",
     "url": "https://drones.gov.cy",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1820,10 +1820,10 @@
     "id": "dcad_register",
     "title": "DCAD – Εγγραφή χειριστή",
     "url": "https://drones.gov.cy",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1831,10 +1831,10 @@
     "id": "drones_cy",
     "title": "drones.gov.cy – Χάρτης γεωζωνών",
     "url": "https://drones.gov.cy",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1842,10 +1842,10 @@
     "id": "dcad_rules",
     "title": "DCAD – Επισκόπηση κανόνων",
     "url": "https://drones.gov.cy/open-category/",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy/open-category/",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1853,10 +1853,10 @@
     "id": "dcad_faq",
     "title": "DCAD – Συχνές ερωτήσεις για drones",
     "url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1875,10 +1875,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://drones.gov.cy",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1886,10 +1886,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://drones.gov.cy",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1908,10 +1908,10 @@
     "id": "caasi_drones",
     "title": "CAA Slovenia — Predpisi o dronih",
     "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
@@ -1930,16 +1930,16 @@
     "id": "caasi_map",
     "title": "CAA Slovenia — Karta zračnega prostora",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
     "section": "primary",
     "id": "caasi_exam",
-    "title": "CAA Slovenia — Brezplačni izpit A1/A3",
+    "title": "CAA Slovenia — Usposabljanje in izpit A1/A3",
     "url": "https://uas.caa.si",
     "status": "redirect",
     "code": 200,
@@ -1963,10 +1963,10 @@
     "id": "caasi_faq",
     "title": "CAA Slovenia — FAQ o dronih",
     "url": "https://www.caa.si/faq.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/faq.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
@@ -1974,10 +1974,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
@@ -1985,10 +1985,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
@@ -2007,10 +2007,10 @@
     "id": "bcaa_drones",
     "title": "BCAA — Droneregels",
     "url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "message": "OK"
+    "message": "[Errno 101] Network is unreachable"
   },
   {
     "country": "BE (Belgien)",
@@ -2040,10 +2040,10 @@
     "id": "bcaa_training",
     "title": "BCAA — Opleiding en examens",
     "url": "https://mobilit.belgium.be/en/node/6144",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://mobilit.belgium.be/en/node/6144",
-    "message": "OK"
+    "message": "[Errno 101] Network is unreachable"
   },
   {
     "country": "BE (Belgien)",
@@ -2062,10 +2062,10 @@
     "id": "bcaa_faq",
     "title": "BCAA — Drone-FAQ",
     "url": "https://mobilit.belgium.be/en/node/444",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://mobilit.belgium.be/en/node/444",
-    "message": "OK"
+    "message": "[Errno 101] Network is unreachable"
   },
   {
     "country": "BE (Belgien)",
@@ -2084,10 +2084,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "message": "OK"
+    "message": "[Errno 101] Network is unreachable"
   },
   {
     "country": "BE (Belgien)",
@@ -3624,10 +3624,10 @@
     "id": "ccaa_drones",
     "title": "CCAA — Propisi o dronovima",
     "url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "HR (Kroatien)",
@@ -3635,10 +3635,10 @@
     "id": "ccaa_register",
     "title": "CCAA — Registracija operatora",
     "url": "https://www.ccaa.hr/en/uas-operator-registration-52143",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.ccaa.hr/en/uas-operator-registration-52143",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "HR (Kroatien)",
@@ -3657,10 +3657,10 @@
     "id": "ccaa_rules",
     "title": "CCAA — Pregled pravila",
     "url": "https://www.ccaa.hr/en/forms-and-publications-32216",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.ccaa.hr/en/forms-and-publications-32216",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "HR (Kroatien)",
@@ -3679,10 +3679,10 @@
     "id": "ccaa_faq",
     "title": "CCAA — FAQ o dronovima",
     "url": "https://www.ccaa.hr/en/frequently-asked-questions-01250",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.ccaa.hr/en/frequently-asked-questions-01250",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "HR (Kroatien)",
@@ -3701,10 +3701,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "HR (Kroatien)",
@@ -4240,10 +4240,10 @@
     "id": "dgac_drones",
     "title": "DGAC — Réglementation des drones",
     "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "FR (Frankrike)",
@@ -4251,10 +4251,10 @@
     "id": "alphatango",
     "title": "AlphaTango — S'enregistrer comme exploitant",
     "url": "https://alphatango.aviation-civile.gouv.fr",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://alphatango.aviation-civile.gouv.fr",
-    "message": "OK"
+    "message": "[Errno -3] Temporary failure in name resolution"
   },
   {
     "country": "FR (Frankrike)",
@@ -4295,10 +4295,10 @@
     "id": "sia_notam",
     "title": "SIA — NOTAM et information aéronautique",
     "url": "https://www.sia.aviation-civile.gouv.fr",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.sia.aviation-civile.gouv.fr",
-    "message": "OK"
+    "message": "[Errno -3] Temporary failure in name resolution"
   },
   {
     "country": "FR (Frankrike)",
@@ -4457,13 +4457,13 @@
   {
     "country": "FI (Finland)",
     "section": "primary",
-    "id": "droneinfo",
-    "title": "Droneinfo.fi – Ilmatilakartta",
-    "url": "https://www.droneinfo.fi/",
-    "status": "redirect",
+    "id": "fintraffic_sky",
+    "title": "Fintraffic Sky – Ilmatilakartta",
+    "url": "https://sky.fintraffic.fi/",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu",
-    "message": "→ https://www.traficom.fi/fi/miehittamaton-ilmailu"
+    "final_url": "https://sky.fintraffic.fi/",
+    "message": "OK"
   },
   {
     "country": "FI (Finland)",
@@ -4867,10 +4867,10 @@
     "id": "",
     "title": "Naturreservat — kolla din länsstyrelse",
     "url": "https://www.lansstyrelsen.se/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.lansstyrelsen.se/",
-    "message": "OK"
+    "message": "[Errno 101] Network is unreachable"
   },
   {
     "country": "SE (Sverige)",
@@ -4911,10 +4911,10 @@
     "id": "sacaa_uas",
     "title": "SACAA — UAS regulations",
     "url": "https://www.caa.co.za/industry-information/uas/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/industry-information/uas/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -4922,10 +4922,10 @@
     "id": "sacaa_main",
     "title": "SACAA — Main portal",
     "url": "https://www.caa.co.za/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -4933,10 +4933,10 @@
     "id": "sacaa_commercial",
     "title": "SACAA — Commercial licensing",
     "url": "https://www.caa.co.za/industry-information/uas/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/industry-information/uas/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -4944,10 +4944,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caa.co.za/industry-information/uas/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/industry-information/uas/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -5714,11 +5714,11 @@
   {
     "country": "API",
     "id": "🇪🇸 ENAIRE ArcGIS",
-    "url": "https://servais.enaire.es/insignia/rest/services/NSF_SRV/SRV_UAS_ZG_V0/MapServer?f=json",
+    "url": "https://servais.enaire.es/insigniads/rest/services/NSF_SRV/SRV_UAS_ZG_data_V2/MapServer?f=json",
     "expect": 200,
     "status": "ok",
     "code": 200,
-    "final_url": "https://servais.enaire.es/insignia/rest/services/NSF_SRV/SRV_UAS_ZG_V0/MapServer?f=json",
+    "final_url": "https://servais.enaire.es/insigniads/rest/services/NSF_SRV/SRV_UAS_ZG_data_V2/MapServer?f=json",
     "message": "OK"
   },
   {
