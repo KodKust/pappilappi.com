@@ -49,10 +49,10 @@
     "id": "decea_aisweb",
     "title": "AISWEB — NOTAM e cartas aeronáuticas (DECEA)",
     "url": "https://aisweb.decea.mil.br/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://aisweb.decea.mil.br/",
-    "message": "Remote end closed connection without response"
+    "message": "OK"
   },
   {
     "country": "BR (Brasilien)",
@@ -126,10 +126,10 @@
     "id": "shgm_kayit",
     "title": "İHA Kayıt Sistemi (500 g üzeri zorunlu)",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "error",
-    "code": null,
-    "final_url": "https://iha.shgm.gov.tr/",
-    "message": "[Errno 104] Connection reset by peer"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
+    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
   },
   {
     "country": "TR (Turkiet)",
@@ -192,10 +192,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "error",
-    "code": null,
-    "final_url": "https://iha.shgm.gov.tr/",
-    "message": "[Errno 104] Connection reset by peer"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
+    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
   },
   {
     "country": "TR (Turkiet)",
@@ -203,10 +203,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://web.shgm.gov.tr/tr/kurumsal/4458-iha",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "TR (Turkiet)",
@@ -1039,10 +1039,10 @@
     "id": "aud_uruguay",
     "title": "AUD — Asociación Uruguaya de Drones",
     "url": "https://www.aud.org.uy/",
-    "status": "timeout",
-    "code": null,
-    "final_url": "https://www.aud.org.uy/",
-    "message": "Timeout"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://aud.org.uy/",
+    "message": "→ https://aud.org.uy/"
   },
   {
     "country": "UY (Uruguay)",
@@ -1193,10 +1193,10 @@
     "id": "dgac_registro_drones",
     "title": "DGAC — Registro de Drones (SISAC)",
     "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1204,10 +1204,10 @@
     "id": "dgac_main",
     "title": "DGAC Ecuador — Página principal",
     "url": "https://www.aviacioncivil.gob.ec/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1215,10 +1215,10 @@
     "id": "dgac_induccion",
     "title": "DGAC — Inducción al uso de drones",
     "url": "https://www.aviacioncivil.gob.ec/induccion-al-uso-de-drones-en-el-ecuador/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/induccion-al-uso-de-drones-en-el-ecuador/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1270,10 +1270,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.aviacioncivil.gob.ec/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1281,10 +1281,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1809,10 +1809,10 @@
     "id": "dcad_drones",
     "title": "DCAD – Κανονισμοί για drones",
     "url": "https://drones.gov.cy",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1820,10 +1820,10 @@
     "id": "dcad_register",
     "title": "DCAD – Εγγραφή χειριστή",
     "url": "https://drones.gov.cy",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1831,10 +1831,10 @@
     "id": "drones_cy",
     "title": "drones.gov.cy – Χάρτης γεωζωνών",
     "url": "https://drones.gov.cy",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1842,10 +1842,10 @@
     "id": "dcad_rules",
     "title": "DCAD – Επισκόπηση κανόνων",
     "url": "https://drones.gov.cy/open-category/",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy/open-category/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1853,10 +1853,10 @@
     "id": "dcad_faq",
     "title": "DCAD – Συχνές ερωτήσεις για drones",
     "url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1875,10 +1875,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://drones.gov.cy",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1886,10 +1886,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://drones.gov.cy",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1908,10 +1908,10 @@
     "id": "caasi_drones",
     "title": "CAA Slovenia — Predpisi o dronih",
     "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -1930,10 +1930,10 @@
     "id": "caasi_map",
     "title": "CAA Slovenia — Karta zračnega prostora",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -1963,10 +1963,10 @@
     "id": "caasi_faq",
     "title": "CAA Slovenia — FAQ o dronih",
     "url": "https://www.caa.si/faq.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/faq.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -1974,10 +1974,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -1985,10 +1985,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -2007,10 +2007,10 @@
     "id": "bcaa_drones",
     "title": "BCAA — Droneregels",
     "url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "message": "[Errno 101] Network is unreachable"
+    "message": "OK"
   },
   {
     "country": "BE (Belgien)",
@@ -2040,10 +2040,10 @@
     "id": "bcaa_training",
     "title": "BCAA — Opleiding en examens",
     "url": "https://mobilit.belgium.be/en/node/6144",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://mobilit.belgium.be/en/node/6144",
-    "message": "[Errno 101] Network is unreachable"
+    "message": "OK"
   },
   {
     "country": "BE (Belgien)",
@@ -2062,10 +2062,10 @@
     "id": "bcaa_faq",
     "title": "BCAA — Drone-FAQ",
     "url": "https://mobilit.belgium.be/en/node/444",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://mobilit.belgium.be/en/node/444",
-    "message": "[Errno 101] Network is unreachable"
+    "message": "OK"
   },
   {
     "country": "BE (Belgien)",
@@ -2084,10 +2084,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
-    "message": "[Errno 101] Network is unreachable"
+    "message": "OK"
   },
   {
     "country": "BE (Belgien)",
@@ -3030,10 +3030,10 @@
     "id": "nav_portugal",
     "title": "NAV Portugal — Informação do espaço aéreo",
     "url": "https://www.nav.pt",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.nav.pt",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "PT (Portugal)",
@@ -3624,10 +3624,10 @@
     "id": "ccaa_drones",
     "title": "CCAA — Propisi o dronovima",
     "url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "HR (Kroatien)",
@@ -3635,10 +3635,10 @@
     "id": "ccaa_register",
     "title": "CCAA — Registracija operatora",
     "url": "https://www.ccaa.hr/en/uas-operator-registration-52143",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.ccaa.hr/en/uas-operator-registration-52143",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "HR (Kroatien)",
@@ -3657,10 +3657,10 @@
     "id": "ccaa_rules",
     "title": "CCAA — Pregled pravila",
     "url": "https://www.ccaa.hr/en/forms-and-publications-32216",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.ccaa.hr/en/forms-and-publications-32216",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "HR (Kroatien)",
@@ -3679,10 +3679,10 @@
     "id": "ccaa_faq",
     "title": "CCAA — FAQ o dronovima",
     "url": "https://www.ccaa.hr/en/frequently-asked-questions-01250",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.ccaa.hr/en/frequently-asked-questions-01250",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "HR (Kroatien)",
@@ -3701,10 +3701,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "HR (Kroatien)",
@@ -4240,10 +4240,10 @@
     "id": "dgac_drones",
     "title": "DGAC — Réglementation des drones",
     "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "FR (Frankrike)",
@@ -4251,10 +4251,10 @@
     "id": "alphatango",
     "title": "AlphaTango — S'enregistrer comme exploitant",
     "url": "https://alphatango.aviation-civile.gouv.fr",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://alphatango.aviation-civile.gouv.fr",
-    "message": "[Errno -3] Temporary failure in name resolution"
+    "message": "OK"
   },
   {
     "country": "FR (Frankrike)",
@@ -4295,10 +4295,10 @@
     "id": "sia_notam",
     "title": "SIA — NOTAM et information aéronautique",
     "url": "https://www.sia.aviation-civile.gouv.fr",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.sia.aviation-civile.gouv.fr",
-    "message": "[Errno -3] Temporary failure in name resolution"
+    "message": "OK"
   },
   {
     "country": "FR (Frankrike)",
@@ -4867,10 +4867,10 @@
     "id": "",
     "title": "Naturreservat — kolla din länsstyrelse",
     "url": "https://www.lansstyrelsen.se/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.lansstyrelsen.se/",
-    "message": "[Errno 101] Network is unreachable"
+    "message": "OK"
   },
   {
     "country": "SE (Sverige)",
@@ -5043,10 +5043,10 @@
     "id": "svalbard",
     "title": "Sysselmesteren – droner på Svalbard",
     "url": "https://www.sysselmesteren.no/en/drones-on-svalbard/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.sysselmesteren.no/en/drones-on-svalbard/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "NO (Norge)",
