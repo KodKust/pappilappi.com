@@ -1,14 +1,12 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-07T10:30:44.220468+00:00",
-  "started_at": "2026-09-07T10:30:03.106622+00:00",
-  "duration_s": 41,
+  "stamped_at": "2026-09-07T14:30:13.710475+00:00",
+  "started_at": "2026-09-07T14:30:04.212863+00:00",
+  "duration_s": 9,
   "slept_s": 0,
   "mode": "--due --publish --status --notify",
-  "pipelines_ok": [
-    "faa-laanc-baseline"
-  ],
+  "pipelines_ok": [],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
     "ro-zones",
@@ -51,6 +49,7 @@
     "ch-full",
     "no-airspace",
     "regulations-watch",
+    "faa-laanc-baseline",
     "karttext-baselines",
     "check-links",
     "si-built",
@@ -63,5 +62,5 @@
     "de-full"
   ],
   "pipelines_skipped_wip": [],
-  "nothing_due": false
+  "nothing_due": true
 }

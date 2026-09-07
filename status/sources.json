@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T10:47:22.039499+00:00",
+  "generated": "2026-09-07T14:31:45.246555+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -119,7 +119,7 @@
     {
       "name": "Regelhash-bevakning",
       "status": "ok",
-      "detail": "55 av 55 länder, 172 URL:er bevakade — 17 källor utanför",
+      "detail": "55 av 55 länder, 172 URL:er bevakade — 16 källor utanför",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -135,21 +135,13 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "69 av 505 länkar trasiga i 23 länder",
+      "detail": "68 av 505 länkar trasiga i 25 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
     }
   ],
   "links": [
-    {
-      "name": "🇨🇾 CY — Cypern",
-      "status": "warn",
-      "detail": "7 av 9 länkar trasiga (403)",
-      "last_modified": null,
-      "url": "https://drones.gov.cy",
-      "kind": "other"
-    },
     {
       "name": "🇦🇺 AU — Australien",
       "status": "warn",
@@ -167,6 +159,22 @@
       "kind": "other"
     },
     {
+      "name": "🇪🇨 EC — Ecuador",
+      "status": "warn",
+      "detail": "5 av 10 länkar trasiga (500)",
+      "last_modified": null,
+      "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
+      "kind": "other"
+    },
+    {
+      "name": "🇭🇷 HR — Kroatien",
+      "status": "warn",
+      "detail": "5 av 9 länkar trasiga (timeout)",
+      "last_modified": null,
+      "url": "https://www.ccaa.hr/en/flight-operations-with-unmanned-aerial-systems-uas-89201",
+      "kind": "other"
+    },
+    {
       "name": "🇲🇹 MT — Malta",
       "status": "warn",
       "detail": "5 av 9 länkar trasiga (403)",
@@ -175,19 +183,11 @@
       "kind": "other"
     },
     {
-      "name": "🇸🇮 SI — Slovenien",
+      "name": "🇧🇪 BE — Belgien",
       "status": "warn",
-      "detail": "5 av 9 länkar trasiga (403)",
+      "detail": "4 av 9 länkar trasiga (error)",
       "last_modified": null,
-      "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-      "kind": "other"
-    },
-    {
-      "name": "🇺🇾 UY — Uruguay",
-      "status": "warn",
-      "detail": "5 av 10 länkar trasiga (timeout)",
-      "last_modified": null,
-      "url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
+      "url": "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas",
       "kind": "other"
     },
     {
@@ -199,11 +199,11 @@
       "kind": "other"
     },
     {
-      "name": "🇿🇦 ZA — Sydafrika",
+      "name": "🇫🇷 FR — Frankrike",
       "status": "warn",
-      "detail": "4 av 5 länkar trasiga (error)",
+      "detail": "3 av 9 länkar trasiga (error, timeout)",
       "last_modified": null,
-      "url": "https://www.caa.co.za/industry-information/uas/",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
       "kind": "other"
     },
     {
@@ -231,11 +231,27 @@
       "kind": "other"
     },
     {
+      "name": "🇧🇷 BR — Brasilien",
+      "status": "warn",
+      "detail": "2 av 10 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://sistemas.anac.gov.br/sisant/",
+      "kind": "other"
+    },
+    {
       "name": "🇨🇴 CO — Colombia",
       "status": "warn",
       "detail": "2 av 10 länkar trasiga (403, error)",
       "last_modified": null,
       "url": "http://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-de-aeronaves-pilotadas-a-distancia-rpas-drones/documents/forms/allitems.aspx",
+      "kind": "other"
+    },
+    {
+      "name": "🇨🇷 CR — Costa Rica",
+      "status": "warn",
+      "detail": "2 av 10 länkar trasiga (403, error)",
+      "last_modified": null,
+      "url": "https://www.sinac.go.cr/",
       "kind": "other"
     },
     {
@@ -247,25 +263,9 @@
       "kind": "other"
     },
     {
-      "name": "🇵🇦 PA — Panama",
-      "status": "warn",
-      "detail": "2 av 10 länkar trasiga (403, 503)",
-      "last_modified": null,
-      "url": "https://stri.si.edu/plan-your-visit/scientific-research-permits/aac-authorization",
-      "kind": "other"
-    },
-    {
-      "name": "🇵🇪 PE — Peru",
-      "status": "warn",
-      "detail": "2 av 10 länkar trasiga (403, error)",
-      "last_modified": null,
-      "url": "mailto:rpas-dgac@mtc.gob.pe",
-      "kind": "other"
-    },
-    {
-      "name": "+ 8 länder till med trasiga länkar",
+      "name": "+ 10 länder till med trasiga länkar",
       "status": "info",
-      "detail": "10 länkar: RO, SG, BR, CR, DO, LI, NZ, PT",
+      "detail": "13 länkar: PE, RO, SG, DO, LI, NZ, PA, PT, SE, UY",
       "last_modified": null,
       "url": null,
       "kind": "other"
