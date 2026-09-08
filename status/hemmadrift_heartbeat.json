@@ -1,14 +1,12 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-08T14:30:19.165069+00:00",
-  "started_at": "2026-09-08T14:30:02.681529+00:00",
-  "duration_s": 16,
+  "stamped_at": "2026-09-08T18:34:32.562378+00:00",
+  "started_at": "2026-09-08T18:34:16.730019+00:00",
+  "duration_s": 15,
   "slept_s": 0,
   "mode": "--due --publish --status --notify",
-  "pipelines_ok": [
-    "at-zones"
-  ],
+  "pipelines_ok": [],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
     "ro-zones",
@@ -30,6 +28,7 @@
     "nl-lvnl-zones",
     "us-noaa-sanctuaries",
     "se-zones",
+    "at-zones",
     "ee-zones",
     "is-zones",
     "lu-zones",
@@ -63,5 +62,5 @@
     "de-full"
   ],
   "pipelines_skipped_wip": [],
-  "nothing_due": false
+  "nothing_due": true
 }
