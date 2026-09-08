@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-07T12:57:44+00:00",
+  "generated": "2026-09-08T11:41:35+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
-      "start": "2026-08-31",
-      "end": "2026-09-07",
-      "visitors": 263,
-      "events_total": 26,
+      "start": "2026-09-01",
+      "end": "2026-09-08",
+      "visitors": 273,
+      "events_total": 27,
       "clicks": {
         "ios": 0,
         "android": 0
@@ -15,35 +15,35 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 48,
+          "count": 51,
           "ios": 0,
           "android": 0
         },
         {
           "code": "DE",
           "name": "Germany",
-          "count": 35,
+          "count": 36,
           "ios": 0,
           "android": 0
         },
         {
           "code": "DK",
           "name": "Denmark",
-          "count": 20,
+          "count": 19,
+          "ios": 0,
+          "android": 0
+        },
+        {
+          "code": "ES",
+          "name": "Spain",
+          "count": 17,
           "ios": 0,
           "android": 0
         },
         {
           "code": "NL",
           "name": "Netherlands",
-          "count": 20,
-          "ios": 0,
-          "android": 0
-        },
-        {
-          "code": "IT",
-          "name": "Italy",
-          "count": 13,
+          "count": 14,
           "ios": 0,
           "android": 0
         }
@@ -51,17 +51,17 @@
       "sources": [
         {
           "name": "(direkt)",
-          "count": 60,
+          "count": 69,
           "kind": "other"
         },
         {
           "name": "www.bing.com",
-          "count": 52,
+          "count": 54,
           "kind": "link"
         },
         {
           "name": "duckduckgo.com",
-          "count": 32,
+          "count": 28,
           "kind": "link"
         },
         {
@@ -71,51 +71,11 @@
         },
         {
           "name": "Google",
-          "count": 16,
+          "count": 14,
           "kind": "search"
         }
       ],
       "daily": [
-        {
-          "day": "2026-08-31",
-          "visitors": 27,
-          "ios": 0,
-          "android": 0,
-          "countries": [
-            {
-              "code": "NL",
-              "name": "Netherlands",
-              "count": 7
-            },
-            {
-              "code": "DE",
-              "name": "Germany",
-              "count": 3
-            },
-            {
-              "code": "DK",
-              "name": "Denmark",
-              "count": 2
-            }
-          ],
-          "sources": [
-            {
-              "name": "duckduckgo.com",
-              "count": 10,
-              "kind": "link"
-            },
-            {
-              "name": "www.bing.com",
-              "count": 5,
-              "kind": "link"
-            },
-            {
-              "name": "Google",
-              "count": 4,
-              "kind": "search"
-            }
-          ]
-        },
         {
           "day": "2026-09-01",
           "visitors": 40,
@@ -358,40 +318,80 @@
         },
         {
           "day": "2026-09-07",
-          "visitors": 5,
+          "visitors": 40,
           "ios": 0,
           "android": 0,
           "countries": [
             {
               "code": "US",
               "name": "United States",
-              "count": 4
+              "count": 9
+            },
+            {
+              "code": "ES",
+              "name": "Spain",
+              "count": 6
             },
             {
               "code": "DE",
               "name": "Germany",
-              "count": 3
-            },
-            {
-              "code": "SE",
-              "name": "Sweden",
-              "count": 2
+              "count": 5
             }
           ],
           "sources": [
             {
               "name": "(direkt)",
-              "count": 4,
+              "count": 11,
               "kind": "other"
             },
             {
-              "name": "duckduckgo.com",
-              "count": 2,
+              "name": "www.bing.com",
+              "count": 7,
               "kind": "link"
             },
             {
+              "name": "duckduckgo.com",
+              "count": 6,
+              "kind": "link"
+            }
+          ]
+        },
+        {
+          "day": "2026-09-08",
+          "visitors": 2,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "ES",
+              "name": "Spain",
+              "count": 5
+            },
+            {
+              "code": "DE",
+              "name": "Germany",
+              "count": 2
+            },
+            {
+              "code": "MX",
+              "name": "Mexico",
+              "count": 2
+            }
+          ],
+          "sources": [
+            {
               "name": "www.bing.com",
-              "count": 2,
+              "count": 9,
+              "kind": "link"
+            },
+            {
+              "name": "(direkt)",
+              "count": 3,
+              "kind": "other"
+            },
+            {
+              "name": "claude.ai",
+              "count": 1,
               "kind": "link"
             }
           ]
@@ -399,10 +399,10 @@
       ]
     },
     "30d": {
-      "start": "2026-08-08",
-      "end": "2026-09-07",
-      "visitors": 893,
-      "events_total": 65,
+      "start": "2026-08-09",
+      "end": "2026-09-08",
+      "visitors": 902,
+      "events_total": 64,
       "clicks": {
         "ios": 0,
         "android": 0
@@ -411,7 +411,7 @@
         {
           "code": "US",
           "name": "United States",
-          "count": 246,
+          "count": 241,
           "ios": 0,
           "android": 0
         },
@@ -432,14 +432,14 @@
         {
           "code": "FR",
           "name": "France",
-          "count": 41,
+          "count": 43,
           "ios": 0,
           "android": 0
         },
         {
           "code": "IT",
           "name": "Italy",
-          "count": 41,
+          "count": 40,
           "ios": 0,
           "android": 0
         }
@@ -447,22 +447,22 @@
       "sources": [
         {
           "name": "(direkt)",
-          "count": 300,
+          "count": 294,
           "kind": "other"
         },
         {
           "name": "www.bing.com",
-          "count": 152,
+          "count": 157,
           "kind": "link"
         },
         {
           "name": "duckduckgo.com",
-          "count": 97,
+          "count": 101,
           "kind": "link"
         },
         {
           "name": "copilot.com",
-          "count": 45,
+          "count": 46,
           "kind": "campaign"
         },
         {
@@ -473,48 +473,8 @@
       ],
       "daily": [
         {
-          "day": "2026-08-08",
-          "visitors": 24,
-          "ios": 0,
-          "android": 0,
-          "countries": [
-            {
-              "code": "US",
-              "name": "United States",
-              "count": 10
-            },
-            {
-              "code": "CY",
-              "name": "Cyprus",
-              "count": 4
-            },
-            {
-              "code": "DE",
-              "name": "Germany",
-              "count": 4
-            }
-          ],
-          "sources": [
-            {
-              "name": "(direkt)",
-              "count": 17,
-              "kind": "other"
-            },
-            {
-              "name": "duckduckgo.com",
-              "count": 2,
-              "kind": "link"
-            },
-            {
-              "name": "www.bing.com",
-              "count": 2,
-              "kind": "link"
-            }
-          ]
-        },
-        {
           "day": "2026-08-09",
-          "visitors": 31,
+          "visitors": 27,
           "ios": 0,
           "android": 0,
           "countries": [
@@ -1674,40 +1634,80 @@
         },
         {
           "day": "2026-09-07",
-          "visitors": 5,
+          "visitors": 40,
           "ios": 0,
           "android": 0,
           "countries": [
             {
               "code": "US",
               "name": "United States",
-              "count": 4
+              "count": 9
+            },
+            {
+              "code": "ES",
+              "name": "Spain",
+              "count": 6
             },
             {
               "code": "DE",
               "name": "Germany",
-              "count": 3
-            },
-            {
-              "code": "SE",
-              "name": "Sweden",
-              "count": 2
+              "count": 5
             }
           ],
           "sources": [
             {
               "name": "(direkt)",
-              "count": 4,
+              "count": 11,
               "kind": "other"
             },
             {
-              "name": "duckduckgo.com",
-              "count": 2,
+              "name": "www.bing.com",
+              "count": 7,
               "kind": "link"
             },
             {
+              "name": "duckduckgo.com",
+              "count": 6,
+              "kind": "link"
+            }
+          ]
+        },
+        {
+          "day": "2026-09-08",
+          "visitors": 2,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "ES",
+              "name": "Spain",
+              "count": 5
+            },
+            {
+              "code": "DE",
+              "name": "Germany",
+              "count": 2
+            },
+            {
+              "code": "MX",
+              "name": "Mexico",
+              "count": 2
+            }
+          ],
+          "sources": [
+            {
               "name": "www.bing.com",
-              "count": 2,
+              "count": 9,
+              "kind": "link"
+            },
+            {
+              "name": "(direkt)",
+              "count": 3,
+              "kind": "other"
+            },
+            {
+              "name": "claude.ai",
+              "count": 1,
               "kind": "link"
             }
           ]
