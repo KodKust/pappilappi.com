@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-09T11:14:09.152544+00:00",
-  "started_at": "2026-09-09T10:32:38.458175+00:00",
-  "duration_s": 2490,
-  "slept_s": 2378,
+  "stamped_at": "2026-09-09T14:34:30.389481+00:00",
+  "started_at": "2026-09-09T14:34:15.408084+00:00",
+  "duration_s": 14,
+  "slept_s": 0,
   "mode": "--due --publish --status --notify",
   "pipelines_ok": [
-    "notams-gist"
+    "se-heliports-aip"
   ],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
@@ -16,7 +16,6 @@
     "es-parques",
     "fr-parcs",
     "se-natur",
-    "se-heliports-aip",
     "se-exes-ctr",
     "ch-schiessen",
     "dk-airspace",
@@ -24,6 +23,7 @@
     "fi-airspace",
     "de-temporaere",
     "us-tfr",
+    "notams-gist",
     "aip-sup-gist",
     "nl-lvnl-snapshot",
     "nl-lvnl-zones",
