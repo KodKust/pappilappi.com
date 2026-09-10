@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-10T18:32:15.195773+00:00",
+  "generated": "2026-09-10T20:01:56.355661+00:00",
   "summary": {
     "fail": 0,
-    "warn": 21,
-    "ok": 232,
-    "total_checks": 356,
+    "warn": 10,
+    "ok": 256,
+    "total_checks": 377,
     "countries_total": 55,
-    "countries_ok": 51
+    "countries_ok": 54
   },
   "countries": [
     {
@@ -623,7 +623,7 @@
         {
           "name": "Feed: lu-zones",
           "status": "ok",
-          "detail": "hämtad 4 min sen, 98 kB",
+          "detail": "hämtad 1h sen, 98 kB",
           "last_modified": "2026-09-10T18:25:54+00:00",
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -762,7 +762,7 @@
         {
           "name": "Feed: si-aviation",
           "status": "ok",
-          "detail": "data oförändrad sedan 7d sen, 72 kB",
+          "detail": "data oförändrad sedan 8d sen, 72 kB",
           "last_modified": "2026-09-02T18:32:14+00:00",
           "url": "https://pappilappi.com/airspace/si-aviation.geojson?cb=20260805a",
           "kind": "feed",
@@ -889,7 +889,7 @@
       "iso": "CH",
       "name": "Switzerland",
       "flag": "🇨🇭",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -960,7 +960,7 @@
         {
           "name": "Feed: luftfahrthindernis",
           "status": "ok",
-          "detail": "hämtad 3d sen, 8814 kB",
+          "detail": "hämtad 4d sen, 8814 kB",
           "last_modified": "2026-09-06T18:33:47+00:00",
           "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson?v=20260605c",
           "kind": "feed",
@@ -971,7 +971,7 @@
         {
           "name": "Feed: ch-ctr",
           "status": "ok",
-          "detail": "hämtad 3d sen, 47 kB",
+          "detail": "hämtad 4d sen, 47 kB",
           "last_modified": "2026-09-06T18:33:47+00:00",
           "url": "https://pappilappi.com/airspace/ch-ctr.geojson",
           "kind": "feed",
@@ -982,7 +982,7 @@
         {
           "name": "Feed: ch-tma",
           "status": "ok",
-          "detail": "hämtad 3d sen, 151 kB",
+          "detail": "hämtad 4d sen, 151 kB",
           "last_modified": "2026-09-06T18:33:47+00:00",
           "url": "https://pappilappi.com/airspace/ch-tma.geojson",
           "kind": "feed",
@@ -993,7 +993,7 @@
         {
           "name": "Feed: ch-cta",
           "status": "ok",
-          "detail": "hämtad 3d sen, 63 kB",
+          "detail": "hämtad 4d sen, 63 kB",
           "last_modified": "2026-09-06T18:33:47+00:00",
           "url": "https://pappilappi.com/airspace/ch-cta.geojson",
           "kind": "feed",
@@ -1004,7 +1004,7 @@
         {
           "name": "Feed: ch-uas-aktivitaetszonen",
           "status": "ok",
-          "detail": "hämtad 3d sen, 56 kB",
+          "detail": "hämtad 4d sen, 56 kB",
           "last_modified": "2026-09-06T18:33:47+00:00",
           "url": "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson",
           "kind": "feed",
@@ -1015,7 +1015,7 @@
         {
           "name": "Feed: ch-jagdbanngebiete",
           "status": "ok",
-          "detail": "hämtad 3d sen, 1287 kB",
+          "detail": "hämtad 4d sen, 1287 kB",
           "last_modified": "2026-09-06T18:33:47+00:00",
           "url": "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson",
           "kind": "feed",
@@ -1026,7 +1026,7 @@
         {
           "name": "Feed: ch-vogelreservate",
           "status": "ok",
-          "detail": "hämtad 3d sen, 341 kB",
+          "detail": "hämtad 4d sen, 341 kB",
           "last_modified": "2026-09-06T18:33:47+00:00",
           "url": "https://pappilappi.com/airspace/ch-vogelreservate.geojson",
           "kind": "feed",
@@ -1037,7 +1037,7 @@
         {
           "name": "Feed: ch-sicherheitszonenplan",
           "status": "ok",
-          "detail": "hämtad 3d sen, 513 kB",
+          "detail": "hämtad 4d sen, 513 kB",
           "last_modified": "2026-09-06T18:33:47+00:00",
           "url": "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson",
           "kind": "feed",
@@ -1048,7 +1048,7 @@
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 9h sen, 533 kB",
+          "detail": "hämtad 10h sen, 533 kB",
           "last_modified": "2026-09-10T09:26:08+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
@@ -1096,8 +1096,8 @@
         },
         {
           "name": "Länk: Swiss Dronemap — Luftraumkarte",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att www.swiss-dronemap.ch finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://www.swiss-dronemap.ch",
           "kind": "link",
@@ -1152,7 +1152,7 @@
         {
           "name": "Feed: sk-reservations",
           "status": "ok",
-          "detail": "hämtad 7h sen, 60 kB",
+          "detail": "hämtad 8h sen, 60 kB",
           "last_modified": "2026-09-10T11:20:33+00:00",
           "url": "https://pappilappi.com/airspace/sk-reservations.geojson",
           "kind": "feed",
@@ -1182,8 +1182,8 @@
         },
         {
           "name": "Länk: Zemepisné oblasti UAS — Dopravný úrad",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "info",
+          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
           "kind": "link",
@@ -1191,8 +1191,8 @@
         },
         {
           "name": "Länk: Dopravný úrad — Predpisy pre drony",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "info",
+          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
           "kind": "link",
@@ -1200,8 +1200,8 @@
         },
         {
           "name": "Länk: Dopravný úrad — Registrácia prevádzkovateľa",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "info",
+          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
           "kind": "link",
@@ -1218,8 +1218,8 @@
         },
         {
           "name": "Länk: Dopravný úrad — Prehľad pravidiel",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "info",
+          "detail": "URLError: timed out från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
           "last_modified": null,
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
           "kind": "link",
@@ -1555,7 +1555,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "hämtad 9 min sen, 1590 kB",
+          "detail": "hämtad 1h sen, 1590 kB",
           "last_modified": "2026-09-10T18:21:05+00:00",
           "url": "https://pappilappi.com/airspace/ie-ed269.geojson",
           "kind": "feed",
@@ -1877,7 +1877,7 @@
         {
           "name": "Feed: ee-zones",
           "status": "ok",
-          "detail": "hämtad 22 min sen, 254 kB",
+          "detail": "hämtad 1h sen, 254 kB",
           "last_modified": "2026-09-10T18:09:17+00:00",
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1966,7 +1966,7 @@
         {
           "name": "Feed: at-zones",
           "status": "ok",
-          "detail": "hämtad 36 min sen, 512 kB",
+          "detail": "hämtad 2h sen, 512 kB",
           "last_modified": "2026-09-10T17:55:17+00:00",
           "url": "https://pappilappi.com/airspace/at-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -2075,7 +2075,7 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "hämtad 9h sen, 2270 kB",
+          "detail": "hämtad 10h sen, 2270 kB",
           "last_modified": "2026-09-10T09:05:23+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
           "kind": "feed",
@@ -2086,7 +2086,7 @@
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "hämtad 9h sen, 728 kB",
+          "detail": "hämtad 10h sen, 728 kB",
           "last_modified": "2026-09-10T09:05:23+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260904a",
           "kind": "feed",
@@ -2236,7 +2236,7 @@
       "iso": "RO",
       "name": "Romania",
       "flag": "🇷🇴",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2255,7 +2255,7 @@
         {
           "name": "Feed: ro-zones",
           "status": "ok",
-          "detail": "hämtad 8h sen, 837 kB",
+          "detail": "hämtad 9h sen, 837 kB",
           "last_modified": "2026-09-10T10:30:18+00:00",
           "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260827a",
           "kind": "feed",
@@ -2303,8 +2303,8 @@
         },
         {
           "name": "Länk: ROMATSA — Harta spațiului aerian",
-          "status": "warn",
-          "detail": "URLError: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000) (flaky — verifiera i browser)",
+          "status": "info",
+          "detail": "URLError: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1010) från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
           "last_modified": null,
           "url": "https://flightplan.romatsa.ro/",
           "kind": "link",
@@ -2511,7 +2511,7 @@
         {
           "name": "Feed: de-flugbeschraenkungsgebiete",
           "status": "ok",
-          "detail": "data oförändrad sedan 10d sen, 309 kB",
+          "detail": "data oförändrad sedan 11d sen, 309 kB",
           "last_modified": "2026-08-30T19:31:51+00:00",
           "url": "https://pappilappi.com/airspace/de/flugbeschraenkungsgebiete.geojson?cb=20260714a",
           "kind": "feed",
@@ -2544,7 +2544,7 @@
         {
           "name": "Feed: de-temporaere_betriebseinschraenkungen",
           "status": "ok",
-          "detail": "data oförändrad sedan 8h sen, 60 kB",
+          "detail": "data oförändrad sedan 9h sen, 60 kB",
           "last_modified": "2026-09-10T10:06:06+00:00",
           "url": "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson?cb=20260714a",
           "kind": "feed",
@@ -3023,7 +3023,7 @@
       "iso": "FR",
       "name": "France",
       "flag": "🇫🇷",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -3133,8 +3133,8 @@
         },
         {
           "name": "Länk: cartes.gouv.fr — Restrictions UAS catégorie Ouverte et aéromodélisme",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att cartes.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
           "kind": "link",
@@ -3224,7 +3224,7 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 9h sen, 649 kB",
+          "detail": "hämtad 10h sen, 649 kB",
           "last_modified": "2026-09-10T09:15:09+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
           "kind": "feed",
@@ -3235,7 +3235,7 @@
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 9h sen, 8989 kB",
+          "detail": "hämtad 10h sen, 8989 kB",
           "last_modified": "2026-09-10T09:15:09+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260802b",
           "kind": "feed",
@@ -3246,7 +3246,7 @@
         {
           "name": "Feed: fi-permanent",
           "status": "ok",
-          "detail": "hämtad 9h sen, 181 kB",
+          "detail": "hämtad 10h sen, 181 kB",
           "last_modified": "2026-09-10T09:15:09+00:00",
           "url": "https://pappilappi.com/airspace/fi-permanent.geojson?cb=20260802a",
           "kind": "feed",
@@ -3257,7 +3257,7 @@
         {
           "name": "Feed: fi-temporary",
           "status": "ok",
-          "detail": "hämtad 9h sen, 293 kB",
+          "detail": "hämtad 10h sen, 293 kB",
           "last_modified": "2026-09-10T09:15:09+00:00",
           "url": "https://pappilappi.com/airspace/fi-temporary.geojson?cb=20260802a",
           "kind": "feed",
@@ -3528,7 +3528,7 @@
         {
           "name": "Aerodromes Gist (se.json)",
           "status": "ok",
-          "detail": "23h sen, 204 fält",
+          "detail": "1d sen, 204 fält",
           "last_modified": "2026-09-09T18:35:21.095823+00:00",
           "url": null,
           "kind": "gist",
@@ -3548,7 +3548,7 @@
         {
           "name": "AIP-SUP Gist (se.json)",
           "status": "ok",
-          "detail": "6h sen, 81 SUPs",
+          "detail": "8h sen, 81 SUPs",
           "last_modified": "2026-09-10T11:33:39.500202+00:00",
           "url": null,
           "kind": "gist",
@@ -3677,51 +3677,51 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 2d sen, 784 kB",
-          "last_modified": "2026-09-08T09:54:48+00:00",
+          "detail": "data oförändrad sedan 1h sen, 1069 kB",
+          "last_modified": "2026-09-10T18:39:12+00:00",
           "url": "https://pappilappi.com/airspace/no.geojson?v=11",
           "kind": "feed",
           "titel": "Norges flygzoner (kärnan)",
           "explain": "Avinors drönarrestriktioner och kontrollzoner, Försvarets skjutfält och AIP:ns restriktionsområden — zonerna som alltid visas på kartan. Naturzonerna delades ut till en egen fil 2026-08-02 (se nedan). Hämtas varje fredag (flygplatszonerna byts alltid på en torsdag — vi hämtar dagen efter; naturreservaten ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-10-23"
+          "next_due": "2026-10-25"
         },
         {
           "name": "Feed: no-nature",
           "status": "ok",
-          "detail": "data oförändrad sedan 2d sen, 20511 kB",
-          "last_modified": "2026-09-08T09:54:48+00:00",
+          "detail": "data oförändrad sedan 1h sen, 20839 kB",
+          "last_modified": "2026-09-10T18:39:12+00:00",
           "url": "https://pappilappi.com/airspace/no-nature.geojson?cb=20260802a",
           "kind": "feed",
           "titel": "Naturskyddsområden",
           "explain": "Miljödirektoratets skyddsområden med färdsel-, landnings- eller lågflygningsförbud (~7 000 zoner). Laddas först när piloten zoomar in — vid landsvy visar appen i stället en zooma-in-skylt. Utdelad ur den tidigare hopbakade Norge-filen av prestandaskäl (svagare telefoner). Hämtas varje fredag (flygplatszonerna byts alltid på en torsdag — vi hämtar dagen efter; naturreservaten ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-10-23"
+          "next_due": "2026-10-25"
         },
         {
           "name": "Feed: no-nve-infra",
           "status": "ok",
-          "detail": "hämtad 2d sen, 132 kB",
-          "last_modified": "2026-09-08T09:54:48+00:00",
+          "detail": "hämtad 1h sen, 132 kB",
+          "last_modified": "2026-09-10T18:39:12+00:00",
           "url": "https://pappilappi.com/airspace/no-nve-infra.geojson?cb=20260604a",
           "kind": "feed",
           "titel": "Kraftverk och dammar",
           "explain": "Energianläggningar med flygförbud från NVE (Norges vassdrags- og energidirektorat). Byggs sällan om — därför räcker månadsvis hämtning. Hämtas varje fredag (flygplatszonerna byts alltid på en torsdag — vi hämtar dagen efter; naturreservaten ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-10-23"
+          "next_due": "2026-10-25"
         },
         {
           "name": "Feed: no-nsm-sensor",
           "status": "ok",
-          "detail": "hämtad 2d sen, 279 kB",
-          "last_modified": "2026-09-08T09:54:48+00:00",
+          "detail": "hämtad 1h sen, 279 kB",
+          "last_modified": "2026-09-10T18:39:12+00:00",
           "url": "https://pappilappi.com/airspace/no-nsm-sensor.geojson",
           "kind": "feed",
           "titel": "Fotoförbudsområden (NSM)",
           "explain": "Områden där det är förbjudet att fotografera eller filma från luften utan tillstånd från säkerhetsmyndigheten NSM (Nasjonal sikkerhetsmyndighet) — militära anläggningar och andra skyddsvärda objekt. Öppna data från NSM via Geonorge. Listan är inte fullständig: NSM får låta bli att publicera områden av säkerhetsskäl. Hämtas varje fredag (flygplatszonerna byts alltid på en torsdag — vi hämtar dagen efter; naturreservaten ändras sällan). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-10-23"
+          "next_due": "2026-10-25"
         },
         {
           "name": "Aerodromes Gist (no.json)",
           "status": "ok",
-          "detail": "23h sen, 271 fält",
+          "detail": "1d sen, 271 fält",
           "last_modified": "2026-09-09T18:33:49.910505+00:00",
           "url": null,
           "kind": "gist",
@@ -4004,8 +4004,8 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 456 kB",
-          "last_modified": "2026-09-10T12:55:40+00:00",
+          "detail": "data oförändrad sedan 52 min sen, 460 kB",
+          "last_modified": "2026-09-10T19:08:04+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (TFR)",
@@ -4301,7 +4301,7 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "53 min sen, 5713 NOTAMs, max cirkel 60 NM, 52 GNSS-områden i egen kanal",
+          "detail": "2h sen, 5713 NOTAMs, max cirkel 60 NM, 52 GNSS-områden i egen kanal",
           "last_modified": "2026-09-10T17:37:02.490766+00:00",
           "url": null,
           "kind": "gist",
@@ -4366,15 +4366,15 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att dronekoll.com finns — systemets resolver hickade (negativ cache?))",
-          "last_modified": null,
+          "detail": "6d sen, 3 kB (stale > 3d)",
+          "last_modified": "2026-09-04T19:38:53+00:00",
           "url": null,
           "kind": "other"
         },
         {
           "name": "/go-bryggan",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att dronekoll.com finns — systemets resolver hickade (negativ cache?))",
+          "status": "ok",
+          "detail": "200 OK, 44070B",
           "last_modified": null,
           "url": null,
           "kind": "other"
@@ -4386,8 +4386,8 @@
       "checks": [
         {
           "name": "Flippkön",
-          "status": "warn",
-          "detail": "2 väntar release · 12 att flippa · 0 försenade · 11 klara att stryka · asc_versions.json skriven 2026-09-10 (0 d sedan)",
+          "status": "ok",
+          "detail": "2 väntar release · 12 att flippa · 0 försenade · 0 klara att stryka · asc_versions.json skriven 2026-09-10 (0 d sedan)",
           "last_modified": null,
           "url": "https://pappilappi.com/status/asc_versions.json",
           "kind": "rules",
@@ -4402,116 +4402,6 @@
           "url": "https://pappilappi.com/status/asc_versions.json",
           "kind": "rules",
           "titel": "Release >1.3.1",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: grind-dnga-at",
-          "status": "warn",
-          "detail": "KLAR — grinden är PÅ (tools/fetch_at_zones.py:EMIT_DNGA_ADVISORY_AT). Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »GRIND, forts.« (10): classifier-gisten DNGA_ADVISORY FÖRST (post holdback-dnga-advisory), sedan EN commit med EMIT_DNGA_ADVISORY_AT = True, fetch_at_zones.py --also-bundle, ZC-AT-315 measured {DNGA 0, DNGA_ADVISORY 8}, ops_manifest at-zones-golv DNGA_ADVISORY: 8, bundle_drift --update-facit.",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg grind-dnga-at",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: grind-dnga-ee",
-          "status": "warn",
-          "detail": "KLAR — grinden är PÅ (tools/fetch_ee_zones.py:EMIT_DNGA_ADVISORY_EE). Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »GRIND, forts.« (11): EN commit med EMIT_DNGA_ADVISORY_EE = True, fetch_ee_zones.py --also-bundle, ZC-EE-311 measured {DNGA_ADVISORY 5}, ops_manifest ee-zones-golv DNGA: 6 -> DNGA_ADVISORY: 5. UNDANTAG-raden (EE, DNGA) står KVAR som bara_live. ⚠️ TRE TEXTBESLUT FÖRE FLIPPEN (UPPGIFTER lägesblocket (11) (a)-(c); tillagda här 2026-09-08 efter R2 #9 — de hade fallit ur instruktionen, och den som följde den gula raden hade gjort flippen utan ",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg grind-dnga-ee",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: rules-ie-ctr",
-          "status": "warn",
-          "detail": "KLAR — inget av mönstren står kvar i assets/airspace_rules.json. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (1) + lägesblocket (12): lydelsen för fall (1) ligger ORDAGRANT i ZC-IE-009:s not (legal-audit/data/zone-claims.json) — kopiera den, stryk mening (2), publicera RULES-gisten (publish_airspace_rules.py). Fall (2) står kvar med avsikt tills dess: rules-gisten läses LIVE av redan installerade appar, som mappar alla 30 AIR_TRAFFIC-zoner till CTR, och en rad som bara beskriver tak-familjen hade sagt »open category flight is permitted« o",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg rules-ie-ctr",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: holdback-ctr-specific-ie",
-          "status": "warn",
-          "detail": "KLAR — CTR_SPECIFIC_IE är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2) + lägesblocket rad 186: 11 IE-zoner med publicerat tak stannar CTR, 19 utan blir CTR_SPECIFIC_IE. Dart-halvan ligger redan i binären (airspace_wfs_service.dart:3027). Den här posten är CLASSIFIER-gisten (nyckelns ×27-text). REGELRADEN IE:CTR är ett EGET steg — posten rules-ie-ctr — och den blir inte smalare av att classifier-nyckeln publiceras. Rättat 2026-09-08 (R2 #3): tidigare stod här »det som återstår är gist-publiceringen«, vilket läste ",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg holdback-ctr-specific-ie",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: holdback-dnga-advisory",
-          "status": "warn",
-          "detail": "KLAR — DNGA_ADVISORY är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2): hela gist-batchen i EN publicering — python3 -m tools.publish_classifier_update <NYCKEL> --apply. Kräver Kristoffers OK (gisten är användarsynlig). Stryk nyckeln ur gistHoldback i legal-audit/data/zone-claims.json i samma commit.",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg holdback-dnga-advisory",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: holdback-modellflug-at",
-          "status": "warn",
-          "detail": "KLAR — MODELLFLUG_AT är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2). Nyckeln finns i asseten ×27 men levereras av inget flöde förrän grind-at-modellflug är PÅ.",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg holdback-modellflug-at",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: holdback-no-embassy",
-          "status": "warn",
-          "detail": "KLAR — NO_EMBASSY är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · Norge-vågen 2026-09-08 (LOGG Fas 540): nyckeln NO_EMBASSY finns i asseten ×27 och i Dart (classifier, levelForType, _priority, colorsForLayer, chip) på 1.3.1 build 155 (154 drogs tillbaka 2026-09-08) — väntar att DEN nått användarna. Då: `publish_classifier_update NO_EMBASSY --apply` (dry-run-diff → Kristoffers OK), städa gistHoldback-posten NO_EMBASSY i zone-claims.json.",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg holdback-no-embassy",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: holdback-paraglider",
-          "status": "warn",
-          "detail": "KLAR — PARAGLIDER är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2). Nyckeln finns INTE i utgivna 1.3 (ZC-SK-351) — publiceras först när 1.3.1 nått användarna, och i samma svep som grind-sk-w-paraglider.",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg holdback-paraglider",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: holdback-uas-akt-ch",
-          "status": "warn",
-          "detail": "KLAR — UAS_AKT_CH är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2). Fältet finns i asseten ×27 men läses av ingen utgiven binär (1.3 = cf8f4b2).",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg holdback-uas-akt-ch",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: grind-ie-parachute",
-          "status": "warn",
-          "detail": "KLAR — grinden är PÅ (tools/fetch_ie_ed269.py:EMIT_IE_PARACHUTE). Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (3). TEKNISKT release-FRI: nyckeln PARAJUMP finns redan i utgivna 1.3 (fetch_ie_ed269.py:99-101) — `kraver` står som 1.3.1 för att steget är PLANERAT i det svepet, inte för att binären hindrar det. Vill man flippa tidigare räcker Kristoffers OK; ändra då `kraver` till null och sätt `senast`.",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg grind-ie-parachute",
-          "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
-        },
-        {
-          "name": "Flipp: grind-no-embassy",
-          "status": "warn",
-          "detail": "KLAR — grinden är PÅ (tools/airspace/fetch_no_overlay.py:EMIT_NO_EMBASSY). Stryk posten ur tools/data/flippko.json i samma commit som flippen. · Efter holdback-no-embassy: EN commit med EMIT_NO_EMBASSY = True i fetch_no_overlay.py, FLOORS[\"NO_EMBASSY\"] ≈ 40 (≤ hälften av 85), python3 -m tools.airspace.fetch_no_overlay (bundlar), fetch-no-airspace.yml dispatch, legendrad »Ambassader (NO_EMBASSY)« i countries.json + kOverlayItemL10n ×27 (övergångsrad om releasen inte nått alla), bundle_drift --update-facit, ZC-NO-014 measured 85.",
-          "last_modified": null,
-          "url": "https://pappilappi.com/status/asc_versions.json",
-          "kind": "rules",
-          "titel": "Flippsteg grind-no-embassy",
           "explain": "Nya kartlager och nya texter byggs ofta färdigt LÅNGT innan de får synas: de väntar bakom en avstängd strömbrytare tills en app-version som förstår dem har nått användarnas telefoner. Den här raden är kön över sådana strömbrytare. Varje post bär en kontroll som roboten kör varje gång — inte en handskriven status någon ska minnas att uppdatera — och en tidsgräns räknad från det dygn roboten FÖRST såg versionen som »klar för försäljning« i App Store. Det är inte samma sak som att alla har hunnit uppdatera, och Android-butiken följs inte här — veckan innan raden gulnar är just den marginalen. Raden blir gul en vecka efter det. Är den grön och tom är alla lager som byggts också tända. Blir något försenat larmar kön i en EGEN kanal — ett rullande ärende märkt »flippko« som kommenteras bara när listan ändras, och stängs av sig själv när kön är ren. Den delar alltså inte inkorg med dagsfärska datafel, som annars hade mejlat varje dygn medan någon väntade på ett beslut."
         },
         {
@@ -4577,8 +4467,8 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 3 min sen (inga pipelines kördes, 1 felade (no-airspace))",
-          "last_modified": "2026-09-10T18:26:51.976844+00:00",
+          "detail": "senaste körning 1h sen (1 pipelines körda)",
+          "last_modified": "2026-09-10T18:39:16.930553+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
@@ -4596,8 +4486,8 @@
         },
         {
           "name": "QA-regressionsvakten",
-          "status": "info",
-          "detail": "fixade zonkontrollfynd (DK-höjder, DK-säsonger, DK-tidsfönster, EE open category, ES-parknamn, NO-forsvar + dubbletter, IS-myndigheter, FI-höjder) håller; ej kollat här: dk-primary, no",
+          "status": "ok",
+          "detail": "fixade zonkontrollfynd (DK-höjder, DK-säsonger, DK-tidsfönster, EE open category, ES-parknamn, NO-forsvar + dubbletter, IS-myndigheter, FI-höjder) håller",
           "last_modified": null,
           "url": null,
           "kind": "upstream",
@@ -4696,10 +4586,10 @@
         },
         {
           "name": "FI AIP↔API-korsläsningen",
-          "status": "ok",
-          "detail": "inga nya avvikelser (stående skuld 87). mätt mot AIP 004/2026 (index) · AIP 164 bas-ID · API 151 · utgångna i appen 8 · saknas i appen 21 · geometriavvikelser 2. publicerad AIP-utgåva: fi-permanent: 004/2026 (index) · fi-efr-static: utgåvefältet saknas ännu (byggd före AIRAC-portningen)",
+          "status": "warn",
+          "detail": "shapely saknas — geometrijämförelsen kan inte köras, och en halv mätning är inte ett rent utfall. publicerad AIP-utgåva: fi-permanent: 004/2026 (index) · fi-efr-static: utgåvefältet saknas ännu (byggd före AIRAC-portningen)",
           "last_modified": null,
-          "url": "https://eservices.traficom.fi/Ilmatilasovellus/api/permanent-reservations?lang=fi",
+          "url": null,
           "kind": "upstream",
           "titel": "Finlands AIP mot Traficoms API",
           "explain": "Finlands permanenta restriktionsområden kommer ur Traficoms API, som SLÄPAR efter den rättsligt publicerade AIP:n: åtta beteckningar i appen finns inte längre i AIP:n, 21 gällande saknas. Raden läser båda källorna och blir röd först när en NY avvikelse dyker upp — den kända skulden räknas men fäller inte. Utan raden var korsläsningen en vakt ingen körde."
@@ -4726,8 +4616,8 @@
         },
         {
           "name": "mappningsregistret",
-          "status": "warn",
-          "detail": "1 fördelningar driftar: ZC-IE-331 ie-ed269 PARAJUMP: 2 → 0 · 67 mapping-claims · 53 ommätta · 14 omätbara (spegelregeln)",
+          "status": "ok",
+          "detail": "67 mapping-claims · 52 ommätta · 15 omätbara (spegelregeln)",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4817,7 +4707,7 @@
         {
           "name": "Bundlar (ålder)",
           "status": "info",
-          "detail": "äldsta 98 d (fr-parcs), 3 utan _meta-datum (de-natur, ienw-ed269, si-aviation) · 40 bundlar totalt",
+          "detail": "äldsta 98 d (fr-parcs), 3 utan _meta-datum (de-natur, ienw-ed269, si-aviation) · 3 helt utan datum (de-natur, ienw-ed269, si-aviation) · 40 bundlar totalt",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4832,7 +4722,7 @@
         {
           "name": "basemap:standard",
           "status": "ok",
-          "detail": "200 OK z10, 15289B image/png",
+          "detail": "200 OK z10, 15298B image/png",
           "last_modified": null,
           "url": null,
           "kind": "upstream",
@@ -4883,6 +4773,266 @@
     }
   ],
   "github_actions_24h": [
+    {
+      "name": "ASC version watch",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Airspace data source health check",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "App Store sales digest",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Apple Ads keyword monitor",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Apple Ads spend digest",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Data health (all sources)",
+      "status": "ok",
+      "detail": "2/2 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch & publish AIP Supplements",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch & publish CH airspace (BAZL/BAFU/VBS via geo.admin.ch)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch & publish NO airspace (Avinor + Miljø + Forsvaret + NVE)",
+      "status": "warn",
+      "detail": "1/1 FAIL — enstaka körning, se GitHubs run-mejl",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch & publish US TFRs (FAA WFS)",
+      "status": "ok",
+      "detail": "4/4 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch DE airspace (dipul-spegel + BfN-natur)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch IAA ED-269 (IE airspace)",
+      "status": "warn",
+      "detail": "1/2 FAIL",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch IenW ED-269 (NL airspace)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch NOTAMs (FIR-based)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Flutter CI",
+      "status": "warn",
+      "detail": "2/13 FAIL",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Kör om kastade schemakörningar",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Tools-tester",
+      "status": "warn",
+      "detail": "13/14 FAIL",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-at-zones",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-dk-airspace",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-dronekoll-analytics",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-ee-zones",
+      "status": "ok",
+      "detail": "2/2 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-fi-airspace",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-lu-zones",
+      "status": "ok",
+      "detail": "2/2 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-sk-reservations",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "web-optimize-airspace",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "GitHub Actions (24h): täckning",
+      "status": "info",
+      "detail": "57 körningar över 25 workflows bedömda — hela dygnet täckt",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Cron-pulsen",
+      "status": "ok",
+      "detail": "53 schemalagda workflows, 2 i grace efter cron-omläggning — alla tickar enligt schema",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Puls: fetch-si-zones.yml",
+      "status": "info",
+      "detail": "avstängd enligt beslut — utfasad 2026-08-05 — CAA-licensen underkändes 2026-07-23, ersatt av si-aviation/si-nature/si-built",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Puls: mandagsbrev.yml",
+      "status": "info",
+      "detail": "cron ändrad för 3d sedan — inväntar första körningen enligt nya schemat",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Puls: snapshot-lvnl.yml",
+      "status": "info",
+      "detail": "cron ändrad för 3d sedan — inväntar första körningen enligt nya schemat",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Kastade schemakörningar (7 d)",
+      "status": "ok",
+      "detail": "0 av 227 schemalagda körningar avbrutna utan senare lyckad körning",
+      "last_modified": null,
+      "url": null,
+      "kind": "other",
+      "titel": "Kastade schemakörningar",
+      "explain": "Robotarna i molnet står i en gemensam kö för att inte skriva över varandra. Kön har bara EN väntplats: kommer morgonens körningar sent knuffas de väntande ut och avbryts — och en avbruten körning gör ingenting alls, larmar inte heller. Måndagen den 31 augusti 2026 försvann åtta schemalagda hämtningar så, utan att någon rad på den här sidan såg det. Raden räknar avbrutna schemalagda körningar de senaste sju dygnen som inte redan körts om med lyckat resultat. Sedan 2 september 2026 kör en daglig robot (13:07 UTC) om dem automatiskt; gul här betyder att en hämtning uteblev och att omkörningen ännu inte lyckats."
+    },
+    {
+      "name": "Actions-minuter",
+      "status": "warn",
+      "detail": "≈2058 min hittills (610 körningar, 10 dygn in). Störst: Flutter CI 909, Tools-tester 280. Prognos hela månaden ≈6278 av 3000 min. Golv: rundat per körning, GitHub debiterar per jobb. Tar potten slut stannar VARJE flöde — fetchers, den här besiktningen och därmed statussidan — och tystnaden ser ut som lugn. Höj ACTIONS_MINUTER_POTT om taket är medvetet",
+      "last_modified": null,
+      "url": null,
+      "kind": "other",
+      "titel": "Actions-minuter (molnrobotarnas budget)",
+      "explain": "Robotarna som hämtar luftrumsdata kör på GitHubs servrar, och kontot har ett tak för hur många minuter de får kosta per månad. Tar minuterna slut stannar ALLT: hämtningarna, den här besiktningen, och därmed den här sidan — utan felmeddelande. Det ser likadant ut som en lugn dag. Raden räknar förbrukningen hittills i månaden och räknar upp den till en prognos för hela månaden. Gul betyder att takten pekar mot att taket spräcks, inte att det redan har hänt. Siffran är en lägsta uppskattning — den exakta finns hos GitHub."
+    },
     {
       "name": "Shapely-vakten",
       "status": "ok",
@@ -4952,26 +5102,14 @@
   ],
   "flippko": {
     "matbar": true,
-    "status": "warn",
-    "detalj": "2 väntar release · 12 att flippa · 0 försenade · 11 klara att stryka · asc_versions.json skriven 2026-09-10 (0 d sedan)",
+    "status": "ok",
+    "detalj": "2 väntar release · 12 att flippa · 0 försenade · 0 klara att stryka · asc_versions.json skriven 2026-09-10 (0 d sedan)",
     "asc_alder_dygn": 0,
-    "antal": 11,
-    "nyckel": "557743e1d70b309a",
-    "titel": "🕰️ Flippkön: 11 att stryka",
+    "antal": 0,
+    "nyckel": "e3b0c44298fc1c14",
+    "titel": "🕰️ Flippkön: 0 försenade",
     "forsenade": [],
-    "att_stryka": [
-      "grind-dnga-at — KLAR — grinden är PÅ (tools/fetch_at_zones.py:EMIT_DNGA_ADVISORY_AT). Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »GRIND, forts.« (10): classifier-gisten DNGA_ADVISORY FÖRST (post holdback-dnga-advisory), sedan EN commit med EMIT_DNGA_ADVISORY_AT = True, fetch_at_zones.py --also-bundle, ZC-AT-315 measured {DNGA 0, DNGA_ADVISORY 8}, ops_manifest at-zones-golv DNGA_ADVISORY: 8, bundle_drift --update-facit.",
-      "grind-dnga-ee — KLAR — grinden är PÅ (tools/fetch_ee_zones.py:EMIT_DNGA_ADVISORY_EE). Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »GRIND, forts.« (11): EN commit med EMIT_DNGA_ADVISORY_EE = True, fetch_ee_zones.py --also-bundle, ZC-EE-311 measured {DNGA_ADVISORY 5}, ops_manifest ee-zones-golv DNGA: 6 -> DNGA_ADVISORY: 5. UNDANTAG-raden (EE, DNGA) står KVAR som bara_live. ⚠️ TRE TEXTBESLUT FÖRE FLIPPEN (UPPGIFTER lägesblocket (11) (a)-(c); tillagda här 2026-09-08 efter R2 #9 — de hade fallit ur instruktionen, och den som följde den gula raden hade gjort flippen utan dem): (a) EE:DNGA-raden bär efter flippen bara aktiverings-NOTAM:en men säger »ei ole formaalselt keelatud« — MILDARE ÄN MYNDIGHETEN; E1 §9.3 har ett lydelseförslag på estniska. (b) EE-egen DNGA_ADVISORY-lydelse i classifier ×27: den landsblinda texten bär Österrikes »på egen risk« (R2 #8). (c) ZC-EE-305/307 ska ommätas (NOTAM-churn 14 -> 26).",
-      "rules-ie-ctr — KLAR — inget av mönstren står kvar i assets/airspace_rules.json. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (1) + lägesblocket (12): lydelsen för fall (1) ligger ORDAGRANT i ZC-IE-009:s not (legal-audit/data/zone-claims.json) — kopiera den, stryk mening (2), publicera RULES-gisten (publish_airspace_rules.py). Fall (2) står kvar med avsikt tills dess: rules-gisten läses LIVE av redan installerade appar, som mappar alla 30 AIR_TRAFFIC-zoner till CTR, och en rad som bara beskriver tak-familjen hade sagt »open category flight is permitted« om 19 zoner utan publicerad höjd — IE-A3-01 igen, fast åt andra hållet i tiden. Detta är en ANNAN gist än holdback-ctr-specific-ie (classifier-gisten): den publicerar nyckelns TEXT, den här smalnar REGELRADEN.",
-      "holdback-ctr-specific-ie — KLAR — CTR_SPECIFIC_IE är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2) + lägesblocket rad 186: 11 IE-zoner med publicerat tak stannar CTR, 19 utan blir CTR_SPECIFIC_IE. Dart-halvan ligger redan i binären (airspace_wfs_service.dart:3027). Den här posten är CLASSIFIER-gisten (nyckelns ×27-text). REGELRADEN IE:CTR är ett EGET steg — posten rules-ie-ctr — och den blir inte smalare av att classifier-nyckeln publiceras. Rättat 2026-09-08 (R2 #3): tidigare stod här »det som återstår är gist-publiceringen«, vilket läste som att inget mer fanns kvar; det är två gistar, inte en.",
-      "holdback-dnga-advisory — KLAR — DNGA_ADVISORY är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2): hela gist-batchen i EN publicering — python3 -m tools.publish_classifier_update <NYCKEL> --apply. Kräver Kristoffers OK (gisten är användarsynlig). Stryk nyckeln ur gistHoldback i legal-audit/data/zone-claims.json i samma commit.",
-      "holdback-modellflug-at — KLAR — MODELLFLUG_AT är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2). Nyckeln finns i asseten ×27 men levereras av inget flöde förrän grind-at-modellflug är PÅ.",
-      "holdback-no-embassy — KLAR — NO_EMBASSY är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · Norge-vågen 2026-09-08 (LOGG Fas 540): nyckeln NO_EMBASSY finns i asseten ×27 och i Dart (classifier, levelForType, _priority, colorsForLayer, chip) på 1.3.1 build 155 (154 drogs tillbaka 2026-09-08) — väntar att DEN nått användarna. Då: `publish_classifier_update NO_EMBASSY --apply` (dry-run-diff → Kristoffers OK), städa gistHoldback-posten NO_EMBASSY i zone-claims.json.",
-      "holdback-paraglider — KLAR — PARAGLIDER är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2). Nyckeln finns INTE i utgivna 1.3 (ZC-SK-351) — publiceras först när 1.3.1 nått användarna, och i samma svep som grind-sk-w-paraglider.",
-      "holdback-uas-akt-ch — KLAR — UAS_AKT_CH är borta ur gistHoldback. Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (2). Fältet finns i asseten ×27 men läses av ingen utgiven binär (1.3 = cf8f4b2).",
-      "grind-ie-parachute — KLAR — grinden är PÅ (tools/fetch_ie_ed269.py:EMIT_IE_PARACHUTE). Stryk posten ur tools/data/flippko.json i samma commit som flippen. · docs/UPPGIFTER.md »Flipparna« (3). TEKNISKT release-FRI: nyckeln PARAJUMP finns redan i utgivna 1.3 (fetch_ie_ed269.py:99-101) — `kraver` står som 1.3.1 för att steget är PLANERAT i det svepet, inte för att binären hindrar det. Vill man flippa tidigare räcker Kristoffers OK; ändra då `kraver` till null och sätt `senast`.",
-      "grind-no-embassy — KLAR — grinden är PÅ (tools/airspace/fetch_no_overlay.py:EMIT_NO_EMBASSY). Stryk posten ur tools/data/flippko.json i samma commit som flippen. · Efter holdback-no-embassy: EN commit med EMIT_NO_EMBASSY = True i fetch_no_overlay.py, FLOORS[\"NO_EMBASSY\"] ≈ 40 (≤ hälften av 85), python3 -m tools.airspace.fetch_no_overlay (bundlar), fetch-no-airspace.yml dispatch, legendrad »Ambassader (NO_EMBASSY)« i countries.json + kOverlayItemL10n ×27 (övergångsrad om releasen inte nått alla), bundle_drift --update-facit, ZC-NO-014 measured 85."
-    ],
+    "att_stryka": [],
     "omatbara": []
   },
   "aip_vakt": {
@@ -4980,5 +5118,37 @@
     "nyckel": "e3b0c44298fc1c14",
     "titel": "📖 AIP-vakten: 0 larm",
     "larm": []
-  }
+  },
+  "schema_drift": [
+    {
+      "detected": "2026-08-02T07:50:15.563031+00:00",
+      "iso": "EE",
+      "label": "ee-zones",
+      "url": "https://pappilappi.com/airspace/ee-zones.geojson",
+      "changes": [
+        "nya fält: uom"
+      ],
+      "diagnosis": "Ett nytt fält \"uom\" har tillkommit i property-nycklarna (med värdet \"M\" i exempelfeaturen), medan alla tidigare fält är oförändrade och geometrin fortsatt är Polygon. Sannolik orsak är en uppströms formatändring där leverantören lagt till en explicit måttenhet (unit of measure) för höjdgränserna lowerLimit och upperLimit. Eftersom befintliga fält behålls och antalet features ökat från 217 till 230 bör parsern fortsätta fungera och inga zoner försvinna; den enda risken är att appen tolkar lowerLimit/upperLimit som en fast enhet och därför missar den nya \"uom\"-informationen om enheten framöver skulle variera."
+    },
+    {
+      "detected": "2026-08-02T07:50:15.563031+00:00",
+      "iso": "IS",
+      "label": "is-zones",
+      "url": "https://pappilappi.com/airspace/is-zones.geojson",
+      "changes": [
+        "geometrityper: MultiPolygon → MultiPolygon, Polygon"
+      ],
+      "diagnosis": "Den enda strukturella förändringen är att geometrityperna utökats från enbart MultiPolygon till både MultiPolygon och Polygon, medan antalet features (271) och samtliga egenskapsnycklar (_zoneType, authority, dataSource, identifier, message, name) är oförändrade. Mest troligt har uppströmskällan börjat koda enklare zoner som Polygon istället för att paketera dem som MultiPolygon, vilket är en geometrikodningsändring snarare än fältbyte eller trunkering. Egenskapsattributen bör fortsätta lösas ut som vanligt, men om appens parser bara hanterar MultiPolygon riskerar de nya Polygon-features att inte ritas ut och därmed försvinna från kartan."
+    },
+    {
+      "detected": "2026-08-02T07:50:15.563031+00:00",
+      "iso": "CH",
+      "label": "luftfahrthindernis",
+      "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson",
+      "changes": [
+        "geometrityper: LineString, Point → LineString"
+      ],
+      "diagnosis": "Den strukturella förändringen är att geometrityperna gått från LineString och Point till enbart LineString, medan antalet features ökat något (14336 → 14367). Egenskapsnycklarna är oförändrade, men i exempelfeaturen saknas nu ett värde för fältet \"airport\" som tidigare fanns (str:LSZQ). Den mest sannolika orsaken är en uppströms formatändring där punktbaserade hinder antingen tagits bort eller kodats om till LineString-geometri, eventuellt i samband med en datauppdatering (effectiveDate har flyttats från 2011 till 2024). Effekten för parsern är att alla hinder som tidigare var Point-geometrier riskerar att inte längre ritas ut som förväntat om koden särbehandlar punkter, och attributet \"airport\" kan sluta resolvera för vissa features, vilket kan göra att enskilda hinderzoner försvinner eller visas felaktigt på kartan."
+    }
+  ]
 }
