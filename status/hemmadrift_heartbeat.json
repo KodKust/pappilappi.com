@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-10T18:39:16.930553+00:00",
-  "started_at": "2026-09-10T18:37:39.731787+00:00",
-  "duration_s": 97,
+  "stamped_at": "2026-09-11T03:27:47.509163+00:00",
+  "started_at": "2026-09-11T03:27:43.524647+00:00",
+  "duration_s": 3,
   "slept_s": 0,
-  "mode": "--publish --only no-airspace",
+  "mode": "--publish --only fi-enr53",
   "pipelines_ok": [
-    "no-airspace"
+    "fi-enr53"
   ],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [],
