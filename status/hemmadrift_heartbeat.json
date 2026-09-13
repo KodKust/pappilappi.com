@@ -1,14 +1,12 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-13T15:14:49.486160+00:00",
-  "started_at": "2026-09-13T14:45:08.981109+00:00",
-  "duration_s": 1780,
-  "slept_s": 1652,
+  "stamped_at": "2026-09-13T18:30:14.293623+00:00",
+  "started_at": "2026-09-13T18:30:03.873691+00:00",
+  "duration_s": 10,
+  "slept_s": 0,
   "mode": "--due --publish --status --notify",
-  "pipelines_ok": [
-    "notams-gist"
-  ],
+  "pipelines_ok": [],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
     "ro-zones",
@@ -24,6 +22,7 @@
     "fi-airspace",
     "de-temporaere",
     "us-tfr",
+    "notams-gist",
     "aip-sup-gist",
     "nl-lvnl-snapshot",
     "nl-lvnl-zones",
@@ -64,5 +63,5 @@
     "de-full"
   ],
   "pipelines_skipped_wip": [],
-  "nothing_due": false
+  "nothing_due": true
 }
