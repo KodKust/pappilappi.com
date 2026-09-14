@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T11:03:08.997669+00:00",
+  "generated": "2026-09-14T21:04:34.263388+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -135,7 +135,7 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "57 av 505 länkar trasiga i 20 länder",
+      "detail": "57 av 505 länkar trasiga i 21 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -143,11 +143,11 @@
   ],
   "links": [
     {
-      "name": "🇨🇾 CY — Cypern",
+      "name": "🇩🇴 DO — Dominikanska republiken",
       "status": "warn",
-      "detail": "7 av 9 länkar trasiga (403)",
+      "detail": "8 av 10 länkar trasiga (error, timeout)",
       "last_modified": null,
-      "url": "https://drones.gov.cy",
+      "url": "https://www.idac.gob.do/drone/",
       "kind": "other"
     },
     {
@@ -175,19 +175,19 @@
       "kind": "other"
     },
     {
-      "name": "🇸🇮 SI — Slovenien",
-      "status": "warn",
-      "detail": "5 av 9 länkar trasiga (403)",
-      "last_modified": null,
-      "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-      "kind": "other"
-    },
-    {
       "name": "🇵🇱 PL — Polen",
       "status": "warn",
       "detail": "4 av 9 länkar trasiga (error)",
       "last_modified": null,
       "url": "https://dronemap.pansa.pl",
+      "kind": "other"
+    },
+    {
+      "name": "🇨🇷 CR — Costa Rica",
+      "status": "warn",
+      "detail": "3 av 10 länkar trasiga (403, error)",
+      "last_modified": null,
+      "url": "https://www.sjoairport.com/do-you-own-a-drone-know-the-rules-and-limitations-of-flying-it-near-an-airport/?lang=en",
       "kind": "other"
     },
     {
@@ -215,19 +215,19 @@
       "kind": "other"
     },
     {
-      "name": "🇨🇷 CR — Costa Rica",
-      "status": "warn",
-      "detail": "2 av 10 länkar trasiga (403, error)",
-      "last_modified": null,
-      "url": "https://www.sinac.go.cr/",
-      "kind": "other"
-    },
-    {
       "name": "🇲🇽 MX — Mexiko",
       "status": "warn",
       "detail": "2 av 10 länkar trasiga (error)",
       "last_modified": null,
       "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5575021",
+      "kind": "other"
+    },
+    {
+      "name": "🇵🇦 PA — Panama",
+      "status": "warn",
+      "detail": "2 av 10 länkar trasiga (403, error)",
+      "last_modified": null,
+      "url": "https://stri.si.edu/plan-your-visit/scientific-research-permits/aac-authorization",
       "kind": "other"
     },
     {
@@ -255,17 +255,17 @@
       "kind": "other"
     },
     {
-      "name": "🇧🇷 BR — Brasilien",
+      "name": "🇧🇬 BG — Bulgarien",
       "status": "warn",
-      "detail": "1 av 10 länkar trasiga (error)",
+      "detail": "1 av 9 länkar trasiga (timeout)",
       "last_modified": null,
-      "url": "https://sistemas.anac.gov.br/sisant/",
+      "url": "https://www.bulatsa.com",
       "kind": "other"
     },
     {
-      "name": "+ 5 länder till med trasiga länkar",
+      "name": "+ 6 länder till med trasiga länkar",
       "status": "info",
-      "detail": "5 länkar: DO, LI, NO, NZ, PA",
+      "detail": "6 länkar: BR, EC, LI, NO, NZ, SE",
       "last_modified": null,
       "url": null,
       "kind": "other"
