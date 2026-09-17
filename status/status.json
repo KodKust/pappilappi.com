@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-17T06:49:10.847504+00:00",
+  "generated": "2026-09-17T06:52:10.177723+00:00",
   "summary": {
-    "fail": 2,
+    "fail": 0,
     "warn": 1,
-    "ok": 242,
+    "ok": 244,
     "total_checks": 345,
     "countries_total": 55,
-    "countries_ok": 54
+    "countries_ok": 55
   },
   "countries": [
     {
@@ -3660,7 +3660,7 @@
       "iso": "NO",
       "name": "Norge",
       "flag": "🇳🇴",
-      "status": "fail",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -3772,8 +3772,8 @@
         },
         {
           "name": "Uppströms: Geonorge Forsvaret skytefelt (GML)",
-          "status": "fail",
-          "detail": "timeout",
+          "status": "ok",
+          "detail": "200 OK, 1410959B",
           "last_modified": null,
           "url": "https://nedlasting.geonorge.no/geonorge/Forurensning/Skytefelt/GML/Forurensning_0000_Norge_4258_Skytefelt_GML.zip",
           "kind": "upstream",
@@ -3781,8 +3781,8 @@
         },
         {
           "name": "Uppströms: Geonorge Sjøforsvar skytefelt (GML)",
-          "status": "fail",
-          "detail": "timeout",
+          "status": "ok",
+          "detail": "200 OK, 56909B",
           "last_modified": null,
           "url": "https://nedlasting.geonorge.no/geonorge/Forurensning/SkyteOvingsfeltSjo/GML/Forurensning_0000_Norge_4258_SkyteOvingsfeltSjo_GML.zip",
           "kind": "upstream",
@@ -4472,8 +4472,8 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 5 min sen (inget var due — allt färskt)",
-          "last_modified": "2026-09-17T06:42:14.284454+00:00",
+          "detail": "senaste körning 3 min sen (inget var due — allt färskt)",
+          "last_modified": "2026-09-17T06:47:50.851547+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
