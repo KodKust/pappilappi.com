@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-17T06:42:48.492033+00:00",
+  "generated": "2026-09-17T06:49:10.847504+00:00",
   "summary": {
-    "fail": 0,
-    "warn": 2,
-    "ok": 243,
+    "fail": 2,
+    "warn": 1,
+    "ok": 242,
     "total_checks": 345,
     "countries_total": 55,
     "countries_ok": 54
@@ -1048,7 +1048,7 @@
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 20h sen, 534 kB",
+          "detail": "hämtad 21h sen, 534 kB",
           "last_modified": "2026-09-16T09:44:23+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
@@ -2236,7 +2236,7 @@
       "iso": "RO",
       "name": "Romania",
       "flag": "🇷🇴",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -2303,8 +2303,8 @@
         },
         {
           "name": "Länk: ROMATSA — Harta spațiului aerian",
-          "status": "warn",
-          "detail": "URLError: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://flightplan.romatsa.ro/",
           "kind": "link",
@@ -3660,7 +3660,7 @@
       "iso": "NO",
       "name": "Norge",
       "flag": "🇳🇴",
-      "status": "ok",
+      "status": "fail",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -3772,8 +3772,8 @@
         },
         {
           "name": "Uppströms: Geonorge Forsvaret skytefelt (GML)",
-          "status": "ok",
-          "detail": "200 OK, 1410959B",
+          "status": "fail",
+          "detail": "timeout",
           "last_modified": null,
           "url": "https://nedlasting.geonorge.no/geonorge/Forurensning/Skytefelt/GML/Forurensning_0000_Norge_4258_Skytefelt_GML.zip",
           "kind": "upstream",
@@ -3781,8 +3781,8 @@
         },
         {
           "name": "Uppströms: Geonorge Sjøforsvar skytefelt (GML)",
-          "status": "ok",
-          "detail": "200 OK, 56909B",
+          "status": "fail",
+          "detail": "timeout",
           "last_modified": null,
           "url": "https://nedlasting.geonorge.no/geonorge/Forurensning/SkyteOvingsfeltSjo/GML/Forurensning_0000_Norge_4258_SkyteOvingsfeltSjo_GML.zip",
           "kind": "upstream",
@@ -4472,8 +4472,8 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 1h sen (1 pipelines körda, 1 felade (si-aviation))",
-          "last_modified": "2026-09-17T04:56:17.979664+00:00",
+          "detail": "senaste körning 5 min sen (inget var due — allt färskt)",
+          "last_modified": "2026-09-17T06:42:14.284454+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
