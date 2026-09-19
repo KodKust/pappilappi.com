@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-19T10:31:21.558046+00:00",
+  "generated": "2026-09-19T18:31:22.634588+00:00",
   "summary": {
     "fail": 0,
-    "warn": 1,
-    "ok": 247,
+    "warn": 2,
+    "ok": 246,
     "total_checks": 347,
     "countries_total": 55,
-    "countries_ok": 55
+    "countries_ok": 54
   },
   "countries": [
     {
@@ -623,8 +623,8 @@
         {
           "name": "Feed: lu-zones",
           "status": "ok",
-          "detail": "hämtad 2h sen, 107 kB",
-          "last_modified": "2026-09-19T08:00:43+00:00",
+          "detail": "hämtad 30 min sen, 107 kB",
+          "last_modified": "2026-09-19T18:00:16+00:00",
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Luxemburgs drönarzoner",
@@ -784,7 +784,7 @@
         {
           "name": "Feed: si-built",
           "status": "ok",
-          "detail": "hämtad 44d sen, 13 kB",
+          "detail": "hämtad 45d sen, 13 kB",
           "last_modified": "2026-08-05T16:37:59+00:00",
           "url": "https://pappilappi.com/airspace/si-built/",
           "kind": "feed",
@@ -1048,7 +1048,7 @@
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 1h sen, 525 kB",
+          "detail": "hämtad 9h sen, 525 kB",
           "last_modified": "2026-09-19T09:13:49+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
@@ -1152,13 +1152,13 @@
         {
           "name": "Feed: sk-reservations",
           "status": "ok",
-          "detail": "hämtad 23h sen, 91 kB",
-          "last_modified": "2026-09-18T11:15:23+00:00",
+          "detail": "hämtad 7h sen, 75 kB",
+          "last_modified": "2026-09-19T10:59:46+00:00",
           "url": "https://pappilappi.com/airspace/sk-reservations.geojson",
           "kind": "feed",
           "titel": "Slovakiens aktiva luftrumsreservationer",
           "explain": "Dygnssnapshot av aktiva, marknära R-områden ur LPS SR:s LARA-lager (AUP/UUP); villkoren ordagrant ur AIP SR ENR 5.1. Hämtas varje dag. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-19"
+          "next_due": "2026-09-20"
         },
         {
           "name": "EU-Aerodromes Gist (sk.json)",
@@ -1280,7 +1280,7 @@
         {
           "name": "Feed: nl-lvnl-zones",
           "status": "ok",
-          "detail": "hämtad 22h sen, 74 kB",
+          "detail": "hämtad 1d sen, 74 kB",
           "last_modified": "2026-09-18T12:12:43+00:00",
           "url": "https://pappilappi.com/airspace/nl-lvnl-zones.geojson",
           "kind": "feed",
@@ -1291,7 +1291,7 @@
         {
           "name": "Aerodromes Gist (nl.json)",
           "status": "ok",
-          "detail": "14d sen, 236 fält",
+          "detail": "15d sen, 236 fält",
           "last_modified": "2026-09-04T11:23:48.625577+00:00",
           "url": null,
           "kind": "gist",
@@ -1555,7 +1555,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "hämtad 1h sen, 1539 kB",
+          "detail": "hämtad 9h sen, 1539 kB",
           "last_modified": "2026-09-19T08:48:19+00:00",
           "url": "https://pappilappi.com/airspace/ie-ed269.geojson",
           "kind": "feed",
@@ -1645,7 +1645,7 @@
         {
           "name": "Feed: pt-zones",
           "status": "ok",
-          "detail": "hämtad 4d sen, 895 kB",
+          "detail": "hämtad 5d sen, 895 kB",
           "last_modified": "2026-09-14T11:04:15+00:00",
           "url": "https://pappilappi.com/airspace/pt-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1877,13 +1877,13 @@
         {
           "name": "Feed: ee-zones",
           "status": "ok",
-          "detail": "hämtad 23h sen, 265 kB",
-          "last_modified": "2026-09-18T11:04:51+00:00",
+          "detail": "hämtad 7h sen, 264 kB",
+          "last_modified": "2026-09-19T10:48:54+00:00",
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Estlands drönarzoner",
           "explain": "Officiella zoner från flygtrafiktjänsten EANS drönarkarta. Hämtas varje dag (NOTAM-härledda zoner lever i dagar). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-09-26"
+          "next_due": "2026-09-27"
         },
         {
           "name": "EU-Aerodromes Gist (ee.json)",
@@ -1966,7 +1966,7 @@
         {
           "name": "Feed: at-zones",
           "status": "ok",
-          "detail": "hämtad 2h sen, 546 kB",
+          "detail": "hämtad 10h sen, 546 kB",
           "last_modified": "2026-09-19T08:10:33+00:00",
           "url": "https://pappilappi.com/airspace/at-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -2075,7 +2075,7 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "hämtad 1h sen, 2278 kB",
+          "detail": "hämtad 9h sen, 2278 kB",
           "last_modified": "2026-09-19T08:55:55+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
           "kind": "feed",
@@ -2086,7 +2086,7 @@
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "hämtad 1h sen, 728 kB",
+          "detail": "hämtad 9h sen, 728 kB",
           "last_modified": "2026-09-19T08:55:55+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260904a",
           "kind": "feed",
@@ -2097,7 +2097,7 @@
         {
           "name": "Feed: dk-gul",
           "status": "ok",
-          "detail": "hämtad 4d sen, 102 kB",
+          "detail": "hämtad 5d sen, 102 kB",
           "last_modified": "2026-09-14T13:22:05+00:00",
           "url": "https://pappilappi.com/airspace/dk-gul.geojson?cb=20260815a",
           "kind": "feed",
@@ -2108,7 +2108,7 @@
         {
           "name": "Feed: dk-indudflyv",
           "status": "ok",
-          "detail": "hämtad 4d sen, 186 kB",
+          "detail": "hämtad 5d sen, 186 kB",
           "last_modified": "2026-09-14T13:22:05+00:00",
           "url": "https://pappilappi.com/airspace/dk-indudflyv.geojson?cb=20260815a",
           "kind": "feed",
@@ -2119,7 +2119,7 @@
         {
           "name": "Feed: dk-jernbane",
           "status": "ok",
-          "detail": "hämtad 4d sen, 1003 kB",
+          "detail": "hämtad 5d sen, 1003 kB",
           "last_modified": "2026-09-14T13:22:05+00:00",
           "url": "https://pappilappi.com/airspace/dk-jernbane.geojson?cb=20260815a",
           "kind": "feed",
@@ -2130,7 +2130,7 @@
         {
           "name": "Feed: dk-veje70",
           "status": "ok",
-          "detail": "hämtad 4d sen, 2369 kB",
+          "detail": "hämtad 5d sen, 2369 kB",
           "last_modified": "2026-09-14T13:22:05+00:00",
           "url": "https://pappilappi.com/airspace/dk-veje70.geojson?cb=20260815a",
           "kind": "feed",
@@ -2141,7 +2141,7 @@
         {
           "name": "EU-Aerodromes Gist (dk.json)",
           "status": "ok",
-          "detail": "12d sen, 136 fält",
+          "detail": "13d sen, 136 fält",
           "last_modified": "2026-09-06T11:20:35.769560+00:00",
           "url": null,
           "kind": "gist",
@@ -2255,7 +2255,7 @@
         {
           "name": "Feed: ro-zones",
           "status": "ok",
-          "detail": "hämtad 1d sen, 836 kB",
+          "detail": "hämtad 2d sen, 836 kB",
           "last_modified": "2026-09-17T14:30:15+00:00",
           "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260827a",
           "kind": "feed",
@@ -2709,7 +2709,7 @@
         {
           "name": "Feed: de-labore",
           "status": "ok",
-          "detail": "data oförändrad sedan 66d sen, 11 kB",
+          "detail": "data oförändrad sedan 67d sen, 11 kB",
           "last_modified": "2026-07-14T15:44:27+00:00",
           "url": "https://pappilappi.com/airspace/de/labore.geojson?cb=20260714a",
           "kind": "feed",
@@ -2915,7 +2915,7 @@
         {
           "name": "Feed: es-parques",
           "status": "ok",
-          "detail": "hämtad 13d sen, 284 kB",
+          "detail": "hämtad 14d sen, 284 kB",
           "last_modified": "2026-09-05T15:23:34+00:00",
           "url": "https://pappilappi.com/airspace/es-parques.geojson?cb=20260604a",
           "kind": "feed",
@@ -2926,7 +2926,7 @@
         {
           "name": "EU-Aerodromes Gist (es.json)",
           "status": "ok",
-          "detail": "12d sen, 550 fält",
+          "detail": "13d sen, 550 fält",
           "last_modified": "2026-09-06T11:20:32.701231+00:00",
           "url": null,
           "kind": "gist",
@@ -3023,7 +3023,7 @@
       "iso": "FR",
       "name": "France",
       "flag": "🇫🇷",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -3076,7 +3076,7 @@
         {
           "name": "Feed: fr-parcs",
           "status": "ok",
-          "detail": "hämtad 47d sen, 723 kB",
+          "detail": "hämtad 48d sen, 723 kB",
           "last_modified": "2026-08-02T11:42:39+00:00",
           "url": "https://pappilappi.com/airspace/fr-parcs.geojson?cb=20260604b",
           "kind": "feed",
@@ -3087,7 +3087,7 @@
         {
           "name": "EU-Aerodromes Gist (fr.json)",
           "status": "ok",
-          "detail": "12d sen, 1666 fält",
+          "detail": "13d sen, 1666 fält",
           "last_modified": "2026-09-06T11:20:32.252676+00:00",
           "url": null,
           "kind": "gist",
@@ -3133,8 +3133,8 @@
         },
         {
           "name": "Länk: cartes.gouv.fr — Restrictions UAS catégorie Ouverte et aéromodélisme",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "warn",
+          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (8.8.8.8 svarar att cartes.gouv.fr finns — systemets resolver hickade (negativ cache?)) (flaky — verifiera i browser)",
           "last_modified": null,
           "url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
           "kind": "link",
@@ -3228,7 +3228,7 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 1h sen, 649 kB",
+          "detail": "hämtad 9h sen, 649 kB",
           "last_modified": "2026-09-19T09:03:55+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
           "kind": "feed",
@@ -3239,7 +3239,7 @@
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 1h sen, 8989 kB",
+          "detail": "hämtad 9h sen, 8989 kB",
           "last_modified": "2026-09-19T09:03:55+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260802b",
           "kind": "feed",
@@ -3250,7 +3250,7 @@
         {
           "name": "Feed: fi-permanent",
           "status": "ok",
-          "detail": "hämtad 1h sen, 181 kB",
+          "detail": "hämtad 9h sen, 181 kB",
           "last_modified": "2026-09-19T09:03:55+00:00",
           "url": "https://pappilappi.com/airspace/fi-permanent.geojson?cb=20260802a",
           "kind": "feed",
@@ -3261,7 +3261,7 @@
         {
           "name": "Feed: fi-temporary",
           "status": "ok",
-          "detail": "hämtad 1h sen, 298 kB",
+          "detail": "hämtad 9h sen, 298 kB",
           "last_modified": "2026-09-19T09:03:55+00:00",
           "url": "https://pappilappi.com/airspace/fi-temporary.geojson?cb=20260802a",
           "kind": "feed",
@@ -3272,7 +3272,7 @@
         {
           "name": "Feed: fi-advisory",
           "status": "ok",
-          "detail": "hämtad 1h sen, 170 kB",
+          "detail": "hämtad 9h sen, 170 kB",
           "last_modified": "2026-09-19T09:04:00+00:00",
           "url": "https://pappilappi.com/airspace/fi-advisory.geojson?cb=20260907a",
           "kind": "feed",
@@ -3501,7 +3501,7 @@
         {
           "name": "Feed: se-heliports-aip",
           "status": "ok",
-          "detail": "hämtad 2d sen, 3 kB",
+          "detail": "hämtad 3d sen, 3 kB",
           "last_modified": "2026-09-16T18:30:28+00:00",
           "url": "https://pappilappi.com/airspace/se-heliports-aip.geojson?cb=20260810a",
           "kind": "feed",
@@ -3512,7 +3512,7 @@
         {
           "name": "Feed: se-exes-ctr",
           "status": "ok",
-          "detail": "hämtad 2d sen, 5 kB",
+          "detail": "hämtad 3d sen, 5 kB",
           "last_modified": "2026-09-16T18:30:44+00:00",
           "url": "https://pappilappi.com/airspace/se-exes-ctr.geojson?cb=20260902b",
           "kind": "feed",
@@ -3573,7 +3573,7 @@
         {
           "name": "AIP-SUP Gist (se.json)",
           "status": "ok",
-          "detail": "1d sen, 82 SUPs",
+          "detail": "2d sen, 82 SUPs",
           "last_modified": "2026-09-17T11:54:16.160549+00:00",
           "url": null,
           "kind": "gist",
@@ -4029,8 +4029,8 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 470 kB",
-          "last_modified": "2026-09-19T04:39:13+00:00",
+          "detail": "data oförändrad sedan 6h sen, 462 kB",
+          "last_modified": "2026-09-19T12:31:03+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (TFR)",
@@ -4161,7 +4161,7 @@
         {
           "name": "Feed: noaa-sanctuaries",
           "status": "ok",
-          "detail": "data oförändrad sedan 22h sen, 38 kB",
+          "detail": "data oförändrad sedan 1d sen, 38 kB",
           "last_modified": "2026-09-18T12:21:24+00:00",
           "url": "https://pappilappi.com/airspace/us-noaa-sanctuaries.geojson",
           "kind": "feed",
@@ -4172,7 +4172,7 @@
         {
           "name": "Aerodromes Gist (us.json)",
           "status": "ok",
-          "detail": "22h sen, 5158 fält",
+          "detail": "1d sen, 5158 fält",
           "last_modified": "2026-09-18T11:39:12.904968+00:00",
           "url": null,
           "kind": "gist",
@@ -4182,7 +4182,7 @@
         {
           "name": "Flygplatser USA — hela mängden (us-aerodromes.json)",
           "status": "ok",
-          "detail": "22h sen, 19296 fält",
+          "detail": "1d sen, 19296 fält",
           "last_modified": "2026-09-18T11:39:12.904968+00:00",
           "url": "https://pappilappi.com/airspace/us-aerodromes.json",
           "kind": "feed",
@@ -4336,8 +4336,8 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "16h sen, 5895 NOTAMs, max cirkel 60 NM, 89 GNSS-områden i egen kanal",
-          "last_modified": "2026-09-18T17:37:33.269721+00:00",
+          "detail": "1h sen, 5697 NOTAMs, max cirkel 60 NM, 106 GNSS-områden i egen kanal",
+          "last_modified": "2026-09-19T17:07:02.083660+00:00",
           "url": null,
           "kind": "gist",
           "titel": "NOTAM-listan (alla länder)",
@@ -4401,8 +4401,8 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "ok",
-          "detail": "22h sen, 3 kB",
-          "last_modified": "2026-09-18T12:16:24+00:00",
+          "detail": "6h sen, 3 kB",
+          "last_modified": "2026-09-19T11:57:51+00:00",
           "url": null,
           "kind": "other"
         },
@@ -4422,7 +4422,7 @@
         {
           "name": "Flippkön",
           "status": "ok",
-          "detail": "kön är tom — inga flippar väntar · asc_versions.json skriven 2026-09-18 (1 d sedan)",
+          "detail": "kön är tom — inga flippar väntar · asc_versions.json skriven 2026-09-19 (0 d sedan)",
           "last_modified": null,
           "url": "https://pappilappi.com/status/asc_versions.json",
           "kind": "rules",
@@ -4462,7 +4462,7 @@
         {
           "name": "Måndagsbrevet (veckoärendet)",
           "status": "ok",
-          "detail": "#693 öppet, skrivet för 4 d sedan (1 brev totalt)",
+          "detail": "#693 öppet, skrivet för 5 d sedan (1 brev totalt)",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4492,8 +4492,8 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 5h sen (1 pipelines körda)",
-          "last_modified": "2026-09-19T04:56:28.315730+00:00",
+          "detail": "senaste körning 8h sen (inget var due — allt färskt)",
+          "last_modified": "2026-09-19T10:30:21.272416+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
@@ -4732,7 +4732,7 @@
         {
           "name": "Bundlar (ålder)",
           "status": "info",
-          "detail": "äldsta 106 d (fr-parcs), 3 utan _meta-datum (de-natur, ienw-ed269, si-aviation) · 40 bundlar totalt",
+          "detail": "äldsta 107 d (fr-parcs), 3 utan _meta-datum (de-natur, ienw-ed269, si-aviation) · 40 bundlar totalt",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4868,8 +4868,8 @@
   "flippko": {
     "matbar": true,
     "status": "ok",
-    "detalj": "kön är tom — inga flippar väntar · asc_versions.json skriven 2026-09-18 (1 d sedan)",
-    "asc_alder_dygn": 1,
+    "detalj": "kön är tom — inga flippar väntar · asc_versions.json skriven 2026-09-19 (0 d sedan)",
+    "asc_alder_dygn": 0,
     "antal": 0,
     "nyckel": "e3b0c44298fc1c14",
     "titel": "🕰️ Flippkön: 0 försenade",
