@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-20T10:32:52.653897+00:00",
-  "started_at": "2026-09-20T10:30:46.884712+00:00",
-  "duration_s": 125,
-  "slept_s": 113,
+  "stamped_at": "2026-09-20T15:35:48.590648+00:00",
+  "started_at": "2026-09-20T15:07:08.906010+00:00",
+  "duration_s": 1719,
+  "slept_s": 1153,
   "mode": "--due --publish --status --notify",
-  "pipelines_ok": [
-    "aip-sup-gist"
+  "pipelines_ok": [],
+  "pipelines_failed": [
+    "si-built"
   ],
-  "pipelines_failed": [],
   "pipelines_skipped_not_due": [
     "ro-zones",
     "es-zones",
@@ -25,6 +25,7 @@
     "de-temporaere",
     "us-tfr",
     "notams-gist",
+    "aip-sup-gist",
     "nl-lvnl-snapshot",
     "nl-lvnl-zones",
     "us-noaa-sanctuaries",
@@ -54,7 +55,6 @@
     "faa-laanc-baseline",
     "karttext-baselines",
     "check-links",
-    "si-built",
     "web-optimize",
     "aerodromes-gist",
     "eu-aerodromes-gist",
