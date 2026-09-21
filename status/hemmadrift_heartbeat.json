@@ -1,17 +1,15 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-21T14:25:25.415994+00:00",
-  "started_at": "2026-09-21T14:20:33.186916+00:00",
-  "duration_s": 292,
-  "slept_s": 263,
+  "stamped_at": "2026-09-21T18:31:19.022945+00:00",
+  "started_at": "2026-09-21T18:30:00.456071+00:00",
+  "duration_s": 78,
+  "slept_s": 0,
   "mode": "--due --publish --status --notify",
   "pipelines_ok": [
-    "fi-aerodromes-gist"
+    "notams-gist"
   ],
-  "pipelines_failed": [
-    "si-built"
-  ],
+  "pipelines_failed": [],
   "pipelines_skipped_not_due": [
     "ro-zones",
     "es-zones",
@@ -26,7 +24,6 @@
     "fi-airspace",
     "de-temporaere",
     "us-tfr",
-    "notams-gist",
     "aip-sup-gist",
     "nl-lvnl-snapshot",
     "nl-lvnl-zones",
@@ -57,9 +54,11 @@
     "faa-laanc-baseline",
     "karttext-baselines",
     "check-links",
+    "si-built",
     "web-optimize",
     "aerodromes-gist",
     "eu-aerodromes-gist",
+    "fi-aerodromes-gist",
     "nl-aerodromes-gist",
     "us-aerodromes-gist",
     "de-full"
