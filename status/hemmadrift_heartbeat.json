@@ -1,14 +1,12 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-09-22T17:48:37.741360+00:00",
-  "started_at": "2026-09-22T17:28:04.263271+00:00",
-  "duration_s": 1233,
+  "stamped_at": "2026-09-22T18:30:16.001525+00:00",
+  "started_at": "2026-09-22T18:30:05.680113+00:00",
+  "duration_s": 10,
   "slept_s": 0,
   "mode": "--due --publish --status --notify",
-  "pipelines_ok": [
-    "si-built"
-  ],
+  "pipelines_ok": [],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
     "ro-zones",
@@ -55,6 +53,7 @@
     "faa-laanc-baseline",
     "karttext-baselines",
     "check-links",
+    "si-built",
     "web-optimize",
     "aerodromes-gist",
     "eu-aerodromes-gist",
@@ -64,5 +63,5 @@
     "de-full"
   ],
   "pipelines_skipped_wip": [],
-  "nothing_due": false
+  "nothing_due": true
 }
