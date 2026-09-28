@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T12:01:32.962778+00:00",
+  "generated": "2026-09-28T14:31:19.138267+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -135,7 +135,7 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "75 av 505 länkar trasiga i 24 länder",
+      "detail": "61 av 505 länkar trasiga i 19 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -143,51 +143,43 @@
   ],
   "links": [
     {
-      "name": "🇨🇾 CY — Cypern",
-      "status": "warn",
-      "detail": "7 av 9 länkar trasiga (403)",
-      "last_modified": null,
-      "url": "https://drones.gov.cy",
-      "kind": "other"
-    },
-    {
       "name": "🇦🇺 AU — Australien",
       "status": "warn",
-      "detail": "6 av 10 länkar trasiga (error)",
+      "detail": "7 av 10 länkar trasiga (error)",
       "last_modified": null,
       "url": "https://www.casa.gov.au/knowyourdrone/drone-rules",
       "kind": "other"
     },
     {
-      "name": "🇧🇬 BG — Bulgarien",
+      "name": "🇨🇾 CY — Cypern",
       "status": "warn",
-      "detail": "6 av 9 länkar trasiga (403)",
+      "detail": "7 av 9 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://www.caa.bg/en/category/633/16502",
+      "url": "https://drones.gov.cy/gr/",
+      "kind": "other"
+    },
+    {
+      "name": "🇪🇨 EC — Ecuador",
+      "status": "warn",
+      "detail": "6 av 10 länkar trasiga (500)",
+      "last_modified": null,
+      "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
+      "kind": "other"
+    },
+    {
+      "name": "🇸🇰 SK — Slovakien",
+      "status": "warn",
+      "detail": "6 av 10 länkar trasiga (timeout)",
+      "last_modified": null,
+      "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
       "kind": "other"
     },
     {
       "name": "🇱🇹 LT — Litauen",
       "status": "warn",
-      "detail": "6 av 9 länkar trasiga (403)",
+      "detail": "5 av 9 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://tka.lt/en/katalogas/bendra-informacija-2/",
-      "kind": "other"
-    },
-    {
-      "name": "🇵🇦 PA — Panama",
-      "status": "warn",
-      "detail": "6 av 10 länkar trasiga (403, error, timeout)",
-      "last_modified": null,
-      "url": "https://www.aeronautica.gob.pa/",
-      "kind": "other"
-    },
-    {
-      "name": "🇮🇳 IN — Indien",
-      "status": "warn",
-      "detail": "5 av 7 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://digitalsky.dgca.gov.in/",
+      "url": "https://tka.lt/katalogas/bendra-informacija-2/",
       "kind": "other"
     },
     {
@@ -195,7 +187,7 @@
       "status": "warn",
       "detail": "5 av 9 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://www.transport.gov.mt/aviation/civil-aviation-directorate/drones",
+      "url": "https://www.transport.gov.mt/aviation/drones-4444",
       "kind": "other"
     },
     {
@@ -215,30 +207,6 @@
       "kind": "other"
     },
     {
-      "name": "🇹🇷 TR — Turkiet",
-      "status": "warn",
-      "detail": "3 av 10 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://iha.shgm.gov.tr/",
-      "kind": "other"
-    },
-    {
-      "name": "🇺🇦 UA — Ukraina",
-      "status": "warn",
-      "detail": "3 av 5 länkar trasiga (403)",
-      "last_modified": null,
-      "url": "https://avia.gov.ua",
-      "kind": "other"
-    },
-    {
-      "name": "🇨🇴 CO — Colombia",
-      "status": "warn",
-      "detail": "2 av 10 länkar trasiga (403, error)",
-      "last_modified": null,
-      "url": "http://www.aerocivil.gov.co/servicios-a-la-navegacion/sistema-de-aeronaves-pilotadas-a-distancia-rpas-drones/documents/forms/allitems.aspx",
-      "kind": "other"
-    },
-    {
       "name": "🇨🇷 CR — Costa Rica",
       "status": "warn",
       "detail": "2 av 10 länkar trasiga (403, error)",
@@ -247,25 +215,57 @@
       "kind": "other"
     },
     {
-      "name": "🇲🇽 MX — Mexiko",
+      "name": "🇫🇮 FI — Finland",
       "status": "warn",
-      "detail": "2 av 10 länkar trasiga (error)",
+      "detail": "2 av 9 länkar trasiga (403)",
       "last_modified": null,
-      "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5575021",
+      "url": "https://sky.fintraffic.fi/",
       "kind": "other"
     },
     {
-      "name": "🇵🇪 PE — Peru",
+      "name": "🇵🇦 PA — Panama",
       "status": "warn",
       "detail": "2 av 10 länkar trasiga (403, error)",
       "last_modified": null,
-      "url": "mailto:rpas-dgac@mtc.gob.pe",
+      "url": "https://stri.si.edu/plan-your-visit/scientific-research-permits/aac-authorization",
       "kind": "other"
     },
     {
-      "name": "+ 9 länder till med trasiga länkar",
+      "name": "🇵🇱 PL — Polen",
+      "status": "warn",
+      "detail": "2 av 9 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://dronemap.pansa.pl",
+      "kind": "other"
+    },
+    {
+      "name": "🇷🇴 RO — Rumänien",
+      "status": "warn",
+      "detail": "2 av 9 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://flightplan.romatsa.ro/",
+      "kind": "other"
+    },
+    {
+      "name": "🇺🇦 UA — Ukraina",
+      "status": "warn",
+      "detail": "2 av 6 länkar trasiga (403)",
+      "last_modified": null,
+      "url": "https://avia.gov.ua",
+      "kind": "other"
+    },
+    {
+      "name": "🇨🇴 CO — Colombia",
+      "status": "warn",
+      "detail": "1 av 9 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "mailto:atencionalciudadano@aerocivil.gov.co",
+      "kind": "other"
+    },
+    {
+      "name": "+ 4 länder till med trasiga länkar",
       "status": "info",
-      "detail": "12 länkar: PL, RO, SG, BR, DO, EE, LI, NO, NZ",
+      "detail": "4 länkar: DO, HU, MX, PE",
       "last_modified": null,
       "url": null,
       "kind": "other"
