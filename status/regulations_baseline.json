@@ -2,11 +2,6 @@
   "version": 1,
   "countries": {
     "BR": {
-      "https://www.gov.br/anac/pt-br/assuntos/drones": {
-        "page_hash": "1a99c831cda84f10",
-        "text_hash": "c513b2be1b3bfd7d",
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
-      },
       "https://servicos.decea.mil.br/sarpas/": {
         "page_hash": "8a115cf5ca0bd4a0",
         "text_hash": "d16799d64c1a267e",
@@ -14,43 +9,56 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos": {
-        "page_hash": "153576a17a13eda9",
+        "page_hash": "8c9ac12934f1b35b",
         "text_hash": "1ce30e337c66b840",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "TR": {
-      "https://web.shgm.gov.tr/tr/kurumsal/4458-iha": {
-        "page_hash": "fcff86d8bcdd0f21",
-        "text_hash": "ec47cdefac4453cd",
+      "https://ihatakip.shgm.gov.tr/": {
+        "page_hash": "dfd885ed57fe933b",
+        "text_hash": "11837e4fee8de6f9",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       },
       "https://iha.shgm.gov.tr/": {
-        "page_hash": "a78e8ca84c166352",
+        "page_hash": "228cb3c2af17fc21",
         "text_hash": "25be44b9551c3705",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.turkiye.gov.tr/shgm-iha-pilot-kayit-basvurusu": {
-        "page_hash": "dcd74051a9efb2c3",
-        "text_hash": "e3b0c44298fc1c14",
+        "page_hash": "99d4771427387207",
+        "text_hash": "dd04d6ad53e55b59",
+        "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "LI": {
       "https://www.bazl.admin.ch/drohnen": {
-        "page_hash": "5a0867b74f925dc3",
+        "page_hash": "63e4a7dd035c34e6",
         "text_hash": "50b429167682d07d",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
-      "https://www.swiss-dronemap.ch": {
-        "page_hash": "54b4a6d3cbb73801",
-        "text_hash": "544ea9debd1f8169",
+      "https://www.bazl.admin.ch/de/registrierung-drohnenbetreiber": {
+        "page_hash": "901dbfdc05dd4a6c",
+        "text_hash": "3c6eb04fe5f69af1",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
+      "https://map.geo.admin.ch/#/map?lang=de&center=2757983,1223144&z=6&topic=aviation&layers=ch.bazl.einschraenkungen-drohnen&bgLayer=ch.swisstopo.pixelkarte-grau": {
+        "page_hash": "662083e38ec2c1b4",
+        "text_hash": null,
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
+      "https://www.landespolizei.li/informationen/drohnen": {
+        "page_hash": "b69483094091fc59",
+        "text_hash": "4ad1d476e6ba7067",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "MT": {
@@ -63,27 +71,27 @@
     },
     "MX": {
       "https://www.gob.mx/afac/acciones-y-programas/rpas-drones": {
-        "page_hash": "7a9141c08bcf4b73",
+        "page_hash": "0bfc218172769095",
         "text_hash": "e3b0c44298fc1c14",
         "text_norm": 1,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
-      "https://www.gob.mx/afac/documentos/circular-obligatoria-co-av-23-10-r4": {
-        "page_hash": "7e80600e16c60e8f",
-        "text_hash": "e3b0c44298fc1c14",
-        "text_norm": 1,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+      "https://dof.gob.mx/nota_detalle.php?codigo=5578813&fecha=14/11/2019": {
+        "page_hash": "12ce6e04d40482db",
+        "text_hash": null,
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "AR": {
       "https://www.argentina.gob.ar/anac/rpa-rpas": {
-        "page_hash": "11fc0f300358e989",
+        "page_hash": "b938a269eed35384",
         "text_hash": "e20872bd10f47688",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.argentina.gob.ar/anac/vant-svant/registro-de-vant-svant": {
-        "page_hash": "53eb6a025a59ce24",
+        "page_hash": "c3fb800f67f33650",
         "text_hash": "25b2221f3557f3d4",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -95,7 +103,7 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto": {
-        "page_hash": "8c281afbe7e38a12",
+        "page_hash": "1420711a8b46d39f",
         "text_hash": "dbf7267bb35dbdf1",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -103,28 +111,28 @@
     },
     "CL": {
       "https://www.dgac.gob.cl/operacion-de-drones/": {
-        "page_hash": "baa3be29ffd75f37",
+        "page_hash": "6412d06bbc86541c",
         "text_hash": "bddd9ae2886998f5",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.dgac.gob.cl/como-operar-un-dron-en-chile/": {
-        "page_hash": "9d1938aa833a6706",
+        "page_hash": "8ae6f0834c62864c",
         "text_hash": "1d846ee4a6ad9ac4",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://aipchile.dgac.gob.cl/": {
-        "page_hash": "070eec718f2ef9c8",
-        "text_hash": "b94cc7774a7d17a7",
+        "page_hash": "26f766f45396ab18",
+        "text_hash": "928fa342690f8420",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
-      "https://www.dgac.gob.cl/wp-content/uploads/2023/06/PROCEDIMIENTO-REGISTRO-RPA-NUEVO-Y-REGULARIZACION-03-JULIO-2023-R1.pdf": {
-        "page_hash": "28341a91cb29db64",
-        "text_hash": "86e4dd59dabdac52",
+      "https://www.dgac.gob.cl/nueva-plataforma-web-para-la-inscripcion-de-aeronaves-pilotadas-a-distancia/": {
+        "page_hash": "eb31a51dd1e39108",
+        "text_hash": "69909e8a4ecc5d59",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "CO": {
@@ -139,20 +147,20 @@
         "text_hash": "0fa5320481156ce1",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
-      },
-      "https://www.aerocivil.gov.co/autoridad_aeronautica/publicaciones/3704/registro-de-aeronaves/": {
-        "page_hash": "d9648a99a8ce89af",
-        "text_hash": "79ae05c77eae3428",
-        "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "PE": {
-      "https://www.gob.pe/institucion/mtc/noticias/50511-mtc-conoce-los-requisitos-para-operar-un-drone": {
-        "page_hash": "5fc2b8630fe4f51f",
-        "text_hash": "001034e74093429e",
+      "https://cdn.www.gob.pe/uploads/document/file/390602/NTC__RPAS__texto_.pdf": {
+        "page_hash": "16037965cedddd85",
+        "text_hash": "ae460ec1c20fbdf7",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
+      "https://www.gob.pe/institucion/mtc/normas-legales/8196915-012-2026-mtc": {
+        "page_hash": "4eb3358ac09b0267",
+        "text_hash": "e9ba29305ae31246",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       },
       "https://mpv.mtc.gob.pe/": {
         "page_hash": "c8040356e242b5dc",
@@ -161,15 +169,15 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.gob.pe/mtc": {
-        "page_hash": "ca84c35928c4e265",
-        "text_hash": "688032378a709e84",
+        "page_hash": "32e76fc83dc5c796",
+        "text_hash": "557ec0cab98621d3",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "UY": {
       "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones": {
-        "page_hash": "e847bee9119fa744",
+        "page_hash": "8e34324601cb48ad",
         "text_hash": "de3c9c7e4428db5b",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -180,17 +188,17 @@
         "text_norm": 1,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
-      "https://www.dinacia.gub.uy/novedades/permisos-de-operador-rpas": {
-        "page_hash": "c223847d34902daf",
-        "text_hash": "ce8f6ed6cf03b9f6",
+      "https://www.dinacia.gub.uy/documento/expedicion-de-permiso-daod-0": {
+        "page_hash": "699b2b9e8ec0b0e2",
+        "text_hash": "458fbb6037cff86f",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       },
-      "https://www.dinacia.gub.uy/documento/lar-61-licencias-para-pilotos-y-sus-habilitaciones-cuarta-edicion-enmienda-15-febrero": {
-        "page_hash": "47dc87ecfdce32e8",
-        "text_hash": "5e2171759ceadeb9",
+      "https://www.dinacia.gub.uy/documento/zonas-previstas-para-el-uso-recreativo-de-drones": {
+        "page_hash": "485ff8763c88a8aa",
+        "text_hash": "cada8a90a8dfe146",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "CR": {
@@ -201,60 +209,54 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.dgac.go.cr/": {
-        "page_hash": "82c55b3b3be614e5",
+        "page_hash": "619b602a31d9c928",
         "text_hash": "d1b1658357763779",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.dgac.go.cr/WEB/PreguntasFrecuentes": {
-        "page_hash": "82f53b263b8de774",
+        "page_hash": "f3fc64babdee52c9",
         "text_hash": "8ba5c7ad4b056fc2",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://sub.dgac.go.cr/aeronautica_/solicitud-de-licencia-rpas/": {
-        "page_hash": "dfbf8006c833b0ef",
-        "text_hash": "d0777eff170ff77d",
+        "page_hash": "e5838a84c1cfff0b",
+        "text_hash": "02f79816f0bcc1f5",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "EC": {
       "https://www.aviacioncivil.gob.ec/registro-de-drones/": {
-        "page_hash": "0bc8650d377b8224",
+        "page_hash": "36b9cffc09e2d71f",
         "text_hash": "74fd9f66edc3e771",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.aviacioncivil.gob.ec/": {
-        "page_hash": "c5949103a6fe5087",
+        "page_hash": "c265d3b055b885b6",
         "text_hash": "a1db812c61112b4e",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.aviacioncivil.gob.ec/induccion-al-uso-de-drones-en-el-ecuador/": {
-        "page_hash": "a611696f448ce789",
+        "page_hash": "274456c24c49e115",
         "text_hash": "e97dcf354d71dfd7",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
-      "https://www.gob.ec/dgac/tramites/emision-permisos-sobrevuelo": {
-        "page_hash": "cb29c4755ae993f1",
-        "text_hash": "51a61d836778e97f",
+      "https://www.aviacioncivil.gob.ec/autorizacion-especial-de-vuelo-uas/": {
+        "page_hash": "6790c867beb24d94",
+        "text_hash": "15f5e3bd285037b9",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "PA": {
       "https://www.aeronautica.gob.pa/": {
         "page_hash": "b30f649c82709c2a",
         "text_hash": "41c217c2e7f2470b",
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
-      },
-      "https://sigob.aeronautica.gob.pa/snra/subtipo/2": {
-        "page_hash": "008c150c51fe5382",
-        "text_hash": "e3b0c44298fc1c14",
-        "text_norm": 1,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.aeronautica.gob.pa/Noticia/": {
@@ -265,42 +267,54 @@
     },
     "DO": {
       "https://www.idac.gob.do/drone/": {
-        "page_hash": "89765da49f9679a8",
-        "text_hash": "03570eaa2a26e963",
+        "page_hash": "132b10562725567c",
+        "text_hash": "08b381c9306fe6a4",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.idac.gob.do/drone/requisitos-para-el-registro/": {
-        "page_hash": "0bb3930c80293860",
+        "page_hash": "c87e441ed3d8970b",
         "text_hash": "59d74ad47664f019",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.idac.gob.do/es/operaciones-suas-drones/": {
-        "page_hash": "fe2416d92ce9b357",
+        "page_hash": "8c37371ecb165fb1",
         "text_hash": "71bf2ab1d8ace552",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
-      "https://www.idac.gob.do/": {
-        "page_hash": "118c9cd3e8b7a506",
-        "text_hash": "62cbbf5bd12f4399",
+      "https://www.idac.gob.do/es/": {
+        "page_hash": "044c0b16ebe1fb6c",
+        "text_hash": "0f2bf5e38bf17cca",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "SG": {
-      "https://www.caas.gov.sg/public-passengers/unmanned-aircraft": {
-        "page_hash": "64fd96cb18614cf0",
-        "text_hash": "d5b1508f6aa43155",
+      "https://www.caas.gov.sg/unmanned-aircraft/": {
+        "page_hash": "709e6e597b02db29",
+        "text_hash": "479f339c6fdfd5f7",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       },
-      "https://onemap.sg/main/v2": {
-        "page_hash": "a2fac91e19e708f0",
-        "text_hash": "e3b0c44298fc1c14",
-        "text_norm": 1,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+      "https://www.onemap.gov.sg/droneQuery": {
+        "page_hash": "77136246eb0c0a65",
+        "text_hash": null,
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
+      "https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/": {
+        "page_hash": "ebbc0d204eb6ebb2",
+        "text_hash": "7ed4dacbe294b0b9",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
+      "https://www.caas.gov.sg/unmanned-aircraft/registration-deregistration/": {
+        "page_hash": "dcd9f2c963e9a78f",
+        "text_hash": "a005e779874ee1c9",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "HK": {
@@ -311,13 +325,13 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://esua.cad.gov.hk/": {
-        "page_hash": "3d3de04e6f30c3f1",
+        "page_hash": "ccc7b390c5969de5",
         "text_hash": "76e439566c40b3d6",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://esua.cad.gov.hk/web/droneMap": {
-        "page_hash": "82294892a2234a46",
+        "page_hash": "daeca77cf399b837",
         "text_hash": "6779f122a0267760",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -325,31 +339,31 @@
     },
     "LU": {
       "https://dac.gouvernement.lu/en/drones.html": {
-        "page_hash": "6d1751e895a77c5b",
+        "page_hash": "09fe860abfa12043",
         "text_hash": "fa13832fd0fda9b0",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://dac.gouvernement.lu/fr/drones.html": {
-        "page_hash": "ec14f601ab3a5a90",
+        "page_hash": "2dd0c79b3e9a331f",
         "text_hash": "8ad8704e6693a91b",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://dac.gouvernement.lu/fr/drones/where-when-register.html": {
-        "page_hash": "2c4c465eac95d88b",
+        "page_hash": "ddf36036d56bf8fa",
         "text_hash": "ef1daba2d3c580ba",
         "text_norm": 2,
         "first_seen": "2026-08-31T12:00:25.032822+00:00"
       },
       "https://g-o.lu/uas": {
-        "page_hash": "70e1c0b9306b32ad",
+        "page_hash": "4fd9652bbb7b9e36",
         "text_hash": "e3b0c44298fc1c14",
         "text_norm": 1,
         "first_seen": "2026-08-31T12:00:25.032822+00:00"
       },
       "https://dac.gouvernement.lu/fr/drones/drones-let-me-fly/categorie-open.html": {
-        "page_hash": "eb86ef448a1220ca",
+        "page_hash": "1dda66903f467ef4",
         "text_hash": "344495d949fb5d2e",
         "text_norm": 2,
         "first_seen": "2026-08-31T12:00:25.032822+00:00"
@@ -379,18 +393,13 @@
         "first_seen": "2026-07-27T10:57:34.140178+00:00"
       },
       "https://uas.caa.si": {
-        "page_hash": "951d3cb14251fe6c",
+        "page_hash": "af6a744fb2a04c23",
         "text_hash": "b772a73a499bbdc9",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "BE": {
-      "https://mobilit.belgium.be/en/aviation/flying-operating/drones-uas": {
-        "page_hash": "44ad3c03236ba96c",
-        "text_hash": "c56ebf32d224d1d7",
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
-      },
       "https://drones.mobilit.fgov.be/": {
         "page_hash": "815d6099d070cca9",
         "text_hash": "e3b0c44298fc1c14",
@@ -411,13 +420,13 @@
     },
     "CH": {
       "https://www.bazl.admin.ch/drohnen": {
-        "page_hash": "888a1827584db2e6",
+        "page_hash": "63e4a7dd035c34e6",
         "text_hash": "50b429167682d07d",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.bazl.admin.ch/de/registrierung-drohnenbetreiber": {
-        "page_hash": "8c2f3086ea45470f",
+        "page_hash": "c32ecaea4d79565b",
         "text_hash": "3c6eb04fe5f69af1",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -429,7 +438,7 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.bazl.admin.ch/de/flugregeln-drohnen": {
-        "page_hash": "1c99b54a62d999a7",
+        "page_hash": "18c7bd3d546e50bb",
         "text_hash": "7a0c7764eb8e6ce4",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -437,23 +446,27 @@
     },
     "SK": {
       "https://letectvo.nsat.sk/en/unmanned-aviation/news/": {
-        "page_hash": "63f9d3a3060d6136",
-        "text_hash": "03c31f46c3eba82c",
+        "page_hash": "ced3f9eba2277e29",
+        "text_hash": "db668580288d026a",
+        "text_norm": 2,
         "first_seen": "2026-07-19T12:18:12.863654+00:00"
       },
       "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/": {
-        "page_hash": "79c46097e7764c0e",
-        "text_hash": "d6a948caa780ae56",
+        "page_hash": "79bd32f18f195238",
+        "text_hash": "b5ef5bf0d7c3c20d",
+        "text_norm": 2,
         "first_seen": "2026-08-17T08:08:58.564087+00:00"
       },
       "https://letectvo.nsat.sk/bezpilotne-letectvo/": {
-        "page_hash": "5b97bbd0f55b152d",
-        "text_hash": "d6a948caa780ae56",
+        "page_hash": "8ad48a6057900bc5",
+        "text_hash": "4a088314de670135",
+        "text_norm": 2,
         "first_seen": "2026-07-19T12:18:12.863654+00:00"
       },
       "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/": {
-        "page_hash": "d2e41c4e60b0c334",
-        "text_hash": "d6a948caa780ae56",
+        "page_hash": "0b45a0e5e13a16fc",
+        "text_hash": "bf3b6f1e46b72bdd",
+        "text_norm": 2,
         "first_seen": "2026-07-19T12:18:12.863654+00:00"
       },
       "https://gis.lps.sk": {
@@ -463,38 +476,45 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/": {
-        "page_hash": "c7d64dd1997707a9",
-        "text_hash": "d6a948caa780ae56",
+        "page_hash": "983ab0e666da3d35",
+        "text_hash": "fc61b9d2deec536f",
+        "text_norm": 2,
         "first_seen": "2026-07-19T12:18:12.863654+00:00"
       }
     },
     "NL": {
       "https://www.rijksoverheid.nl/onderwerpen/drone": {
-        "page_hash": "b3e3c182dad70c8b",
-        "text_hash": "130f0913937b0b95",
+        "page_hash": "ab3a3c844c98cedc",
+        "text_hash": "0bb2dcd3051a3383",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen": {
-        "page_hash": "d53b936bfc6ae60a",
+        "page_hash": "2f07637c70e60228",
         "text_hash": "6e0172c386956dcd",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.rdw.nl/drone": {
-        "page_hash": "8f515e21833babf2",
+        "page_hash": "fa7de536c8c43297",
         "text_hash": "3a4358f55cc39d03",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/regels-voor-drones": {
-        "page_hash": "3ceba17495ba031b",
+        "page_hash": "9cad019eec006558",
         "text_hash": "d7551113e0cc1854",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "LT": {
+      "https://sertifikatai.tka.lt/lt/login": {
+        "page_hash": "4836c2d02aabe1b7",
+        "text_hash": "a9c435f1da701005",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
       "https://utm.ans.lt": {
         "page_hash": "56d473306d431abd",
         "text_hash": "e3b0c44298fc1c14",
@@ -504,16 +524,28 @@
     },
     "LV": {
       "https://droni.caa.gov.lv/": {
-        "page_hash": "4b7fc247ff0ef25f",
+        "page_hash": "bda168765118c049",
         "text_hash": "78a4fdd27e988792",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
+      },
+      "https://droni.caa.gov.lv/registracija/": {
+        "page_hash": "878ca3962bcca2b4",
+        "text_hash": "e85b8d8bb5e0c477",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       },
       "https://airspace.lv/drones": {
         "page_hash": "c61a61f06cc87b6c",
         "text_hash": "e3b0c44298fc1c14",
         "text_norm": 1,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
+      },
+      "https://droni.caa.gov.lv/darbibas-kategorijas/atverta-kategorija/": {
+        "page_hash": "0153fcec94f42165",
+        "text_hash": "d5869f4512b61aad",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "HU": {
@@ -524,41 +556,59 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://mydronespace.hu": {
-        "page_hash": "39c59e154d6c9a16",
+        "page_hash": "bc286eb160d92e0c",
         "text_hash": "df552262652af92b",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
+      },
+      "https://app.mydronespace.hu": {
+        "page_hash": "c64fed8130ac0838",
+        "text_hash": null,
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "CZ": {
       "https://www.caa.gov.cz/en/flight-operations/unmanned-aircraft/": {
-        "page_hash": "7ed504f92bc9475a",
+        "page_hash": "3f2acea912de2a3a",
         "text_hash": "0266770c04ecb510",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
+      "https://dron.caa.gov.cz/": {
+        "page_hash": "81bc063bf872d3ff",
+        "text_hash": null,
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
       "https://dronemap.gov.cz": {
-        "page_hash": "0ffca3fc558c9677",
-        "text_hash": "7119312d1bbcf41e",
+        "page_hash": "eab2efde61de36cf",
+        "text_hash": "6d2dc45ed551c18d",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
+      },
+      "https://www.caa.gov.cz/provoz/bezpilotni-letadla/": {
+        "page_hash": "a827ef7926702e2d",
+        "text_hash": "ca501be0463747dd",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "AE": {
       "https://www.gcaa.gov.ae/en/pages/UASRegistration.aspx/": {
-        "page_hash": "b019ae3805960e1a",
-        "text_hash": "11f4414fa11b2cdd",
+        "page_hash": "982ea82df69317b2",
+        "text_hash": "240696944310cac1",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://drones.gov.ae": {
-        "page_hash": "f6ad872bb456807d",
+        "page_hash": "8b9428c27c251074",
         "text_hash": "d6b26cbde81b3a06",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://drones.gov.ae/": {
-        "page_hash": "74e01b4d15b41900",
+        "page_hash": "355c0aa5bd0961f6",
         "text_hash": "d6b26cbde81b3a06",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -566,19 +616,19 @@
     },
     "IE": {
       "https://www.iaa.ie/general-aviation/drones": {
-        "page_hash": "1e085f2151190394",
+        "page_hash": "389b0972949e29d5",
         "text_hash": "8042e02888ba07e9",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.iaa.ie/general-aviation/drones/drone-register": {
-        "page_hash": "3c4f8bf6e8684abb",
+        "page_hash": "e71419cc41ee50b0",
         "text_hash": "9d5a7f23b07d2bef",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.iaa.ie/general-aviation/drones/faqs/geographical-zones": {
-        "page_hash": "e7eec9428ad8032a",
+        "page_hash": "f9e181b673c4966d",
         "text_hash": "f7a1c66ee99dc281",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -592,7 +642,7 @@
     },
     "PT": {
       "https://www.anac.pt/vPT/Generico/drones/legislacao_regulamentacao_uas/Paginas/LegislacaoeRegulamentacaoEspecifica.aspx": {
-        "page_hash": "126dda6213f537dd",
+        "page_hash": "6dadb30a867861c3",
         "text_hash": "f5e7b647b89def34",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -604,7 +654,7 @@
         "first_seen": "2026-08-10T08:57:58.655339+00:00"
       },
       "https://www.anac.pt/vPT/Generico/drones/registo_uas/Paginas/OperadoresdeUAS.aspx": {
-        "page_hash": "e24e39c320bc5aa2",
+        "page_hash": "f20a407392cb94c6",
         "text_hash": "59b94d98b22e2137",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -616,7 +666,7 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.anac.pt/vPT/Generico/drones/categoria_aberta/Paginas/CategoriaAberta.aspx": {
-        "page_hash": "3bdd1fcfcbb69d53",
+        "page_hash": "4d6c9150a398ec09",
         "text_hash": "9b83ade6e03ebade",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -629,13 +679,20 @@
       }
     },
     "BG": {
-      "https://www.caa.bg/en/category/633/16502": {
-        "page_hash": "9f27f80d27f22532",
-        "text_hash": "a13a2863b82ca16b",
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+      "https://www.caa.bg/bg/category/899": {
+        "page_hash": "2fca14490b851579",
+        "text_hash": "969430744d35fb05",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
+      "https://www.caa.bg/bg/category/899/29604": {
+        "page_hash": "9e0feb9e6ed5772b",
+        "text_hash": "d3c843fc42f386f8",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       },
       "https://www.bulatsa.com": {
-        "page_hash": "d1d307b916d5af87",
+        "page_hash": "ace7c46627070830",
         "text_hash": "f10d7a75a8f87d65",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -643,7 +700,7 @@
     },
     "IS": {
       "https://island.is/en/o/transport-authority/drones": {
-        "page_hash": "de2cdae62d737072",
+        "page_hash": "73d068e3029ad5ae",
         "text_hash": "05971eb45f3bdc75",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -655,22 +712,22 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://island.is": {
-        "page_hash": "17a23fe8fc76008e",
-        "text_hash": "c97922c9c4bb10c8",
+        "page_hash": "dcb205697b044ee6",
+        "text_hash": "19e25fb586ad1b92",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "EE": {
       "https://transpordiamet.ee/en/drones": {
-        "page_hash": "914a2160ed54aee2",
-        "text_hash": "fd02fd4b4946f9bd",
+        "page_hash": "437fe8f0577348e3",
+        "text_hash": "cd9f5a330a3b034c",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://transpordiamet.ee/en/aviation-and-aviation-safety/flying-drones-estonia/operator-registration": {
-        "page_hash": "3c7675d26fbfc98d",
-        "text_hash": "d72cd85cd767d3d0",
+        "page_hash": "b29e3edd95d920c6",
+        "text_hash": "6a7df35040c74f67",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
@@ -681,8 +738,8 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://transpordiamet.ee/en/open-category-flights": {
-        "page_hash": "57ecf3eb70f7b9e1",
-        "text_hash": "172535388070e62a",
+        "page_hash": "f20981a9e02339ee",
+        "text_hash": "bf88c442459d7462",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
@@ -715,19 +772,19 @@
     },
     "DK": {
       "https://www.droneregler.dk/": {
-        "page_hash": "9110e4668c8737aa",
+        "page_hash": "0a565060c3a319eb",
         "text_hash": "a5fd2c7a3eca6242",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.droneregler.dk": {
-        "page_hash": "9110e4668c8737aa",
+        "page_hash": "0a565060c3a319eb",
         "text_hash": "a5fd2c7a3eca6242",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.naviair.dk": {
-        "page_hash": "410fe7dd8a892e09",
+        "page_hash": "b6be4a224b22423a",
         "text_hash": "b6fb19038e723739",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -747,16 +804,16 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://amc.crocontrol.hr": {
-        "page_hash": "435bc1718d531c54",
-        "text_hash": "6c5e37858bf18c30",
+        "page_hash": "57c344fc5d179d3b",
+        "text_hash": "01a519c24b799993",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
-      "https://www.ccaa.hr/en/forms-and-publications-32216": {
-        "page_hash": "0d494073743d1b10",
-        "text_hash": "0de68404ff630f01",
+      "https://www.ccaa.hr/en/i-wish-to-fly-drone-in-croatia-i-am-not-croatian-citizen-i-am-here-temporarily--what-do-i-need-to-do-67803": {
+        "page_hash": "ae4d81b11ce60b84",
+        "text_hash": "6d23967816b64849",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "RO": {
@@ -767,22 +824,28 @@
       }
     },
     "PL": {
-      "https://www.ulc.gov.pl/en/unmanned-aircraft": {
-        "page_hash": "0da5e1cceb8028b9",
-        "text_hash": "52a38c6079ef816a",
+      "https://ulc.gov.pl/drony": {
+        "page_hash": "8a00c169333e48aa",
+        "text_hash": "ab1757b78bb4ca06",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
+      "https://drony.gov.pl/": {
+        "page_hash": "710fa5ae502daee0",
+        "text_hash": "425cd3f90c5783e8",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       },
       "https://www.pansa.pl/dronetower/": {
-        "page_hash": "f09c5f9e5950ab91",
-        "text_hash": "9d056a3df934f855",
+        "page_hash": "7182d7e989b7a5b4",
+        "text_hash": "1d879818021f2926",
         "text_norm": 2,
         "first_seen": "2026-09-21T14:14:52.723880+00:00"
       }
     },
     "DE": {
       "https://dipul.de/homepage/de/informationen/geografische-gebiete/wfs-wms/": {
-        "page_hash": "6f456ddb35501184",
+        "page_hash": "5f9f4e534f95f413",
         "text_hash": "def9cdbd8c80ac31",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -794,14 +857,14 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.lba.de/DE/Drohnen/Drohnen_node.html": {
-        "page_hash": "399fbee827ee68fc",
+        "page_hash": "df24ca3cc3ec1256",
         "text_hash": "6c465dbb54959767",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://droniq.de/droniq-app/": {
-        "page_hash": "82e5174466779271",
-        "text_hash": "e10b519907a939cd",
+        "page_hash": "03a02006815ed96c",
+        "text_hash": "bbae7617b80966d4",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
@@ -814,40 +877,40 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.seguridadaerea.gob.es/es/ambitos/drones": {
-        "page_hash": "4b6456af8122fdab",
-        "text_hash": "c31fe07df1c29f8e",
+        "page_hash": "651a73444b578253",
+        "text_hash": "25bdc803456abad4",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.seguridadaerea.gob.es/es/ambitos/drones/registro-de-operador-de-drones-uas": {
-        "page_hash": "746a443ac7bd65b8",
-        "text_hash": "18481f4134994bc9",
+        "page_hash": "d1b8b632389f4793",
+        "text_hash": "32054b60974b79b6",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "GB": {
       "https://www.caa.co.uk/drones/": {
-        "page_hash": "799b69e162426b75",
+        "page_hash": "d9a1a6562b622c54",
         "text_hash": "57ba1d70279d6a11",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://register-drones.caa.co.uk/my-registration": {
-        "page_hash": "78bcaa7a32ee58e4",
+        "page_hash": "4a0975f904d54718",
         "text_hash": "460c23d9a2203fbf",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
-      "https://register-drones.caa.co.uk/drone-code": {
-        "page_hash": "799b69e162426b75",
-        "text_hash": "57ba1d70279d6a11",
+      "https://www.caa.co.uk/drones/open-category/drone-code/": {
+        "page_hash": "2d9fec3bc816ce14",
+        "text_hash": "c8c8102e4756e7f0",
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       },
       "https://play.google.com/store/apps/details?id=uk.co.nats.droneassist": {
-        "page_hash": "6c3cc7a4966cc0b0",
-        "text_hash": "d8407952f9a97fd3",
+        "page_hash": "59497e9a339f9301",
+        "text_hash": "f5eea2e5b64a7400",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
@@ -860,19 +923,19 @@
         "first_seen": "2026-08-10T08:57:58.655339+00:00"
       },
       "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte": {
-        "page_hash": "4512173a6314e3ca",
-        "text_hash": "6370ac67e0103381",
+        "page_hash": "682d5d48694ba4bc",
+        "text_hash": "d8093e30b4a6352b",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://alphatango.aviation-civile.gouv.fr": {
-        "page_hash": "4018df0e0ad52591",
+        "page_hash": "7f061f27bb89af6f",
         "text_hash": "e3b0c44298fc1c14",
         "text_norm": 1,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.service-public.gouv.fr/particuliers/vosdroits/F34630": {
-        "page_hash": "eadcb784300af902",
+        "page_hash": "39bbca974df17934",
         "text_hash": "ea1f8712598ceb42",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -880,19 +943,25 @@
     },
     "IT": {
       "https://www.enac.gov.it/sicurezza-aerea/droni/operatori-di-droni-uas/": {
-        "page_hash": "8f8a13e1a5ed48aa",
+        "page_hash": "de05158f9ebe6524",
         "text_hash": "e237ea734b59f701",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.d-flight.it/new_portal/": {
-        "page_hash": "0b6d86496cdb5273",
+        "page_hash": "15e0b016c85ee159",
         "text_hash": "2ecc8de76e635c99",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
+      "https://www.d-flight.it/web-app/": {
+        "page_hash": "efd019961d05fe4c",
+        "text_hash": null,
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
       "https://www.enac.gov.it/sicurezza-aerea/droni/operatori-di-droni-uas/normativa-droni/": {
-        "page_hash": "6a69d71d3a39ee30",
+        "page_hash": "bcd76587e5aab1f4",
         "text_hash": "0b08538e4ca47741",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -900,14 +969,14 @@
     },
     "FI": {
       "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu": {
-        "page_hash": "a4b6a995fcf508f6",
-        "text_hash": "e0ea4ff648574514",
+        "page_hash": "dac09d3165b8eca8",
+        "text_hash": "455fa26cbffe1a34",
         "text_norm": 2,
         "first_seen": "2026-08-10T08:57:58.655339+00:00"
       },
       "https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe": {
-        "page_hash": "d79aa570493c8803",
-        "text_hash": "ea0aaf2bf92d6868",
+        "page_hash": "af346936b3cde840",
+        "text_hash": "e6f0607d5cd0254b",
         "text_norm": 2,
         "first_seen": "2026-08-31T12:00:25.032822+00:00"
       },
@@ -918,35 +987,41 @@
         "first_seen": "2026-09-07T13:37:07.188773+00:00"
       },
       "https://traficom.fi/fi/miehittamaton-ilmailu/verkkoteoriakoe-toiminnan-alakategoriaan-a1-ja-a3": {
-        "page_hash": "8e29d652c9113c45",
-        "text_hash": "844679c3d9e3bf8e",
+        "page_hash": "2d39dc933e1ef3d8",
+        "text_hash": "a57c85f70b8f39c4",
         "text_norm": 2,
         "first_seen": "2026-08-31T12:00:25.032822+00:00"
       }
     },
     "GR": {
       "https://hcaa.gov.gr/en/where-you-are-allowed-fly-uas-greece": {
-        "page_hash": "af1d056ad62932cd",
+        "page_hash": "943bfbddd9a007f2",
         "text_hash": "0c1324ac2e433c8d",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
+      },
+      "https://uas.hcaa.gov.gr/RegistrationProcedures": {
+        "page_hash": "13e6f0c99a2a7256",
+        "text_hash": "5a6fa235afd57e65",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "NZ": {
       "https://www.aviation.govt.nz/drones/": {
-        "page_hash": "bec1aae2b9191b81",
-        "text_hash": "b8df99977ffa9779",
+        "page_hash": "8b891beaa1eab846",
+        "text_hash": "da114d1a1d57861f",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://airshare.co.nz": {
-        "page_hash": "8470fd44fcce3a95",
+        "page_hash": "944d6c40612b13d4",
         "text_hash": "8465e62897099816",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.doc.govt.nz/get-involved/apply-for-permits/all-permissions/drone-use-on-conservation-land/": {
-        "page_hash": "7b6b5f04297c9c71",
+        "page_hash": "60c39544b6a92d7a",
         "text_hash": "8b33e82e6e5fed4f",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -954,14 +1029,14 @@
     },
     "PH": {
       "https://www.caap.gov.ph/rpas-regulations/": {
-        "page_hash": "dd73573dad690d15",
+        "page_hash": "6f434fb845e5089f",
         "text_hash": "c422f82616f8a686",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.caap.gov.ph/": {
-        "page_hash": "3d64d725efcf21ba",
-        "text_hash": "ae1e9ed3f3f6c1f9",
+        "page_hash": "73845f470fdce42d",
+        "text_hash": "4e1a1bba6901bfc9",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
@@ -974,8 +1049,8 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/": {
-        "page_hash": "d26ddd6b73394531",
-        "text_hash": "2548875a22e465fd",
+        "page_hash": "41c11892b6e7caab",
+        "text_hash": "3f46b02662834832",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
@@ -992,22 +1067,22 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.transportstyrelsen.se/sv/luftfart/luftfartyg-och-luftvardighet/dronare/dronarkort-och-utbildning/": {
-        "page_hash": "27f31622a1e73e9b",
-        "text_hash": "2137420f5e9bc4aa",
+        "page_hash": "3de8277dfe9d5116",
+        "text_hash": "7d28899c66279dcf",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "ZA": {
       "https://www.caa.co.za/industry-information/uas/": {
-        "page_hash": "b17e5c660f2ed444",
+        "page_hash": "52b249a9f0ecb81d",
         "text_hash": "e4fddd4db0dee792",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.caa.co.za/": {
-        "page_hash": "8dcb49b2a2bc0a98",
-        "text_hash": "f2e8d9032fc100f2",
+        "page_hash": "2faf4d8e2627c2b2",
+        "text_hash": "53dcbf6779a0e667",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
@@ -1020,8 +1095,8 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.avinor.no/en/practical-info/drone/": {
-        "page_hash": "9b1350a7db3c8ca3",
-        "text_hash": "31baefc22584ef02",
+        "page_hash": "cc7af64246f0674c",
+        "text_hash": "44b74bde71a65f7a",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
@@ -1045,21 +1120,22 @@
       }
     },
     "IN": {
-      "https://digitalsky.dgca.gov.in/": {
+      "https://digitalsky.aai.aero/": {
         "page_hash": "667b0f8c6022c795",
-        "text_hash": "e3b0c44298fc1c14",
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
-      },
-      "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/regulationCircular/Drones/Drone.html": {
-        "page_hash": "2add1adb51258b93",
-        "text_hash": "7d6c481d8076281f",
+        "text_hash": null,
         "text_norm": 2,
-        "first_seen": "2026-07-18T17:38:39.424819+00:00"
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
+      },
+      "https://www.dgca.gov.in/digigov-portal/jsp/dgca/InventoryList/headerblock/drones/RPAS.jsp": {
+        "page_hash": "d14ee71adb8cdadb",
+        "text_hash": "4bdc2eac3e1a9994",
+        "text_norm": 2,
+        "first_seen": "2026-09-28T15:33:25.018061+00:00"
       }
     },
     "AU": {
       "https://wing.com/opensky": {
-        "page_hash": "5e4a3915c2cdfacf",
+        "page_hash": "f6ad03c539f3e12e",
         "text_hash": "f14b0df42774595f",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -1067,7 +1143,7 @@
     },
     "US": {
       "https://www.faa.gov/uas": {
-        "page_hash": "a20c3b52134f72c0",
+        "page_hash": "27597aee52e572db",
         "text_hash": "c74b8cd08fd373cd",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -1079,7 +1155,7 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.faa.gov/uas/getting_started/b4ufly": {
-        "page_hash": "d2004bd98f71b47f",
+        "page_hash": "324e4480b53b08b2",
         "text_hash": "9bf105980104c274",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -1091,7 +1167,7 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates": {
-        "page_hash": "80e5c7a93f00cacb",
+        "page_hash": "5573ab1732b30a60",
         "text_hash": "f7429ef5d829fee6",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
@@ -1099,14 +1175,14 @@
     },
     "CA": {
       "https://tc.canada.ca/en/aviation/drone-safety": {
-        "page_hash": "7ac32142fd7d688a",
-        "text_hash": "a19c3a384ac255d6",
+        "page_hash": "b058f0044dc93f7d",
+        "text_hash": "949486dd6c06a6ee",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://tc.canada.ca/en/aviation/drone-safety/drone-management-portal": {
-        "page_hash": "f56ef7223fb2a2bd",
-        "text_hash": "5fa0c26f992a7039",
+        "page_hash": "1bea9e8a52a0075b",
+        "text_hash": "fdc3a74ac6fada6d",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
@@ -1117,16 +1193,16 @@
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       },
       "https://tc.canada.ca/en/aviation/drone-safety/drone-pilot-licensing": {
-        "page_hash": "83d4aac470d7b2e1",
-        "text_hash": "970a2383ec3c35cc",
+        "page_hash": "c00846ad2cf81b4b",
+        "text_hash": "8fb0dc3c3079e646",
         "text_norm": 2,
         "first_seen": "2026-07-18T17:38:39.424819+00:00"
       }
     },
     "UA": {
       "https://www.easa.europa.eu/en/domains/civil-drones": {
-        "page_hash": "e72ab56fd2c073bd",
-        "text_hash": "6d27c3c508fe8ddf",
+        "page_hash": "011bcc865de79a7a",
+        "text_hash": "043ecebb76a8254b",
         "text_norm": 2,
         "first_seen": "2026-08-02T08:56:23.809215+00:00"
       }
