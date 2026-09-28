@@ -1,15 +1,7 @@
 {
-  "generated": "2026-09-28T14:31:19.138267+00:00",
+  "generated": "2026-09-28T18:32:15.437223+00:00",
   "countries_total": 55,
   "queue": [
-    {
-      "name": "🇧🇬 BG — Bulgarien",
-      "status": "info",
-      "detail": "risk 294 · 174d sedan · ingen AI-tillsyn · nationellt regelverk · 3 av 4 källor obevakade",
-      "last_modified": null,
-      "url": "https://www.caa.bg/bg/category/899",
-      "kind": "other"
-    },
     {
       "name": "🇦🇺 AU — Australien",
       "status": "info",
@@ -19,11 +11,11 @@
       "kind": "other"
     },
     {
-      "name": "🇸🇬 SG — Singapore",
+      "name": "🇧🇬 BG — Bulgarien",
       "status": "info",
-      "detail": "risk 277 · 147d sedan · ingen AI-tillsyn · nationellt regelverk · 4 av 4 källor obevakade",
+      "detail": "risk 274 · 174d sedan · ingen AI-tillsyn · nationellt regelverk · 1 av 4 källor obevakade",
       "last_modified": null,
-      "url": "https://www.caas.gov.sg/unmanned-aircraft/",
+      "url": "https://www.caa.bg/bg/category/899",
       "kind": "other"
     },
     {
@@ -43,14 +35,6 @@
       "kind": "other"
     },
     {
-      "name": "🇱🇮 LI — Liechtenstein",
-      "status": "info",
-      "detail": "risk 264 · 174d sedan · ingen AI-tillsyn · 3 av 4 källor obevakade",
-      "last_modified": null,
-      "url": "https://www.bazl.admin.ch/drohnen",
-      "kind": "other"
-    },
-    {
       "name": "🇲🇹 MT — Malta",
       "status": "info",
       "detail": "risk 264 · 174d sedan · ingen AI-tillsyn · 3 av 4 källor obevakade",
@@ -67,43 +51,51 @@
       "kind": "other"
     },
     {
-      "name": "🇮🇳 IN — Indien",
+      "name": "🇨🇴 CO — Colombia",
       "status": "info",
-      "detail": "risk 257 · 147d sedan · ingen AI-tillsyn · nationellt regelverk · 2 av 2 källor obevakade",
+      "detail": "risk 247 · 147d sedan · ingen AI-tillsyn · nationellt regelverk · 1 av 3 källor obevakade",
       "last_modified": null,
-      "url": "https://digitalsky.aai.aero/",
+      "url": "https://www.aerocivil.gov.co/autoridad_aeronautica/publicaciones/3781/aviacion-no-tripulada-uasdrones/",
       "kind": "other"
     },
     {
-      "name": "🇵🇪 PE — Peru",
+      "name": "🇵🇦 PA — Panama",
       "status": "info",
-      "detail": "risk 257 · 147d sedan · ingen AI-tillsyn · nationellt regelverk · 2 av 4 källor obevakade",
+      "detail": "risk 247 · 147d sedan · ingen AI-tillsyn · nationellt regelverk · 1 av 3 källor obevakade",
       "last_modified": null,
-      "url": "https://cdn.www.gob.pe/uploads/document/file/390602/NTC__RPAS__texto_.pdf",
+      "url": "https://www.aeronautica.gob.pa/",
       "kind": "other"
     },
     {
-      "name": "🇺🇾 UY — Uruguay",
+      "name": "🇧🇪 BE — Belgien",
       "status": "info",
-      "detail": "risk 257 · 147d sedan · ingen AI-tillsyn · nationellt regelverk · 2 av 4 källor obevakade",
+      "detail": "risk 244 · 174d sedan · ingen AI-tillsyn · 1 av 4 källor obevakade",
       "last_modified": null,
-      "url": "https://www.dinacia.gub.uy/documento/ordenamiento-basico-de-drones",
+      "url": "https://mobilit.belgium.be/nl/luchtvaart/vliegen-met/drones-uas/algemene-informatie/algemene-informatie",
       "kind": "other"
     },
     {
-      "name": "🇨🇿 CZ — Tjeckien",
+      "name": "🇬🇷 GR — Grekland",
       "status": "info",
-      "detail": "risk 254 · 174d sedan · ingen AI-tillsyn · 2 av 4 källor obevakade",
+      "detail": "risk 244 · 174d sedan · ingen AI-tillsyn · 1 av 3 källor obevakade",
       "last_modified": null,
-      "url": "https://www.caa.gov.cz/en/flight-operations/unmanned-aircraft/",
+      "url": "https://hcaa.gov.gr/en/where-you-are-allowed-fly-uas-greece",
       "kind": "other"
     },
     {
-      "name": "+ 1 länder till med risk 254",
+      "name": "🇲🇽 MX — Mexiko",
       "status": "info",
-      "detail": "likvärdiga med sista raden — välj fritt bland dem: GR",
+      "detail": "risk 238 · 148d sedan · ingen AI-tillsyn · nationellt regelverk",
       "last_modified": null,
-      "url": null,
+      "url": "https://www.gob.mx/afac/acciones-y-programas/rpas-drones",
+      "kind": "other"
+    },
+    {
+      "name": "🇹🇷 TR — Turkiet",
+      "status": "info",
+      "detail": "risk 238 · 148d sedan · ingen AI-tillsyn · nationellt regelverk",
+      "last_modified": null,
+      "url": "https://ihatakip.shgm.gov.tr/",
       "kind": "other"
     }
   ],
@@ -119,7 +111,7 @@
     {
       "name": "Regelhash-bevakning",
       "status": "ok",
-      "detail": "55 av 55 länder, 173 URL:er bevakade — 53 källor utanför",
+      "detail": "55 av 55 länder, 184 URL:er bevakade — 21 källor utanför",
       "last_modified": null,
       "url": null,
       "kind": "other"
