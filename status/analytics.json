@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-28T14:23:42+00:00",
+  "generated": "2026-09-29T13:16:06+00:00",
   "site": "dronekoll",
   "windows": {
     "7d": {
-      "start": "2026-09-21",
-      "end": "2026-09-28",
-      "visitors": 151,
+      "start": "2026-09-22",
+      "end": "2026-09-29",
+      "visitors": 154,
       "events_total": 11,
       "clicks": {
         "ios": 0,
@@ -15,7 +15,14 @@
         {
           "code": "DE",
           "name": "Germany",
-          "count": 44,
+          "count": 40,
+          "ios": 0,
+          "android": 0
+        },
+        {
+          "code": "US",
+          "name": "United States",
+          "count": 13,
           "ios": 0,
           "android": 0
         },
@@ -27,23 +34,16 @@
           "android": 0
         },
         {
-          "code": "US",
-          "name": "United States",
-          "count": 9,
-          "ios": 0,
-          "android": 0
-        },
-        {
           "code": "BE",
           "name": "Belgium",
-          "count": 8,
+          "count": 7,
           "ios": 0,
           "android": 0
         },
         {
           "code": "ES",
           "name": "Spain",
-          "count": 8,
+          "count": 7,
           "ios": 0,
           "android": 0
         }
@@ -55,18 +55,18 @@
           "kind": "link"
         },
         {
-          "name": "(direkt)",
-          "count": 31,
-          "kind": "other"
-        },
-        {
           "name": "duckduckgo.com",
-          "count": 31,
+          "count": 33,
           "kind": "link"
         },
         {
+          "name": "(direkt)",
+          "count": 30,
+          "kind": "other"
+        },
+        {
           "name": "www.ecosia.org",
-          "count": 11,
+          "count": 8,
           "kind": "link"
         },
         {
@@ -77,48 +77,8 @@
       ],
       "daily": [
         {
-          "day": "2026-09-21",
-          "visitors": 28,
-          "ios": 0,
-          "android": 0,
-          "countries": [
-            {
-              "code": "DE",
-              "name": "Germany",
-              "count": 8
-            },
-            {
-              "code": "CZ",
-              "name": "Czechia",
-              "count": 4
-            },
-            {
-              "code": "AR",
-              "name": "Argentina",
-              "count": 2
-            }
-          ],
-          "sources": [
-            {
-              "name": "www.bing.com",
-              "count": 8,
-              "kind": "link"
-            },
-            {
-              "name": "(direkt)",
-              "count": 5,
-              "kind": "other"
-            },
-            {
-              "name": "duckduckgo.com",
-              "count": 3,
-              "kind": "link"
-            }
-          ]
-        },
-        {
           "day": "2026-09-22",
-          "visitors": 20,
+          "visitors": 19,
           "ios": 0,
           "android": 0,
           "countries": [
@@ -358,18 +318,90 @@
         },
         {
           "day": "2026-09-28",
-          "visitors": 0,
+          "visitors": 29,
           "ios": 0,
           "android": 0,
-          "countries": [],
-          "sources": []
+          "countries": [
+            {
+              "code": "DE",
+              "name": "Germany",
+              "count": 10
+            },
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 5
+            },
+            {
+              "code": "TW",
+              "name": "Taiwan",
+              "count": 3
+            }
+          ],
+          "sources": [
+            {
+              "name": "www.bing.com",
+              "count": 8,
+              "kind": "link"
+            },
+            {
+              "name": "duckduckgo.com",
+              "count": 5,
+              "kind": "link"
+            },
+            {
+              "name": "(direkt)",
+              "count": 4,
+              "kind": "other"
+            }
+          ]
+        },
+        {
+          "day": "2026-09-29",
+          "visitors": 3,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "DE",
+              "name": "Germany",
+              "count": 2
+            },
+            {
+              "code": "GB",
+              "name": "United Kingdom",
+              "count": 1
+            },
+            {
+              "code": "IN",
+              "name": "India",
+              "count": 1
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 2,
+              "kind": "other"
+            },
+            {
+              "name": "Google",
+              "count": 1,
+              "kind": "search"
+            },
+            {
+              "name": "Yahoo",
+              "count": 1,
+              "kind": "search"
+            }
+          ]
         }
       ]
     },
     "30d": {
-      "start": "2026-08-29",
-      "end": "2026-09-28",
-      "visitors": 897,
+      "start": "2026-08-30",
+      "end": "2026-09-29",
+      "visitors": 892,
       "events_total": 74,
       "clicks": {
         "ios": 0,
@@ -379,53 +411,53 @@
         {
           "code": "DE",
           "name": "Germany",
-          "count": 174,
+          "count": 167,
           "ios": 0,
           "android": 0
         },
         {
           "code": "US",
           "name": "United States",
-          "count": 105,
+          "count": 106,
           "ios": 0,
           "android": 0
         },
         {
           "code": "NL",
           "name": "Netherlands",
-          "count": 67,
+          "count": 63,
           "ios": 0,
           "android": 0
         },
         {
           "code": "FR",
           "name": "France",
-          "count": 43,
+          "count": 40,
           "ios": 0,
           "android": 0
         },
         {
           "code": "SE",
           "name": "Sweden",
-          "count": 40,
+          "count": 39,
           "ios": 0,
           "android": 0
         }
       ],
       "sources": [
         {
-          "name": "(direkt)",
-          "count": 203,
-          "kind": "other"
-        },
-        {
           "name": "www.bing.com",
-          "count": 196,
+          "count": 199,
           "kind": "link"
         },
         {
+          "name": "(direkt)",
+          "count": 194,
+          "kind": "other"
+        },
+        {
           "name": "duckduckgo.com",
-          "count": 141,
+          "count": 142,
           "kind": "link"
         },
         {
@@ -435,54 +467,14 @@
         },
         {
           "name": "www.ecosia.org",
-          "count": 45,
+          "count": 44,
           "kind": "link"
         }
       ],
       "daily": [
         {
-          "day": "2026-08-29",
-          "visitors": 36,
-          "ios": 0,
-          "android": 0,
-          "countries": [
-            {
-              "code": "DE",
-              "name": "Germany",
-              "count": 11
-            },
-            {
-              "code": "NL",
-              "name": "Netherlands",
-              "count": 5
-            },
-            {
-              "code": "US",
-              "name": "United States",
-              "count": 4
-            }
-          ],
-          "sources": [
-            {
-              "name": "(direkt)",
-              "count": 13,
-              "kind": "other"
-            },
-            {
-              "name": "www.bing.com",
-              "count": 5,
-              "kind": "link"
-            },
-            {
-              "name": "duckduckgo.com",
-              "count": 4,
-              "kind": "link"
-            }
-          ]
-        },
-        {
           "day": "2026-08-30",
-          "visitors": 32,
+          "visitors": 31,
           "ios": 0,
           "android": 0,
           "countries": [
@@ -1642,11 +1634,83 @@
         },
         {
           "day": "2026-09-28",
-          "visitors": 0,
+          "visitors": 29,
           "ios": 0,
           "android": 0,
-          "countries": [],
-          "sources": []
+          "countries": [
+            {
+              "code": "DE",
+              "name": "Germany",
+              "count": 10
+            },
+            {
+              "code": "US",
+              "name": "United States",
+              "count": 5
+            },
+            {
+              "code": "TW",
+              "name": "Taiwan",
+              "count": 3
+            }
+          ],
+          "sources": [
+            {
+              "name": "www.bing.com",
+              "count": 8,
+              "kind": "link"
+            },
+            {
+              "name": "duckduckgo.com",
+              "count": 5,
+              "kind": "link"
+            },
+            {
+              "name": "(direkt)",
+              "count": 4,
+              "kind": "other"
+            }
+          ]
+        },
+        {
+          "day": "2026-09-29",
+          "visitors": 3,
+          "ios": 0,
+          "android": 0,
+          "countries": [
+            {
+              "code": "DE",
+              "name": "Germany",
+              "count": 2
+            },
+            {
+              "code": "GB",
+              "name": "United Kingdom",
+              "count": 1
+            },
+            {
+              "code": "IN",
+              "name": "India",
+              "count": 1
+            }
+          ],
+          "sources": [
+            {
+              "name": "(direkt)",
+              "count": 2,
+              "kind": "other"
+            },
+            {
+              "name": "Google",
+              "count": 1,
+              "kind": "search"
+            },
+            {
+              "name": "Yahoo",
+              "count": 1,
+              "kind": "search"
+            }
+          ]
         }
       ]
     }
