@@ -126,10 +126,10 @@
     "id": "shgm_kayit",
     "title": "İHA Kayıt Sistemi (500 g üzeri zorunlu)",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
-    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
+    "status": "error",
+    "code": null,
+    "final_url": "https://iha.shgm.gov.tr/",
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -203,10 +203,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
-    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
+    "status": "error",
+    "code": null,
+    "final_url": "https://iha.shgm.gov.tr/",
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -379,10 +379,10 @@
     "id": "mats",
     "title": "MATS – Servizzi tat-traffiku tal-ajru",
     "url": "https://www.maltats.com",
-    "status": "redirect",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://maltats.com/",
-    "message": "→ https://maltats.com/"
+    "final_url": "https://www.maltats.com",
+    "message": "OK"
   },
   {
     "country": "MT (Malta)",
@@ -492,7 +492,7 @@
     "status": "error",
     "code": null,
     "final_url": "tel:+525557239300",
-    "message": "unknown url type: tel"
+    "message": "kontaktlänk utan webbadress — appen öppnar bara http/https (lib/utils/external_links.dart:31), länken gör ingenting"
   },
   {
     "country": "MX (Mexiko)",
@@ -555,10 +555,10 @@
     "id": "anac_aip",
     "title": "AIP — Publicación de Información Aeronáutica",
     "url": "https://ais.anac.gob.ar/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://ais.anac.gob.ar/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "AR (Argentina)",
@@ -610,10 +610,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://ais.anac.gob.ar/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://ais.anac.gob.ar/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "AR (Argentina)",
@@ -643,10 +643,10 @@
     "id": "dgac_drones_main",
     "title": "DGAC — Operación de drones (página oficial)",
     "url": "https://www.dgac.gob.cl/operacion-de-drones/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 404,
     "final_url": "https://www.dgac.gob.cl/operacion-de-drones/",
-    "message": "OK"
+    "message": "Not Found"
   },
   {
     "country": "CL (Chile)",
@@ -654,10 +654,10 @@
     "id": "dgac_como_operar",
     "title": "¿Cómo operar un dron en Chile? (DGAC)",
     "url": "https://www.dgac.gob.cl/como-operar-un-dron-en-chile/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 404,
     "final_url": "https://www.dgac.gob.cl/como-operar-un-dron-en-chile/",
-    "message": "OK"
+    "message": "Not Found"
   },
   {
     "country": "CL (Chile)",
@@ -676,10 +676,10 @@
     "id": "dgac_registro_proc",
     "title": "Inscripción de drones (RPA) — nueva plataforma DGAC",
     "url": "https://www.dgac.gob.cl/nueva-plataforma-web-para-la-inscripcion-de-aeronaves-pilotadas-a-distancia/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 404,
     "final_url": "https://www.dgac.gob.cl/nueva-plataforma-web-para-la-inscripcion-de-aeronaves-pilotadas-a-distancia/",
-    "message": "OK"
+    "message": "Not Found"
   },
   {
     "country": "CL (Chile)",
@@ -687,10 +687,10 @@
     "id": "dgac_servicios",
     "title": "Servicios en línea DGAC",
     "url": "https://www.dgac.gob.cl/serviciosenlinea/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 404,
     "final_url": "https://www.dgac.gob.cl/serviciosenlinea/",
-    "message": "OK"
+    "message": "Not Found"
   },
   {
     "country": "CL (Chile)",
@@ -698,10 +698,10 @@
     "id": "dgac_tarifario",
     "title": "Tarifario oficial DGAC",
     "url": "https://www.dgac.gob.cl/ver-tarifario/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 404,
     "final_url": "https://www.dgac.gob.cl/ver-tarifario/",
-    "message": "OK"
+    "message": "Not Found"
   },
   {
     "country": "CL (Chile)",
@@ -709,10 +709,10 @@
     "id": "dgac_normativa",
     "title": "Normativa aeronáutica (DAN)",
     "url": "https://www.dgac.gob.cl/normativa/reglamentacion-aeronautica/normas-dan-nueva/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 404,
     "final_url": "https://www.dgac.gob.cl/normativa/reglamentacion-aeronautica/normas-dan-nueva/",
-    "message": "OK"
+    "message": "Not Found"
   },
   {
     "country": "CL (Chile)",
@@ -731,10 +731,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.dgac.gob.cl/operacion-de-drones/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 404,
     "final_url": "https://www.dgac.gob.cl/operacion-de-drones/",
-    "message": "OK"
+    "message": "Not Found"
   },
   {
     "country": "CL (Chile)",
@@ -800,7 +800,7 @@
     "status": "error",
     "code": null,
     "final_url": "mailto:atencionalciudadano@aerocivil.gov.co",
-    "message": "unknown url type: mailto"
+    "message": "kontaktlänk utan webbadress — appen öppnar bara http/https (lib/utils/external_links.dart:31), länken gör ingenting"
   },
   {
     "country": "CO (Colombia)",
@@ -888,7 +888,7 @@
     "status": "error",
     "code": null,
     "final_url": "mailto:rpas-dgac@mtc.gob.pe",
-    "message": "unknown url type: mailto"
+    "message": "kontaktlänk utan webbadress — appen öppnar bara http/https (lib/utils/external_links.dart:31), länken gör ingenting"
   },
   {
     "country": "PE (Peru)",
@@ -1183,9 +1183,9 @@
     "title": "DGAC — Registro de Drones",
     "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
     "status": "error",
-    "code": 500,
+    "code": null,
     "final_url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "message": "Internal Server Error"
+    "message": "The read operation timed out"
   },
   {
     "country": "EC (Ecuador)",
@@ -1193,10 +1193,10 @@
     "id": "dgac_main",
     "title": "DGAC Ecuador — Página principal",
     "url": "https://www.aviacioncivil.gob.ec/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1204,10 +1204,10 @@
     "id": "dgac_induccion",
     "title": "DGAC — Inducción al uso de drones",
     "url": "https://www.aviacioncivil.gob.ec/induccion-al-uso-de-drones-en-el-ecuador/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/induccion-al-uso-de-drones-en-el-ecuador/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1215,10 +1215,10 @@
     "id": "dgac_permisos_sobrevuelo",
     "title": "DGAC — Autorización especial de vuelo UAS",
     "url": "https://www.aviacioncivil.gob.ec/autorizacion-especial-de-vuelo-uas/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/autorizacion-especial-de-vuelo-uas/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1259,10 +1259,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.aviacioncivil.gob.ec/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1270,10 +1270,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1380,10 +1380,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.aeronautica.gob.pa/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aeronautica.gob.pa/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "PA (Panama)",
@@ -1449,7 +1449,7 @@
     "status": "error",
     "code": null,
     "final_url": "mailto:DTAC@idac.gov.do",
-    "message": "unknown url type: mailto"
+    "message": "kontaktlänk utan webbadress — appen öppnar bara http/https (lib/utils/external_links.dart:31), länken gör ingenting"
   },
   {
     "country": "DO (Dominikanska republiken)",
@@ -1798,10 +1798,10 @@
     "id": "dcad_drones",
     "title": "DCAD – Κανονισμοί για drones",
     "url": "https://drones.gov.cy/gr/",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy/gr/",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1809,10 +1809,10 @@
     "id": "dcad_register",
     "title": "DCAD – Εγγραφή χειριστή",
     "url": "https://uas.drones.gov.cy/",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://uas.drones.gov.cy/",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1820,10 +1820,10 @@
     "id": "drones_cy",
     "title": "drones.gov.cy – Χάρτης γεωζωνών",
     "url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1831,10 +1831,10 @@
     "id": "dcad_rules",
     "title": "DCAD – Επισκόπηση κανόνων",
     "url": "https://drones.gov.cy/open-category/",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy/open-category/",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1842,10 +1842,10 @@
     "id": "dcad_faq",
     "title": "DCAD – Συχνές ερωτήσεις για drones",
     "url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1864,10 +1864,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1875,10 +1875,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://drones.gov.cy",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://drones.gov.cy",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "CY (Cypern)",
@@ -1897,10 +1897,10 @@
     "id": "caasi_drones",
     "title": "CAA Slovenia — Predpisi o dronih",
     "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
@@ -1919,10 +1919,10 @@
     "id": "caasi_map",
     "title": "CAA Slovenia — Karta zračnega prostora",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
@@ -1952,10 +1952,10 @@
     "id": "caasi_faq",
     "title": "CAA Slovenia — FAQ o dronih",
     "url": "https://www.caa.si/faq.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/faq.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
@@ -1963,10 +1963,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
@@ -1974,10 +1974,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 202,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "SI (Slovenien)",
@@ -2623,10 +2623,10 @@
     "id": "hc_map",
     "title": "MyDroneSpace – Légtérkép",
     "url": "https://app.mydronespace.hu",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://app.mydronespace.hu",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "HU (Ungern)",
@@ -3041,10 +3041,10 @@
     "id": "aan_levantamentos",
     "title": "AAN — Autorização para filmagens aéreas",
     "url": "https://www.aan.pt/subPagina-AAN-001.005.005-aeronaves-nao-tripuladas-drones",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.aan.pt/subPagina-AAN-001.005.005-aeronaves-nao-tripuladas-drones",
-    "message": "OK"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
     "country": "PT (Portugal)",
@@ -3734,10 +3734,10 @@
     "id": "romatsa",
     "title": "ROMATSA — Harta spațiului aerian",
     "url": "https://flightplan.romatsa.ro/",
-    "status": "error",
-    "code": null,
-    "final_url": "https://flightplan.romatsa.ro/",
-    "message": "[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1010)"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://flightplan.romatsa.ro/index.php?option=com_user&view=login&return=aHR0cHM6Ly9mbGlnaHRwbGFuLnJvbWF0c2Eucm8v",
+    "message": "→ https://flightplan.romatsa.ro/index.php?option=com_user&view=login&return=aHR0cHM6Ly9mbGlnaHRwbGFuLnJvbWF0c2Eucm8v (svag DH-nyckel hos servern — certkontroll på, chiffernivå 1)"
   },
   {
     "country": "RO (Rumänien)",
@@ -3767,10 +3767,10 @@
     "id": "romatsa_notam",
     "title": "ROMATSA — NOTAM",
     "url": "https://flightplan.romatsa.ro/",
-    "status": "error",
-    "code": null,
-    "final_url": "https://flightplan.romatsa.ro/",
-    "message": "[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1010)"
+    "status": "redirect",
+    "code": 200,
+    "final_url": "https://flightplan.romatsa.ro/index.php?option=com_user&view=login&return=aHR0cHM6Ly9mbGlnaHRwbGFuLnJvbWF0c2Eucm8v",
+    "message": "→ https://flightplan.romatsa.ro/index.php?option=com_user&view=login&return=aHR0cHM6Ly9mbGlnaHRwbGFuLnJvbWF0c2Eucm8v (svag DH-nyckel hos servern — certkontroll på, chiffernivå 1)"
   },
   {
     "country": "RO (Rumänien)",
@@ -5703,13 +5703,13 @@
   },
   {
     "country": "API",
-    "id": "🇳🇱 LVNL ArcGIS",
-    "url": "https://geoservices.lvnl.nl/arcgis/rest/services/Hosted/Airspace_Dataportaal/FeatureServer?f=json",
+    "id": "🇳🇱 LVNL ArcGIS Online",
+    "url": "https://services-eu1.arcgis.com/OtUwzhpKSdeXgRIB/arcgis/rest/services/Airspaces_data/FeatureServer?f=json",
     "expect": 200,
-    "status": "error",
-    "code": null,
-    "final_url": "https://geoservices.lvnl.nl/arcgis/rest/services/Hosted/Airspace_Dataportaal/FeatureServer?f=json",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "status": "ok",
+    "code": 200,
+    "final_url": "https://services-eu1.arcgis.com/OtUwzhpKSdeXgRIB/arcgis/rest/services/Airspaces_data/FeatureServer?f=json",
+    "message": "OK"
   },
   {
     "country": "API",
@@ -5756,10 +5756,10 @@
     "id": "🇫🇷 IGN WFS (tap-info)",
     "url": "https://data.geopf.fr/wfs/ows?service=WFS&version=2.0.0&request=GetCapabilities",
     "expect": 200,
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://data.geopf.fr/wfs/ows?service=WFS&version=2.0.0&request=GetCapabilities",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "API",
