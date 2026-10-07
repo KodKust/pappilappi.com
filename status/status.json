@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-07T04:59:23.291033+00:00",
+  "generated": "2026-10-07T10:32:55.029903+00:00",
   "summary": {
     "fail": 0,
-    "warn": 10,
-    "ok": 246,
+    "warn": 18,
+    "ok": 238,
     "total_checks": 348,
     "countries_total": 55,
-    "countries_ok": 50
+    "countries_ok": 42
   },
   "countries": [
     {
@@ -604,7 +604,7 @@
       "iso": "LU",
       "name": "Luxembourg",
       "flag": "🇱🇺",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -623,18 +623,18 @@
         {
           "name": "Feed: lu-zones",
           "status": "ok",
-          "detail": "hämtad 8h sen, 90 kB",
-          "last_modified": "2026-10-06T20:16:48+00:00",
+          "detail": "hämtad 19 min sen, 90 kB",
+          "last_modified": "2026-10-07T10:12:28+00:00",
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Luxemburgs drönarzoner",
           "explain": "Officiella zoner från luftfartsmyndigheten DAC via geoportail.lu. Hämtas två gånger om dygnet (temporära TEVT-zoner syns bara ~18 h). Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-10-14"
+          "next_due": "2026-10-15"
         },
         {
           "name": "EU-Aerodromes Gist (lu.json)",
-          "status": "ok",
-          "detail": "40d sen, 14 fält",
+          "status": "warn",
+          "detail": "41d sen, 14 fält (stale > 40d)",
           "last_modified": "2026-08-27T05:26:41.184868+00:00",
           "url": null,
           "kind": "gist",
@@ -729,7 +729,7 @@
       "iso": "SI",
       "name": "Slovenia",
       "flag": "🇸🇮",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -773,7 +773,7 @@
         {
           "name": "Feed: si-nature",
           "status": "ok",
-          "detail": "data oförändrad sedan 29d sen, 2205 kB",
+          "detail": "data oförändrad sedan 30d sen, 2205 kB",
           "last_modified": "2026-09-07T10:25:59+00:00",
           "url": "https://pappilappi.com/airspace/si-nature.geojson?cb=20260805a",
           "kind": "feed",
@@ -793,8 +793,8 @@
         },
         {
           "name": "EU-Aerodromes Gist (si.json)",
-          "status": "ok",
-          "detail": "40d sen, 46 fält",
+          "status": "warn",
+          "detail": "41d sen, 46 fält (stale > 40d)",
           "last_modified": "2026-08-27T05:26:40.978716+00:00",
           "url": null,
           "kind": "gist",
@@ -889,7 +889,7 @@
       "iso": "CH",
       "name": "Switzerland",
       "flag": "🇨🇭",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1048,7 +1048,7 @@
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 17h sen, 546 kB",
+          "detail": "hämtad 22h sen, 546 kB",
           "last_modified": "2026-10-06T11:50:27+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
@@ -1058,8 +1058,8 @@
         },
         {
           "name": "EU-Aerodromes Gist (ch.json)",
-          "status": "ok",
-          "detail": "40d sen, 121 fält",
+          "status": "warn",
+          "detail": "41d sen, 121 fält (stale > 40d)",
           "last_modified": "2026-08-27T05:26:39.306019+00:00",
           "url": null,
           "kind": "gist",
@@ -1118,7 +1118,7 @@
       "iso": "SK",
       "name": "Slovakia",
       "flag": "🇸🇰",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1152,7 +1152,7 @@
         {
           "name": "Feed: sk-reservations",
           "status": "ok",
-          "detail": "hämtad 15h sen, 97 kB",
+          "detail": "hämtad 21h sen, 97 kB",
           "last_modified": "2026-10-06T13:18:53+00:00",
           "url": "https://pappilappi.com/airspace/sk-reservations.geojson",
           "kind": "feed",
@@ -1162,8 +1162,8 @@
         },
         {
           "name": "EU-Aerodromes Gist (sk.json)",
-          "status": "ok",
-          "detail": "40d sen, 118 fält",
+          "status": "warn",
+          "detail": "41d sen, 118 fält (stale > 40d)",
           "last_modified": "2026-08-27T05:26:40.764876+00:00",
           "url": null,
           "kind": "gist",
@@ -1530,7 +1530,7 @@
       "iso": "IE",
       "name": "Ireland",
       "flag": "🇮🇪",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1555,7 +1555,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "hämtad 17h sen, 1543 kB",
+          "detail": "hämtad 23h sen, 1543 kB",
           "last_modified": "2026-10-06T11:16:53+00:00",
           "url": "https://pappilappi.com/airspace/ie-ed269.geojson",
           "kind": "feed",
@@ -1565,8 +1565,8 @@
         },
         {
           "name": "EU-Aerodromes Gist (ie.json)",
-          "status": "ok",
-          "detail": "40d sen, 116 fält",
+          "status": "warn",
+          "detail": "41d sen, 116 fält (stale > 40d)",
           "last_modified": "2026-08-27T05:26:39.717049+00:00",
           "url": null,
           "kind": "gist",
@@ -1656,7 +1656,7 @@
         {
           "name": "EU-Aerodromes Gist (pt.json)",
           "status": "ok",
-          "detail": "15h sen, 197 fält",
+          "detail": "20h sen, 197 fält",
           "last_modified": "2026-10-06T13:37:18.152289+00:00",
           "url": null,
           "kind": "gist",
@@ -1769,7 +1769,7 @@
       "iso": "IS",
       "name": "Iceland",
       "flag": "🇮🇸",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1798,8 +1798,8 @@
         },
         {
           "name": "EU-Aerodromes Gist (is.json)",
-          "status": "ok",
-          "detail": "40d sen, 78 fält",
+          "status": "warn",
+          "detail": "41d sen, 78 fält (stale > 40d)",
           "last_modified": "2026-08-27T05:26:40.133095+00:00",
           "url": null,
           "kind": "gist",
@@ -1858,7 +1858,7 @@
       "iso": "EE",
       "name": "Estonia",
       "flag": "🇪🇪",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1877,7 +1877,7 @@
         {
           "name": "Feed: ee-zones",
           "status": "ok",
-          "detail": "hämtad 15h sen, 255 kB",
+          "detail": "hämtad 21h sen, 255 kB",
           "last_modified": "2026-10-06T13:13:27+00:00",
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1887,8 +1887,8 @@
         },
         {
           "name": "EU-Aerodromes Gist (ee.json)",
-          "status": "ok",
-          "detail": "40d sen, 46 fält",
+          "status": "warn",
+          "detail": "41d sen, 46 fält (stale > 40d)",
           "last_modified": "2026-08-27T05:26:40.337237+00:00",
           "url": null,
           "kind": "gist",
@@ -1947,7 +1947,7 @@
       "iso": "AT",
       "name": "Austria",
       "flag": "🇦🇹",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1966,7 +1966,7 @@
         {
           "name": "Feed: at-zones",
           "status": "ok",
-          "detail": "hämtad 3d sen, 544 kB",
+          "detail": "hämtad 4d sen, 544 kB",
           "last_modified": "2026-10-03T09:17:52+00:00",
           "url": "https://pappilappi.com/airspace/at-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1976,8 +1976,8 @@
         },
         {
           "name": "EU-Aerodromes Gist (at.json)",
-          "status": "ok",
-          "detail": "40d sen, 188 fält",
+          "status": "warn",
+          "detail": "41d sen, 188 fält (stale > 40d)",
           "last_modified": "2026-08-27T05:26:39.511580+00:00",
           "url": null,
           "kind": "gist",
@@ -2075,7 +2075,7 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "hämtad 17h sen, 2289 kB",
+          "detail": "hämtad 23h sen, 2289 kB",
           "last_modified": "2026-10-06T11:27:23+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
           "kind": "feed",
@@ -2086,7 +2086,7 @@
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "hämtad 17h sen, 728 kB",
+          "detail": "hämtad 23h sen, 728 kB",
           "last_modified": "2026-10-06T11:27:23+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260904a",
           "kind": "feed",
@@ -2141,7 +2141,7 @@
         {
           "name": "EU-Aerodromes Gist (dk.json)",
           "status": "ok",
-          "detail": "15h sen, 136 fält",
+          "detail": "20h sen, 136 fält",
           "last_modified": "2026-10-06T13:37:20.960395+00:00",
           "url": null,
           "kind": "gist",
@@ -2255,7 +2255,7 @@
         {
           "name": "Feed: ro-zones",
           "status": "ok",
-          "detail": "hämtad 4d sen, 836 kB",
+          "detail": "hämtad 5d sen, 836 kB",
           "last_modified": "2026-10-02T07:19:11+00:00",
           "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260827a",
           "kind": "feed",
@@ -2266,7 +2266,7 @@
         {
           "name": "EU-Aerodromes Gist (ro.json)",
           "status": "ok",
-          "detail": "15h sen, 182 fält",
+          "detail": "20h sen, 182 fält",
           "last_modified": "2026-10-06T13:37:19.349139+00:00",
           "url": null,
           "kind": "gist",
@@ -2621,7 +2621,7 @@
         {
           "name": "Feed: de-polizei",
           "status": "ok",
-          "detail": "data oförändrad sedan 29d sen, 6248 kB",
+          "detail": "data oförändrad sedan 30d sen, 6248 kB",
           "last_modified": "2026-09-07T09:35:10+00:00",
           "url": "https://pappilappi.com/airspace/de/polizei.geojson?cb=20260714a",
           "kind": "feed",
@@ -2632,7 +2632,7 @@
         {
           "name": "Feed: de-sicherheitsbehoerden",
           "status": "ok",
-          "detail": "data oförändrad sedan 29d sen, 3332 kB",
+          "detail": "data oförändrad sedan 30d sen, 3332 kB",
           "last_modified": "2026-09-07T09:35:10+00:00",
           "url": "https://pappilappi.com/airspace/de/sicherheitsbehoerden.geojson?cb=20260714a",
           "kind": "feed",
@@ -2812,7 +2812,7 @@
         {
           "name": "EU-Aerodromes Gist (de.json)",
           "status": "ok",
-          "detail": "15h sen, 1315 fält",
+          "detail": "20h sen, 1315 fält",
           "last_modified": "2026-10-06T13:37:15.221829+00:00",
           "url": null,
           "kind": "gist",
@@ -2926,7 +2926,7 @@
         {
           "name": "EU-Aerodromes Gist (es.json)",
           "status": "ok",
-          "detail": "15h sen, 551 fält",
+          "detail": "20h sen, 551 fält",
           "last_modified": "2026-10-06T13:37:16.096807+00:00",
           "url": null,
           "kind": "gist",
@@ -3087,7 +3087,7 @@
         {
           "name": "EU-Aerodromes Gist (fr.json)",
           "status": "ok",
-          "detail": "15h sen, 1672 fält",
+          "detail": "20h sen, 1672 fält",
           "last_modified": "2026-10-06T13:37:15.666002+00:00",
           "url": null,
           "kind": "gist",
@@ -3228,7 +3228,7 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 17h sen, 650 kB",
+          "detail": "hämtad 22h sen, 650 kB",
           "last_modified": "2026-10-06T11:35:50+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
           "kind": "feed",
@@ -3239,7 +3239,7 @@
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 17h sen, 8989 kB",
+          "detail": "hämtad 22h sen, 8989 kB",
           "last_modified": "2026-10-06T11:35:50+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260802b",
           "kind": "feed",
@@ -3250,7 +3250,7 @@
         {
           "name": "Feed: fi-permanent",
           "status": "ok",
-          "detail": "hämtad 17h sen, 181 kB",
+          "detail": "hämtad 22h sen, 181 kB",
           "last_modified": "2026-10-06T11:35:50+00:00",
           "url": "https://pappilappi.com/airspace/fi-permanent.geojson?cb=20260802a",
           "kind": "feed",
@@ -3261,7 +3261,7 @@
         {
           "name": "Feed: fi-temporary",
           "status": "ok",
-          "detail": "hämtad 17h sen, 294 kB",
+          "detail": "hämtad 22h sen, 294 kB",
           "last_modified": "2026-10-06T11:35:50+00:00",
           "url": "https://pappilappi.com/airspace/fi-temporary.geojson?cb=20260802a",
           "kind": "feed",
@@ -3272,7 +3272,7 @@
         {
           "name": "Feed: fi-advisory",
           "status": "ok",
-          "detail": "hämtad 17h sen, 170 kB",
+          "detail": "hämtad 22h sen, 170 kB",
           "last_modified": "2026-10-06T11:35:54+00:00",
           "url": "https://pappilappi.com/airspace/fi-advisory.geojson?cb=20260907a",
           "kind": "feed",
@@ -3501,7 +3501,7 @@
         {
           "name": "Feed: se-heliports-aip",
           "status": "ok",
-          "detail": "hämtad 5d sen, 3 kB",
+          "detail": "hämtad 6d sen, 3 kB",
           "last_modified": "2026-10-01T10:30:13+00:00",
           "url": "https://pappilappi.com/airspace/se-heliports-aip.geojson?cb=20260810a",
           "kind": "feed",
@@ -3512,7 +3512,7 @@
         {
           "name": "Feed: se-exes-ctr",
           "status": "ok",
-          "detail": "hämtad 5d sen, 5 kB",
+          "detail": "hämtad 6d sen, 5 kB",
           "last_modified": "2026-10-01T10:30:17+00:00",
           "url": "https://pappilappi.com/airspace/se-exes-ctr.geojson?cb=20260902b",
           "kind": "feed",
@@ -3702,7 +3702,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 4d sen, 1066 kB",
+          "detail": "data oförändrad sedan 5d sen, 1066 kB",
           "last_modified": "2026-10-02T10:04:40+00:00",
           "url": "https://pappilappi.com/airspace/no.geojson?v=11",
           "kind": "feed",
@@ -3713,7 +3713,7 @@
         {
           "name": "Feed: no-nature",
           "status": "ok",
-          "detail": "data oförändrad sedan 4d sen, 20511 kB",
+          "detail": "data oförändrad sedan 5d sen, 20511 kB",
           "last_modified": "2026-10-02T10:04:40+00:00",
           "url": "https://pappilappi.com/airspace/no-nature.geojson?cb=20260802a",
           "kind": "feed",
@@ -3724,7 +3724,7 @@
         {
           "name": "Feed: no-nve-infra",
           "status": "ok",
-          "detail": "hämtad 4d sen, 132 kB",
+          "detail": "hämtad 5d sen, 132 kB",
           "last_modified": "2026-10-02T10:04:40+00:00",
           "url": "https://pappilappi.com/airspace/no-nve-infra.geojson?cb=20260604a",
           "kind": "feed",
@@ -3735,7 +3735,7 @@
         {
           "name": "Feed: no-nsm-sensor",
           "status": "ok",
-          "detail": "hämtad 4d sen, 279 kB",
+          "detail": "hämtad 5d sen, 279 kB",
           "last_modified": "2026-10-02T10:04:40+00:00",
           "url": "https://pappilappi.com/airspace/no-nsm-sensor.geojson",
           "kind": "feed",
@@ -4018,7 +4018,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "data oförändrad sedan 2d sen, 16876 kB",
+          "detail": "data oförändrad sedan 3d sen, 16876 kB",
           "last_modified": "2026-10-04T10:29:10+00:00",
           "url": "https://pappilappi.com/airspace/us.geojson",
           "kind": "feed",
@@ -4029,18 +4029,18 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 421 kB",
-          "last_modified": "2026-10-06T23:48:56+00:00",
+          "detail": "data oförändrad sedan 4h sen, 414 kB",
+          "last_modified": "2026-10-07T05:59:47+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (TFR)",
           "explain": "Presidentbesök, skogsbränder, stora evenemang — förbud som kommer och går med kort varsel. Hämtas var 4:e timme (molnroboten), dagligen som backstopp hemma. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-10-07"
+          "next_due": "2026-10-08"
         },
         {
           "name": "Feed: nps",
           "status": "ok",
-          "detail": "data oförändrad sedan 5d sen, 2023 kB",
+          "detail": "data oförändrad sedan 6d sen, 2023 kB",
           "last_modified": "2026-10-01T08:41:23+00:00",
           "url": "https://pappilappi.com/airspace/us-nps.geojson",
           "kind": "feed",
@@ -4336,7 +4336,7 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "9h sen, 5723 NOTAMs, max cirkel 60 NM, 58 GNSS-områden i egen kanal",
+          "detail": "15h sen, 5723 NOTAMs, max cirkel 60 NM, 58 GNSS-områden i egen kanal",
           "last_modified": "2026-10-06T19:23:33.297794+00:00",
           "url": null,
           "kind": "gist",
@@ -4401,7 +4401,7 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "ok",
-          "detail": "14h sen, 6 kB",
+          "detail": "20h sen, 6 kB",
           "last_modified": "2026-10-06T14:15:33+00:00",
           "url": null,
           "kind": "other"
@@ -4502,8 +4502,8 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 10h sen (inget var due — allt färskt)",
-          "last_modified": "2026-10-06T18:30:11.670692+00:00",
+          "detail": "senaste körning 5h sen (1 pipelines körda)",
+          "last_modified": "2026-10-07T04:58:23.637618+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
