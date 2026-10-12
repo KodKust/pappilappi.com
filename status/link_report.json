@@ -555,10 +555,10 @@
     "id": "anac_aip",
     "title": "AIP — Publicación de Información Aeronáutica",
     "url": "https://ais.anac.gob.ar/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://ais.anac.gob.ar/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "AR (Argentina)",
@@ -610,10 +610,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://ais.anac.gob.ar/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://ais.anac.gob.ar/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "AR (Argentina)",
@@ -643,10 +643,10 @@
     "id": "dgac_drones_main",
     "title": "DGAC — Operación de drones (página oficial)",
     "url": "https://www.dgac.gob.cl/operacion-de-drones/",
-    "status": "error",
-    "code": 404,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dgac.gob.cl/operacion-de-drones/",
-    "message": "Not Found"
+    "message": "OK"
   },
   {
     "country": "CL (Chile)",
@@ -654,10 +654,10 @@
     "id": "dgac_como_operar",
     "title": "¿Cómo operar un dron en Chile? (DGAC)",
     "url": "https://www.dgac.gob.cl/como-operar-un-dron-en-chile/",
-    "status": "error",
-    "code": 404,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dgac.gob.cl/como-operar-un-dron-en-chile/",
-    "message": "Not Found"
+    "message": "OK"
   },
   {
     "country": "CL (Chile)",
@@ -676,10 +676,10 @@
     "id": "dgac_registro_proc",
     "title": "Inscripción de drones (RPA) — nueva plataforma DGAC",
     "url": "https://www.dgac.gob.cl/nueva-plataforma-web-para-la-inscripcion-de-aeronaves-pilotadas-a-distancia/",
-    "status": "error",
-    "code": 404,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dgac.gob.cl/nueva-plataforma-web-para-la-inscripcion-de-aeronaves-pilotadas-a-distancia/",
-    "message": "Not Found"
+    "message": "OK"
   },
   {
     "country": "CL (Chile)",
@@ -687,10 +687,10 @@
     "id": "dgac_servicios",
     "title": "Servicios en línea DGAC",
     "url": "https://www.dgac.gob.cl/serviciosenlinea/",
-    "status": "error",
-    "code": 404,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dgac.gob.cl/serviciosenlinea/",
-    "message": "Not Found"
+    "message": "OK"
   },
   {
     "country": "CL (Chile)",
@@ -698,10 +698,10 @@
     "id": "dgac_tarifario",
     "title": "Tarifario oficial DGAC",
     "url": "https://www.dgac.gob.cl/ver-tarifario/",
-    "status": "error",
-    "code": 404,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dgac.gob.cl/ver-tarifario/",
-    "message": "Not Found"
+    "message": "OK"
   },
   {
     "country": "CL (Chile)",
@@ -709,10 +709,10 @@
     "id": "dgac_normativa",
     "title": "Normativa aeronáutica (DAN)",
     "url": "https://www.dgac.gob.cl/normativa/reglamentacion-aeronautica/normas-dan-nueva/",
-    "status": "error",
-    "code": 404,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dgac.gob.cl/normativa/reglamentacion-aeronautica/normas-dan-nueva/",
-    "message": "Not Found"
+    "message": "OK"
   },
   {
     "country": "CL (Chile)",
@@ -731,10 +731,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.dgac.gob.cl/operacion-de-drones/",
-    "status": "error",
-    "code": 404,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.dgac.gob.cl/operacion-de-drones/",
-    "message": "Not Found"
+    "message": "OK"
   },
   {
     "country": "CL (Chile)",
@@ -1182,10 +1182,10 @@
     "id": "dgac_registro_drones",
     "title": "DGAC — Registro de Drones",
     "url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aviacioncivil.gob.ec/registro-de-drones/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "EC (Ecuador)",
@@ -1798,10 +1798,10 @@
     "id": "dcad_drones",
     "title": "DCAD – Κανονισμοί για drones",
     "url": "https://drones.gov.cy/gr/",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy/gr/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1809,10 +1809,10 @@
     "id": "dcad_register",
     "title": "DCAD – Εγγραφή χειριστή",
     "url": "https://uas.drones.gov.cy/",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://uas.drones.gov.cy/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1820,10 +1820,10 @@
     "id": "drones_cy",
     "title": "drones.gov.cy – Χάρτης γεωζωνών",
     "url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1831,10 +1831,10 @@
     "id": "dcad_rules",
     "title": "DCAD – Επισκόπηση κανόνων",
     "url": "https://drones.gov.cy/open-category/",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy/open-category/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1842,10 +1842,10 @@
     "id": "dcad_faq",
     "title": "DCAD – Συχνές ερωτήσεις για drones",
     "url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1864,10 +1864,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1875,10 +1875,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://drones.gov.cy",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://drones.gov.cy",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "CY (Cypern)",
@@ -1897,10 +1897,10 @@
     "id": "caasi_drones",
     "title": "CAA Slovenia — Predpisi o dronih",
     "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -1919,10 +1919,10 @@
     "id": "caasi_map",
     "title": "CAA Slovenia — Karta zračnega prostora",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -1952,10 +1952,10 @@
     "id": "caasi_faq",
     "title": "CAA Slovenia — FAQ o dronih",
     "url": "https://www.caa.si/faq.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/faq.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -1963,10 +1963,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -1974,10 +1974,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "ok",
-    "code": 202,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "SI (Slovenien)",
@@ -3932,10 +3932,10 @@
     "id": "droniq",
     "title": "Droniq – Drohnenflug-App",
     "url": "https://droniq.de/droniq-app/",
-    "status": "redirect",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://droniq.de/drohnenapp-trax",
-    "message": "→ https://droniq.de/drohnenapp-trax"
+    "final_url": "https://droniq.de/droniq-app/",
+    "message": "OK"
   },
   {
     "country": "DE (Tyskland)",
