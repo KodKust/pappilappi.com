@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-10-17T05:15:06.959597+00:00",
-  "started_at": "2026-10-17T05:10:46.409300+00:00",
-  "duration_s": 260,
-  "slept_s": 250,
+  "stamped_at": "2026-10-17T10:54:40.217046+00:00",
+  "started_at": "2026-10-17T10:40:43.765722+00:00",
+  "duration_s": 836,
+  "slept_s": 792,
   "mode": "--due --publish --status --notify",
   "pipelines_ok": [
-    "si-aviation"
+    "fi-aerodromes-gist"
   ],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
@@ -35,6 +35,7 @@
     "is-zones",
     "lu-zones",
     "pt-zones",
+    "si-aviation",
     "si-nature",
     "sk-zones",
     "sk-reservations",
@@ -58,7 +59,6 @@
     "web-optimize",
     "aerodromes-gist",
     "eu-aerodromes-gist",
-    "fi-aerodromes-gist",
     "nl-aerodromes-gist",
     "us-aerodromes-gist",
     "de-full"
