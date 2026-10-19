@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T11:08:32.438440+00:00",
+  "generated": "2026-10-19T14:31:42.800718+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -135,7 +135,7 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "54 av 505 länkar trasiga i 18 länder",
+      "detail": "45 av 505 länkar trasiga i 16 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -151,25 +151,17 @@
       "kind": "other"
     },
     {
-      "name": "🇨🇾 CY — Cypern",
+      "name": "🇵🇦 PA — Panama",
       "status": "warn",
-      "detail": "7 av 9 länkar trasiga (403)",
+      "detail": "7 av 10 länkar trasiga (403, error, timeout)",
       "last_modified": null,
-      "url": "https://drones.gov.cy/gr/",
-      "kind": "other"
-    },
-    {
-      "name": "🇸🇰 SK — Slovakien",
-      "status": "warn",
-      "detail": "6 av 10 länkar trasiga (timeout)",
-      "last_modified": null,
-      "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
+      "url": "https://www.aeronautica.gob.pa/",
       "kind": "other"
     },
     {
       "name": "🇱🇹 LT — Litauen",
       "status": "warn",
-      "detail": "5 av 9 länkar trasiga (403)",
+      "detail": "6 av 9 länkar trasiga (403, timeout)",
       "last_modified": null,
       "url": "https://tka.lt/katalogas/bendra-informacija-2/",
       "kind": "other"
@@ -183,11 +175,11 @@
       "kind": "other"
     },
     {
-      "name": "🇸🇮 SI — Slovenien",
+      "name": "🇨🇷 CR — Costa Rica",
       "status": "warn",
-      "detail": "5 av 9 länkar trasiga (403)",
+      "detail": "3 av 10 länkar trasiga (403, 500, error)",
       "last_modified": null,
-      "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
+      "url": "https://www.sjoairport.com/do-you-own-a-drone-know-the-rules-and-limitations-of-flying-it-near-an-airport/?lang=en",
       "kind": "other"
     },
     {
@@ -196,14 +188,6 @@
       "detail": "3 av 9 länkar trasiga (403, timeout)",
       "last_modified": null,
       "url": "https://dagr.hasp.gov.gr",
-      "kind": "other"
-    },
-    {
-      "name": "🇨🇷 CR — Costa Rica",
-      "status": "warn",
-      "detail": "2 av 10 länkar trasiga (403, error)",
-      "last_modified": null,
-      "url": "https://www.sinac.go.cr/",
       "kind": "other"
     },
     {
@@ -223,14 +207,6 @@
       "kind": "other"
     },
     {
-      "name": "🇹🇷 TR — Turkiet",
-      "status": "warn",
-      "detail": "2 av 11 länkar trasiga (error)",
-      "last_modified": null,
-      "url": "https://iha.shgm.gov.tr/",
-      "kind": "other"
-    },
-    {
       "name": "🇺🇦 UA — Ukraina",
       "status": "warn",
       "detail": "2 av 6 länkar trasiga (403)",
@@ -239,11 +215,27 @@
       "kind": "other"
     },
     {
+      "name": "🇿🇦 ZA — Sydafrika",
+      "status": "warn",
+      "detail": "2 av 5 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "https://www.caa.co.za/industry-information/uas/",
+      "kind": "other"
+    },
+    {
       "name": "🇨🇴 CO — Colombia",
       "status": "warn",
       "detail": "1 av 9 länkar trasiga (error)",
       "last_modified": null,
       "url": "mailto:atencionalciudadano@aerocivil.gov.co",
+      "kind": "other"
+    },
+    {
+      "name": "🇩🇪 DE — Tyskland",
+      "status": "warn",
+      "detail": "1 av 10 länkar trasiga (403)",
+      "last_modified": null,
+      "url": "https://geodienste.bfn.de/schutzgebiete?lang=en",
       "kind": "other"
     },
     {
@@ -263,9 +255,17 @@
       "kind": "other"
     },
     {
-      "name": "+ 3 länder till med trasiga länkar",
+      "name": "🇵🇪 PE — Peru",
+      "status": "warn",
+      "detail": "1 av 10 länkar trasiga (error)",
+      "last_modified": null,
+      "url": "mailto:rpas-dgac@mtc.gob.pe",
+      "kind": "other"
+    },
+    {
+      "name": "+ 1 länder till med trasiga länkar",
       "status": "info",
-      "detail": "3 länkar: PA, PE, PT",
+      "detail": "1 länkar: PT",
       "last_modified": null,
       "url": null,
       "kind": "other"
