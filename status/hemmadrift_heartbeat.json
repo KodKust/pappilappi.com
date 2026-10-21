@@ -1,12 +1,14 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-10-20T20:14:31.324701+00:00",
-  "started_at": "2026-10-20T20:14:14.273900+00:00",
-  "duration_s": 17,
-  "slept_s": 5,
+  "stamped_at": "2026-10-21T05:43:06.934630+00:00",
+  "started_at": "2026-10-21T05:42:50.934709+00:00",
+  "duration_s": 15,
+  "slept_s": 0,
   "mode": "--due --publish --status --notify",
-  "pipelines_ok": [],
+  "pipelines_ok": [
+    "si-aviation"
+  ],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
     "ro-zones",
@@ -33,7 +35,6 @@
     "is-zones",
     "lu-zones",
     "pt-zones",
-    "si-aviation",
     "si-nature",
     "sk-zones",
     "sk-reservations",
@@ -63,5 +64,5 @@
     "de-full"
   ],
   "pipelines_skipped_wip": [],
-  "nothing_due": true
+  "nothing_due": false
 }
