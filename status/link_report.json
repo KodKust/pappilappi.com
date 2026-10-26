@@ -181,10 +181,10 @@
     "id": "shgm_kurum",
     "title": "SHGM — Kurumsal Ana Sayfa",
     "url": "https://web.shgm.gov.tr/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://web.shgm.gov.tr/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "TR (Turkiet)",
@@ -192,10 +192,10 @@
     "id": "shgm_mevzuat",
     "title": "SHT-İHA Talimatı 2026 (mevzuat metni, PDF)",
     "url": "https://web.shgm.gov.tr/documents/sivilhavacilik/files/SHT-IHA2026.pdf",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://web.shgm.gov.tr/documents/sivilhavacilik/files/SHT-IHA2026.pdf",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "TR (Turkiet)",
@@ -1116,10 +1116,10 @@
     "id": "sjo_drone_info",
     "title": "Aeropuerto SJO — Información drones cerca de aeropuertos",
     "url": "https://www.sjoairport.com/do-you-own-a-drone-know-the-rules-and-limitations-of-flying-it-near-an-airport/?lang=en",
-    "status": "error",
-    "code": 500,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.sjoairport.com/do-you-own-a-drone-know-the-rules-and-limitations-of-flying-it-near-an-airport/?lang=en",
-    "message": "Internal Server Error"
+    "message": "OK"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1292,10 +1292,10 @@
     "id": "aac_main",
     "title": "AAC — Autoridad Aeronáutica Civil de Panamá",
     "url": "https://www.aeronautica.gob.pa/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aeronautica.gob.pa/",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "PA (Panama)",
@@ -1303,10 +1303,10 @@
     "id": "aac_racp",
     "title": "Norma AAC/DG/DSA/001-2021 — Aeronaves pilotadas a distancia (RPAS)",
     "url": "https://www.aeronautica.gob.pa/images/seguridad_aerea/drone/Norma_de_las_Aeronaves_Pilotadas_a_Distancia.pdf",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aeronautica.gob.pa/images/seguridad_aerea/drone/Norma_de_las_Aeronaves_Pilotadas_a_Distancia.pdf",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "PA (Panama)",
@@ -1314,10 +1314,10 @@
     "id": "aac_albrook_office",
     "title": "Oficina AAC Albrook (registro presencial obligatorio)",
     "url": "https://www.aeronautica.gob.pa/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aeronautica.gob.pa/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "PA (Panama)",
@@ -1325,10 +1325,10 @@
     "id": "aac_noticias",
     "title": "AAC — Comunicados y normativa actual",
     "url": "https://www.aeronautica.gob.pa/Noticia/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aeronautica.gob.pa/Noticia/",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "PA (Panama)",
@@ -1369,10 +1369,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.aeronautica.gob.pa/ais-aip/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aeronautica.gob.pa/ais-aip/",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "PA (Panama)",
@@ -1380,10 +1380,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.aeronautica.gob.pa/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aeronautica.gob.pa/",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "PA (Panama)",
@@ -1721,10 +1721,10 @@
     "id": "geoportail_lu",
     "title": "Geoportail.lu — Carte des drones",
     "url": "https://g-o.lu/uas",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://map.geoportail.lu/theme/main?lang=fr&version=3&zoom=9&X=699003&Y=6414253&rotation=0&layers=1928-1927&opacities=0.5-0.5&bgLayer=basemap_2015_global",
-    "message": "→ https://map.geoportail.lu/theme/main?lang=fr&version=3&zoom=9&X=699003&Y=6414253&rotation=0&layers=1928-1927&opacities=0.5-0.5&bgLayer=basemap_2015_global"
+    "status": "error",
+    "code": 503,
+    "final_url": "https://g-o.lu/uas",
+    "message": "Service Temporarily Unavailable"
   },
   {
     "country": "LU (Luxemburg)",
@@ -1765,10 +1765,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://g-o.lu/uas",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://map.geoportail.lu/theme/main?lang=fr&version=3&zoom=9&X=699003&Y=6414253&rotation=0&layers=1928-1927&opacities=0.5-0.5&bgLayer=basemap_2015_global",
-    "message": "→ https://map.geoportail.lu/theme/main?lang=fr&version=3&zoom=9&X=699003&Y=6414253&rotation=0&layers=1928-1927&opacities=0.5-0.5&bgLayer=basemap_2015_global"
+    "status": "error",
+    "code": 503,
+    "final_url": "https://g-o.lu/uas",
+    "message": "Service Temporarily Unavailable"
   },
   {
     "country": "LU (Luxemburg)",
@@ -1798,10 +1798,10 @@
     "id": "dcad_drones",
     "title": "DCAD – Κανονισμοί για drones",
     "url": "https://drones.gov.cy/gr/",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://drones.gov.cy/gr/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "CY (Cypern)",
@@ -1809,10 +1809,10 @@
     "id": "dcad_register",
     "title": "DCAD – Εγγραφή χειριστή",
     "url": "https://uas.drones.gov.cy/",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://uas.drones.gov.cy/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "CY (Cypern)",
@@ -1820,10 +1820,10 @@
     "id": "drones_cy",
     "title": "drones.gov.cy – Χάρτης γεωζωνών",
     "url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "CY (Cypern)",
@@ -1831,10 +1831,10 @@
     "id": "dcad_rules",
     "title": "DCAD – Επισκόπηση κανόνων",
     "url": "https://drones.gov.cy/open-category/",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://drones.gov.cy/open-category/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "CY (Cypern)",
@@ -1842,10 +1842,10 @@
     "id": "dcad_faq",
     "title": "DCAD – Συχνές ερωτήσεις για drones",
     "url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://drones.gov.cy/open-specific-intro-faq/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "CY (Cypern)",
@@ -1864,10 +1864,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://drones.gov.cy/gr/geo-zones-map/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "CY (Cypern)",
@@ -1875,10 +1875,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://drones.gov.cy",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://drones.gov.cy",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "CY (Cypern)",
@@ -1897,10 +1897,10 @@
     "id": "caasi_drones",
     "title": "CAA Slovenia — Predpisi o dronih",
     "url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.caa.si/brezpilotni-zrakoplovi.html",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SI (Slovenien)",
@@ -1919,10 +1919,10 @@
     "id": "caasi_map",
     "title": "CAA Slovenia — Karta zračnega prostora",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SI (Slovenien)",
@@ -1952,10 +1952,10 @@
     "id": "caasi_faq",
     "title": "CAA Slovenia — FAQ o dronih",
     "url": "https://www.caa.si/faq.html",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.caa.si/faq.html",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SI (Slovenien)",
@@ -1963,10 +1963,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SI (Slovenien)",
@@ -1974,10 +1974,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "status": "ok",
-    "code": 202,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.caa.si/geografske-omejitve-za-uas.html",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SI (Slovenien)",
@@ -2119,8 +2119,8 @@
     "url": "https://www.swiss-dronemap.ch",
     "status": "redirect",
     "code": 200,
-    "final_url": "https://www.swiss-dronemap.ch/en/",
-    "message": "→ https://www.swiss-dronemap.ch/en/"
+    "final_url": "https://swiss-dronemap.ch/en/",
+    "message": "→ https://swiss-dronemap.ch/en/"
   },
   {
     "country": "CH (Schweiz)",
@@ -2414,10 +2414,10 @@
     "id": "tca_register",
     "title": "TKA – Registruotis kaip naudotojui",
     "url": "https://sertifikatai.tka.lt/lt/login",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://sertifikatai.tka.lt/lt/login",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "LT (Litauen)",
@@ -2511,7 +2511,7 @@
     "country": "LV (Lettland)",
     "section": "primary",
     "id": "caalv_register",
-    "title": "CAA – Reģistrēties kā operatoram",
+    "title": "CAA – Reģistrēties kā ekspluatantam",
     "url": "https://droni.caa.gov.lv/registracija/",
     "status": "ok",
     "code": 200,
@@ -3204,7 +3204,7 @@
     "country": "IS (Island)",
     "section": "primary",
     "id": "icetra_drones",
-    "title": "Samgöngustofa – Reglur um dróna",
+    "title": "Samgöngustofa — Reglur um dróna",
     "url": "https://island.is/en/o/transport-authority/drones",
     "status": "ok",
     "code": 200,
@@ -3215,7 +3215,7 @@
     "country": "IS (Island)",
     "section": "primary",
     "id": "icetra_register",
-    "title": "Samgöngustofa – Skráðu þig sem rekstraraðila",
+    "title": "Samgöngustofa — Skráðu þig sem rekstraraðila",
     "url": "https://island.is/en/o/transport-authority/drones",
     "status": "ok",
     "code": 200,
@@ -3226,7 +3226,7 @@
     "country": "IS (Island)",
     "section": "primary",
     "id": "flydrone",
-    "title": "FlyDrone.is – Skráning og A1/A3-próf",
+    "title": "FlyDrone.is — Skráning og A1/A3-próf",
     "url": "https://flydrone.is",
     "status": "ok",
     "code": 200,
@@ -3237,7 +3237,7 @@
     "country": "IS (Island)",
     "section": "primary",
     "id": "island_is",
-    "title": "island.is – Skráning dróna",
+    "title": "island.is — Skráning dróna",
     "url": "https://island.is",
     "status": "ok",
     "code": 200,
@@ -3248,7 +3248,7 @@
     "country": "IS (Island)",
     "section": "secondary",
     "id": "isavia",
-    "title": "Isavia – Flugleiðsögn",
+    "title": "Isavia — Flugleiðsögn",
     "url": "https://www.isavia.is",
     "status": "redirect",
     "code": 200,
@@ -3259,7 +3259,7 @@
     "country": "IS (Island)",
     "section": "secondary",
     "id": "ust",
-    "title": "Náttúruverndarstofnun – Drónar á friðlýstum svæðum",
+    "title": "Náttúruverndarstofnun — Drónar á friðlýstum svæðum",
     "url": "https://www.nattura.is/stofnunin/reglur-um-notkun-drona",
     "status": "ok",
     "code": 200,
@@ -3270,7 +3270,7 @@
     "country": "IS (Island)",
     "section": "secondary",
     "id": "",
-    "title": "Kortasjá – drónakort",
+    "title": "Kortasjá — drónakort",
     "url": "https://kort.gis.is/mapview/?app=dronar",
     "status": "ok",
     "code": 200,
@@ -3734,10 +3734,10 @@
     "id": "romatsa",
     "title": "ROMATSA — Harta spațiului aerian",
     "url": "https://flightplan.romatsa.ro/init/drones",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://flightplan.romatsa.ro/init/drones",
-    "message": "OK (svag DH-nyckel hos servern — certkontroll på, chiffernivå 1)"
+    "message": "[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1010)"
   },
   {
     "country": "RO (Rumänien)",
@@ -3921,10 +3921,10 @@
     "id": "lba_registration",
     "title": "LBA – Registrierung & Fernpiloten-Zertifikate",
     "url": "https://www.lba.de/DE/Drohnen/Drohnen_node.html",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.lba.de/DE/Drohnen/Drohnen_node.html",
-    "message": "OK"
+    "message": "The read operation timed out"
   },
   {
     "country": "DE (Tyskland)",
@@ -3932,10 +3932,10 @@
     "id": "droniq",
     "title": "Droniq – TraX Drohnen-App",
     "url": "https://droniq.de/drohnenapp-trax",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 429,
     "final_url": "https://droniq.de/drohnenapp-trax",
-    "message": "OK"
+    "message": "Too Many Requests"
   },
   {
     "country": "DE (Tyskland)",
@@ -3954,10 +3954,10 @@
     "id": "natura2000",
     "title": "BfN – Schutzgebiete (Natura 2000)",
     "url": "https://geodienste.bfn.de/schutzgebiete?lang=en",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://geodienste.bfn.de/schutzgebiete?lang=en",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "DE (Tyskland)",
@@ -3965,10 +3965,10 @@
     "id": "uvp_genehmigung",
     "title": "LBA – Betriebsgenehmigungen",
     "url": "https://www.lba.de/DE/Drohnen/Betriebsgenehmigungen/Betriebsgenehmigungen_node.html",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 502,
     "final_url": "https://www.lba.de/DE/Drohnen/Betriebsgenehmigungen/Betriebsgenehmigungen_node.html",
-    "message": "OK"
+    "message": "Bad Gateway"
   },
   {
     "country": "DE (Tyskland)",
@@ -4856,10 +4856,10 @@
     "id": "",
     "title": "Naturreservat — kolla din länsstyrelse",
     "url": "https://www.lansstyrelsen.se/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 307,
     "final_url": "https://www.lansstyrelsen.se/",
-    "message": "OK"
+    "message": "The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
   },
   {
     "country": "SE (Sverige)",
@@ -4922,10 +4922,10 @@
     "id": "sacaa_commercial",
     "title": "SACAA — Commercial licensing",
     "url": "https://www.caa.co.za/industry-information/uas/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/industry-information/uas/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
@@ -4933,10 +4933,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caa.co.za/industry-information/uas/",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.caa.co.za/industry-information/uas/",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "ZA (Sydafrika)",
