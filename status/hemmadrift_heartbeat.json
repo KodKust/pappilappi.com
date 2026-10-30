@@ -1,33 +1,32 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-10-30T06:18:04.764439+00:00",
-  "started_at": "2026-10-30T05:59:04.522022+00:00",
-  "duration_s": 1140,
-  "slept_s": 1082,
+  "stamped_at": "2026-10-30T14:08:58.466246+00:00",
+  "started_at": "2026-10-30T11:37:44.479031+00:00",
+  "duration_s": 9073,
+  "slept_s": 8796,
   "mode": "--due --publish --status --notify",
   "pipelines_ok": [
-    "se-heliports-aip",
-    "se-exes-ctr",
-    "si-aviation",
-    "us-aerodromes-gist"
+    "notams-gist"
   ],
-  "pipelines_failed": [],
+  "pipelines_failed": [
+    "nl-lvnl-snapshot"
+  ],
   "pipelines_skipped_not_due": [
     "ro-zones",
     "es-zones",
     "es-parques",
     "fr-parcs",
     "se-natur",
+    "se-heliports-aip",
+    "se-exes-ctr",
     "ch-schiessen",
     "dk-airspace",
     "dk-infra",
     "fi-airspace",
     "de-temporaere",
     "us-tfr",
-    "notams-gist",
     "aip-sup-gist",
-    "nl-lvnl-snapshot",
     "nl-lvnl-zones",
     "us-noaa-sanctuaries",
     "se-zones",
@@ -36,6 +35,7 @@
     "is-zones",
     "lu-zones",
     "pt-zones",
+    "si-aviation",
     "si-nature",
     "sk-zones",
     "sk-reservations",
@@ -61,14 +61,15 @@
     "eu-aerodromes-gist",
     "fi-aerodromes-gist",
     "nl-aerodromes-gist",
+    "us-aerodromes-gist",
     "de-full"
   ],
   "pipelines_skipped_wip": [],
   "nothing_due": false,
   "forvaltning": {
     "source": "/Users/kristoffernordgren/.claude/scheduled-tasks/daglig-forvaltning/STATE.json",
-    "last_run_at": "2026-10-29T05:55:00Z",
+    "last_run_at": "2026-10-30T06:40:00Z",
     "error": null,
-    "waiting": 14
+    "waiting": 16
   }
 }
