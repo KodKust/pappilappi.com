@@ -1,17 +1,16 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-11-06T19:47:06.726617+00:00",
-  "started_at": "2026-11-06T19:30:06.400486+00:00",
-  "duration_s": 1020,
+  "stamped_at": "2026-11-07T05:58:54.506183+00:00",
+  "started_at": "2026-11-07T05:58:41.214952+00:00",
+  "duration_s": 13,
   "slept_s": 0,
   "mode": "--due --publish --status --notify",
   "pipelines_ok": [
-    "si-built"
+    "ro-zones"
   ],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
-    "ro-zones",
     "es-zones",
     "es-parques",
     "fr-parcs",
@@ -55,6 +54,7 @@
     "faa-laanc-baseline",
     "karttext-baselines",
     "check-links",
+    "si-built",
     "web-optimize",
     "aerodromes-gist",
     "eu-aerodromes-gist",
@@ -67,8 +67,8 @@
   "nothing_due": false,
   "forvaltning": {
     "source": "/Users/kristoffernordgren/.claude/scheduled-tasks/daglig-forvaltning/STATE.json",
-    "last_run_at": "2026-11-06T17:30:00Z",
+    "last_run_at": "2026-11-07T06:00:00Z",
     "error": null,
-    "waiting": 24
+    "waiting": 25
   }
 }
