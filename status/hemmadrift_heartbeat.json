@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-11-08T06:26:01.288630+00:00",
-  "started_at": "2026-11-08T06:12:15.317804+00:00",
-  "duration_s": 825,
-  "slept_s": 817,
+  "stamped_at": "2026-11-08T11:33:17.385399+00:00",
+  "started_at": "2026-11-08T11:33:07.518907+00:00",
+  "duration_s": 9,
+  "slept_s": 0,
   "mode": "--due --publish --status --notify",
   "pipelines_ok": [],
   "pipelines_failed": [],
@@ -66,8 +66,8 @@
   "nothing_due": true,
   "forvaltning": {
     "source": "/Users/kristoffernordgren/.claude/scheduled-tasks/daglig-forvaltning/STATE.json",
-    "last_run_at": "2026-11-07T06:00:00Z",
+    "last_run_at": "2026-11-08T06:00:00Z",
     "error": null,
-    "waiting": 25
+    "waiting": 27
   }
 }
