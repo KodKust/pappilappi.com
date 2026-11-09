@@ -137,10 +137,10 @@
     "id": "shgm_pilot",
     "title": "İHA Pilot Kayıt Başvurusu (e-Devlet)",
     "url": "https://www.turkiye.gov.tr/shgm-iha-pilot-kayit-basvurusu",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.turkiye.gov.tr/shgm-iha-pilot-kayit-basvurusu",
-    "message": "Remote end closed connection without response"
+    "message": "OK"
   },
   {
     "country": "TR (Turkiet)",
@@ -566,10 +566,10 @@
     "id": "anac_resolucion_550",
     "title": "Resolución ANAC 550/2025 (texto completo)",
     "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "AR (Argentina)",
@@ -1130,7 +1130,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.sinac.go.cr/",
-    "message": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)"
   },
   {
     "country": "CR (Costa Rica)",
@@ -2205,10 +2205,10 @@
     "id": "nsat-zony",
     "title": "Zemepisné oblasti UAS — Dopravný úrad",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SK (Slovakien)",
@@ -2216,10 +2216,10 @@
     "id": "du_drones",
     "title": "Dopravný úrad — Predpisy pre drony",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SK (Slovakien)",
@@ -2227,10 +2227,10 @@
     "id": "du_register",
     "title": "Dopravný úrad — Registrácia prevádzkovateľa",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SK (Slovakien)",
@@ -2249,10 +2249,10 @@
     "id": "du_rules",
     "title": "Dopravný úrad — Prehľad pravidiel",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SK (Slovakien)",
@@ -2271,10 +2271,10 @@
     "id": "du_faq",
     "title": "Dopravný úrad — FAQ o dronoch",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/caste-otazky-a-odpovede-faq/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/caste-otazky-a-odpovede-faq/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SK (Slovakien)",
@@ -2293,10 +2293,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://letectvo.nsat.sk/en/unmanned-aviation/news/",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://letectvo.nsat.sk/en/unmanned-aviation/news/",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "SK (Slovakien)",
@@ -2623,10 +2623,10 @@
     "id": "hc_map",
     "title": "MyDroneSpace – Légtérkép",
     "url": "https://app.mydronespace.hu",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://app.mydronespace.hu",
-    "message": "The read operation timed out"
+    "message": "OK"
   },
   {
     "country": "HU (Ungern)",
@@ -3044,7 +3044,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://www.aan.pt/subPagina-AAN-001.005.005-aeronaves-nao-tripuladas-drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)"
   },
   {
     "country": "PT (Portugal)",
@@ -3151,10 +3151,10 @@
     "id": "dgca_faq",
     "title": "ГД ГВА — Често задавани въпроси",
     "url": "https://www.caa.bg/bg/category/899/29605",
-    "status": "ok",
+    "status": "redirect",
     "code": 200,
-    "final_url": "https://www.caa.bg/bg/category/899/29605",
-    "message": "OK"
+    "final_url": "https://www.caa.bg/bg/category/633/29605",
+    "message": "→ https://www.caa.bg/bg/category/633/29605"
   },
   {
     "country": "BG (Bulgarien)",
@@ -3836,7 +3836,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://dronemap.pansa.pl",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)"
   },
   {
     "country": "PL (Polen)",
@@ -3880,7 +3880,7 @@
     "status": "error",
     "code": null,
     "final_url": "https://dronemap.pansa.pl",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)"
   },
   {
     "country": "PL (Polen)",
@@ -3932,10 +3932,10 @@
     "id": "droniq",
     "title": "Droniq – TraX Drohnen-App",
     "url": "https://droniq.de/drohnenapp-trax",
-    "status": "ok",
+    "status": "redirect",
     "code": 200,
-    "final_url": "https://droniq.de/drohnenapp-trax",
-    "message": "OK"
+    "final_url": "https://shop.droniq.de/collections/luftlage-trax",
+    "message": "→ https://shop.droniq.de/collections/luftlage-trax"
   },
   {
     "country": "DE (Tyskland)",
@@ -3976,10 +3976,10 @@
     "id": "luftrecht_paragraphen",
     "title": "BMV – Drohnen-Informationen",
     "url": "https://www.bmv.de/SharedDocs/DE/Artikel/LF/drohnen.html",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.bmv.de/SharedDocs/DE/Artikel/LF/drohnen.html",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "DE (Tyskland)",
@@ -4229,10 +4229,10 @@
     "id": "dgac_drones",
     "title": "DGAC — Réglementation des drones",
     "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "FR (Frankrike)",
@@ -4438,10 +4438,10 @@
     "id": "traficom_register",
     "title": "Traficom – Rekisteröidy käyttäjäksi",
     "url": "https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe",
-    "status": "ok",
+    "status": "redirect",
     "code": 200,
-    "final_url": "https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe",
-    "message": "OK"
+    "final_url": "https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe-huom-kayttokatko-sahkoisissa-dronepalveluissa-keskiviikkona-11112026-klo-1900-1930",
+    "message": "→ https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe-huom-kayttokatko-sahkoisissa-dronepalveluissa-keskiviikkona-11112026-klo-1900-1930"
   },
   {
     "country": "FI (Finland)",
@@ -4713,10 +4713,10 @@
     "id": "caap_rpas",
     "title": "CAAP — RPAS regulations",
     "url": "https://www.caap.gov.ph/rpas-regulations/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caap.gov.ph/rpas-regulations/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "PH (Filippinerna)",
@@ -4724,10 +4724,10 @@
     "id": "caap_main",
     "title": "CAAP — Main portal",
     "url": "https://www.caap.gov.ph/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caap.gov.ph/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "PH (Filippinerna)",
@@ -4735,10 +4735,10 @@
     "id": "caap_registry",
     "title": "CAAP — RPA registration",
     "url": "https://www.caap.gov.ph/rpa-registration-2/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caap.gov.ph/rpa-registration-2/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "PH (Filippinerna)",
@@ -4746,10 +4746,10 @@
     "id": "caap_commercial",
     "title": "CAAP — RPA Controller Certificate",
     "url": "https://www.caap.gov.ph/rpa-controller-certificate/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caap.gov.ph/rpa-controller-certificate/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "PH (Filippinerna)",
@@ -4757,10 +4757,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.caap.gov.ph/rpas-regulations/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://www.caap.gov.ph/rpas-regulations/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "PH (Filippinerna)",
@@ -5686,10 +5686,10 @@
     "id": "open-elevation",
     "url": "https://api.open-elevation.com/api/v1/lookup?locations=59.33,18.07",
     "expect": 200,
-    "status": "error",
-    "code": 503,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://api.open-elevation.com/api/v1/lookup?locations=59.33,18.07",
-    "message": "Service Temporarily Unavailable"
+    "message": "OK"
   },
   {
     "country": "API",
