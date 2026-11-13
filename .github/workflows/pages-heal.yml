@@ -3,17 +3,25 @@ run-name: Läk sajtpublicering (${{ github.event.workflow_run.conclusion || 'pro
 
 # VARFÖR DEN FINNS
 # Allt robotarna hämtar committas hit och publiceras sedan av GitHubs eget
-# flöde »pages build and deployment«. Det flödets deploy-jobb dör ibland på
-# timeout i »syncing_files« (3 av 600 körningar 19/10–12/11 2026). Filen ligger
-# då i repot, men den GAMLA versionen serveras tills nästa push går igenom:
-# 10/11 saknades sex nya amerikanska flygförbud (TFR) på kartan i 133 minuter.
+# flöde »pages build and deployment«. Det flödet faller ibland — 3 av 600
+# körningar 19/10–12/11 2026: två timeouts i deploy-jobbets »syncing_files«
+# och en driftsättningskrock. Filen ligger då i repot, men den GAMLA versionen
+# serveras tills nästa publicering går igenom: 10/11 saknades sex nya
+# amerikanska flygförbud (TFR) på kartan i 133 minuter.
 #
 # VAD DEN GÖR
-# När en publicering faller begär den en ny av det som ligger i repot just då
-# (POST pages/builds bygger alltid HEAD — till skillnad från att köra om den
-# gamla körningen, som kan rulla tillbaka sajten om en nyare hunnit ut).
-# Högst tre försök: direkt, efter 10 min och efter ytterligare 30 min. Har en
-# vanlig push hunnit publicera under tiden gör den ingenting.
+# När en publicering FALLER begär den en ny (POST pages/builds). Bygget
+# checkar alltid ut main, så det som publiceras är det som ligger i repot
+# just då. Högst tre försök: direkt, efter 10 min och efter ytterligare
+# 30 min. Har en vanlig push hunnit publicera under tiden gör den ingenting.
+#
+# VAD DEN INTE GÖR
+# Den väcks bara av ett fall — inte av en publicering som drar ut på tiden
+# eller aldrig startar (det hände 4/11 2026: en push fick ingen körning alls).
+# De lägena syns på statussidans rad men lagas av nästa vanliga push.
+# Den jämför körningens sha med repots senaste: eftersom bygget tar main kan
+# en lyckad körning bära förälderns sha (tre fall 11/11 2026), och då begär
+# läkaren en publicering i onödan. Det kostar en minut och skadar ingenting.
 #
 # VEM SOM VAKTAR DEN
 # Raden »Sajtens publicering« på https://pappilappi.com/status
@@ -81,9 +89,11 @@ jobs:
           sag() { echo "$1"; echo "$1" >> "$GITHUB_STEP_SUMMARY"; }
 
           # gh api med tre försök — ett nätfel hos GitHub ska inte fälla läkningen.
+          # Tidsgränsen per anrop finns för att ett hängt anrop annars håller
+          # kön (concurrency-gruppen) låst tills jobbets egen gräns går ut.
           api() {
             local n=0 ut
-            until ut=$(gh api "$@"); do
+            until ut=$(timeout 60 gh api "$@"); do
               n=$((n + 1))
               if [ "$n" -ge 3 ]; then
                 echo "::error::gh api $1 misslyckades tre gånger" >&2
@@ -94,7 +104,7 @@ jobs:
             printf '%s\n' "$ut"
           }
 
-          # Läser läget till HEAD_SHA, LIVE_SHA, PAGAR, STREAK och SENASTE.
+          # Läser läget till HEAD_SHA, LIVE_SHA, PAGAR, STREAK, SENASTE och SENASTE_ID.
           # Returnerar 2 om GitHub inte gick att läsa. OBS: `set -e` gäller INTE
           # inne i en funktion som anropas från if/||, så felen kontrolleras
           # uttryckligen — annars hade skriptet räknat vidare på tomma värden.
@@ -103,7 +113,7 @@ jobs:
             HEAD_SHA=$(api "repos/$REPO/commits?per_page=1" --jq '.[0].sha') || return 2
             runs=$(api "repos/$REPO/actions/runs?event=dynamic&per_page=30" --jq \
               '[.workflow_runs[] | select(.path | endswith("pages-build-deployment"))
-                | {sha: .head_sha, status, conclusion}]') || return 2
+                | {id, sha: .head_sha, status, conclusion}]') || return 2
             case "$HEAD_SHA" in ""|null) return 2 ;; esac
             # Senast LYCKADE publiceringens commit = det sajten visar.
             LIVE_SHA=$(jq -r '[.[] | select(.conclusion == "success")][0].sha // ""' <<<"$runs")
@@ -113,6 +123,7 @@ jobs:
               | map(select(. == "failure" or . == "timed_out" or . == "startup_failure"))
               | length' <<<"$runs")
             SENASTE=$(jq -r '.[0].conclusion // .[0].status // "okänt"' <<<"$runs")
+            SENASTE_ID=$(jq -r '.[0].id // ""' <<<"$runs")
           }
 
           # Väntar tills ingen publicering pågår. Returnerar 1 om tiden gick ut
@@ -136,7 +147,10 @@ jobs:
             until [ "$(api -X GET "repos/$REPO/actions/runs" -f event=dynamic \
                       -f per_page=5 -f "created=>=$fore" --jq '.total_count')" -gt 0 ]; do
               n=$((n + 1))
-              [ "$n" -ge 12 ] && break
+              if [ "$n" -ge 12 ]; then
+                sag "⚠️ Den begärda publiceringen syns inte i körningslistan efter 3 min — läser läget ändå."
+                break
+              fi
               sleep 15
             done
           }
@@ -150,16 +164,24 @@ jobs:
 
           if [ "$TVINGA" = "true" ]; then
             lage || olasbart
+            # Domen måste kunna falla: läget var redan »success« före begäran,
+            # så det som prövas är att en NY körning kom till och lyckades.
+            FORE_ID=$SENASTE_ID
             sag "🧪 Provkörning: begär en ny publicering av ${HEAD_SHA:0:7} fast läget är »${SENASTE}«."
             begar
             RC=0; vanta_klart || RC=$?
             [ "$RC" -eq 2 ] && olasbart
-            if [ "$SENASTE" = "success" ] && [ "$LIVE_SHA" = "$HEAD_SHA" ]; then
-              sag "✅ Provkörningen gick igenom: den begärda publiceringen av ${HEAD_SHA:0:7} lyckades."
+            if [ -n "$SENASTE_ID" ] && [ "$SENASTE_ID" != "$FORE_ID" ] && [ "$SENASTE" = "success" ]; then
+              sag "✅ Provkörningen gick igenom: en ny publicering (körning $SENASTE_ID) kom till och lyckades."
               exit 0
             fi
-            echo "::error::Provkörningen: den begärda publiceringen slutade i »${SENASTE}« (sajten visar ${LIVE_SHA:0:7}, repot ${HEAD_SHA:0:7})."
-            sag "❌ Provkörningen föll: senaste publiceringen slutade i »${SENASTE}«."
+            if [ "$SENASTE_ID" = "$FORE_ID" ]; then
+              echo "::error::Provkörningen: begäran gav ingen ny publicering (senaste körningen är fortfarande $FORE_ID)."
+              sag "❌ Provkörningen föll: begäran gav ingen ny publicering."
+            else
+              echo "::error::Provkörningen: den nya publiceringen (körning $SENASTE_ID) slutade i »${SENASTE}«."
+              sag "❌ Provkörningen föll: den nya publiceringen slutade i »${SENASTE}«."
+            fi
             exit 1
           fi
 
