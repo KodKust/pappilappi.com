@@ -1,13 +1,14 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-11-13T15:36:06.995626+00:00",
-  "started_at": "2026-11-13T15:30:36.895860+00:00",
-  "duration_s": 330,
-  "slept_s": 278,
+  "stamped_at": "2026-11-13T20:56:05.155834+00:00",
+  "started_at": "2026-11-13T20:50:54.435904+00:00",
+  "duration_s": 310,
+  "slept_s": 261,
   "mode": "--due --publish --status --notify",
   "pipelines_ok": [
-    "us-aerodromes-gist"
+    "se-heliports-aip",
+    "se-exes-ctr"
   ],
   "pipelines_failed": [],
   "pipelines_skipped_not_due": [
@@ -16,8 +17,6 @@
     "es-parques",
     "fr-parcs",
     "se-natur",
-    "se-heliports-aip",
-    "se-exes-ctr",
     "ch-schiessen",
     "dk-airspace",
     "dk-infra",
@@ -61,6 +60,7 @@
     "eu-aerodromes-gist",
     "fi-aerodromes-gist",
     "nl-aerodromes-gist",
+    "us-aerodromes-gist",
     "de-full"
   ],
   "pipelines_skipped_wip": [],
