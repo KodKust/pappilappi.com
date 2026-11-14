@@ -33,6 +33,13 @@ run-name: Läk sajtpublicering (${{ github.event.workflow_run.conclusion || 'pro
 # workflow_run-flöden kör med skrivbar token. Den här checkar inte ut någon
 # kod, laddar inte ner några artefakter och använder inga fält ur händelsen i
 # skriptet — bara repots namn och en boolesk indata, båda via env.
+#
+# HUR DEN ÄNDRAS
+# Simulatorn .github/pages-heal/simulera.py kör skriptet nedan mot ett fejkat
+# GitHub med virtuell klocka (24 scenarier, inget nät):
+#   python3 .github/pages-heal/simulera.py .github/workflows/pages-heal.yml
+# Kör den före varje ändring. Provkör sedan skarpt: »Run workflow« med
+# tvinga = true begär en riktig publicering och kräver att den lyckas.
 
 on:
   workflow_run:
