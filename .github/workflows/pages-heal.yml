@@ -52,13 +52,15 @@ permissions:
   actions: read    # läsa publiceringskörningarna
   pages: write     # begära en ny publicering
 
-concurrency:
-  group: pages-heal
-  cancel-in-progress: false
-
 jobs:
   lak:
     name: Begär ny publicering
+    # Kön ligger på jobbet, inte på hela flödet: varje lyckad publicering
+    # väcker flödet (och hoppas över), och på flödesnivå ställde sig även de
+    # körningarna i kön och avbröt den som väntade (sett 13/11 2026).
+    concurrency:
+      group: pages-heal
+      cancel-in-progress: false
     # En avbruten körning (cancelled) är normal: en nyare push ersatte den.
     if: >-
       github.event_name == 'workflow_dispatch' ||
@@ -104,7 +106,9 @@ jobs:
             printf '%s\n' "$ut"
           }
 
-          # Läser läget till HEAD_SHA, LIVE_SHA, PAGAR, STREAK, SENASTE och SENASTE_ID.
+          # Läser läget till HEAD_SHA, LIVE_SHA, PAGAR, STREAK, SENASTE, BOT_ID och BOT_SLUT.
+          # Körningarna ordnas efter id, som stiger i verklig skapelseordning —
+          # inte efter API:ets tider, som låg +1 h fel för två körningar 1/11 2026.
           # Returnerar 2 om GitHub inte gick att läsa. OBS: `set -e` gäller INTE
           # inne i en funktion som anropas från if/||, så felen kontrolleras
           # uttryckligen — annars hade skriptet räknat vidare på tomma värden.
@@ -113,7 +117,9 @@ jobs:
             HEAD_SHA=$(api "repos/$REPO/commits?per_page=1" --jq '.[0].sha') || return 2
             runs=$(api "repos/$REPO/actions/runs?event=dynamic&per_page=30" --jq \
               '[.workflow_runs[] | select(.path | endswith("pages-build-deployment"))
-                | {id, sha: .head_sha, status, conclusion}]') || return 2
+                | {id, sha: .head_sha, status, conclusion,
+                   aktor: (.triggering_actor.login // .actor.login // "")}]
+               | sort_by(.id) | reverse') || return 2
             case "$HEAD_SHA" in ""|null) return 2 ;; esac
             # Senast LYCKADE publiceringens commit = det sajten visar.
             LIVE_SHA=$(jq -r '[.[] | select(.conclusion == "success")][0].sha // ""' <<<"$runs")
@@ -123,7 +129,11 @@ jobs:
               | map(select(. == "failure" or . == "timed_out" or . == "startup_failure"))
               | length' <<<"$runs")
             SENASTE=$(jq -r '.[0].conclusion // .[0].status // "okänt"' <<<"$runs")
-            SENASTE_ID=$(jq -r '.[0].id // ""' <<<"$runs")
+            # Den nyaste BEGÄRDA publiceringen (POST pages/builds ger aktören
+            # github-pages[bot]; en vanlig pushs körning bär pusharens namn).
+            BOT_ID=$(jq -r '[.[] | select(.aktor == "github-pages[bot]")][0].id // ""' <<<"$runs")
+            BOT_SLUT=$(jq -r '[.[] | select(.aktor == "github-pages[bot]")][0]
+              | (.conclusion // .status // "okänt")' <<<"$runs")
           }
 
           # Väntar tills ingen publicering pågår. Returnerar 1 om tiden gick ut
@@ -165,22 +175,23 @@ jobs:
           if [ "$TVINGA" = "true" ]; then
             lage || olasbart
             # Domen måste kunna falla: läget var redan »success« före begäran,
-            # så det som prövas är att en NY körning kom till och lyckades.
-            FORE_ID=$SENASTE_ID
+            # så det som prövas är att en NY BEGÄRD körning kom till och lyckades
+            # — inte att en vanlig push råkade publicera under tiden.
+            FORE_BOT=$BOT_ID
             sag "🧪 Provkörning: begär en ny publicering av ${HEAD_SHA:0:7} fast läget är »${SENASTE}«."
             begar
             RC=0; vanta_klart || RC=$?
             [ "$RC" -eq 2 ] && olasbart
-            if [ -n "$SENASTE_ID" ] && [ "$SENASTE_ID" != "$FORE_ID" ] && [ "$SENASTE" = "success" ]; then
-              sag "✅ Provkörningen gick igenom: en ny publicering (körning $SENASTE_ID) kom till och lyckades."
+            if [ -n "$BOT_ID" ] && [ "$BOT_ID" != "$FORE_BOT" ] && [ "$BOT_SLUT" = "success" ]; then
+              sag "✅ Provkörningen gick igenom: den begärda publiceringen (körning $BOT_ID) kom till och lyckades."
               exit 0
             fi
-            if [ "$SENASTE_ID" = "$FORE_ID" ]; then
-              echo "::error::Provkörningen: begäran gav ingen ny publicering (senaste körningen är fortfarande $FORE_ID)."
+            if [ "$BOT_ID" = "$FORE_BOT" ]; then
+              echo "::error::Provkörningen: begäran gav ingen ny publicering (ingen ny körning från github-pages[bot])."
               sag "❌ Provkörningen föll: begäran gav ingen ny publicering."
             else
-              echo "::error::Provkörningen: den nya publiceringen (körning $SENASTE_ID) slutade i »${SENASTE}«."
-              sag "❌ Provkörningen föll: den nya publiceringen slutade i »${SENASTE}«."
+              echo "::error::Provkörningen: den begärda publiceringen (körning $BOT_ID) slutade i »${BOT_SLUT}«."
+              sag "❌ Provkörningen föll: den begärda publiceringen slutade i »${BOT_SLUT}«."
             fi
             exit 1
           fi
