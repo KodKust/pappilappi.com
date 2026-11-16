@@ -181,10 +181,10 @@
     "id": "shgm_kurum",
     "title": "SHGM — Kurumsal Ana Sayfa",
     "url": "https://web.shgm.gov.tr/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://web.shgm.gov.tr/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "TR (Turkiet)",
@@ -192,10 +192,10 @@
     "id": "shgm_mevzuat",
     "title": "SHT-İHA Talimatı 2026 (mevzuat metni, PDF)",
     "url": "https://web.shgm.gov.tr/documents/sivilhavacilik/files/SHT-IHA2026.pdf",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://web.shgm.gov.tr/documents/sivilhavacilik/files/SHT-IHA2026.pdf",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "TR (Turkiet)",
@@ -2205,10 +2205,10 @@
     "id": "nsat-zony",
     "title": "Zemepisné oblasti UAS — Dopravný úrad",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2216,10 +2216,10 @@
     "id": "du_drones",
     "title": "Dopravný úrad — Predpisy pre drony",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2227,10 +2227,10 @@
     "id": "du_register",
     "title": "Dopravný úrad — Registrácia prevádzkovateľa",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/registracia-prevadzkovatelov-uas/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2249,10 +2249,10 @@
     "id": "du_rules",
     "title": "Dopravný úrad — Prehľad pravidiel",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/podmienky-vykonania-letu/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2271,10 +2271,10 @@
     "id": "du_faq",
     "title": "Dopravný úrad — FAQ o dronoch",
     "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/caste-otazky-a-odpovede-faq/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/bezpilotne-letectvo/caste-otazky-a-odpovede-faq/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2293,10 +2293,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://letectvo.nsat.sk/en/unmanned-aviation/news/",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://letectvo.nsat.sk/en/unmanned-aviation/news/",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "SK (Slovakien)",
@@ -2810,10 +2810,10 @@
     "id": "drones_gov_ae",
     "title": "drones.gov.ae — UAE drone portal",
     "url": "https://drones.gov.ae",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 503,
     "final_url": "https://drones.gov.ae",
-    "message": "OK"
+    "message": "Service Temporarily Unavailable"
   },
   {
     "country": "AE (Förenade Arabemiraten)",
@@ -2821,10 +2821,10 @@
     "id": "gcaa_noflyzone",
     "title": "GCAA — No-fly zones",
     "url": "https://drones.gov.ae/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 503,
     "final_url": "https://drones.gov.ae/",
-    "message": "OK"
+    "message": "Service Temporarily Unavailable"
   },
   {
     "country": "AE (Förenade Arabemiraten)",
@@ -2843,10 +2843,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://drones.gov.ae/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 503,
     "final_url": "https://drones.gov.ae/",
-    "message": "OK"
+    "message": "Service Temporarily Unavailable"
   },
   {
     "country": "AE (Förenade Arabemiraten)",
@@ -3976,10 +3976,10 @@
     "id": "luftrecht_paragraphen",
     "title": "BMV – Drohnen-Informationen",
     "url": "https://www.bmv.de/SharedDocs/DE/Artikel/LF/drohnen.html",
-    "status": "timeout",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.bmv.de/SharedDocs/DE/Artikel/LF/drohnen.html",
-    "message": "Timeout"
+    "message": "OK"
   },
   {
     "country": "DE (Tyskland)",
@@ -4284,10 +4284,10 @@
     "id": "sia_notam",
     "title": "SIA — NOTAM et information aéronautique",
     "url": "https://www.sia.aviation-civile.gouv.fr",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.sia.aviation-civile.gouv.fr",
-    "message": "OK"
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "FR (Frankrike)",
@@ -4440,8 +4440,8 @@
     "url": "https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe",
     "status": "redirect",
     "code": 200,
-    "final_url": "https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe-huom-kayttokatko-sahkoisissa-dronepalveluissa-keskiviikkona-11112026-klo-1900-1930",
-    "message": "→ https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe-huom-kayttokatko-sahkoisissa-dronepalveluissa-keskiviikkona-11112026-klo-1900-1930"
+    "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe",
+    "message": "→ https://www.traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe"
   },
   {
     "country": "FI (Finland)",
@@ -4460,10 +4460,10 @@
     "id": "traficom_training",
     "title": "Traficom – Koulutus ja kokeet",
     "url": "https://traficom.fi/fi/miehittamaton-ilmailu/verkkoteoriakoe-toiminnan-alakategoriaan-a1-ja-a3",
-    "status": "ok",
+    "status": "redirect",
     "code": 200,
-    "final_url": "https://traficom.fi/fi/miehittamaton-ilmailu/verkkoteoriakoe-toiminnan-alakategoriaan-a1-ja-a3",
-    "message": "OK"
+    "final_url": "https://www.traficom.fi/fi/miehittamaton-ilmailu/verkkoteoriakoe-toiminnan-alakategoriaan-a1-ja-a3",
+    "message": "→ https://www.traficom.fi/fi/miehittamaton-ilmailu/verkkoteoriakoe-toiminnan-alakategoriaan-a1-ja-a3"
   },
   {
     "country": "FI (Finland)",
@@ -5676,10 +5676,10 @@
     "id": "Nominatim (adresssökning)",
     "url": "https://nominatim.openstreetmap.org/search?q=Stockholm&format=json&limit=1",
     "expect": 200,
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 429,
     "final_url": "https://nominatim.openstreetmap.org/search?q=Stockholm&format=json&limit=1",
-    "message": "OK"
+    "message": "Unknown Error"
   },
   {
     "country": "API",
