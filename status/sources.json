@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T14:01:36.961434+00:00",
+  "generated": "2026-11-16T15:37:21.725281+00:00",
   "countries_total": 55,
   "queue": [
     {
@@ -135,7 +135,7 @@
     {
       "name": "Källänkarnas hälsa",
       "status": "warn",
-      "detail": "61 av 505 länkar trasiga i 21 länder",
+      "detail": "56 av 505 länkar trasiga i 19 länder",
       "last_modified": null,
       "url": null,
       "kind": "other"
@@ -156,14 +156,6 @@
       "detail": "7 av 9 länkar trasiga (error)",
       "last_modified": null,
       "url": "https://drones.gov.cy/gr/",
-      "kind": "other"
-    },
-    {
-      "name": "🇸🇰 SK — Slovakien",
-      "status": "warn",
-      "detail": "6 av 10 länkar trasiga (timeout)",
-      "last_modified": null,
-      "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
       "kind": "other"
     },
     {
@@ -199,6 +191,14 @@
       "kind": "other"
     },
     {
+      "name": "🇦🇪 AE — Förenade Arabemiraten",
+      "status": "warn",
+      "detail": "3 av 7 länkar trasiga (503)",
+      "last_modified": null,
+      "url": "https://drones.gov.ae",
+      "kind": "other"
+    },
+    {
       "name": "🇬🇷 GR — Grekland",
       "status": "warn",
       "detail": "3 av 9 länkar trasiga (403, timeout)",
@@ -223,19 +223,19 @@
       "kind": "other"
     },
     {
+      "name": "🇫🇷 FR — Frankrike",
+      "status": "warn",
+      "detail": "2 av 9 länkar trasiga (403, error)",
+      "last_modified": null,
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-ouverte",
+      "kind": "other"
+    },
+    {
       "name": "🇵🇱 PL — Polen",
       "status": "warn",
       "detail": "2 av 9 länkar trasiga (error)",
       "last_modified": null,
       "url": "https://dronemap.pansa.pl",
-      "kind": "other"
-    },
-    {
-      "name": "🇹🇷 TR — Turkiet",
-      "status": "warn",
-      "detail": "2 av 11 länkar trasiga (timeout)",
-      "last_modified": null,
-      "url": "https://web.shgm.gov.tr/",
       "kind": "other"
     },
     {
@@ -255,17 +255,17 @@
       "kind": "other"
     },
     {
-      "name": "🇩🇪 DE — Tyskland",
+      "name": "🇩🇴 DO — Dominikanska republiken",
       "status": "warn",
-      "detail": "1 av 10 länkar trasiga (timeout)",
+      "detail": "1 av 10 länkar trasiga (error)",
       "last_modified": null,
-      "url": "https://www.bmv.de/SharedDocs/DE/Artikel/LF/drohnen.html",
+      "url": "mailto:DTAC@idac.gov.do",
       "kind": "other"
     },
     {
-      "name": "+ 6 länder till med trasiga länkar",
+      "name": "+ 4 länder till med trasiga länkar",
       "status": "info",
-      "detail": "6 länkar: DO, FR, MX, PA, PE, PT",
+      "detail": "4 länkar: MX, PA, PE, PT",
       "last_modified": null,
       "url": null,
       "kind": "other"
