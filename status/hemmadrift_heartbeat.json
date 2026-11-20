@@ -1,13 +1,17 @@
 {
   "schema": 1,
   "runner": "hemmadrift (tools/ops_runner.py)",
-  "stamped_at": "2026-11-20T11:30:13.235006+00:00",
-  "started_at": "2026-11-20T11:30:04.888837+00:00",
-  "duration_s": 8,
+  "stamped_at": "2026-11-20T15:30:22.698692+00:00",
+  "started_at": "2026-11-20T15:30:04.981989+00:00",
+  "duration_s": 17,
   "slept_s": 0,
   "mode": "--due --publish --status --notify",
-  "pipelines_ok": [],
-  "pipelines_failed": [],
+  "pipelines_ok": [
+    "si-aviation"
+  ],
+  "pipelines_failed": [
+    "dk-airspace"
+  ],
   "pipelines_skipped_not_due": [
     "ro-zones",
     "es-zones",
@@ -17,7 +21,6 @@
     "se-heliports-aip",
     "se-exes-ctr",
     "ch-schiessen",
-    "dk-airspace",
     "dk-infra",
     "fi-airspace",
     "de-temporaere",
@@ -33,7 +36,6 @@
     "is-zones",
     "lu-zones",
     "pt-zones",
-    "si-aviation",
     "si-nature",
     "sk-zones",
     "sk-reservations",
@@ -63,7 +65,7 @@
     "de-full"
   ],
   "pipelines_skipped_wip": [],
-  "nothing_due": true,
+  "nothing_due": false,
   "forvaltning": {
     "source": "/Users/kristoffernordgren/.claude/scheduled-tasks/daglig-forvaltning/STATE.json",
     "last_run_at": "2026-11-20T07:30:00Z",
