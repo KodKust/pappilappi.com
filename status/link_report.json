@@ -5,10 +5,10 @@
     "id": "anac_drones",
     "title": "ANAC — Drones (regras e registro)",
     "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aviacao-geral/drones",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aviacao-geral/drones",
-    "message": "OK"
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "BR (Brasilien)",
@@ -16,10 +16,10 @@
     "id": "anac_sisant",
     "title": "SISANT — Registro de drone (ANAC)",
     "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aviacao-geral/drones/novo-sisant",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aviacao-geral/drones/novo-sisant",
-    "message": "OK"
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "BR (Brasilien)",
@@ -38,10 +38,10 @@
     "id": "anatel_homolog",
     "title": "ANATEL — Homologação de equipamento",
     "url": "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos",
-    "message": "OK"
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "BR (Brasilien)",
@@ -60,10 +60,10 @@
     "id": "anac_faq",
     "title": "ANAC — Perguntas frequentes sobre o SISANT (cadastro de drones)",
     "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aviacao-geral/drones/orientacoes-aos-usuarios-do-sisant",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aviacao-geral/drones/orientacoes-aos-usuarios-do-sisant",
-    "message": "OK"
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "BR (Brasilien)",
@@ -93,10 +93,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aviacao-geral/drones",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aviacao-geral/drones",
-    "message": "OK"
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "BR (Brasilien)",
@@ -126,10 +126,10 @@
     "id": "shgm_kayit",
     "title": "İHA Kayıt Sistemi (500 g üzeri zorunlu)",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
-    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
+    "status": "error",
+    "code": null,
+    "final_url": "https://iha.shgm.gov.tr/",
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -137,10 +137,10 @@
     "id": "shgm_pilot",
     "title": "İHA Pilot Kayıt Başvurusu (e-Devlet)",
     "url": "https://www.turkiye.gov.tr/shgm-iha-pilot-kayit-basvurusu",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": null,
     "final_url": "https://www.turkiye.gov.tr/shgm-iha-pilot-kayit-basvurusu",
-    "message": "OK"
+    "message": "Remote end closed connection without response"
   },
   {
     "country": "TR (Turkiet)",
@@ -148,10 +148,10 @@
     "id": "shgm_ucus_izni",
     "title": "Uçuş İzni Talebi (sarı/kırmızı bölgeler)",
     "url": "https://iha.shgm.gov.tr/",
-    "status": "redirect",
-    "code": 200,
-    "final_url": "https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f",
-    "message": "→ https://iha.shgm.gov.tr/public/index?ReturnUrl=%2f"
+    "status": "error",
+    "code": null,
+    "final_url": "https://iha.shgm.gov.tr/",
+    "message": "[Errno 104] Connection reset by peer"
   },
   {
     "country": "TR (Turkiet)",
@@ -566,10 +566,10 @@
     "id": "anac_resolucion_550",
     "title": "Resolución ANAC 550/2025 (texto completo)",
     "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 500,
     "final_url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-550-2025-416149/texto",
-    "message": "OK"
+    "message": "Internal Server Error"
   },
   {
     "country": "AR (Argentina)",
@@ -1083,10 +1083,10 @@
     "id": "dgac_main",
     "title": "DGAC — Página principal",
     "url": "https://www.dgac.go.cr/",
-    "status": "redirect",
+    "status": "ok",
     "code": 200,
-    "final_url": "https://www.dgac.go.cr/WEB",
-    "message": "→ https://www.dgac.go.cr/WEB"
+    "final_url": "https://www.dgac.go.cr/",
+    "message": "OK"
   },
   {
     "country": "CR (Costa Rica)",
@@ -1094,10 +1094,10 @@
     "id": "dgac_faq",
     "title": "DGAC — Preguntas frecuentes (drones)",
     "url": "https://www.dgac.go.cr/WEB/PreguntasFrecuentes",
-    "status": "ok",
+    "status": "redirect",
     "code": 200,
-    "final_url": "https://www.dgac.go.cr/WEB/PreguntasFrecuentes",
-    "message": "OK"
+    "final_url": "https://www.dgac.go.cr/",
+    "message": "→ https://www.dgac.go.cr/"
   },
   {
     "country": "CR (Costa Rica)",
@@ -2811,9 +2811,9 @@
     "title": "drones.gov.ae — UAE drone portal",
     "url": "https://drones.gov.ae",
     "status": "error",
-    "code": 503,
+    "code": 418,
     "final_url": "https://drones.gov.ae",
-    "message": "Service Temporarily Unavailable"
+    "message": ""
   },
   {
     "country": "AE (Förenade Arabemiraten)",
@@ -2822,9 +2822,9 @@
     "title": "GCAA — No-fly zones",
     "url": "https://drones.gov.ae/",
     "status": "error",
-    "code": 503,
+    "code": 418,
     "final_url": "https://drones.gov.ae/",
-    "message": "Service Temporarily Unavailable"
+    "message": ""
   },
   {
     "country": "AE (Förenade Arabemiraten)",
@@ -2844,9 +2844,9 @@
     "title": "airspaceMapUrl",
     "url": "https://drones.gov.ae/",
     "status": "error",
-    "code": 503,
+    "code": 418,
     "final_url": "https://drones.gov.ae/",
-    "message": "Service Temporarily Unavailable"
+    "message": ""
   },
   {
     "country": "AE (Förenade Arabemiraten)",
@@ -3041,10 +3041,10 @@
     "id": "aan_levantamentos",
     "title": "AAN — Autorização para filmagens aéreas",
     "url": "https://www.aan.pt/subPagina-AAN-001.005.005-aeronaves-nao-tripuladas-drones",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.aan.pt/subPagina-AAN-001.005.005-aeronaves-nao-tripuladas-drones",
-    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)"
+    "message": "OK"
   },
   {
     "country": "PT (Portugal)",
@@ -3976,10 +3976,10 @@
     "id": "luftrecht_paragraphen",
     "title": "BMV – Drohnen-Informationen",
     "url": "https://www.bmv.de/SharedDocs/DE/Artikel/LF/drohnen.html",
-    "status": "ok",
-    "code": 200,
+    "status": "timeout",
+    "code": null,
     "final_url": "https://www.bmv.de/SharedDocs/DE/Artikel/LF/drohnen.html",
-    "message": "OK"
+    "message": "Timeout"
   },
   {
     "country": "DE (Tyskland)",
@@ -4284,10 +4284,10 @@
     "id": "sia_notam",
     "title": "SIA — NOTAM et information aéronautique",
     "url": "https://www.sia.aviation-civile.gouv.fr",
-    "status": "error",
-    "code": null,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.sia.aviation-civile.gouv.fr",
-    "message": "[Errno 104] Connection reset by peer"
+    "message": "OK"
   },
   {
     "country": "FR (Frankrike)",
@@ -5076,10 +5076,10 @@
     "id": "digitalsky",
     "title": "DigitalSky — DGCA platform",
     "url": "https://digitalsky.aai.aero/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://digitalsky.aai.aero/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "IN (Indien)",
@@ -5109,10 +5109,10 @@
     "id": "dgca_zones",
     "title": "DigitalSky — Airspace zone map",
     "url": "https://digitalsky.aai.aero/digital-sky-map",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://digitalsky.aai.aero/digital-sky-map",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "IN (Indien)",
@@ -5120,10 +5120,10 @@
     "id": "airspaceMapUrl",
     "title": "airspaceMapUrl",
     "url": "https://digitalsky.aai.aero/digital-sky-map",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://digitalsky.aai.aero/digital-sky-map",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "IN (Indien)",
@@ -5131,10 +5131,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://digitalsky.aai.aero/",
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 403,
     "final_url": "https://digitalsky.aai.aero/",
-    "message": "OK"
+    "message": "Forbidden"
   },
   {
     "country": "IN (Indien)",
@@ -5494,10 +5494,10 @@
     "id": "icao_uas",
     "title": "ICAO — Unmanned aviation",
     "url": "https://www.icao.int/UA",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.icao.int/UA",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "OTHER (Global)",
@@ -5505,10 +5505,10 @@
     "id": "find_your_caa",
     "title": "Find your national CAA",
     "url": "https://www.icao.int/about-icao/member-states",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.icao.int/about-icao/member-states",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "OTHER (Global)",
@@ -5549,10 +5549,10 @@
     "id": "dataSourceUrl",
     "title": "dataSourceUrl",
     "url": "https://www.icao.int/UA",
-    "status": "error",
-    "code": 403,
+    "status": "ok",
+    "code": 200,
     "final_url": "https://www.icao.int/UA",
-    "message": "Forbidden"
+    "message": "OK"
   },
   {
     "country": "OTHER (Global)",
@@ -5656,10 +5656,10 @@
     "id": "LibreWXR (radar)",
     "url": "https://api.librewxr.net/public/weather-maps.json",
     "expect": 200,
-    "status": "ok",
-    "code": 200,
+    "status": "error",
+    "code": 502,
     "final_url": "https://api.librewxr.net/public/weather-maps.json",
-    "message": "OK"
+    "message": "Bad Gateway"
   },
   {
     "country": "API",
@@ -5677,7 +5677,7 @@
     "url": "https://nominatim.openstreetmap.org/search?q=Stockholm&format=json&limit=1",
     "expect": 200,
     "status": "error",
-    "code": 429,
+    "code": 629,
     "final_url": "https://nominatim.openstreetmap.org/search?q=Stockholm&format=json&limit=1",
     "message": "Unknown Error"
   },
