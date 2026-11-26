@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-25T19:47:30.386120+00:00",
+  "generated": "2026-11-26T01:07:21.775151+00:00",
   "summary": {
     "fail": 0,
-    "warn": 17,
-    "ok": 253,
-    "total_checks": 362,
+    "warn": 18,
+    "ok": 277,
+    "total_checks": 388,
     "countries_total": 55,
     "countries_ok": 44
   },
@@ -40,7 +40,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -77,7 +77,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -111,7 +111,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -147,7 +147,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -186,7 +186,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 206d sedan — dags för audit (nr 2 i kön, tak 180d)",
+          "detail": "regler verifierade 207d sedan — dags för audit (nr 2 i kön, tak 180d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -224,7 +224,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -264,7 +264,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 205d sedan — dags för audit (nr 3 i kön, tak 180d)",
+          "detail": "regler verifierade 206d sedan — dags för audit (nr 3 i kön, tak 180d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -301,7 +301,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -337,7 +337,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -373,7 +373,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -410,7 +410,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -447,7 +447,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -483,7 +483,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -519,7 +519,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -555,7 +555,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -591,7 +591,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -623,8 +623,8 @@
         {
           "name": "Feed: lu-zones",
           "status": "ok",
-          "detail": "hämtad 6h sen, 90 kB",
-          "last_modified": "2026-11-25T12:46:09+00:00",
+          "detail": "hämtad 1h sen, 90 kB",
+          "last_modified": "2026-11-25T23:37:13+00:00",
           "url": "https://pappilappi.com/airspace/lu-zones.geojson?cb=20260611a",
           "kind": "feed",
           "titel": "Luxemburgs drönarzoner",
@@ -634,7 +634,7 @@
         {
           "name": "EU-Aerodromes Gist (lu.json)",
           "status": "ok",
-          "detail": "13h sen, 14 fält",
+          "detail": "18h sen, 14 fält",
           "last_modified": "2026-11-25T06:09:51.168263+00:00",
           "url": null,
           "kind": "gist",
@@ -644,7 +644,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 11 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 11 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -716,7 +716,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -784,7 +784,7 @@
         {
           "name": "Feed: si-built",
           "status": "ok",
-          "detail": "hämtad 18d sen, 13 kB",
+          "detail": "hämtad 19d sen, 13 kB",
           "last_modified": "2026-11-06T19:47:01+00:00",
           "url": "https://pappilappi.com/airspace/si-built/",
           "kind": "feed",
@@ -794,7 +794,7 @@
         {
           "name": "EU-Aerodromes Gist (si.json)",
           "status": "ok",
-          "detail": "13h sen, 46 fält",
+          "detail": "18h sen, 46 fält",
           "last_modified": "2026-11-25T06:09:50.980038+00:00",
           "url": null,
           "kind": "gist",
@@ -814,7 +814,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 17 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 17 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -886,7 +886,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -970,7 +970,7 @@
         {
           "name": "Feed: luftfahrthindernis",
           "status": "ok",
-          "detail": "hämtad 22d sen, 8825 kB",
+          "detail": "hämtad 23d sen, 8825 kB",
           "last_modified": "2026-11-02T20:02:04+00:00",
           "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson?v=20260605c",
           "kind": "feed",
@@ -981,7 +981,7 @@
         {
           "name": "Feed: ch-ctr",
           "status": "ok",
-          "detail": "hämtad 22d sen, 47 kB",
+          "detail": "hämtad 23d sen, 47 kB",
           "last_modified": "2026-11-02T20:02:04+00:00",
           "url": "https://pappilappi.com/airspace/ch-ctr.geojson",
           "kind": "feed",
@@ -992,7 +992,7 @@
         {
           "name": "Feed: ch-tma",
           "status": "ok",
-          "detail": "hämtad 22d sen, 151 kB",
+          "detail": "hämtad 23d sen, 151 kB",
           "last_modified": "2026-11-02T20:02:04+00:00",
           "url": "https://pappilappi.com/airspace/ch-tma.geojson",
           "kind": "feed",
@@ -1003,7 +1003,7 @@
         {
           "name": "Feed: ch-cta",
           "status": "ok",
-          "detail": "hämtad 22d sen, 63 kB",
+          "detail": "hämtad 23d sen, 63 kB",
           "last_modified": "2026-11-02T20:02:04+00:00",
           "url": "https://pappilappi.com/airspace/ch-cta.geojson",
           "kind": "feed",
@@ -1014,7 +1014,7 @@
         {
           "name": "Feed: ch-uas-aktivitaetszonen",
           "status": "ok",
-          "detail": "hämtad 22d sen, 108 kB",
+          "detail": "hämtad 23d sen, 108 kB",
           "last_modified": "2026-11-02T20:02:04+00:00",
           "url": "https://pappilappi.com/airspace/ch-uas-aktivitaetszonen.geojson",
           "kind": "feed",
@@ -1025,7 +1025,7 @@
         {
           "name": "Feed: ch-jagdbanngebiete",
           "status": "ok",
-          "detail": "hämtad 22d sen, 1287 kB",
+          "detail": "hämtad 23d sen, 1287 kB",
           "last_modified": "2026-11-02T20:02:04+00:00",
           "url": "https://pappilappi.com/airspace/ch-jagdbanngebiete.geojson",
           "kind": "feed",
@@ -1036,7 +1036,7 @@
         {
           "name": "Feed: ch-vogelreservate",
           "status": "ok",
-          "detail": "hämtad 22d sen, 341 kB",
+          "detail": "hämtad 23d sen, 341 kB",
           "last_modified": "2026-11-02T20:02:04+00:00",
           "url": "https://pappilappi.com/airspace/ch-vogelreservate.geojson",
           "kind": "feed",
@@ -1047,7 +1047,7 @@
         {
           "name": "Feed: ch-sicherheitszonenplan",
           "status": "ok",
-          "detail": "hämtad 22d sen, 506 kB",
+          "detail": "hämtad 23d sen, 506 kB",
           "last_modified": "2026-11-02T20:02:04+00:00",
           "url": "https://pappilappi.com/airspace/ch-sicherheitszonenplan.geojson",
           "kind": "feed",
@@ -1058,7 +1058,7 @@
         {
           "name": "Feed: ch-schiessanzeigen",
           "status": "ok",
-          "detail": "hämtad 4h sen, 531 kB",
+          "detail": "hämtad 9h sen, 531 kB",
           "last_modified": "2026-11-25T15:20:41+00:00",
           "url": "https://pappilappi.com/airspace/ch-schiessanzeigen.geojson",
           "kind": "feed",
@@ -1069,7 +1069,7 @@
         {
           "name": "EU-Aerodromes Gist (ch.json)",
           "status": "ok",
-          "detail": "13h sen, 121 fält",
+          "detail": "18h sen, 121 fält",
           "last_modified": "2026-11-25T06:09:49.334045+00:00",
           "url": null,
           "kind": "gist",
@@ -1079,7 +1079,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 91d sedan — dags för audit (nr 2 i kön, tak 90d)",
+          "detail": "regler verifierade 92d sedan — dags för audit (nr 2 i kön, tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1162,7 +1162,7 @@
         {
           "name": "Feed: sk-reservations",
           "status": "ok",
-          "detail": "hämtad 2h sen, 66 kB",
+          "detail": "hämtad 7h sen, 66 kB",
           "last_modified": "2026-11-25T17:14:10+00:00",
           "url": "https://pappilappi.com/airspace/sk-reservations.geojson",
           "kind": "feed",
@@ -1173,7 +1173,7 @@
         {
           "name": "EU-Aerodromes Gist (sk.json)",
           "status": "ok",
-          "detail": "13h sen, 118 fält",
+          "detail": "18h sen, 118 fält",
           "last_modified": "2026-11-25T06:09:50.791542+00:00",
           "url": null,
           "kind": "gist",
@@ -1203,7 +1203,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 18 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 18 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1261,7 +1261,7 @@
       "iso": "NL",
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "status": "ok",
+      "status": "warn",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -1330,8 +1330,8 @@
         },
         {
           "name": "NL: zonfilen mot regeländringen 26 november 2026",
-          "status": "info",
-          "detail": "regeländring om 1 dygn (2026-11-26); zonfilen är version 2025-12-17. Raden blir gul den dagen och står kvar tills en nyare zonfil är inläst och kontrollerad.",
+          "status": "warn",
+          "detail": "zonfilen (version 2025-12-17) är från före regeländringen 2026-11-26: kontrollzonerna kring Schiphol, Rotterdam, Eelde, Maastricht och Lelystad visas som förbjudna för öppen kategori i hela sin yta, fast zon 3 är tillåten sedan den dagen. För de fem zonerna går felet åt det säkra hållet. Kvar tills IenW:s nya zonfil är inläst och kartan kontrollerad.",
           "last_modified": null,
           "url": "https://pappilappi.com/airspace/nl-ed269.geojson",
           "kind": "upstream",
@@ -1350,7 +1350,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 12 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 12 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1413,7 +1413,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 205d sedan — dags för audit (nr 4 i kön, tak 180d)",
+          "detail": "regler verifierade 206d sedan — dags för audit (nr 4 i kön, tak 180d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1449,7 +1449,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1485,7 +1485,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1521,7 +1521,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1557,7 +1557,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1595,7 +1595,7 @@
         {
           "name": "Primär (geojson-static)",
           "status": "ok",
-          "detail": "hämtad 5h sen, 1528 kB",
+          "detail": "hämtad 10h sen, 1528 kB",
           "last_modified": "2026-11-25T14:20:06+00:00",
           "url": "https://pappilappi.com/airspace/ie-ed269.geojson",
           "kind": "feed",
@@ -1606,7 +1606,7 @@
         {
           "name": "EU-Aerodromes Gist (ie.json)",
           "status": "ok",
-          "detail": "13h sen, 116 fält",
+          "detail": "18h sen, 116 fält",
           "last_modified": "2026-11-25T06:09:49.794999+00:00",
           "url": null,
           "kind": "gist",
@@ -1616,7 +1616,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 9 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 9 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1696,7 +1696,7 @@
         {
           "name": "EU-Aerodromes Gist (pt.json)",
           "status": "ok",
-          "detail": "13h sen, 199 fält",
+          "detail": "18h sen, 199 fält",
           "last_modified": "2026-11-25T06:09:50.018810+00:00",
           "url": null,
           "kind": "gist",
@@ -1706,7 +1706,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 14 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 14 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1796,7 +1796,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1828,7 +1828,7 @@
         {
           "name": "Feed: is-zones",
           "status": "ok",
-          "detail": "hämtad 1d sen, 253 kB",
+          "detail": "hämtad 2d sen, 253 kB",
           "last_modified": "2026-11-23T20:34:04+00:00",
           "url": "https://pappilappi.com/airspace/is-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1839,7 +1839,7 @@
         {
           "name": "EU-Aerodromes Gist (is.json)",
           "status": "ok",
-          "detail": "13h sen, 78 fält",
+          "detail": "18h sen, 78 fält",
           "last_modified": "2026-11-25T06:09:50.214927+00:00",
           "url": null,
           "kind": "gist",
@@ -1859,7 +1859,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 10 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 10 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -1927,7 +1927,7 @@
         {
           "name": "Feed: ee-zones",
           "status": "ok",
-          "detail": "hämtad 2h sen, 271 kB",
+          "detail": "hämtad 8h sen, 271 kB",
           "last_modified": "2026-11-25T17:04:19+00:00",
           "url": "https://pappilappi.com/airspace/ee-zones.geojson?cb=20260611a",
           "kind": "feed",
@@ -1938,7 +1938,7 @@
         {
           "name": "EU-Aerodromes Gist (ee.json)",
           "status": "ok",
-          "detail": "13h sen, 46 fält",
+          "detail": "18h sen, 46 fält",
           "last_modified": "2026-11-25T06:09:50.411133+00:00",
           "url": null,
           "kind": "gist",
@@ -1958,7 +1958,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 91d sedan — dags för audit (nr 5 i kön, tak 90d)",
+          "detail": "regler verifierade 92d sedan — dags för audit (nr 5 i kön, tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2037,7 +2037,7 @@
         {
           "name": "EU-Aerodromes Gist (at.json)",
           "status": "ok",
-          "detail": "13h sen, 188 fält",
+          "detail": "18h sen, 188 fält",
           "last_modified": "2026-11-25T06:09:49.564032+00:00",
           "url": null,
           "kind": "gist",
@@ -2047,7 +2047,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 91d sedan — dags för audit (nr 1 i kön, tak 90d)",
+          "detail": "regler verifierade 92d sedan — dags för audit (nr 1 i kön, tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2135,7 +2135,7 @@
         {
           "name": "Feed: dk-primary",
           "status": "ok",
-          "detail": "hämtad 4h sen, 2289 kB",
+          "detail": "hämtad 10h sen, 2289 kB",
           "last_modified": "2026-11-25T14:50:48+00:00",
           "url": "https://pappilappi.com/airspace/dk-primary.geojson?cb=20260604b",
           "kind": "feed",
@@ -2146,7 +2146,7 @@
         {
           "name": "Feed: dk-natur",
           "status": "ok",
-          "detail": "hämtad 4h sen, 728 kB",
+          "detail": "hämtad 10h sen, 728 kB",
           "last_modified": "2026-11-25T14:50:48+00:00",
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260904a",
           "kind": "feed",
@@ -2157,7 +2157,7 @@
         {
           "name": "Feed: dk-gul",
           "status": "ok",
-          "detail": "hämtad 4h sen, 193 kB",
+          "detail": "hämtad 10h sen, 193 kB",
           "last_modified": "2026-11-25T14:50:48+00:00",
           "url": "https://pappilappi.com/airspace/dk-gul.geojson?cb=20260815a",
           "kind": "feed",
@@ -2201,7 +2201,7 @@
         {
           "name": "EU-Aerodromes Gist (dk.json)",
           "status": "ok",
-          "detail": "13h sen, 136 fält",
+          "detail": "18h sen, 136 fält",
           "last_modified": "2026-11-25T06:09:51.356925+00:00",
           "url": null,
           "kind": "gist",
@@ -2231,7 +2231,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 91d sedan — dags för audit (nr 4 i kön, tak 90d)",
+          "detail": "regler verifierade 92d sedan — dags för audit (nr 4 i kön, tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2303,7 +2303,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2346,7 +2346,7 @@
         {
           "name": "EU-Aerodromes Gist (ro.json)",
           "status": "ok",
-          "detail": "13h sen, 183 fält",
+          "detail": "18h sen, 183 fält",
           "last_modified": "2026-11-25T06:09:50.601822+00:00",
           "url": null,
           "kind": "gist",
@@ -2366,7 +2366,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 15 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 15 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2438,7 +2438,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2634,7 +2634,7 @@
         {
           "name": "Feed: de-temporaere_betriebseinschraenkungen",
           "status": "ok",
-          "detail": "data oförändrad sedan 3h sen, 160 kB",
+          "detail": "data oförändrad sedan 8h sen, 160 kB",
           "last_modified": "2026-11-25T16:07:57+00:00",
           "url": "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson?cb=20260714a",
           "kind": "feed",
@@ -2902,7 +2902,7 @@
         {
           "name": "EU-Aerodromes Gist (de.json)",
           "status": "ok",
-          "detail": "13h sen, 1315 fält",
+          "detail": "18h sen, 1315 fält",
           "last_modified": "2026-11-25T06:09:48.668431+00:00",
           "url": null,
           "kind": "gist",
@@ -2949,7 +2949,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 91d sedan — dags för audit (nr 3 i kön, tak 90d)",
+          "detail": "regler verifierade 92d sedan — dags för audit (nr 3 i kön, tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -2976,8 +2976,8 @@
         },
         {
           "name": "Länk: Droniq – TraX Drohnen-App",
-          "status": "warn",
-          "detail": "HTTP 429 (trolig bot-block — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://droniq.de/drohnenapp-trax",
           "kind": "link",
@@ -3035,7 +3035,7 @@
         {
           "name": "EU-Aerodromes Gist (es.json)",
           "status": "ok",
-          "detail": "13h sen, 552 fält",
+          "detail": "18h sen, 552 fält",
           "last_modified": "2026-11-25T06:09:49.110759+00:00",
           "url": null,
           "kind": "gist",
@@ -3045,7 +3045,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 6 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 6 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3119,7 +3119,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3132,7 +3132,7 @@
       "iso": "FR",
       "name": "France",
       "flag": "🇫🇷",
-      "status": "warn",
+      "status": "ok",
       "group": "overlay",
       "has_notam": true,
       "firs": [
@@ -3196,7 +3196,7 @@
         {
           "name": "EU-Aerodromes Gist (fr.json)",
           "status": "ok",
-          "detail": "13h sen, 1675 fält",
+          "detail": "18h sen, 1675 fält",
           "last_modified": "2026-11-25T06:09:48.889868+00:00",
           "url": null,
           "kind": "gist",
@@ -3215,7 +3215,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 8 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 8 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3233,8 +3233,8 @@
         },
         {
           "name": "Länk: AlphaTango — S'enregistrer comme exploitant",
-          "status": "warn",
-          "detail": "URLError: [Errno 8] nodename nor servname provided, or not known — obekräftad DNS-miss (andra uppslagningen lyckades — transient resolver-miss, inte död domän) (flaky — verifiera i browser)",
+          "status": "ok",
+          "detail": "200 OK",
           "last_modified": null,
           "url": "https://alphatango.aviation-civile.gouv.fr",
           "kind": "link",
@@ -3289,7 +3289,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3337,7 +3337,7 @@
         {
           "name": "Feed: fi-primary",
           "status": "ok",
-          "detail": "hämtad 4h sen, 623 kB",
+          "detail": "hämtad 10h sen, 623 kB",
           "last_modified": "2026-11-25T15:02:30+00:00",
           "url": "https://pappilappi.com/airspace/fi-primary.geojson?cb=20260604a",
           "kind": "feed",
@@ -3348,7 +3348,7 @@
         {
           "name": "Feed: fi-natur",
           "status": "ok",
-          "detail": "hämtad 4h sen, 8989 kB",
+          "detail": "hämtad 10h sen, 8989 kB",
           "last_modified": "2026-11-25T15:02:30+00:00",
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260802b",
           "kind": "feed",
@@ -3359,7 +3359,7 @@
         {
           "name": "Feed: fi-permanent",
           "status": "ok",
-          "detail": "hämtad 4h sen, 181 kB",
+          "detail": "hämtad 10h sen, 181 kB",
           "last_modified": "2026-11-25T15:02:30+00:00",
           "url": "https://pappilappi.com/airspace/fi-permanent.geojson?cb=20260802a",
           "kind": "feed",
@@ -3370,7 +3370,7 @@
         {
           "name": "Feed: fi-temporary",
           "status": "ok",
-          "detail": "hämtad 4h sen, 312 kB",
+          "detail": "hämtad 10h sen, 312 kB",
           "last_modified": "2026-11-25T15:02:30+00:00",
           "url": "https://pappilappi.com/airspace/fi-temporary.geojson?cb=20260802a",
           "kind": "feed",
@@ -3381,7 +3381,7 @@
         {
           "name": "Feed: fi-advisory",
           "status": "ok",
-          "detail": "hämtad 4h sen, 170 kB",
+          "detail": "hämtad 10h sen, 170 kB",
           "last_modified": "2026-11-25T15:02:34+00:00",
           "url": "https://pappilappi.com/airspace/fi-advisory.geojson?cb=20260907a",
           "kind": "feed",
@@ -3402,7 +3402,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 7 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 7 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3429,8 +3429,8 @@
         },
         {
           "name": "Länk: Fintraffic Sky – Ilmatilakartta",
-          "status": "ok",
-          "detail": "200 OK",
+          "status": "info",
+          "detail": "HTTP 403 från CI (datacenter-IP blockeras ofta) — klicka för manuell koll",
           "last_modified": null,
           "url": "https://sky.fintraffic.fi/",
           "kind": "link",
@@ -3474,7 +3474,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3511,7 +3511,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3547,7 +3547,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3599,7 +3599,7 @@
         {
           "name": "Feed: se-natur",
           "status": "ok",
-          "detail": "hämtad 108d sen, 9847 kB",
+          "detail": "hämtad 109d sen, 9847 kB",
           "last_modified": "2026-08-08T22:35:36+00:00",
           "url": "https://pappilappi.com/airspace/se-natur.geojson?cb=20260809a",
           "kind": "feed",
@@ -3672,7 +3672,7 @@
         {
           "name": "Flygplatsinfo Gist (se.json)",
           "status": "warn",
-          "detail": "194d sen (stale > 180d)",
+          "detail": "195d sen (stale > 180d)",
           "last_modified": "2026-05-15T00:00:00+00:00",
           "url": null,
           "kind": "gist",
@@ -3692,7 +3692,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 16 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 16 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3766,7 +3766,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "warn",
-          "detail": "regler verifierade 233d sedan — dags för audit (nr 1 i kön, tak 180d)",
+          "detail": "regler verifierade 234d sedan — dags för audit (nr 1 i kön, tak 180d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3910,7 +3910,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 13 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 13 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -3985,7 +3985,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4022,7 +4022,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4138,13 +4138,13 @@
         {
           "name": "Feed: tfrs",
           "status": "ok",
-          "detail": "data oförändrad sedan 5h sen, 380 kB",
-          "last_modified": "2026-11-25T14:22:11+00:00",
+          "detail": "data oförändrad sedan 45 min sen, 373 kB",
+          "last_modified": "2026-11-26T00:20:57+00:00",
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "feed",
           "titel": "Tillfälliga flygförbud (TFR)",
           "explain": "Presidentbesök, skogsbränder, stora evenemang — förbud som kommer och går med kort varsel. Hämtas var 4:e timme (molnroboten), dagligen som backstopp hemma. Filen ligger färdig på vår webbserver (pappilappi.com) och är live i samma stund den publiceras — appen läser den därifrån med högst ett dygns mellanlagring i telefonen.",
-          "next_due": "2026-11-26"
+          "next_due": "2026-11-27"
         },
         {
           "name": "Feed: nps",
@@ -4301,7 +4301,7 @@
         {
           "name": "US TFR: förbud som publicerats med passerat slut",
           "status": "ok",
-          "detail": "32 förbud med slutdatum, inget passerat vid hämtningen 2026-11-25 14:21Z",
+          "detail": "30 förbud med slutdatum, inget passerat vid hämtningen 2026-11-26 00:20Z",
           "last_modified": null,
           "url": "https://pappilappi.com/tfrs/us.geojson",
           "kind": "upstream",
@@ -4321,7 +4321,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 91d sedan — nr 19 i kön (tak 90d)",
+          "detail": "regler verifierade 92d sedan — nr 19 i kön (tak 90d)",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4408,7 +4408,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 63d sedan",
+          "detail": "regler verifierade 64d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4448,7 +4448,7 @@
         {
           "name": "Regler (lastVerified)",
           "status": "info",
-          "detail": "regler verifierade 167d sedan — audit förfaller om 13d",
+          "detail": "regler verifierade 168d sedan — audit förfaller om 12d",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4465,8 +4465,8 @@
         {
           "name": "NOTAMs Gist (FIR-based)",
           "status": "ok",
-          "detail": "20h sen, 5276 NOTAMs, max cirkel 60 NM, 45 GNSS-områden i egen kanal",
-          "last_modified": "2026-11-24T23:26:29.355090+00:00",
+          "detail": "2h sen, 5284 NOTAMs, max cirkel 60 NM, 52 GNSS-områden i egen kanal",
+          "last_modified": "2026-11-25T23:00:53.587978+00:00",
           "url": null,
           "kind": "gist",
           "titel": "NOTAM-listan (alla länder)",
@@ -4530,7 +4530,7 @@
         {
           "name": "cell-endpoint es/NL",
           "status": "ok",
-          "detail": "1h sen, 6 kB",
+          "detail": "7h sen, 6 kB",
           "last_modified": "2026-11-25T18:00:47+00:00",
           "url": null,
           "kind": "other"
@@ -4551,7 +4551,7 @@
         {
           "name": "Flippkön",
           "status": "ok",
-          "detail": "kön är tom — inga flippar väntar · asc_versions.json skriven 2026-11-25 (0 d sedan)",
+          "detail": "kön är tom — inga flippar väntar · asc_versions.json skriven 2026-11-25 (1 d sedan)",
           "last_modified": null,
           "url": "https://pappilappi.com/status/asc_versions.json",
           "kind": "rules",
@@ -4571,7 +4571,7 @@
         {
           "name": "Regler (OTHER)",
           "status": "info",
-          "detail": "fallbacktexterna verifierade 39d sedan",
+          "detail": "fallbacktexterna verifierade 40d sedan",
           "last_modified": null,
           "url": null,
           "kind": "rules",
@@ -4581,7 +4581,7 @@
         {
           "name": "Veckoräkningen (feed_counts)",
           "status": "info",
-          "detail": "82 flöden · senaste veckopunkten 2026-11-23 (2026-W48), 2 d sedan",
+          "detail": "82 flöden · senaste veckopunkten 2026-11-23 (2026-W48), 3 d sedan",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4591,7 +4591,7 @@
         {
           "name": "Måndagsbrevet (veckoärendet)",
           "status": "ok",
-          "detail": "#1036 öppet, skrivet för 1 d sedan (11 brev totalt)",
+          "detail": "#1036 öppet, skrivet för 2 d sedan (11 brev totalt)",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4621,8 +4621,8 @@
         {
           "name": "Hemmadriftens puls",
           "status": "ok",
-          "detail": "senaste körning 8h sen (inget var due — allt färskt)",
-          "last_modified": "2026-11-25T11:30:10.757547+00:00",
+          "detail": "senaste körning 5h sen (inget var due — allt färskt)",
+          "last_modified": "2026-11-25T19:37:12.039200+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
           "titel": "Hemmadriftens puls",
@@ -4631,7 +4631,7 @@
         {
           "name": "Förvaltningsrutinens puls",
           "status": "ok",
-          "detail": "senaste avslutade körning 13h sen, 30 beslut väntar på Kristoffer",
+          "detail": "senaste avslutade körning 18h sen, 30 beslut väntar på Kristoffer",
           "last_modified": "2026-11-25T06:25:00+00:00",
           "url": "https://pappilappi.com/status/hemmadrift_heartbeat.json",
           "kind": "other",
@@ -4641,8 +4641,8 @@
         {
           "name": "Sajtens publicering",
           "status": "ok",
-          "detail": "allt i repot är publicerat — senaste publiceringen blev klar för 1 h 55 min sedan · 60 senaste publiceringarna (2,2 d): ingen föll · självläkningen påslagen",
-          "last_modified": "2026-11-25T17:41:52+00:00",
+          "detail": "allt i repot är publicerat — senaste publiceringen blev klar för 43 min sedan · 60 senaste publiceringarna (2,4 d): ingen föll · självläkningen påslagen",
+          "last_modified": "2026-11-26T00:22:17+00:00",
           "url": "https://github.com/KodKust/pappilappi.com/actions",
           "kind": "other",
           "titel": "Sajtens publicering",
@@ -4660,8 +4660,8 @@
         },
         {
           "name": "QA-regressionsvakten",
-          "status": "info",
-          "detail": "fixade zonkontrollfynd (DK-höjder, DK-säsonger, DK-tidsfönster, EE open category, ES-parknamn, NO-forsvar + dubbletter, IS-myndigheter, FI-höjder) håller; ej kollat här: dk-primary, no",
+          "status": "ok",
+          "detail": "fixade zonkontrollfynd (DK-höjder, DK-säsonger, DK-tidsfönster, EE open category, ES-parknamn, NO-forsvar + dubbletter, IS-myndigheter, FI-höjder) håller",
           "last_modified": null,
           "url": null,
           "kind": "upstream",
@@ -4751,7 +4751,7 @@
         {
           "name": "zone-claims-register",
           "status": "warn",
-          "detail": "305 claims · 133/154 nycklar med kvitto · 42 enforced · 169 regelrader vaktade (snitt 486 tecken) · 49 låsta mot återfall · 31 claims förfallna för omprövning: ZC-INT-030, ZC-MULTI-001, ZC-SE-006, ZC-DE-111",
+          "detail": "305 claims · 133/154 nycklar med kvitto · 42 enforced · 169 regelrader vaktade (snitt 486 tecken) · 49 låsta mot återfall · 32 claims förfallna för omprövning: ZC-INT-030, ZC-MULTI-001, ZC-SE-006, ZC-DE-111",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4760,8 +4760,8 @@
         },
         {
           "name": "FI AIP↔API-korsläsningen",
-          "status": "ok",
-          "detail": "inga nya avvikelser (stående skuld 87). mätt mot AIP 005/2026 (index) · AIP 164 bas-ID · API 151 · utgångna i appen 8 · saknas i appen 21 · geometriavvikelser 2. publicerad AIP-utgåva: fi-permanent: 005/2026 (index) · fi-efr-static: 005/2026 (index)",
+          "status": "warn",
+          "detail": "inga nya avvikelser (stående skuld 87). mätt mot AIP 006/2026 (index) · AIP 164 bas-ID · API 151 · utgångna i appen 8 · saknas i appen 21 · geometriavvikelser 2. publicerad AIP-utgåva: ⚠ fi-permanent: byggd ur 005/2026, som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess · ⚠ fi-efr-static: byggd ur 005/2026, som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess",
           "last_modified": null,
           "url": "https://eservices.traficom.fi/Ilmatilasovellus/api/permanent-reservations?lang=fi",
           "kind": "upstream",
@@ -4770,8 +4770,8 @@
         },
         {
           "name": "AIP-utgåvor (publicerade filer)",
-          "status": "ok",
-          "detail": "9/9 filer på gällande utgåva: fi-permanent 005/2026 (index) · fi-efr-static 005/2026 (index) · fi-tower-hours 005/2026 (index) · fi-advisory 005/2026 (index) · sk-zones (onumrerad) (index) · sk-zones (ENR 5.5) (onumrerad) (index) · sk-reservations (onumrerad) (index) · is-zones 10/2026 (index) · se-heliports-aip 6/2026 (index)",
+          "status": "warn",
+          "detail": "0/9 filer på gällande utgåva. fi-permanent: byggd ur 005/2026, som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess (sedan 2026-11-26, 0 d); fi-efr-static: byggd ur 005/2026, som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess (sedan 2026-11-26, 0 d); fi-tower-hours: byggd ur 005/2026, som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess (sedan 2026-11-26, 0 d); fi-advisory: byggd ur 005/2026, som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess (sedan 2026-11-26, 0 d); sk-zones: byggd ur (onumrerad), som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess (sedan 2026-11-26, 0 d); sk-zones (ENR 5.5): byggd ur (onumrerad), som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess (sedan 2026-11-26, 0 d); sk-reservations: byggd ur (onumrerad), som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess (sedan 2026-11-26, 0 d); is-zones: byggd ur 10/2026, som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess (sedan 2026-11-26, 0 d); se-heliports-aip: byggd ur 6/2026, som gick ur kraft 2026-11-26 — hämtningen har inte gått sedan dess (sedan 2026-11-26, 0 d)",
           "last_modified": null,
           "url": null,
           "kind": "upstream",
@@ -4780,8 +4780,8 @@
         },
         {
           "name": "AIP-avsnittens text",
-          "status": "info",
-          "detail": "8 av 10 oförändrade. AIP-avsnitt ändrat: IE ENR 5.5 — alla 1 claims omprövade efter 2026-10-29; baslinjen läker vid nästa mätning [mätningen föll i den här körningen: ingen AIRAC-kandidat svarade med e…; kunde inte mäta: MÄTT 2026-09-08: `https://aim.sloveniacontrol.si/aim/eAIP/Operations/2026-08-06-AIRAC/` — adressen `fetch_si_aviation.py:111-116` säger att konstanterna lästes ur …",
+          "status": "warn",
+          "detail": "1 av 10 avsnitt ändrade sedan baslinjen. AIP-avsnitt ändrat: SE AD 1.1 mom 11 (utgåva 7/2026) — claims INGA claims listar avsnittet — kvittera via dispatch aip_accept=SE-AD-1.1 ska omprövas; upptäckt 2026-11-26",
           "last_modified": null,
           "url": null,
           "kind": "upstream",
@@ -4870,8 +4870,8 @@
         },
         {
           "name": "AIRAC-cykel",
-          "status": "warn",
-          "detail": "AIRAC 3-2026+6 — skifte om 1d (eAIP/SUP-data kan ändras, kolla efter skiftet)",
+          "status": "info",
+          "detail": "AIRAC 3-2026+7, 28d kvar av cykeln",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4881,7 +4881,7 @@
         {
           "name": "Bundlar (ålder)",
           "status": "info",
-          "detail": "äldsta 174 d (fr-parcs), 3 utan _meta-datum (de-natur, ienw-ed269, si-aviation) · 40 bundlar totalt",
+          "detail": "äldsta 174 d (fr-parcs), 3 utan _meta-datum (de-natur, ienw-ed269, si-aviation) · 3 helt utan datum (de-natur, ienw-ed269, si-aviation) · 40 bundlar totalt",
           "last_modified": null,
           "url": null,
           "kind": "other",
@@ -4896,7 +4896,7 @@
         {
           "name": "basemap:standard",
           "status": "ok",
-          "detail": "200 OK z10, 15541B image/png",
+          "detail": "200 OK z10, 15544B image/png",
           "last_modified": null,
           "url": null,
           "kind": "upstream",
@@ -4947,6 +4947,218 @@
     }
   ],
   "github_actions_24h": [
+    {
+      "name": "ASC version watch",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Airspace data source health check",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "App Store sales digest",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Apple Ads keyword monitor",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Apple Ads spend digest",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Data health (all sources)",
+      "status": "ok",
+      "detail": "3/3 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch & publish AIP Supplements",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch & publish CH airspace (BAZL/BAFU/VBS via geo.admin.ch)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch & publish US TFRs (FAA WFS)",
+      "status": "ok",
+      "detail": "2/2 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch DE airspace (dipul-spegel + BfN-natur)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch IAA ED-269 (IE airspace)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch IenW ED-269 (NL airspace)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Fetch NOTAMs (FIR-based)",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Kör om kastade schemakörningar",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-dk-airspace",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-dronekoll-analytics",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-ee-zones",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-fi-airspace",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-lu-zones",
+      "status": "ok",
+      "detail": "2/2 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "fetch-sk-reservations",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "web-optimize-airspace",
+      "status": "ok",
+      "detail": "1/1 OK",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "GitHub Actions (24h): täckning",
+      "status": "info",
+      "detail": "25 körningar över 21 workflows bedömda — hela dygnet täckt",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Cron-pulsen",
+      "status": "ok",
+      "detail": "52 schemalagda workflows — alla tickar enligt schema",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Puls: fetch-si-zones.yml",
+      "status": "info",
+      "detail": "avstängd enligt beslut — utfasad 2026-08-05 — CAA-licensen underkändes 2026-07-23, ersatt av si-aviation/si-nature/si-built",
+      "last_modified": null,
+      "url": null,
+      "kind": "other"
+    },
+    {
+      "name": "Kastade schemakörningar (7 d)",
+      "status": "ok",
+      "detail": "0 av 198 schemalagda körningar avbrutna utan senare lyckad körning, 2 lösta av en senare lyckad körning",
+      "last_modified": null,
+      "url": null,
+      "kind": "other",
+      "titel": "Kastade schemakörningar",
+      "explain": "Robotarna i molnet står i en gemensam kö för att inte skriva över varandra. Kön har bara EN väntplats: kommer morgonens körningar sent knuffas de väntande ut och avbryts — och en avbruten körning gör ingenting alls, larmar inte heller. Måndagen den 31 augusti 2026 försvann åtta schemalagda hämtningar så, utan att någon rad på den här sidan såg det. Raden räknar avbrutna schemalagda körningar de senaste sju dygnen som inte redan körts om med lyckat resultat. Sedan 2 september 2026 kör en daglig robot (13:07 UTC) om dem automatiskt; gul här betyder att en hämtning uteblev och att omkörningen ännu inte lyckats."
+    },
+    {
+      "name": "Actions-minuter",
+      "status": "ok",
+      "detail": "≈2182 min hittills (823 körningar, 25 dygn in). Störst: Data health (all sources) 332, Flutter CI 237. Prognos hela månaden ≈2614 av 3000 min. Golv: rundat per körning, GitHub debiterar per jobb",
+      "last_modified": null,
+      "url": null,
+      "kind": "other",
+      "titel": "Actions-minuter (molnrobotarnas budget)",
+      "explain": "Robotarna som hämtar luftrumsdata kör på GitHubs servrar, och kontot har ett tak för hur många minuter de får kosta per månad. Tar minuterna slut stannar ALLT: hämtningarna, den här besiktningen, och därmed den här sidan — utan felmeddelande. Det ser likadant ut som en lugn dag. Raden räknar förbrukningen hittills i månaden och räknar upp den till en prognos för hela månaden. Gul betyder att takten pekar mot att taket spräcks, inte att det redan har hänt. Siffran är en lägsta uppskattning — den exakta finns hos GitHub."
+    },
     {
       "name": "Shapely-vakten",
       "status": "ok",
@@ -5017,8 +5229,8 @@
   "flippko": {
     "matbar": true,
     "status": "ok",
-    "detalj": "kön är tom — inga flippar väntar · asc_versions.json skriven 2026-11-25 (0 d sedan)",
-    "asc_alder_dygn": 0,
+    "detalj": "kön är tom — inga flippar väntar · asc_versions.json skriven 2026-11-25 (1 d sedan)",
+    "asc_alder_dygn": 1,
     "antal": 0,
     "nyckel": "e3b0c44298fc1c14",
     "titel": "🕰️ Flippkön: 0 försenade",
@@ -5032,5 +5244,37 @@
     "nyckel": "e3b0c44298fc1c14",
     "titel": "📖 AIP-vakten: 0 larm",
     "larm": []
-  }
+  },
+  "schema_drift": [
+    {
+      "detected": "2026-08-02T07:50:15.563031+00:00",
+      "iso": "EE",
+      "label": "ee-zones",
+      "url": "https://pappilappi.com/airspace/ee-zones.geojson",
+      "changes": [
+        "nya fält: uom"
+      ],
+      "diagnosis": "Ett nytt fält \"uom\" har tillkommit i property-nycklarna (med värdet \"M\" i exempelfeaturen), medan alla tidigare fält är oförändrade och geometrin fortsatt är Polygon. Sannolik orsak är en uppströms formatändring där leverantören lagt till en explicit måttenhet (unit of measure) för höjdgränserna lowerLimit och upperLimit. Eftersom befintliga fält behålls och antalet features ökat från 217 till 230 bör parsern fortsätta fungera och inga zoner försvinna; den enda risken är att appen tolkar lowerLimit/upperLimit som en fast enhet och därför missar den nya \"uom\"-informationen om enheten framöver skulle variera."
+    },
+    {
+      "detected": "2026-08-02T07:50:15.563031+00:00",
+      "iso": "IS",
+      "label": "is-zones",
+      "url": "https://pappilappi.com/airspace/is-zones.geojson",
+      "changes": [
+        "geometrityper: MultiPolygon → MultiPolygon, Polygon"
+      ],
+      "diagnosis": "Den enda strukturella förändringen är att geometrityperna utökats från enbart MultiPolygon till både MultiPolygon och Polygon, medan antalet features (271) och samtliga egenskapsnycklar (_zoneType, authority, dataSource, identifier, message, name) är oförändrade. Mest troligt har uppströmskällan börjat koda enklare zoner som Polygon istället för att paketera dem som MultiPolygon, vilket är en geometrikodningsändring snarare än fältbyte eller trunkering. Egenskapsattributen bör fortsätta lösas ut som vanligt, men om appens parser bara hanterar MultiPolygon riskerar de nya Polygon-features att inte ritas ut och därmed försvinna från kartan."
+    },
+    {
+      "detected": "2026-08-02T07:50:15.563031+00:00",
+      "iso": "CH",
+      "label": "luftfahrthindernis",
+      "url": "https://pappilappi.com/airspace/ch-luftfahrthindernis.geojson",
+      "changes": [
+        "geometrityper: LineString, Point → LineString"
+      ],
+      "diagnosis": "Den strukturella förändringen är att geometrityperna gått från LineString och Point till enbart LineString, medan antalet features ökat något (14336 → 14367). Egenskapsnycklarna är oförändrade, men i exempelfeaturen saknas nu ett värde för fältet \"airport\" som tidigare fanns (str:LSZQ). Den mest sannolika orsaken är en uppströms formatändring där punktbaserade hinder antingen tagits bort eller kodats om till LineString-geometri, eventuellt i samband med en datauppdatering (effectiveDate har flyttats från 2011 till 2024). Effekten för parsern är att alla hinder som tidigare var Point-geometrier riskerar att inte längre ritas ut som förväntat om koden särbehandlar punkter, och attributet \"airport\" kan sluta resolvera för vissa features, vilket kan göra att enskilda hinderzoner försvinner eller visas felaktigt på kartan."
+    }
+  ]
 }
